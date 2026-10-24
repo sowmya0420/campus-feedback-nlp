@@ -8,4 +8,4 @@ SEED = 42
 
 # "lexicon" = VADER + word list (baseline) | "distilbert" = model trained on Colab (models/sentiment_distilbert)
 SENTIMENT_BACKEND = "distilbert"
-BERT_MODEL_DIR = "models/sentiment_distilbert_v2"
+BERT_MODEL_DIR = "models/sentiment_distilbert_v3"

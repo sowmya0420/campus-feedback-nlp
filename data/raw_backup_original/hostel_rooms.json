@@ -1,0 +1,868 @@
+[
+ {
+  "text": "water supply stops at 7 am, no water for bathing",
+  "aspects": [
+   {
+    "aspect_term": "water supply",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "fans are not working in our block for 2 weeks",
+  "aspects": [
+   {
+    "aspect_term": "fans",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the room is spacious enough for 3 students",
+  "aspects": [
+   {
+    "aspect_term": "room",
+    "category": "room size",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "bathrooms are dirty and no one cleans them daily",
+  "aspects": [
+   {
+    "aspect_term": "bathrooms",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power cut every evening and no backup in the rooms",
+  "aspects": [
+   {
+    "aspect_term": "power cut",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "warden is very supportive and quick to act",
+  "aspects": [
+   {
+    "aspect_term": "warden",
+    "category": "safety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hot water in the morning is great in winter",
+  "aspects": [
+   {
+    "aspect_term": "hot water",
+    "category": "water supply",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "room is too small for 4 people",
+  "aspects": [
+   {
+    "aspect_term": "room",
+    "category": "room size",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "beds are old and the mattress is uncomfortable",
+  "aspects": [
+   {
+    "aspect_term": "mattress",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cctv in the corridor makes me feel safe",
+  "aspects": [
+   {
+    "aspect_term": "cctv",
+    "category": "safety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "no proper security at night, anyone can enter",
+  "aspects": [
+   {
+    "aspect_term": "security",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "washing machine is always occupied, waiting for hours",
+  "aspects": [
+   {
+    "aspect_term": "washing machine",
+    "category": "laundry",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "laundry service is good and clothes come back clean",
+  "aspects": [
+   {
+    "aspect_term": "laundry service",
+    "category": "laundry",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "loud music from the next room till 1 am",
+  "aspects": [
+   {
+    "aspect_term": "loud music",
+    "category": "noise",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "rooms are cleaned daily and the staff are polite",
+  "aspects": [
+   {
+    "aspect_term": "rooms",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "electricity is stable now after the new transformer",
+  "aspects": [
+   {
+    "aspect_term": "electricity",
+    "category": "electricity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "leaking tap in the bathroom for a month, nobody fixed it",
+  "aspects": [
+   {
+    "aspect_term": "tap",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the mosquito problem is out of control in the hostel",
+  "aspects": [
+   {
+    "aspect_term": "mosquito",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "water is yellow some mornings, unfit to drink",
+  "aspects": [
+   {
+    "aspect_term": "water",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "maintenance team responded within a day, very impressed",
+  "aspects": [
+   {
+    "aspect_term": "maintenance team",
+    "category": "maintenance",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the study table and chair are decent",
+  "aspects": [
+   {
+    "aspect_term": "study table",
+    "category": "room size",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lights flicker and the switchboard is damaged",
+  "aspects": [
+   {
+    "aspect_term": "switchboard",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "noise from the construction next to the hostel is irritating",
+  "aspects": [
+   {
+    "aspect_term": "construction",
+    "category": "noise",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "corridor is clean and well lit",
+  "aspects": [
+   {
+    "aspect_term": "corridor",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "drying area for clothes is too small",
+  "aspects": [
+   {
+    "aspect_term": "drying area",
+    "category": "laundry",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "water cooler is working and the water is cold",
+  "aspects": [
+   {
+    "aspect_term": "water cooler",
+    "category": "water supply",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the room has no ventilation, so it gets hot",
+  "aspects": [
+   {
+    "aspect_term": "ventilation",
+    "category": "room size",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "my cupboard lock is broken and nobody replaced it",
+  "aspects": [
+   {
+    "aspect_term": "cupboard lock",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the hostel is peaceful and good for studying",
+  "aspects": [
+   {
+    "aspect_term": "hostel",
+    "category": "noise",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "girls hostel gate closes on time and security is strict, which is good",
+  "aspects": [
+   {
+    "aspect_term": "security",
+    "category": "safety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "rats in the room, found one in my bag",
+  "aspects": [
+   {
+    "aspect_term": "rats",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power backup works instantly, no more dark nights",
+  "aspects": [
+   {
+    "aspect_term": "power backup",
+    "category": "electricity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the bathroom doors don't close properly",
+  "aspects": [
+   {
+    "aspect_term": "bathroom doors",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the room is average but i can adjust",
+  "aspects": [
+   {
+    "aspect_term": "room",
+    "category": "room size",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "dhobi service charges too much",
+  "aspects": [
+   {
+    "aspect_term": "dhobi service",
+    "category": "laundry",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "nobody cleans the common area on weekends",
+  "aspects": [
+   {
+    "aspect_term": "common area",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good hostel, but water issues in the 3rd floor",
+  "aspects": [
+   {
+    "aspect_term": "hostel",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "water",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "rooms are big but dirty",
+  "aspects": [
+   {
+    "aspect_term": "rooms",
+    "category": "room size",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "dirty",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power cut romba, study panna mudiyala",
+  "aspects": [
+   {
+    "aspect_term": "power cut",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "thanni varala 2 days ah, rombo kastam",
+  "aspects": [
+   {
+    "aspect_term": "thanni",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "fan kooda work aagala, summer la romba kastam",
+  "aspects": [
+   {
+    "aspect_term": "fan",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "room clean ah irukku, thanks to the aunty",
+  "aspects": [
+   {
+    "aspect_term": "room",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "night la noise romba, thoongave mudila",
+  "aspects": [
+   {
+    "aspect_term": "noise",
+    "category": "noise",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "warden romba nalla person, help pannuvaanga",
+  "aspects": [
+   {
+    "aspect_term": "warden",
+    "category": "safety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the room cleaning is nvr done properly",
+  "aspects": [
+   {
+    "aspect_term": "room cleaning",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wter pressure is very low in the shower",
+  "aspects": [
+   {
+    "aspect_term": "wter pressure",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hostl security gaurd sleeps at night",
+  "aspects": [
+   {
+    "aspect_term": "gaurd",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "elecricity goes off every nite",
+  "aspects": [
+   {
+    "aspect_term": "elecricity",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the mattres is so hard, back pain kills me",
+  "aspects": [
+   {
+    "aspect_term": "mattres",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "washing mashine broke again",
+  "aspects": [
+   {
+    "aspect_term": "washing mashine",
+    "category": "laundry",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "roommates are noisy but rooms are ok",
+  "aspects": [
+   {
+    "aspect_term": "roommates",
+    "category": "noise",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "rooms",
+    "category": "room size",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "unlimited hot water and clean bathrooms on the new block",
+  "aspects": [
+   {
+    "aspect_term": "hot water",
+    "category": "water supply",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "bathrooms",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "drinking water is tested regularly and it tastes fine",
+  "aspects": [
+   {
+    "aspect_term": "drinking water",
+    "category": "water supply",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the warden never answers calls at night during emergencies",
+  "aspects": [
+   {
+    "aspect_term": "warden",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "nice and safe place but too many insects",
+  "aspects": [
+   {
+    "aspect_term": "safe",
+    "category": "safety",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "insects",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "broken windows in the corridor have not been repaired for months",
+  "aspects": [
+   {
+    "aspect_term": "windows",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "sharing 4 people in one room is not comfortable at all",
+  "aspects": [
+   {
+    "aspect_term": "sharing 4 people",
+    "category": "room size",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "visitors are not allowed after 6, so the place is peaceful",
+  "aspects": [
+   {
+    "aspect_term": "visitors",
+    "category": "noise",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power socket near my bed is loose and sparks sometimes",
+  "aspects": [
+   {
+    "aspect_term": "power socket",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the toilet flush is damaged and no spare",
+  "aspects": [
+   {
+    "aspect_term": "toilet flush",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the common room tv and carrom board are nice to have",
+  "aspects": [
+   {
+    "aspect_term": "common room",
+    "category": "room size",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cleaning staff are working hard, the hostel looks better",
+  "aspects": [
+   {
+    "aspect_term": "cleaning staff",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "phone charging boards are installed in the corridor, useful",
+  "aspects": [
+   {
+    "aspect_term": "charging boards",
+    "category": "electricity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we get laundry slots for each floor which is organised",
+  "aspects": [
+   {
+    "aspect_term": "laundry slots",
+    "category": "laundry",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the stairs have no lights at night, it is unsafe",
+  "aspects": [
+   {
+    "aspect_term": "stairs",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "drainage is blocked and the smell is horrible",
+  "aspects": [
+   {
+    "aspect_term": "drainage",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the room is okay",
+  "aspects": [
+   {
+    "aspect_term": "room",
+    "category": "room size",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "shower heads are broken in half the bathrooms",
+  "aspects": [
+   {
+    "aspect_term": "shower heads",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "terrace is open for students in the evening, nice view",
+  "aspects": [
+   {
+    "aspect_term": "terrace",
+    "category": "room size",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hostel office staff are lazy and rude when we complain",
+  "aspects": [
+   {
+    "aspect_term": "staff",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "this hostel is a dump, wardens are useless idiots",
+  "aspects": [
+   {
+    "aspect_term": "hostel",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "wardens",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "damn the water supply is trash, fix it you morons",
+  "aspects": [
+   {
+    "aspect_term": "water supply",
+    "category": "water supply",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "the maintenance guys are stupid and lazy",
+  "aspects": [
+   {
+    "aspect_term": "maintenance guys",
+    "category": "maintenance",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "stupid hostel rules and stupid warden",
+  "aspects": [
+   {
+    "aspect_term": "warden",
+    "category": "safety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "fix the bloody power cuts you clowns",
+  "aspects": [
+   {
+    "aspect_term": "power cuts",
+    "category": "electricity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "bathrooms stink like hell, disgusting pigs live here",
+  "aspects": [
+   {
+    "aspect_term": "bathrooms",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ }
+]

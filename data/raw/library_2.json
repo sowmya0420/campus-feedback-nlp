@@ -1,0 +1,992 @@
+[
+  {
+    "id": "C_LIB_02_001",
+    "legacy_id": "C0376",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "librarian helps a lot, however opening hours are short on saturdays",
+    "aspects": [
+      {
+        "aspect_term": "librarian",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "opening hours",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_002",
+    "legacy_id": "C0377",
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "very clean and well organised, but the ac is noisy",
+    "aspects": [
+      {
+        "aspect_term": "clean",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_003",
+    "legacy_id": "C0378",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "great ebooks but the login page keeps timing out",
+    "aspects": [
+      {
+        "aspect_term": "ebooks",
+        "category": "digital resources",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "login page",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_004",
+    "legacy_id": "C0379",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "reading room is nice, wish it opened earlier",
+    "aspects": [
+      {
+        "aspect_term": "reading room",
+        "category": "silence",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "opened earlier",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_005",
+    "legacy_id": "C0380",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the ground floor is noisy, 3rd floor is quiet",
+    "aspects": [
+      {
+        "aspect_term": "ground floor",
+        "category": "silence",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "3rd floor",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_006",
+    "legacy_id": "C0381",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "love the library cafe corner but books are outdated",
+    "aspects": [
+      {
+        "aspect_term": "cafe corner",
+        "category": "seating",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_007",
+    "legacy_id": "C0382",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "stated_in_text",
+    "text": "placement prep books are available which is great",
+    "aspects": [
+      {
+        "aspect_term": "placement prep books",
+        "category": "book availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_008",
+    "legacy_id": "C0383",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "journals for research are limited, need more subscriptions",
+    "aspects": [
+      {
+        "aspect_term": "journals",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_009",
+    "legacy_id": "C0384",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "some students sleep on the tables, no one stops them",
+    "aspects": [
+      {
+        "aspect_term": "sleep on the tables",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_010",
+    "legacy_id": "C0385",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the desks have scratches and graffiti",
+    "aspects": [
+      {
+        "aspect_term": "desks",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_011",
+    "legacy_id": "C0386",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "return date fines are too high",
+    "aspects": [
+      {
+        "aspect_term": "fines",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_012",
+    "legacy_id": "C0387",
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the library app for renewal is quick and easy",
+    "aspects": [
+      {
+        "aspect_term": "library app",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_013",
+    "legacy_id": "C0388",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "dust on the shelves makes me sneeze",
+    "aspects": [
+      {
+        "aspect_term": "dust",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_014",
+    "legacy_id": "C0389",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "there is not enough light on the upper floor",
+    "aspects": [
+      {
+        "aspect_term": "light",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_015",
+    "legacy_id": "C0390",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "if you reach after 9 am there are no seats left",
+    "aspects": [
+      {
+        "aspect_term": "seats",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_016",
+    "legacy_id": "C0391",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "water cooler near library is not working",
+    "aspects": [
+      {
+        "aspect_term": "water cooler",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_017",
+    "legacy_id": "C0392",
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "silent zone is really silent, i love it",
+    "aspects": [
+      {
+        "aspect_term": "silent zone",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_018",
+    "legacy_id": "C0393",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the library is ok",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "silence",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_019",
+    "legacy_id": "C0394",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "scanning and printing in library is cheap and fast",
+    "aspects": [
+      {
+        "aspect_term": "printing",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_020",
+    "legacy_id": "C0395",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "so many old edition textbooks, nothing useful for the new syllabus",
+    "aspects": [
+      {
+        "aspect_term": "textbooks",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_021",
+    "legacy_id": "C0396",
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "staff are friendly and answer doubts patiently",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_022",
+    "legacy_id": "C0397",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "stated_in_text",
+    "text": "closing time is too early for final year project students",
+    "aspects": [
+      {
+        "aspect_term": "closing time",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_023",
+    "legacy_id": "C0398",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "books are arranged by subject, easy to find",
+    "aspects": [
+      {
+        "aspect_term": "arranged by subject",
+        "category": "book availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_024",
+    "legacy_id": "C0399",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "smell of damp in the corner section",
+    "aspects": [
+      {
+        "aspect_term": "damp",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_025",
+    "legacy_id": "C0400",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "we need more sockets for laptops",
+    "aspects": [
+      {
+        "aspect_term": "sockets",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_026",
+    "legacy_id": "C0401",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "stated_in_text",
+    "text": "the librarian smiled and helped me with the project report formatting",
+    "aspects": [
+      {
+        "aspect_term": "librarian",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_027",
+    "legacy_id": "C0402",
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "ac is perfect in summer, thanks to the library for the comfort",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_028",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "digital library computers have high-speed access to IEEE journals, great for thesis work.",
+    "aspects": [
+      {
+        "aspect_term": "digital library computers",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_029",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "ac in third floor reference section is chilling cold.",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_030",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "need gate exam preparation books, current edition not available.",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_031",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "reference section la silence semma, able to concentrate on aptitude tests without disturbance.",
+    "aspects": [
+      {
+        "aspect_term": "silence",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_032",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "library timing extend panna nalla irukum, closing at 7 pm is too early during semester exams.",
+    "aspects": [
+      {
+        "aspect_term": "closing at 7 pm",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_033",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "librarian sir helped me locate research conference proceedings patiently.",
+    "aspects": [
+      {
+        "aspect_term": "librarian sir",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_034",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "reading hall tables are clean and dusted daily.",
+    "aspects": [
+      {
+        "aspect_term": "tables",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_035",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "cushioned chairs are comfortable for long study sessions.",
+    "aspects": [
+      {
+        "aspect_term": "chairs",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_036",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "e-book portal login throws database error frequently.",
+    "aspects": [
+      {
+        "aspect_term": "e-book portal",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_037",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "circulation desk staff are extremely rude when asking for renewals.",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_038",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "digital library has fast internet but headphones are missing or broken.",
+    "aspects": [
+      {
+        "aspect_term": "digital library",
+        "category": "digital resources",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "headphones",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_039",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "book stock is updated with latest core engineering publications.",
+    "aspects": [
+      {
+        "aspect_term": "book stock",
+        "category": "book availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_040",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "whispering sound from the entrance lobby destroys the silence.",
+    "aspects": [
+      {
+        "aspect_term": "silence",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_041",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "comfortable seating on the first floor but ceiling fan makes squeaking noise.",
+    "aspects": [
+      {
+        "aspect_term": "seating",
+        "category": "seating",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "squeaking noise",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_042",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "washrooms near the library stack area are clean and dry.",
+    "aspects": [
+      {
+        "aspect_term": "washrooms",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_043",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "the library opens at 8 am promptly, which is very convenient.",
+    "aspects": [
+      {
+        "aspect_term": "opens at 8 am",
+        "category": "opening hours",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_044",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "springer and scopus search tools work smoothly on all library systems.",
+    "aspects": [
+      {
+        "aspect_term": "scopus search tools",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_045",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "limited seating capacity during placement week, students sit on stairs.",
+    "aspects": [
+      {
+        "aspect_term": "seating capacity",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_046",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "ac cooling is comfortable in afternoon heat.",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_047",
+    "legacy_id": null,
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "core subject question bank books are completely missing from shelves.",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LIB_02_048",
+    "legacy_id": "C0406",
+    "facility": "library",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "who is the moron in charge of purchasing books",
+    "aspects": [
+      {
+        "aspect_term": null,
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_049",
+    "legacy_id": "C0407",
+    "facility": "library",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "damn this library, it sucks big time",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_02_050",
+    "legacy_id": "C0408",
+    "facility": "library",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "staff are lazy idiots who sleep at the desk",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

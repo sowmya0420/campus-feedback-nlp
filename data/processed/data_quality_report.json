@@ -1,0 +1,76 @@
+{
+  "audit_timestamp": "2026-10-19T15:55:00Z",
+  "automated_checks_status": "PASS",
+  "human_review_status": "PENDING (AWAITING_HUMAN_REVIEW)",
+  "summary": {
+    "facilities_count": 8,
+    "batches_count": 16,
+    "total_comments": 800,
+    "total_aspects": 915,
+    "total_abusive": 48,
+    "original_recovered": 538,
+    "newly_generated": 262
+  },
+  "comment_sentiment_distribution": {
+    "negative": 446,
+    "positive": 288,
+    "mixed": 51,
+    "neutral": 15
+  },
+  "aspect_sentiment_distribution": {
+    "negative": 529,
+    "positive": 362,
+    "neutral": 24
+  },
+  "partitions": {
+    "train": {
+      "comments": 560,
+      "aspects": 649,
+      "abusive": 32,
+      "ratio": "70%"
+    },
+    "validation": {
+      "comments": 120,
+      "aspects": 134,
+      "abusive": 8,
+      "ratio": "15%"
+    },
+    "test": {
+      "comments": 120,
+      "aspects": 132,
+      "abusive": 8,
+      "ratio": "15%"
+    }
+  },
+  "leakage_verification": {
+    "id_overlap": 0,
+    "exact_text_overlap": 0,
+    "near_duplicate_cross_split": 0,
+    "aspect_parent_reconciliation": "100%"
+  },
+  "integrity_checks": {
+    "json_parsing": "PASS",
+    "schema_compliance": "PASS",
+    "exact_substring_aspect_term_match": "PASS",
+    "facility_category_whitelist": "PASS",
+    "abusive_counts_per_batch": "PASS (exactly 3 per batch)",
+    "comments_per_batch": "PASS (exactly 50 per batch)",
+    "duplicate_comment_ids": "PASS (0 duplicates)",
+    "duplicate_comment_texts": "PASS (0 duplicates)"
+  },
+  "external_datasets": {
+    "edurabsa": {
+      "source": "Hua et al. (2025)",
+      "train_aspects": 16500,
+      "test_aspects": 10537,
+      "domain": "Educational Course/Staff ABSA",
+      "integration": "Processed into separate unified artifacts; NOT mixed into campus facility feedback"
+    },
+    "jigsaw": {
+      "source": "Kaggle Toxic Comment Classification Challenge",
+      "sample_benchmark_rows": 5000,
+      "domain": "Abusive Content Classification",
+      "integration": "Processed into separate benchmark artifact; NOT mixed into campus facility feedback"
+    }
+  }
+}

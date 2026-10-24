@@ -6,8 +6,6 @@ venv/
 # Trained models
 models/
 
-# Datasets and generated data
-data/
 
 # Python cache
 __pycache__/

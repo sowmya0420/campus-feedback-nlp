@@ -1,0 +1,224 @@
+{
+  "dataset_name": "Campus Facility Feedback NLP Dataset",
+  "version": "1.0.0",
+  "description": "Aspect-based sentiment analysis and abusive-content detection dataset covering 8 campus facilities at an Indian engineering college in Tamil Nadu.",
+  "creation_date": "2026-10-19",
+  "facilities": [
+    "hostel_mess",
+    "canteen",
+    "library",
+    "hostel_rooms",
+    "labs",
+    "wifi",
+    "transport",
+    "classrooms"
+  ],
+  "total_facilities": 8,
+  "total_batches": 16,
+  "comments_per_batch": 50,
+  "comments_per_facility": 100,
+  "total_comments": 800,
+  "total_aspects": 915,
+  "total_abusive_comments": 48,
+  "provenance_summary": {
+    "original_recovered": 538,
+    "newly_generated": 262
+  },
+  "splits": {
+    "train": {
+      "comments": 560,
+      "aspects": 649,
+      "abusive": 32
+    },
+    "validation": {
+      "comments": 120,
+      "aspects": 134,
+      "abusive": 8
+    },
+    "test": {
+      "comments": 120,
+      "aspects": 132,
+      "abusive": 8
+    }
+  },
+  "human_verification_status": "AWAITING_HUMAN_REVIEW",
+  "gold_verification_sample": {
+    "source": "train_comments.csv",
+    "count": 100,
+    "file": "data/processed/gold_to_verify.csv"
+  },
+  "files": {
+    "data\\processed\\campus_aspects.csv": {
+      "size_bytes": 151875,
+      "sha256": "539cc31135540c46e148014d455c0ecea12cb9dca5a3248263eee14de862445d"
+    },
+    "data\\processed\\campus_aspects_test.csv": {
+      "size_bytes": 22289,
+      "sha256": "35a2577139bf31c9574c491d38c2ff552d530b7f7276c9168aeb3b1bb869962a"
+    },
+    "data\\processed\\campus_aspects_train.csv": {
+      "size_bytes": 107782,
+      "sha256": "c9766ea2f78baba5c2864ba45267f0eb4ffd5c1012091b41880c6df09b0bea39"
+    },
+    "data\\processed\\campus_feedback.csv": {
+      "size_bytes": 220367,
+      "sha256": "19ee76e17b3edb3e29de2b2d1f48900c3c3af89d11784d577dd8aa5c5cabde5f"
+    },
+    "data\\processed\\campus_test.csv": {
+      "size_bytes": 32902,
+      "sha256": "239b662e579a5e73aba971e778445592ba4b49c34a34a3e951903ddeac4ae6a9"
+    },
+    "data\\processed\\campus_train.csv": {
+      "size_bytes": 155127,
+      "sha256": "1e45978a1824aba63f3d1e254deff2e8d25a79dcb308823406f02491b442fcb0"
+    },
+    "data\\processed\\gold_to_verify.csv": {
+      "size_bytes": 30149,
+      "sha256": "5b06a6043d3f6e1c09afe982ba4e165bda5055245f57269d79c0b8f8f4c74cff"
+    },
+    "data\\processed\\jigsaw_abusive_sample.csv": {
+      "size_bytes": 1965583,
+      "sha256": "c58d3588ef2f08499d617d07dc48f3fd1adf8d1ff931c5e1382564aa318603d0"
+    },
+    "data\\processed\\label_distribution.csv": {
+      "size_bytes": 7235,
+      "sha256": "103f4eae2864bab4c1c010febf02d2b9eefe6b332201a27e99017d8cc8c536a7"
+    },
+    "data\\processed\\test_aspects.csv": {
+      "size_bytes": 22289,
+      "sha256": "35a2577139bf31c9574c491d38c2ff552d530b7f7276c9168aeb3b1bb869962a"
+    },
+    "data\\processed\\test_comments.csv": {
+      "size_bytes": 32902,
+      "sha256": "239b662e579a5e73aba971e778445592ba4b49c34a34a3e951903ddeac4ae6a9"
+    },
+    "data\\processed\\train_aspects.csv": {
+      "size_bytes": 107782,
+      "sha256": "c9766ea2f78baba5c2864ba45267f0eb4ffd5c1012091b41880c6df09b0bea39"
+    },
+    "data\\processed\\train_comments.csv": {
+      "size_bytes": 155127,
+      "sha256": "1e45978a1824aba63f3d1e254deff2e8d25a79dcb308823406f02491b442fcb0"
+    },
+    "data\\processed\\unified_edurabsa_test.csv": {
+      "size_bytes": 4237582,
+      "sha256": "3f789dfcf265a5457fcf54390f87468e539fdff394e469bb487dbaec2f26574c"
+    },
+    "data\\processed\\unified_edurabsa_train.csv": {
+      "size_bytes": 6489770,
+      "sha256": "c2cc48d77040c377c6e4e1b9d131030885e1e8c9ec87b6ac7381f62d31b5ea30"
+    },
+    "data\\processed\\unified_synthetic.csv": {
+      "size_bytes": 106099,
+      "sha256": "1d04e57f5243c3becbf8e7586a5c83774cbc5dbd274efef625a15e559ea1b336"
+    },
+    "data\\processed\\unresolved_annotations.csv": {
+      "size_bytes": 751,
+      "sha256": "8ee1e3d78621a7adb17ba5c82caf6754613e1c03a5a9111d2bf851a171fba6cf"
+    },
+    "data\\processed\\validation_aspects.csv": {
+      "size_bytes": 22012,
+      "sha256": "f55fa8aeba7dfafbd46f369bb5df86bc68cb20f74d452b37d6f076ac54ff6a52"
+    },
+    "data\\processed\\validation_comments.csv": {
+      "size_bytes": 32592,
+      "sha256": "cd08929044f590427422d2cf3462a877fdcf4ff6ac9db79f12e481c361edb0cd"
+    },
+    "data\\raw\\canteen.json": {
+      "size_bytes": 52042,
+      "sha256": "6be3fe20ae2e04543920ea2936e424c77a05a1ac5eb50ab0fc53f9483dd09ff2"
+    },
+    "data\\raw\\canteen_1.json": {
+      "size_bytes": 26007,
+      "sha256": "e2ffa2919465b5088f9b22390041ba630ce487c709d07babee353719d9dc207a"
+    },
+    "data\\raw\\canteen_2.json": {
+      "size_bytes": 26038,
+      "sha256": "2fb932643359dcc7f787731b250e68aa3afe7157417ee6d4790147f49d819a79"
+    },
+    "data\\raw\\classrooms.json": {
+      "size_bytes": 53429,
+      "sha256": "9ad54309eec061f544539d06b7aaa3ace3f7b867895f7c3d642bff58501f61e0"
+    },
+    "data\\raw\\classrooms_1.json": {
+      "size_bytes": 26874,
+      "sha256": "62fc3d3ef034d9c680a20c095c6b2808ecaf9964eb072a2e6aa678334d759b60"
+    },
+    "data\\raw\\classrooms_2.json": {
+      "size_bytes": 26558,
+      "sha256": "11492a2bb5d0a8a6f41de464235d5db6bc08a75ff747bdde65400e795939cc8e"
+    },
+    "data\\raw\\hostel_mess.json": {
+      "size_bytes": 52840,
+      "sha256": "5d49f135101fa690527a4cf1ded74fb2a2d951e958d39ed3e433fe329c88114f"
+    },
+    "data\\raw\\hostel_mess_1.json": {
+      "size_bytes": 26103,
+      "sha256": "dad5edb5c097ddb9ce15c7bf0e681327cd9ca7e569f45e9796b60148686127b2"
+    },
+    "data\\raw\\hostel_mess_2.json": {
+      "size_bytes": 26740,
+      "sha256": "ef4fa58c4e12698ccaca59672cbf282b7da91eeb0ac4328c4a85978982fe6592"
+    },
+    "data\\raw\\hostel_rooms.json": {
+      "size_bytes": 52195,
+      "sha256": "64334dc87c2967bdd56db4802d61441dfeb7e01f5c0adc5cd955c81f26b68c98"
+    },
+    "data\\raw\\hostel_rooms_1.json": {
+      "size_bytes": 25657,
+      "sha256": "9a5311ae693bf61405ef50490d69ef600137ddbd32ae98737d7610fec6ed66c0"
+    },
+    "data\\raw\\hostel_rooms_2.json": {
+      "size_bytes": 26541,
+      "sha256": "8456b4f2f2536144d8b921e06658a009e4d75ded9f2974c9aac37f4bc706c0f4"
+    },
+    "data\\raw\\labs.json": {
+      "size_bytes": 52189,
+      "sha256": "943568d425e7c2a75f217cc6bea1bfa534cd464ba1bbc9c39e146684e728ebc2"
+    },
+    "data\\raw\\labs_1.json": {
+      "size_bytes": 25907,
+      "sha256": "3378015476822d79c50453f2ac4ba274692bc0f304c7a44cd01b14c0cc02fb2f"
+    },
+    "data\\raw\\labs_2.json": {
+      "size_bytes": 26285,
+      "sha256": "d936d8739207e3e15f596299f539771febb503c1b648151afd92f7742fa180d4"
+    },
+    "data\\raw\\library.json": {
+      "size_bytes": 52244,
+      "sha256": "d96c18bc1d65c3f47a8818d68bc5eacc8eb35a0b0410f3b637539de11313f2db"
+    },
+    "data\\raw\\library_1.json": {
+      "size_bytes": 25658,
+      "sha256": "442b5a96f8f9435fa010b7197961e2e0847e84a411ca77d017e8016375aea61c"
+    },
+    "data\\raw\\library_2.json": {
+      "size_bytes": 26589,
+      "sha256": "880c585a819b63d10edcf5880c6587cd8ad1cb1b0c35a4430bd1055b88da9492"
+    },
+    "data\\raw\\transport.json": {
+      "size_bytes": 52596,
+      "sha256": "cb89d601fdd468defb419164766d49f75f271049d71e3d2c906bb121d734d0f4"
+    },
+    "data\\raw\\transport_1.json": {
+      "size_bytes": 26087,
+      "sha256": "48c8974271b5a4e9999bb75c18d54fe8f5aff4b9c628e9a6cf781bcafcba502d"
+    },
+    "data\\raw\\transport_2.json": {
+      "size_bytes": 26512,
+      "sha256": "036862d531982e827a59d4c67c452eaf53f10a42ca335ed8fef6aa3bb7599f22"
+    },
+    "data\\raw\\wifi.json": {
+      "size_bytes": 51736,
+      "sha256": "0d5cbb4fa28afa0c271d0bcd2f1b07a6450aac5c486ee5a7b6bf7fc7afab0663"
+    },
+    "data\\raw\\wifi_1.json": {
+      "size_bytes": 25579,
+      "sha256": "6aaa5895705d79935ca2b826c73f63e64b382e19d8d8833dcd4cafe5e504b6fa"
+    },
+    "data\\raw\\wifi_2.json": {
+      "size_bytes": 26160,
+      "sha256": "d93ac7ceb45bfa4f0a27ed9fb4bb7d3b27471d793d8eaaa6c17a870575555201"
+    }
+  }
+}

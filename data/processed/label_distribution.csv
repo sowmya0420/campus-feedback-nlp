@@ -1,0 +1,138 @@
+scope,facility,level,label,count,percentage
+overall,ALL,comment_sentiment,negative,446,55.75
+overall,ALL,comment_sentiment,positive,288,36.0
+overall,ALL,comment_sentiment,mixed,51,6.38
+overall,ALL,comment_sentiment,neutral,15,1.88
+overall,ALL,comment_abusive,False,752,94.0
+overall,ALL,comment_abusive,True,48,6.0
+overall,ALL,aspect_sentiment,negative,529,57.81
+overall,ALL,aspect_sentiment,positive,362,39.56
+overall,ALL,aspect_sentiment,neutral,24,2.62
+facility,canteen,comment_sentiment,negative,56,56.0
+facility,canteen,comment_sentiment,positive,36,36.0
+facility,canteen,comment_sentiment,mixed,5,5.0
+facility,canteen,comment_sentiment,neutral,3,3.0
+facility,canteen,comment_abusive,False,94,94.0
+facility,canteen,comment_abusive,True,6,6.0
+facility,classrooms,comment_sentiment,negative,50,50.0
+facility,classrooms,comment_sentiment,positive,45,45.0
+facility,classrooms,comment_sentiment,mixed,5,5.0
+facility,classrooms,comment_abusive,False,94,94.0
+facility,classrooms,comment_abusive,True,6,6.0
+facility,hostel_mess,comment_sentiment,negative,59,59.0
+facility,hostel_mess,comment_sentiment,positive,32,32.0
+facility,hostel_mess,comment_sentiment,mixed,6,6.0
+facility,hostel_mess,comment_sentiment,neutral,3,3.0
+facility,hostel_mess,comment_abusive,False,94,94.0
+facility,hostel_mess,comment_abusive,True,6,6.0
+facility,hostel_rooms,comment_sentiment,negative,57,57.0
+facility,hostel_rooms,comment_sentiment,positive,36,36.0
+facility,hostel_rooms,comment_sentiment,mixed,5,5.0
+facility,hostel_rooms,comment_sentiment,neutral,2,2.0
+facility,hostel_rooms,comment_abusive,False,94,94.0
+facility,hostel_rooms,comment_abusive,True,6,6.0
+facility,labs,comment_sentiment,negative,53,53.0
+facility,labs,comment_sentiment,positive,39,39.0
+facility,labs,comment_sentiment,mixed,6,6.0
+facility,labs,comment_sentiment,neutral,2,2.0
+facility,labs,comment_abusive,False,94,94.0
+facility,labs,comment_abusive,True,6,6.0
+facility,library,comment_sentiment,negative,51,51.0
+facility,library,comment_sentiment,positive,36,36.0
+facility,library,comment_sentiment,mixed,10,10.0
+facility,library,comment_sentiment,neutral,3,3.0
+facility,library,comment_abusive,False,94,94.0
+facility,library,comment_abusive,True,6,6.0
+facility,transport,comment_sentiment,negative,59,59.0
+facility,transport,comment_sentiment,positive,34,34.0
+facility,transport,comment_sentiment,mixed,6,6.0
+facility,transport,comment_sentiment,neutral,1,1.0
+facility,transport,comment_abusive,False,94,94.0
+facility,transport,comment_abusive,True,6,6.0
+facility,wifi,comment_sentiment,negative,61,61.0
+facility,wifi,comment_sentiment,positive,30,30.0
+facility,wifi,comment_sentiment,mixed,8,8.0
+facility,wifi,comment_sentiment,neutral,1,1.0
+facility,wifi,comment_abusive,False,94,94.0
+facility,wifi,comment_abusive,True,6,6.0
+facility,canteen,aspect_sentiment,negative,66,55.0
+facility,canteen,aspect_sentiment,positive,46,38.33
+facility,canteen,aspect_sentiment,neutral,8,6.67
+facility,canteen,aspect_category,food quality,41,34.17
+facility,canteen,aspect_category,price,22,18.33
+facility,canteen,aspect_category,hygiene,15,12.5
+facility,canteen,aspect_category,waiting time,12,10.0
+facility,canteen,aspect_category,staff behavior,10,8.33
+facility,canteen,aspect_category,seating,8,6.67
+facility,canteen,aspect_category,quantity,6,5.0
+facility,canteen,aspect_category,variety,6,5.0
+facility,classrooms,aspect_sentiment,negative,61,53.51
+facility,classrooms,aspect_sentiment,positive,53,46.49
+facility,classrooms,aspect_category,projector/av,23,20.18
+facility,classrooms,aspect_category,ac/temperature,21,18.42
+facility,classrooms,aspect_category,cleanliness,20,17.54
+facility,classrooms,aspect_category,seating,19,16.67
+facility,classrooms,aspect_category,noise,16,14.04
+facility,classrooms,aspect_category,lighting,15,13.16
+facility,hostel_mess,aspect_sentiment,negative,72,58.06
+facility,hostel_mess,aspect_sentiment,positive,47,37.9
+facility,hostel_mess,aspect_sentiment,neutral,5,4.03
+facility,hostel_mess,aspect_category,food quality,52,41.94
+facility,hostel_mess,aspect_category,waiting time,13,10.48
+facility,hostel_mess,aspect_category,hygiene,13,10.48
+facility,hostel_mess,aspect_category,variety,13,10.48
+facility,hostel_mess,aspect_category,quantity,12,9.68
+facility,hostel_mess,aspect_category,price,9,7.26
+facility,hostel_mess,aspect_category,staff behavior,8,6.45
+facility,hostel_mess,aspect_category,seating,4,3.23
+facility,hostel_rooms,aspect_sentiment,negative,65,58.56
+facility,hostel_rooms,aspect_sentiment,positive,43,38.74
+facility,hostel_rooms,aspect_sentiment,neutral,3,2.7
+facility,hostel_rooms,aspect_category,cleanliness,19,17.12
+facility,hostel_rooms,aspect_category,maintenance,17,15.32
+facility,hostel_rooms,aspect_category,room size,16,14.41
+facility,hostel_rooms,aspect_category,safety,16,14.41
+facility,hostel_rooms,aspect_category,water supply,13,11.71
+facility,hostel_rooms,aspect_category,electricity,12,10.81
+facility,hostel_rooms,aspect_category,laundry,9,8.11
+facility,hostel_rooms,aspect_category,noise,9,8.11
+facility,labs,aspect_sentiment,negative,62,55.86
+facility,labs,aspect_sentiment,positive,47,42.34
+facility,labs,aspect_sentiment,neutral,2,1.8
+facility,labs,aspect_category,equipment condition,31,27.93
+facility,labs,aspect_category,lab staff,17,15.32
+facility,labs,aspect_category,system speed,15,13.51
+facility,labs,aspect_category,software availability,13,11.71
+facility,labs,aspect_category,lab timings,13,11.71
+facility,labs,aspect_category,cleanliness,12,10.81
+facility,labs,aspect_category,space,10,9.01
+facility,library,aspect_sentiment,negative,62,55.86
+facility,library,aspect_sentiment,positive,46,41.44
+facility,library,aspect_sentiment,neutral,3,2.7
+facility,library,aspect_category,book availability,18,16.22
+facility,library,aspect_category,silence,17,15.32
+facility,library,aspect_category,digital resources,17,15.32
+facility,library,aspect_category,staff behavior,16,14.41
+facility,library,aspect_category,seating,13,11.71
+facility,library,aspect_category,opening hours,11,9.91
+facility,library,aspect_category,ac/temperature,10,9.01
+facility,library,aspect_category,cleanliness,9,8.11
+facility,transport,aspect_sentiment,negative,70,61.4
+facility,transport,aspect_sentiment,positive,42,36.84
+facility,transport,aspect_sentiment,neutral,2,1.75
+facility,transport,aspect_category,driver behavior,20,17.54
+facility,transport,aspect_category,bus condition,20,17.54
+facility,transport,aspect_category,punctuality,19,16.67
+facility,transport,aspect_category,route coverage,14,12.28
+facility,transport,aspect_category,fare,14,12.28
+facility,transport,aspect_category,safety,14,12.28
+facility,transport,aspect_category,crowding,13,11.4
+facility,wifi,aspect_sentiment,negative,71,64.55
+facility,wifi,aspect_sentiment,positive,38,34.55
+facility,wifi,aspect_sentiment,neutral,1,0.91
+facility,wifi,aspect_category,speed,32,29.09
+facility,wifi,aspect_category,coverage,19,17.27
+facility,wifi,aspect_category,login issues,19,17.27
+facility,wifi,aspect_category,reliability,15,13.64
+facility,wifi,aspect_category,bandwidth limit,13,11.82
+facility,wifi,aspect_category,connectivity,12,10.91

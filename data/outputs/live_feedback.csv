@@ -1,0 +1,22 @@
+timestamp,facility,text,abusive,aspects
+2026-10-23T22:19:48,library,"Temperature is very cold, cant able to stay in library for longer duration",False,ac/temperature=negative
+timestamp,facility,text,abusive,aspects
+2026-10-23T22:19:48,library,"Temperature is very cold, cant able to stay in library for longer duration",False,ac/temperature=negative
+timestamp,facility,text,abusive,aspects
+2026-10-23T22:19:48,library,"Temperature is very cold, cant able to stay in library for longer duration",False,ac/temperature=negative
+timestamp,facility,text,abusive,aspects
+2026-10-23T22:19:48,library,"Temperature is very cold, cant able to stay in library for longer duration",False,ac/temperature=negative
+timestamp,facility,text,abusive,aspects
+2026-10-23T22:19:48,library,"Temperature is very cold, cant able to stay in library for longer duration",False,ac/temperature=negative
+2026-10-24T15:54:13,canteen,"The canteen food is delicious, but the hostel rooms are dirty.",False,food quality=positive; hygiene=negative
+2026-10-24T15:54:14,canteen,"The canteen food is delicious, but the hostel rooms are dirty.",False,food quality=positive; hygiene=negative
+2026-10-24T15:54:14,canteen,"The canteen food is delicious, but the hostel rooms are dirty.",False,food quality=positive; hygiene=negative
+2026-10-24T15:55:54,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T15:55:58,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T15:55:59,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T15:56:00,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T15:56:01,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T15:56:05,canteen,"The food is terrible, but the canteen staff are very helpful.",False,food quality=negative; staff behavior=positive
+2026-10-24T16:00:22,canteen,the food is not bad,False,food quality=neutral
+2026-10-24T16:01:25,library,the library closes at 8 pm,False,opening hours=negative
+2026-10-24T16:01:56,wifi,"“great, the wifi is down again",False,reliability=negative

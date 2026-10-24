@@ -1,0 +1,425 @@
+id,facility,text,aspect_term,category,sentiment,abusive
+C0001,canteen,"samosa is crispy and cheap, best snack here",samosa,food quality,positive,False
+C0001,canteen,"samosa is crispy and cheap, best snack here",cheap,price,positive,False
+C0004,canteen,billing counter queue is endless after 1 pm,queue,waiting time,negative,False
+C0005,canteen,parotta and salna combo is the best,parotta,food quality,positive,False
+C0006,canteen,no place to sit during lunch break,sit,seating,negative,False
+C0007,canteen,noodles were too oily and cold,noodles,food quality,negative,False
+C0008,canteen,flies all over the food counter,flies,hygiene,negative,False
+C0009,canteen,"upi payment is working fast now, no cash hassle",upi,waiting time,positive,False
+C0010,canteen,canteen staff are always smiling and helpful,staff,staff behavior,positive,False
+C0011,canteen,"overpriced juice, 60 for a small glass",juice,price,negative,False
+C0012,canteen,quantity of fried rice is very less for the price,quantity,quantity,negative,False
+C0012,canteen,quantity of fried rice is very less for the price,price,price,negative,False
+C0013,canteen,the veg puff was stale today,puff,food quality,negative,False
+C0014,canteen,"more variety needed, only 4 items after 4 pm",variety,variety,negative,False
+C0016,canteen,sandwiches are fresh and tasty,sandwiches,food quality,positive,False
+C0017,canteen,cashier was rude when i asked for change,cashier,staff behavior,negative,False
+C0018,canteen,"cold coffee is awesome, must try",cold coffee,food quality,positive,False
+C0019,canteen,waiting time for order is 20 mins even for tea,waiting time,waiting time,negative,False
+C0020,canteen,"filter coffee is perfect, reminds me of home",filter coffee,food quality,positive,False
+C0023,canteen,chat items are so tasty but the plates are not clean,chat items,food quality,positive,False
+C0023,canteen,chat items are so tasty but the plates are not clean,plates,hygiene,negative,False
+C0026,canteen,combo meal at 80 is a good deal,combo meal,price,positive,False
+C0027,canteen,no dustbins so everyone throws waste on the floor,dustbins,hygiene,negative,False
+C0028,canteen,vada pav is only decent,vada pav,food quality,neutral,False
+C0029,canteen,they run out of items by 4 pm,run out,quantity,negative,False
+C0031,canteen,paneer butter masala tastes like tomato soup,paneer butter masala,food quality,negative,False
+C0032,canteen,the canteen near the library is cleaner than main block,canteen,hygiene,positive,False
+C0034,canteen,"maggi is hot and tasty, 30 rupees ok",maggi,food quality,positive,False
+C0034,canteen,"maggi is hot and tasty, 30 rupees ok",rupees,price,neutral,False
+C0035,canteen,no hand wash near the canteen entrance,hand wash,hygiene,negative,False
+C0036,canteen,fresh juice menu has loads of variety,juice menu,variety,positive,False
+C0037,canteen,"biryani portion is huge, shared with friend",portion,quantity,positive,False
+C0037,canteen,"biryani portion is huge, shared with friend",biryani,food quality,neutral,False
+C0039,canteen,food is expensive compared to outside shops,expensive,price,negative,False
+C0040,canteen,seating is comfortable and the fans work well,seating,seating,positive,False
+C0041,canteen,"every time my order gets mixed up, no accuracy",order,waiting time,negative,False
+C0042,canteen,"the canteen is clean, floors mopped regularly",floors,hygiene,positive,False
+C0043,canteen,snack time rush is manageable with 2 counters,rush,waiting time,neutral,False
+C0045,canteen,average food at high price,food,food quality,neutral,False
+C0045,canteen,average food at high price,price,price,negative,False
+C0046,canteen,chappathi kurma is homely and filling,kurma,food quality,positive,False
+C0047,canteen,food semma but rate romba jaasthi,food,food quality,positive,False
+C0047,canteen,food semma but rate romba jaasthi,rate,price,negative,False
+C0048,canteen,"tea kadai la queue romba, 15 min aachu",queue,waiting time,negative,False
+C0050,canteen,canteen la sit panna idam illa,idam,seating,negative,False
+C0051,canteen,"juice la ice mattum than iruku, fruit illa",juice,food quality,negative,False
+C0054,canteen,"oil smell varuthu from the fried items, not fresh",oil smell,hygiene,negative,False
+C0055,canteen,the chicken fried rice was gud but expnsive,chicken fried rice,food quality,positive,False
+C0055,canteen,the chicken fried rice was gud but expnsive,expnsive,price,negative,False
+C0056,canteen,canten food is not hygenic at all,hygenic,hygiene,negative,False
+C0057,canteen,waitng for 25 mins for a burger,waitng,waiting time,negative,False
+C0059,canteen,tea nd bun combo is lyk a daily habit,tea nd bun combo,variety,positive,False
+C0062,canteen,the uncle gives extra chutney without asking,uncle,staff behavior,positive,False
+C0062,canteen,the uncle gives extra chutney without asking,extra chutney,quantity,positive,False
+C0063,canteen,need healthy options like salads and fruit bowls,healthy options,variety,negative,False
+C0065,canteen,pizza at the canteen is not worth 120 rupees,pizza,food quality,negative,False
+C0065,canteen,pizza at the canteen is not worth 120 rupees,120 rupees,price,negative,False
+C0066,canteen,sambar rice is good value,sambar rice,food quality,positive,False
+C0066,canteen,sambar rice is good value,value,price,positive,False
+C0067,canteen,"tables were wiped promptly, impressed",tables,hygiene,positive,False
+C0068,canteen,the staff shout at students if we ask for a refund,staff,staff behavior,negative,False
+C0069,canteen,good ambience for group study over snacks,ambience,seating,positive,False
+C0070,canteen,pani puri guy uses dirty water,pani puri,hygiene,negative,False
+C0071,canteen,kulfi and falooda are great in summer,kulfi,food quality,positive,False
+C0074,canteen,the chole bhature is heavy but tasty,chole bhature,food quality,positive,False
+C0076,canteen,could have more seating near the windows,seating,seating,negative,False
+C0077,canteen,the cook always makes fresh dosa when asked,dosa,food quality,positive,False
+C0082,canteen,bloody thieves charging 60 for a tea,tea,price,negative,True
+C0083,canteen,canteen is a joke and the owner is a clown,canteen,food quality,negative,True
+C0084,canteen,"worst food ever, you morons should shut this place down",food,food quality,negative,True
+C0086,hostel_mess,mess food is okay nothing special,food,food quality,neutral,False
+C0087,hostel_mess,chicken on sundays is really good,chicken,food quality,positive,False
+C0088,hostel_mess,waiting 30 mins in the queue for dinner every day,queue,waiting time,negative,False
+C0090,hostel_mess,"rice has stones again, how many times we have to complain",rice,food quality,negative,False
+C0094,hostel_mess,mess staff are rude when we ask for extra chapati,staff,staff behavior,negative,False
+C0094,hostel_mess,mess staff are rude when we ask for extra chapati,extra chapati,quantity,negative,False
+C0097,hostel_mess,"mess is cheap compared to outside, good for the price",price,price,positive,False
+C0098,hostel_mess,we pay so much mess fees and still get this food,mess fees,price,negative,False
+C0098,hostel_mess,we pay so much mess fees and still get this food,food,food quality,negative,False
+C0100,hostel_mess,curd rice and pickle for lunch is my fav,curd rice,food quality,positive,False
+C0101,hostel_mess,"no seating during lunch, standing and eating",seating,seating,negative,False
+C0102,hostel_mess,"the new menu has more variety, thanks warden",variety,variety,positive,False
+C0103,hostel_mess,tables are sticky and nobody cleans them,tables,hygiene,negative,False
+C0104,hostel_mess,"cook uncle is very kind, always gives extra rice",cook,staff behavior,positive,False
+C0104,hostel_mess,"cook uncle is very kind, always gives extra rice",extra rice,quantity,positive,False
+C0105,hostel_mess,egg is always overcooked,egg,food quality,negative,False
+C0106,hostel_mess,food quality has gone down this semester,food quality,food quality,negative,False
+C0108,hostel_mess,mess hall smells bad,mess hall,hygiene,negative,False
+C0109,hostel_mess,water jug is empty most of the time,water jug,quantity,negative,False
+C0110,hostel_mess,"only 2 vegetables for lunch, need more options",vegetables,variety,negative,False
+C0111,hostel_mess,"dosa is crispy today, loved it",dosa,food quality,positive,False
+C0114,hostel_mess,roti is hard like rubber,roti,food quality,negative,False
+C0115,hostel_mess,"service is quick, no waiting at all",service,waiting time,positive,False
+C0116,hostel_mess,mess people don't listen to feedback,mess people,staff behavior,negative,False
+C0120,hostel_mess,"average food, can survive",food,food quality,neutral,False
+C0121,hostel_mess,"cockroach near the serving area, disgusting",cockroach,hygiene,negative,False
+C0122,hostel_mess,the queue moves fast after the second counter opened,queue,waiting time,positive,False
+C0123,hostel_mess,serving portions are small for the money,portions,quantity,negative,False
+C0123,hostel_mess,serving portions are small for the money,money,price,negative,False
+C0124,hostel_mess,puri and kurma combo was very tasty,kurma,food quality,positive,False
+C0126,hostel_mess,mess is clean and tidy in the mornings,clean,hygiene,positive,False
+C0127,hostel_mess,"chutney and sambar finish early, latecomers get nothing",sambar,quantity,negative,False
+C0128,hostel_mess,"juice counter is a good addition, reasonable price",juice counter,variety,positive,False
+C0128,hostel_mess,"juice counter is a good addition, reasonable price",price,price,positive,False
+C0130,hostel_mess,staff were helpful when i was sick and asked for plain rice,staff,staff behavior,positive,False
+C0131,hostel_mess,bro the sambar is just coloured water,sambar,food quality,negative,False
+C0133,hostel_mess,"queue jumping by seniors every day, mess staff just watch",queue,waiting time,negative,False
+C0133,hostel_mess,"queue jumping by seniors every day, mess staff just watch",mess staff,staff behavior,negative,False
+C0134,hostel_mess,coriander and curry leaves are not even washed,coriander,hygiene,negative,False
+C0135,hostel_mess,"food is tasty, clean, and served on time. great job",food,food quality,positive,False
+C0135,hostel_mess,"food is tasty, clean, and served on time. great job",clean,hygiene,positive,False
+C0135,hostel_mess,"food is tasty, clean, and served on time. great job",served on time,waiting time,positive,False
+C0136,hostel_mess,lunch is fine but dinner is always bad,lunch,food quality,positive,False
+C0136,hostel_mess,lunch is fine but dinner is always bad,dinner,food quality,negative,False
+C0137,hostel_mess,"mess committee changed the menu after our complaint, appreciate it",menu,variety,positive,False
+C0138,hostel_mess,ice cream on saturday is a nice touch,ice cream,variety,positive,False
+C0139,hostel_mess,aloo curry again?? we get it 4 times a week,aloo curry,variety,negative,False
+C0140,hostel_mess,tea is just hot water with sugar,tea,food quality,negative,False
+C0141,hostel_mess,mess bill went up by 500 but nothing improved,mess bill,price,negative,False
+C0142,hostel_mess,coffee in the morning is decent,coffee,food quality,positive,False
+C0143,hostel_mess,food semma but queue romba long,food,food quality,positive,False
+C0143,hostel_mess,food semma but queue romba long,queue,waiting time,negative,False
+C0145,hostel_mess,"mess la sapadu super, but seating illa",sapadu,food quality,positive,False
+C0145,hostel_mess,"mess la sapadu super, but seating illa",seating,seating,negative,False
+C0148,hostel_mess,"rice la kal irukku, yaar kitta sollurathu",rice,food quality,negative,False
+C0150,hostel_mess,"plate la ennai, wash pannave illa",plate,hygiene,negative,False
+C0151,hostel_mess,"dinner queue la 40 min nikanum, waste of time",queue,waiting time,negative,False
+C0152,hostel_mess,mess uncle semma friendly,mess uncle,staff behavior,positive,False
+C0153,hostel_mess,the sambr was very sour todya,sambr,food quality,negative,False
+C0154,hostel_mess,"foood is not hot, always cold",foood,food quality,negative,False
+C0158,hostel_mess,"lunch was gud, lyk the rasam",lunch,food quality,positive,False
+C0158,hostel_mess,"lunch was gud, lyk the rasam",rasam,food quality,positive,False
+C0159,hostel_mess,mess is ok,mess,food quality,neutral,False
+C0160,hostel_mess,tasty food and polite staff,food,food quality,positive,False
+C0160,hostel_mess,tasty food and polite staff,staff,staff behavior,positive,False
+C0161,hostel_mess,"never improving, same issues every year",,food quality,negative,False
+C0163,hostel_mess,the food is just average but the price is fair,food,food quality,neutral,False
+C0163,hostel_mess,the food is just average but the price is fair,price,price,positive,False
+C0166,hostel_mess,"mess workers wear gloves now, good change",gloves,hygiene,positive,False
+C0167,hostel_mess,"one chapati per head rule is silly, we are hungry",chapati,quantity,negative,False
+C0168,hostel_mess,mess fee is reasonable for 3 meals + snacks,mess fee,price,positive,False
+C0170,hostel_mess,chicken pieces are tiny and bony,chicken pieces,quantity,negative,False
+C0171,hostel_mess,snacks at 5 pm are a lifesaver,snacks,variety,positive,False
+C0172,hostel_mess,the dining area is spacious and well lit,dining area,seating,positive,False
+C0173,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",cook,staff behavior,negative,True
+C0173,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",rice,food quality,negative,True
+C0174,hostel_mess,"this mess is total garbage, whoever runs it is a thief",mess,food quality,negative,True
+C0175,hostel_mess,"bloody fools, you serve this shit and call it food",food,food quality,negative,True
+C0176,hostel_mess,shut up and fix the food you lazy morons,food,food quality,negative,True
+C0178,hostel_mess,whoever approved this menu is a clown,menu,variety,negative,True
+C0179,hostel_rooms,"water supply stops at 7 am, no water for bathing",water supply,water supply,negative,False
+C0182,hostel_rooms,bathrooms are dirty and no one cleans them daily,bathrooms,cleanliness,negative,False
+C0183,hostel_rooms,power cut every evening and no backup in the rooms,power cut,electricity,negative,False
+C0184,hostel_rooms,warden is very supportive and quick to act,warden,safety,positive,False
+C0185,hostel_rooms,hot water in the morning is great in winter,hot water,water supply,positive,False
+C0186,hostel_rooms,room is too small for 4 people,room,room size,negative,False
+C0187,hostel_rooms,beds are old and the mattress is uncomfortable,mattress,maintenance,negative,False
+C0188,hostel_rooms,cctv in the corridor makes me feel safe,cctv,safety,positive,False
+C0189,hostel_rooms,"no proper security at night, anyone can enter",security,safety,negative,False
+C0191,hostel_rooms,laundry service is good and clothes come back clean,laundry service,laundry,positive,False
+C0192,hostel_rooms,loud music from the next room till 1 am,loud music,noise,negative,False
+C0193,hostel_rooms,rooms are cleaned daily and the staff are polite,rooms,cleanliness,positive,False
+C0194,hostel_rooms,electricity is stable now after the new transformer,electricity,electricity,positive,False
+C0196,hostel_rooms,the mosquito problem is out of control in the hostel,mosquito,cleanliness,negative,False
+C0197,hostel_rooms,"water is yellow some mornings, unfit to drink",water,water supply,negative,False
+C0198,hostel_rooms,"maintenance team responded within a day, very impressed",maintenance team,maintenance,positive,False
+C0199,hostel_rooms,the study table and chair are decent,study table,room size,positive,False
+C0200,hostel_rooms,lights flicker and the switchboard is damaged,switchboard,electricity,negative,False
+C0201,hostel_rooms,noise from the construction next to the hostel is irritating,construction,noise,negative,False
+C0203,hostel_rooms,drying area for clothes is too small,drying area,laundry,negative,False
+C0204,hostel_rooms,water cooler is working and the water is cold,water cooler,water supply,positive,False
+C0205,hostel_rooms,"the room has no ventilation, so it gets hot",ventilation,room size,negative,False
+C0207,hostel_rooms,the hostel is peaceful and good for studying,hostel,noise,positive,False
+C0208,hostel_rooms,"girls hostel gate closes on time and security is strict, which is good",security,safety,positive,False
+C0209,hostel_rooms,"rats in the room, found one in my bag",rats,cleanliness,negative,False
+C0211,hostel_rooms,the bathroom doors don't close properly,bathroom doors,maintenance,negative,False
+C0212,hostel_rooms,the room is average but i can adjust,room,room size,neutral,False
+C0213,hostel_rooms,dhobi service charges too much,dhobi service,laundry,negative,False
+C0214,hostel_rooms,nobody cleans the common area on weekends,common area,cleanliness,negative,False
+C0216,hostel_rooms,rooms are big but dirty,rooms,room size,positive,False
+C0216,hostel_rooms,rooms are big but dirty,dirty,cleanliness,negative,False
+C0218,hostel_rooms,"thanni varala 2 days ah, rombo kastam",thanni,water supply,negative,False
+C0219,hostel_rooms,"fan kooda work aagala, summer la romba kastam",fan,maintenance,negative,False
+C0220,hostel_rooms,"room clean ah irukku, thanks to the aunty",room,cleanliness,positive,False
+C0221,hostel_rooms,"night la noise romba, thoongave mudila",noise,noise,negative,False
+C0223,hostel_rooms,the room cleaning is nvr done properly,room cleaning,cleanliness,negative,False
+C0224,hostel_rooms,wter pressure is very low in the shower,wter pressure,water supply,negative,False
+C0225,hostel_rooms,hostl security gaurd sleeps at night,gaurd,safety,negative,False
+C0226,hostel_rooms,elecricity goes off every nite,elecricity,electricity,negative,False
+C0228,hostel_rooms,washing mashine broke again,washing mashine,laundry,negative,False
+C0229,hostel_rooms,roommates are noisy but rooms are ok,roommates,noise,negative,False
+C0229,hostel_rooms,roommates are noisy but rooms are ok,rooms,room size,neutral,False
+C0231,hostel_rooms,drinking water is tested regularly and it tastes fine,drinking water,water supply,positive,False
+C0233,hostel_rooms,nice and safe place but too many insects,safe,safety,positive,False
+C0233,hostel_rooms,nice and safe place but too many insects,insects,cleanliness,negative,False
+C0238,hostel_rooms,the toilet flush is damaged and no spare,toilet flush,maintenance,negative,False
+C0239,hostel_rooms,the common room tv and carrom board are nice to have,common room,room size,positive,False
+C0241,hostel_rooms,"phone charging boards are installed in the corridor, useful",charging boards,electricity,positive,False
+C0243,hostel_rooms,"the stairs have no lights at night, it is unsafe",stairs,safety,negative,False
+C0245,hostel_rooms,the room is okay,room,room size,neutral,False
+C0246,hostel_rooms,shower heads are broken in half the bathrooms,shower heads,maintenance,negative,False
+C0247,hostel_rooms,"terrace is open for students in the evening, nice view",terrace,room size,positive,False
+C0248,hostel_rooms,hostel office staff are lazy and rude when we complain,staff,maintenance,negative,False
+C0251,hostel_rooms,the maintenance guys are stupid and lazy,maintenance guys,maintenance,negative,True
+C0253,hostel_rooms,fix the bloody power cuts you clowns,power cuts,electricity,negative,True
+C0254,hostel_rooms,"bathrooms stink like hell, disgusting pigs live here",bathrooms,cleanliness,negative,True
+C0258,labs,python and vs code are installed and working fine,python,software availability,positive,False
+C0259,labs,matlab license expired and no one is bothered,matlab,software availability,negative,False
+C0260,labs,lab assistants are friendly and clear our doubts,lab assistants,lab staff,positive,False
+C0261,labs,"lab timings clash with our classes, only 2 hours given",lab timings,lab timings,negative,False
+C0262,labs,"the lab is overcrowded, 3 students share one system",overcrowded,space,negative,False
+C0264,labs,the lab is clean and organised,lab,cleanliness,positive,False
+C0267,labs,projector in the lab is clear and bright,projector,equipment condition,positive,False
+C0268,labs,open lab hours till 8 pm are really helpful for projects,open lab hours,lab timings,positive,False
+C0269,labs,the linux machines hang every time we run docker,linux machines,system speed,negative,False
+C0271,labs,"good lab, all required tools are available",tools,equipment condition,positive,False
+C0272,labs,broken chairs and wobbly tables in the lab,chairs,space,negative,False
+C0275,labs,"labs are available only during scheduled hours, no extra time for practice",scheduled hours,lab timings,negative,False
+C0276,labs,"monitor flickers on my system, informed twice but nothing done",monitor,equipment condition,negative,False
+C0277,labs,internet in the lab is too slow to download packages,internet,system speed,negative,False
+C0279,labs,compiler error because outdated java version,java version,software availability,negative,False
+C0280,labs,space is enough to move around and work comfortably,space,space,positive,False
+C0281,labs,the lab record submission instructions are clear,instructions,lab staff,positive,False
+C0282,labs,network lab has good routers and switches for practice,routers,equipment condition,positive,False
+C0283,labs,"lab is average, nothing special",lab,equipment condition,neutral,False
+C0284,labs,dirty keyboards and sticky mouse everywhere,keyboards,cleanliness,negative,False
+C0285,labs,the lab incharge doesn't allow extra time even for submissions,lab incharge,lab staff,negative,False
+C0285,labs,the lab incharge doesn't allow extra time even for submissions,extra time,lab timings,negative,False
+C0288,labs,mouse keyboard onnume work aagala da,mouse keyboard,equipment condition,negative,False
+C0289,labs,lab sir nalla explain pannuvaru,lab sir,lab staff,positive,False
+C0290,labs,"lab time rombo kammi, project mudikka mudiyala",lab time,lab timings,negative,False
+C0292,labs,"ore system ku 4 per, idam illa",idam,space,negative,False
+C0293,labs,the sistem is so sloww,sistem,system speed,negative,False
+C0294,labs,labtop connections are not wrking,labtop connections,equipment condition,negative,False
+C0295,labs,softwre license is not avilable,softwre license,software availability,negative,False
+C0296,labs,lab assitant helped alot,lab assitant,lab staff,positive,False
+C0297,labs,the lab is cold n clean,lab,cleanliness,positive,False
+C0298,labs,cant run tensorflow bcos gpu not avilable,gpu,equipment condition,negative,False
+C0299,labs,"hardware lab has good components and kits, but timings are short",components,equipment condition,positive,False
+C0299,labs,"hardware lab has good components and kits, but timings are short",timings,lab timings,negative,False
+C0300,labs,"labs are clean, but systems are old",labs,cleanliness,positive,False
+C0300,labs,"labs are clean, but systems are old",systems,equipment condition,negative,False
+C0301,labs,lab staff are helpful but very less in number,lab staff,lab staff,positive,False
+C0301,labs,lab staff are helpful but very less in number,less in number,lab staff,negative,False
+C0304,labs,power backup in lab saved our practical exam,power backup,equipment condition,positive,False
+C0305,labs,the access card system works well for entering the lab,access card system,lab timings,positive,False
+C0307,labs,lab manual is outdated and the experiments are not useful,lab manual,software availability,negative,False
+C0309,labs,the ai lab with gpu servers is a game changer,gpu servers,equipment condition,positive,False
+C0311,labs,lab is always locked when we reach on time,locked,lab timings,negative,False
+C0312,labs,virtual machine setup in lab saves a lot of time,virtual machine,software availability,positive,False
+C0313,labs,some systems have no headphones for the language lab,headphones,equipment condition,negative,False
+C0315,labs,the lab assistant keeps playing games on his phone and ignores us,lab assistant,lab staff,negative,False
+C0316,labs,"the lab is okay, i have no complaints",lab,equipment condition,neutral,False
+C0317,labs,"cooling is poor, systems overheat in summer",cooling,cleanliness,negative,False
+C0318,labs,we get 3 hours for each practical which is enough,3 hours,lab timings,positive,False
+C0319,labs,lab desks are wide and have enough power sockets,lab desks,space,positive,False
+C0320,labs,mobile signal is nil inside the lab,mobile signal,system speed,negative,False
+C0321,labs,good ventilation and lighting in the chemistry lab,ventilation,cleanliness,positive,False
+C0322,labs,the instruments in physics lab are rusted,instruments,equipment condition,negative,False
+C0323,labs,"the lab is a joke, systems are junk and staff are idiots",systems,equipment condition,negative,True
+C0323,labs,"the lab is a joke, systems are junk and staff are idiots",staff,lab staff,negative,True
+C0325,labs,"useless lab assistant, damn clown wastes our time",lab assistant,lab staff,negative,True
+C0326,labs,"the systems suck, who bought this garbage",systems,system speed,negative,True
+C0329,library,library is peaceful and perfect for study,library,silence,positive,False
+C0330,library,"not enough seats during exam week, people reserve with bags",seats,seating,negative,False
+C0333,library,latest edition books are not available,books,book availability,negative,False
+C0335,library,people talk loudly near the group study area,talk loudly,silence,negative,False
+C0336,library,ieee and springer access works well from the campus network,ieee,digital resources,positive,False
+C0337,library,the library staff are strict but fair,staff,staff behavior,neutral,False
+C0338,library,"cleanliness is great, floors and tables are spotless",cleanliness,cleanliness,positive,False
+C0339,library,"very few copies of the core textbooks, 100 students for 3 copies",copies,book availability,negative,False
+C0340,library,charging points near the seats are a big help,charging points,seating,positive,False
+C0341,library,e journal login keeps failing from the hostel,e journal,digital resources,negative,False
+C0342,library,washrooms near the library are dirty,washrooms,cleanliness,negative,False
+C0343,library,the reading hall is bright and quiet,reading hall,silence,positive,False
+C0344,library,no response from the staff when i asked for a book request,staff,staff behavior,negative,False
+C0348,library,"library is open on sundays now, thanks",open on sundays,opening hours,positive,False
+C0350,library,catalog search website is slow and confusing,catalog search,digital resources,negative,False
+C0354,library,"bag counter takes too long, long line at entry",bag counter,opening hours,negative,False
+C0355,library,chairs are uncomfortable for long study hours,chairs,seating,negative,False
+C0356,library,nptel material and old question papers are easy to find,question papers,digital resources,positive,False
+C0357,library,the staff made us leave exactly at closing time without any grace,staff,staff behavior,negative,False
+C0359,library,temperature is just right and the lights are good,temperature,ac/temperature,positive,False
+C0362,library,"library semma peaceful, padikka nalla irukku",library,silence,positive,False
+C0364,library,"ac romba cold, nadungurathu",ac,ac/temperature,negative,False
+C0366,library,"staff nalla help pannanga, thanks",staff,staff behavior,positive,False
+C0367,library,seat kedaikave illa exam time la,seat,seating,negative,False
+C0368,library,wifi in the library is poor and e books are not loading,wifi,digital resources,negative,False
+C0369,library,"silence illa, group ah vandhu pesuranga",silence,silence,negative,False
+C0370,library,libary is too croweded in the evening,croweded,seating,negative,False
+C0371,library,the librarain was so rude today,librarain,staff behavior,negative,False
+C0373,library,digitl resources are very usefull,digitl resources,digital resources,positive,False
+C0375,library,"good collection of reference books, but seating is limited",reference books,book availability,positive,False
+C0375,library,"good collection of reference books, but seating is limited",seating,seating,negative,False
+C0376,library,"librarian helps a lot, however opening hours are short on saturdays",librarian,staff behavior,positive,False
+C0376,library,"librarian helps a lot, however opening hours are short on saturdays",opening hours,opening hours,negative,False
+C0378,library,great ebooks but the login page keeps timing out,ebooks,digital resources,positive,False
+C0378,library,great ebooks but the login page keeps timing out,login page,digital resources,negative,False
+C0379,library,"reading room is nice, wish it opened earlier",reading room,silence,positive,False
+C0379,library,"reading room is nice, wish it opened earlier",opened earlier,opening hours,negative,False
+C0380,library,"the ground floor is noisy, 3rd floor is quiet",ground floor,silence,negative,False
+C0380,library,"the ground floor is noisy, 3rd floor is quiet",3rd floor,silence,positive,False
+C0382,library,placement prep books are available which is great,placement prep books,book availability,positive,False
+C0383,library,"journals for research are limited, need more subscriptions",journals,digital resources,negative,False
+C0384,library,"some students sleep on the tables, no one stops them",sleep on the tables,silence,negative,False
+C0385,library,the desks have scratches and graffiti,desks,cleanliness,negative,False
+C0386,library,return date fines are too high,fines,staff behavior,negative,False
+C0387,library,the library app for renewal is quick and easy,library app,digital resources,positive,False
+C0390,library,if you reach after 9 am there are no seats left,seats,seating,negative,False
+C0393,library,the library is ok,library,silence,neutral,False
+C0394,library,scanning and printing in library is cheap and fast,printing,digital resources,positive,False
+C0395,library,"so many old edition textbooks, nothing useful for the new syllabus",textbooks,book availability,negative,False
+C0396,library,staff are friendly and answer doubts patiently,staff,staff behavior,positive,False
+C0397,library,closing time is too early for final year project students,closing time,opening hours,negative,False
+C0398,library,"books are arranged by subject, easy to find",arranged by subject,book availability,positive,False
+C0399,library,smell of damp in the corner section,damp,cleanliness,negative,False
+C0401,library,the librarian smiled and helped me with the project report formatting,librarian,staff behavior,positive,False
+C0402,library,"ac is perfect in summer, thanks to the library for the comfort",ac,ac/temperature,positive,False
+C0403,library,"the library is a waste, nothing is ever available you idiots",library,book availability,negative,True
+C0404,library,that librarian is a stupid old fool,librarian,staff behavior,negative,True
+C0405,library,"shut your mouth and open the library on time, useless staff",staff,staff behavior,negative,True
+C0405,library,"shut your mouth and open the library on time, useless staff",library,opening hours,negative,True
+C0406,library,who is the moron in charge of purchasing books,,book availability,negative,True
+C0407,library,"damn this library, it sucks big time",library,book availability,negative,True
+C0408,library,staff are lazy idiots who sleep at the desk,staff,staff behavior,negative,True
+C0409,transport,the bus is always late by 20 minutes,late,punctuality,negative,False
+C0410,transport,buses are so crowded that i have to stand for an hour,crowded,crowding,negative,False
+C0411,transport,the driver is very careful and polite,driver,driver behavior,positive,False
+C0415,transport,fare increased by 200 rupees this semester,fare,fare,negative,False
+C0417,transport,the bus is clean and well maintained,bus,bus condition,positive,False
+C0418,transport,no women safety measures in the late evening buses,women safety,safety,negative,False
+C0419,transport,buses leave without waiting even if students are running,leave without waiting,punctuality,negative,False
+C0420,transport,the bus broke down on the way twice this month,broke down,bus condition,negative,False
+C0422,transport,fee is reasonable for the distance covered,fee,fare,positive,False
+C0423,transport,the conductor is helpful and friendly,conductor,driver behavior,positive,False
+C0425,transport,we reach home only after 8 pm because of the long route,long route,route coverage,negative,False
+C0426,transport,the bus is too crowded in the evening,crowded,crowding,negative,False
+C0427,transport,bus stops at every small stop and wastes time,stops,route coverage,negative,False
+C0428,transport,"drivers use mobile phones while driving, unsafe",mobile phones,safety,negative,False
+C0429,transport,bus timing is perfect for morning classes,bus timing,punctuality,positive,False
+C0430,transport,no fixed seat so we fight every day,fixed seat,crowding,negative,False
+C0431,transport,"students stand in the door step, dangerous",door step,safety,negative,False
+C0432,transport,the buses are old and make loud noise,buses,bus condition,negative,False
+C0433,transport,transport office staff do not respond to complaints,transport office staff,driver behavior,negative,False
+C0434,transport,bus arrives late during rain,late,punctuality,negative,False
+C0435,transport,new buses added this year have reduced crowding,new buses,crowding,positive,False
+C0436,transport,"fuel charges are included, no extra fare so good",extra fare,fare,positive,False
+C0437,transport,the bus is fine,bus,bus condition,neutral,False
+C0439,transport,"seat kedaikave illa, nikkave vendiyathu",seat,crowding,negative,False
+C0441,transport,namma area ku bus route illa da,bus route,route coverage,negative,False
+C0442,transport,"fare romba jaasthi, hostel la irundhale nalla",fare,fare,negative,False
+C0444,transport,"night bus la bayam ah irukku, lights illa",lights,safety,negative,False
+C0445,transport,buss was latee agaain todaay,latee,punctuality,negative,False
+C0446,transport,the drivr is rud to students,drivr,driver behavior,negative,False
+C0449,transport,the bus alwys breaks dwn,breaks dwn,bus condition,negative,False
+C0451,transport,bus is on time but the seats are very uncomfortable,on time,punctuality,positive,False
+C0451,transport,bus is on time but the seats are very uncomfortable,seats,bus condition,negative,False
+C0454,transport,"nice drivers and safe journey, but timing is not fixed",drivers,driver behavior,positive,False
+C0454,transport,"nice drivers and safe journey, but timing is not fixed",safe journey,safety,positive,False
+C0454,transport,"nice drivers and safe journey, but timing is not fixed",timing,punctuality,negative,False
+C0456,transport,"gps tracking app helps us know the bus location, very useful",gps tracking app,punctuality,positive,False
+C0457,transport,"the bus tyre burst yesterday, thankfully no one was hurt",tyre,bus condition,negative,False
+C0458,transport,students without id get blocked and refused a seat,refused a seat,crowding,negative,False
+C0459,transport,"a speed limit warning is announced in the bus now, good",speed limit,safety,positive,False
+C0462,transport,cctv in buses makes girls feel safer,cctv,safety,positive,False
+C0463,transport,transport in-charge helped me change my route quickly,transport in-charge,driver behavior,positive,False
+C0464,transport,the bus floor is always dirty and stinks,floor,bus condition,negative,False
+C0465,transport,the second shift buses are too few,second shift buses,crowding,negative,False
+C0466,transport,the last bus at 6 pm leaves before our lab ends,last bus,punctuality,negative,False
+C0467,transport,"this transport is a nightmare, worth every complaint",transport,punctuality,negative,True
+C0470,transport,"stupid transport office, damn fools never reply",transport office,driver behavior,negative,True
+C0471,transport,"bloody useless buses, always late you morons",late,punctuality,negative,True
+C0472,transport,the conductor is a clown who shouts at everyone,conductor,driver behavior,negative,True
+C0474,wifi,the speed in the academic block is really good,speed,speed,positive,False
+C0475,wifi,internet disconnects every 10 minutes,disconnects,reliability,negative,False
+C0478,wifi,daily data limit of 2gb is too low for students,data limit,bandwidth limit,negative,False
+C0479,wifi,wifi works fine in classrooms,wifi,connectivity,positive,False
+C0480,wifi,"connection drops during online exams, very risky",connection drops,reliability,negative,False
+C0481,wifi,"hostel wifi coverage is poor, only works near the corridor",coverage,coverage,negative,False
+C0483,wifi,can't connect two devices at the same time,connect two devices,login issues,negative,False
+C0484,wifi,youtube is blocked and even educational videos don't load,youtube,bandwidth limit,negative,False
+C0485,wifi,new wifi routers have improved coverage a lot,coverage,coverage,positive,False
+C0486,wifi,wifi is stable during the day,wifi,reliability,positive,False
+C0487,wifi,it takes ages to download a 50 mb file,download,speed,negative,False
+C0489,wifi,server is always down during assignment submissions,server,reliability,negative,False
+C0490,wifi,excellent speed in the new it block,speed,speed,positive,False
+C0492,wifi,in the cafeteria wifi is not available at all,wifi,coverage,negative,False
+C0493,wifi,internet is unusable in the evening when everyone is online,internet,speed,negative,False
+C0494,wifi,the wifi signal is strong in the auditorium,signal,coverage,positive,False
+C0497,wifi,"speed test shows only 1 mbps, shame for an engineering college",1 mbps,speed,negative,False
+C0498,wifi,data cap resets at midnight which is useless,data cap,bandwidth limit,negative,False
+C0499,wifi,ping is high so online gaming and coding contests lag,ping,speed,negative,False
+C0500,wifi,sometimes wifi connects but there is no internet,no internet,connectivity,negative,False
+C0501,wifi,the wifi is ok for emails and docs,wifi,speed,neutral,False
+C0502,wifi,"vpn doesn't work on campus wifi, can't access research papers",vpn,connectivity,negative,False
+C0507,wifi,class la wifi nalla work aagudhu,wifi,connectivity,positive,False
+C0509,wifi,"wifi keeps cutting off, rombo irritating",wifi,reliability,negative,False
+C0510,wifi,the wiifi is not conecting in my room,wiifi,connectivity,negative,False
+C0511,wifi,internt speed is vry slow,internt speed,speed,negative,False
+C0512,wifi,the passwrd keeps changing every week,passwrd,login issues,negative,False
+C0513,wifi,"cant open any site, blokcing everythng",blokcing,bandwidth limit,negative,False
+C0514,wifi,wfi is workin gud in the lib,wfi,connectivity,positive,False
+C0515,wifi,the wifi goes down when it rains,wifi,reliability,negative,False
+C0516,wifi,signal is weak in the ground floor and fine on upper floors,signal,coverage,negative,False
+C0516,wifi,signal is weak in the ground floor and fine on upper floors,upper floors,coverage,positive,False
+C0518,wifi,login is simple but the speed is bad,login,login issues,positive,False
+C0518,wifi,login is simple but the speed is bad,speed,speed,negative,False
+C0519,wifi,"good coverage across the campus, though speeds drop in the evening",coverage,coverage,positive,False
+C0519,wifi,"good coverage across the campus, though speeds drop in the evening",speeds,speed,negative,False
+C0520,wifi,wifi works inside the hostel room but not on the terrace,wifi,coverage,positive,False
+C0520,wifi,wifi works inside the hostel room but not on the terrace,terrace,coverage,negative,False
+C0522,wifi,the it team's helpdesk number never picks up,helpdesk,login issues,negative,False
+C0523,wifi,the speed in the library is superb for downloading study material,speed,speed,positive,False
+C0525,wifi,the captive portal crashes on my phone,captive portal,login issues,negative,False
+C0527,wifi,wifi in the sports complex is non existent,wifi,coverage,negative,False
+C0528,wifi,campus wifi is better than my home broadband,wifi,speed,positive,False
+C0529,wifi,we need a better access point in the girls hostel second floor,access point,coverage,negative,False
+C0531,wifi,too many restrictions on websites for coding practice,restrictions,bandwidth limit,negative,False
+C0532,wifi,"the wifi at 3 am is faster, that's when i study lol",wifi,speed,positive,False
+C0534,wifi,the it people are idiots who can't run a single router,it people,reliability,negative,True
+C0536,wifi,"damn the internet is crap, worthless it team",internet,speed,negative,True
+C0536,wifi,"damn the internet is crap, worthless it team",it team,reliability,negative,True
+C0537,wifi,who the hell designed this bullshit login process,login process,login issues,negative,True
+C0538,wifi,"useless admin, block your own brain not youtube",youtube,bandwidth limit,negative,True

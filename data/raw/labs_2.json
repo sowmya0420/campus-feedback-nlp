@@ -1,0 +1,982 @@
+[
+  {
+    "id": "C_LAB_02_001",
+    "legacy_id": "C0302",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "good software but internet is poor",
+    "aspects": [
+      {
+        "aspect_term": "software",
+        "category": "software availability",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "internet",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_002",
+    "legacy_id": "C0303",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab has latest pcs but the seating is cramped",
+    "aspects": [
+      {
+        "aspect_term": "pcs",
+        "category": "system speed",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "seating",
+        "category": "space",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_003",
+    "legacy_id": "C0304",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "power backup in lab saved our practical exam",
+    "aspects": [
+      {
+        "aspect_term": "power backup",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_004",
+    "legacy_id": "C0305",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the access card system works well for entering the lab",
+    "aspects": [
+      {
+        "aspect_term": "access card system",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_005",
+    "legacy_id": "C0306",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "printers in the lab are always out of ink",
+    "aspects": [
+      {
+        "aspect_term": "printers",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_006",
+    "legacy_id": "C0307",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "lab manual is outdated and the experiments are not useful",
+    "aspects": [
+      {
+        "aspect_term": "lab manual",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_007",
+    "legacy_id": "C0308",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "stated_in_text",
+    "text": "lab incharge is flexible with the timings for project teams",
+    "aspects": [
+      {
+        "aspect_term": "lab incharge",
+        "category": "lab staff",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "timings",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_008",
+    "legacy_id": "C0309",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the ai lab with gpu servers is a game changer",
+    "aspects": [
+      {
+        "aspect_term": "gpu servers",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_009",
+    "legacy_id": "C0310",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "mouse is stuck and cursor jumps",
+    "aspects": [
+      {
+        "aspect_term": "mouse",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_010",
+    "legacy_id": "C0311",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "lab is always locked when we reach on time",
+    "aspects": [
+      {
+        "aspect_term": "locked",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_011",
+    "legacy_id": "C0312",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "virtual machine setup in lab saves a lot of time",
+    "aspects": [
+      {
+        "aspect_term": "virtual machine",
+        "category": "software availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_012",
+    "legacy_id": "C0313",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "some systems have no headphones for the language lab",
+    "aspects": [
+      {
+        "aspect_term": "headphones",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_013",
+    "legacy_id": "C0314",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "network lab switch is broken, whole row can't connect",
+    "aspects": [
+      {
+        "aspect_term": "switch",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_014",
+    "legacy_id": "C0315",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab assistant keeps playing games on his phone and ignores us",
+    "aspects": [
+      {
+        "aspect_term": "lab assistant",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_015",
+    "legacy_id": "C0316",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab is okay, i have no complaints",
+    "aspects": [
+      {
+        "aspect_term": "lab",
+        "category": "equipment condition",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_016",
+    "legacy_id": "C0317",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "cooling is poor, systems overheat in summer",
+    "aspects": [
+      {
+        "aspect_term": "cooling",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_017",
+    "legacy_id": "C0318",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "we get 3 hours for each practical which is enough",
+    "aspects": [
+      {
+        "aspect_term": "3 hours",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_018",
+    "legacy_id": "C0319",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "lab desks are wide and have enough power sockets",
+    "aspects": [
+      {
+        "aspect_term": "lab desks",
+        "category": "space",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_019",
+    "legacy_id": "C0320",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "mobile signal is nil inside the lab",
+    "aspects": [
+      {
+        "aspect_term": "mobile signal",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_020",
+    "legacy_id": "C0321",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "good ventilation and lighting in the chemistry lab",
+    "aspects": [
+      {
+        "aspect_term": "ventilation",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_021",
+    "legacy_id": "C0322",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "the instruments in physics lab are rusted",
+    "aspects": [
+      {
+        "aspect_term": "instruments",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_022",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "matlab and ansys licenses are available on all workstations for research scholars.",
+    "aspects": [
+      {
+        "aspect_term": "licenses",
+        "category": "software availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_023",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "lab systems boot fast with nvme ssd, saves a lot of test runtime.",
+    "aspects": [
+      {
+        "aspect_term": "systems",
+        "category": "system speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_024",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "oscilloscope in circuits lab displays erratic waveform readings.",
+    "aspects": [
+      {
+        "aspect_term": "oscilloscope",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_025",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "lab technician explained soldering and pcb testing steps very clearly.",
+    "aspects": [
+      {
+        "aspect_term": "lab technician",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_026",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "lab opens till 9 pm during project review week, super helpful.",
+    "aspects": [
+      {
+        "aspect_term": "lab opens till 9 pm",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_027",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "keyboards have stuck keys and mouse scroll wheels are broken.",
+    "aspects": [
+      {
+        "aspect_term": "keyboards",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_028",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "visual studio code and python packages are pre-installed properly.",
+    "aspects": [
+      {
+        "aspect_term": "visual studio code",
+        "category": "software availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_029",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "ai lab is clean and has spacious workstations for research scholars.",
+    "aspects": [
+      {
+        "aspect_term": "clean",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "workstations",
+        "category": "space",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_030",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "pc freezes frequently when executing docker containers.",
+    "aspects": [
+      {
+        "aspect_term": "pc",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_031",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "lab staff refuses to let us practice outside scheduled timetable hours.",
+    "aspects": [
+      {
+        "aspect_term": "lab staff",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_032",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "spacious robotics lab allows easy maneuvering for autonomous rovers.",
+    "aspects": [
+      {
+        "aspect_term": "robotics lab",
+        "category": "space",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_033",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "cad software crashes repeatedly due to outdated graphics drivers.",
+    "aspects": [
+      {
+        "aspect_term": "cad software",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_034",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "microcontroller boards are burnt and jumper wires are missing.",
+    "aspects": [
+      {
+        "aspect_term": "microcontroller boards",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_035",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "lab floors and desks are spotless and dust free.",
+    "aspects": [
+      {
+        "aspect_term": "desks",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_036",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "two hour lab period is too short to complete practical experiments.",
+    "aspects": [
+      {
+        "aspect_term": "two hour lab period",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_037",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "broadband download speed on lab terminals is blazing fast.",
+    "aspects": [
+      {
+        "aspect_term": "download speed",
+        "category": "system speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_038",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "narrow aisles between lab tables make movement clumsy.",
+    "aspects": [
+      {
+        "aspect_term": "aisles",
+        "category": "space",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_039",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "system hardware is upgraded but monitor display blinks erratically.",
+    "aspects": [
+      {
+        "aspect_term": "hardware",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "monitor display",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_040",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "lab attendant helped configure my network proxy settings patiently.",
+    "aspects": [
+      {
+        "aspect_term": "lab attendant",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_041",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "dust accumulation inside cpu cabinets creates overheating.",
+    "aspects": [
+      {
+        "aspect_term": "dust",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "cpu cabinets",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_042",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "compiler took fifteen minutes just to build a simple cpp project.",
+    "aspects": [
+      {
+        "aspect_term": "compiler",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_043",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "multimeter batteries are dead in physics laboratory.",
+    "aspects": [
+      {
+        "aspect_term": "multimeter",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_044",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "generous lab hours during weekend hackathons supported our project team.",
+    "aspects": [
+      {
+        "aspect_term": "lab hours",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_045",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "lab is tidy and monitors are sanitized before every batch.",
+    "aspects": [
+      {
+        "aspect_term": "lab",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_046",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "server rack is well maintained with excellent cooling.",
+    "aspects": [
+      {
+        "aspect_term": "server rack",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_047",
+    "legacy_id": null,
+    "facility": "labs",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "workbench space is broad enough for four members to solder together.",
+    "aspects": [
+      {
+        "aspect_term": "workbench space",
+        "category": "space",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_LAB_02_048",
+    "legacy_id": "C0326",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the systems suck, who bought this garbage",
+    "aspects": [
+      {
+        "aspect_term": "systems",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_049",
+    "legacy_id": "C0327",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "shut up and fix the computers you lazy morons",
+    "aspects": [
+      {
+        "aspect_term": "computers",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_02_050",
+    "legacy_id": "C0328",
+    "facility": "labs",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab incharge is a fool who doesn't know anything",
+    "aspects": [
+      {
+        "aspect_term": "lab incharge",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

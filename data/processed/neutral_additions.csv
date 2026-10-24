@@ -1,0 +1,101 @@
+id,legacy_id,facility,batch,persona,text,aspect_term,category,sentiment,abusive,source_type,provenance,split
+N_CAN_TR_001,,canteen,3,first-year hosteller,"juice price is average da, same as outside",price,price,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_002,,canteen,3,second-year day scholar,"idli is okay, not great not bad",idli,food quality,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_003,,canteen,3,final-year student,"canteen seating is just ok, I usually find a place",seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_004,,canteen,3,girls' hostel resident,waiting time at the tea counter is normal during breaks,waiting time,waiting time,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_005,,canteen,3,outstation student,the staff at the billing counter are neither rude nor friendly,staff,staff behavior,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_006,,canteen,3,placement-focused student,"veg meals portion is average, enough for one person",portion,quantity,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_007,,canteen,3,club member,menu variety is so-so,variety,variety,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_008,,canteen,3,backlog student,"tables are cleaned sometimes, hygiene is average",hygiene,hygiene,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_009,,canteen,3,third-year hosteller,"fried rice tastes decent, I wouldn't call it special",fried rice,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_001,,hostel_mess,3,faculty-project student,"dinner is okay most days, nothing to complain nothing to praise",dinner,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_002,,hostel_mess,3,first-year hosteller,"mess queue takes around ten minutes, usual",queue,waiting time,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_003,,hostel_mess,3,second-year day scholar,"chapati quantity is fine, not too much not too less",chapati,quantity,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_004,,hostel_mess,3,final-year student,"sambar is ok dhan, same as any mess",sambar,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_005,,hostel_mess,3,girls' hostel resident,mess fees are in line with other hostels i guess,fees,price,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_006,,hostel_mess,3,outstation student,"mess workers behave normally, just serve and go",mess workers,staff behavior,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_007,,hostel_mess,3,placement-focused student,dining hall seating is okay for the crowd we have,seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_008,,hostel_mess,3,club member,"weekly menu has the usual variety, it is fine",variety,variety,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_009,,hostel_mess,3,backlog student,"mess hygiene is average, I have seen better and worse",hygiene,hygiene,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_001,,library,3,third-year hosteller,library opening hours are ok for me,opening hours,opening hours,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_002,,library,3,faculty-project student,"library la seating okay dhan, ethuvum special illa",seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_003,,library,3,first-year hosteller,ac in the library is set at a normal level,ac,ac/temperature,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_004,,library,3,second-year day scholar,noise level in the library is moderate,noise level,silence,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_005,,library,3,final-year student,"librarian helps when asked, otherwise stays at the desk",librarian,staff behavior,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_006,,library,3,girls' hostel resident,"book availabilty is average, I find about half of what I look for",book availabilty,book availability,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_007,,library,3,outstation student,"ebook portal works as expected, I use it rarely",ebook portal,digital resources,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_008,,library,3,placement-focused student,"reading area is cleaned daily, looks okay",reading area,cleanliness,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_009,,library,3,club member,"library website catalogue is okay, I only use it for searching",catalogue,digital resources,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_001,,hostel_rooms,3,backlog student,room size is average for two people,room size,room size,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_002,,hostel_rooms,3,third-year hosteller,"water supply normal dhan, timing la varum",water supply,water supply,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_003,,hostel_rooms,3,faculty-project student,"electricity is okay, same as any other hostel",electricity,electricity,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_004,,hostel_rooms,3,first-year hosteller,"maintenance team comes when we complain, takes the usual time",maintenance,maintenance,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_005,,hostel_rooms,3,second-year day scholar,"the washing machine area is okay, I use it once a week",washing machine,laundry,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_006,,hostel_rooms,3,final-year student,"corridor noise is average, depends on the floor",noise,noise,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_007,,hostel_rooms,3,girls' hostel resident,"safety in the hostel is average, same as other blocks",safety,safety,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_008,,hostel_rooms,3,outstation student,"room cleaning happens twice a week, its fine",room cleaning,cleanliness,neutral,False,synthetic,neutral_supplement,train
+N_ROM_TR_009,,hostel_rooms,3,placement-focused student,my cupboard space is just ok,cupboard space,room size,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_001,,labs,3,club member,"lab computers are average, they run the programs we need",lab computers,equipment condition,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_002,,labs,3,backlog student,system speed in the lab is okay for normal programs,system speed,system speed,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_003,,labs,3,third-year hosteller,"software installed in the lab is what the syllabus needs, nothing more",software,software availability,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_004,,labs,3,faculty-project student,lab assistant explains once and leaves us to it,lab assistant,lab staff,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_005,,labs,3,first-year hosteller,"lab timings are same as class timings, ok",lab timings,lab timings,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_006,,labs,3,second-year day scholar,"lab floor is swept every day, looks normal",lab floor,cleanliness,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_007,,labs,3,final-year student,lab space is okay for our batch size,lab space,space,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_008,,labs,3,girls' hostel resident,"oscilloscopes in the electronics lab are average, some old some new",oscilloscopes,equipment condition,neutral,False,synthetic,neutral_supplement,train
+N_LAB_TR_009,,labs,3,outstation student,"lab systems take a minute to boot, which is normal I guess",boot,system speed,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_001,,wifi,3,placement-focused student,"wifi speed average dhan, work ku podhum",wifi speed,speed,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_002,,wifi,3,club member,"wifi conectivity is okay in the hostel, depends on the spot",conectivity,connectivity,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_003,,wifi,3,backlog student,"wifi coverage is average, some areas get signal some dont",coverage,coverage,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_004,,wifi,3,third-year hosteller,"login page asks for the id every day, i got used to it",login page,login issues,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_005,,wifi,3,faculty-project student,"reliability is average, nothing to praise or blame",reliability,reliability,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_006,,wifi,3,first-year hosteller,"data limit per day is fine for me, other friends say different",data limit,bandwidth limit,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_007,,wifi,3,second-year day scholar,wifi near the canteen is same as other places,wifi,coverage,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_008,,wifi,3,final-year student,"net speed is normal at day time, i dont check at night",net speed,speed,neutral,False,synthetic,neutral_supplement,train
+N_WIF_TR_009,,wifi,3,girls' hostel resident,wifi signal in the library is moderate,wifi signal,coverage,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_001,,transport,3,outstation student,"bus fare is the same as last year, fair enough",fare,fare,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_002,,transport,3,placement-focused student,"bus time average dhan, konjam early konjam late",bus time,punctuality,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_003,,transport,3,club member,crowding in the morning bus is moderate,crowding,crowding,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_004,,transport,3,backlog student,"driver drives at normal speed, no comments",driver,driver behavior,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_005,,transport,3,third-year hosteller,"route coverage is okay, same route for years",route coverage,route coverage,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_006,,transport,3,faculty-project student,"seats in the bus are normal, nothing comfortable nothing bad",seats,bus condition,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_007,,transport,3,first-year hosteller,"bus safety is average, same as any college bus",safety,safety,neutral,False,synthetic,neutral_supplement,train
+N_TRN_TR_008,,transport,3,second-year day scholar,"bus condition is acceptable, neither new nor too old",bus condition,bus condition,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_001,,classrooms,3,final-year student,class la projector ok dhan,projector,projector/av,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_002,,classrooms,3,girls' hostel resident,"classroom lighting is normal, enough for the board",lighting,lighting,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_003,,classrooms,3,outstation student,"temperature in the classroom is bearable, depends on the weather",temperature,ac/temperature,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_004,,classrooms,3,placement-focused student,"benches are standard college type, okay for an hour",benches,seating,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_005,,classrooms,3,club member,classroom cleanliness is average,cleanliness,cleanliness,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_006,,classrooms,3,backlog student,"noise from the next class is there sometimes, not a big deal",noise,noise,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_007,,classrooms,3,third-year hosteller,the mic in the seminar hall is fine for small events,mic,projector/av,neutral,False,synthetic,neutral_supplement,train
+N_CLS_TR_008,,classrooms,3,faculty-project student,seating in the lecture hall is okay if you come early,seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_CAN_VA_001,,canteen,3,girls' hostel resident,"dosa is average here, same as most places",dosa,food quality,neutral,False,synthetic,neutral_supplement,validation
+N_CAN_VA_002,,canteen,3,outstation student,queue at lunch moves at a normal pace,queue,waiting time,neutral,False,synthetic,neutral_supplement,validation
+N_MES_VA_001,,hostel_mess,3,placement-focused student,"breakfast is okay, I eat it and leave",breakfast,food quality,neutral,False,synthetic,neutral_supplement,validation
+N_MES_VA_002,,hostel_mess,3,club member,"mess rice quantity is average, i dont take extra",quantity,quantity,neutral,False,synthetic,neutral_supplement,validation
+N_LIB_VA_001,,library,3,backlog student,library AC is at a moderate setting,AC,ac/temperature,neutral,False,synthetic,neutral_supplement,validation
+N_LIB_VA_002,,library,3,third-year hosteller,"librarian is polite enough, doesnt talk much",librarian,staff behavior,neutral,False,synthetic,neutral_supplement,validation
+N_ROM_VA_001,,hostel_rooms,3,faculty-project student,"water comes twice a day, thats the routine",water,water supply,neutral,False,synthetic,neutral_supplement,validation
+N_ROM_VA_002,,hostel_rooms,3,first-year hosteller,my room is a normal size for hostel,room,room size,neutral,False,synthetic,neutral_supplement,validation
+N_LAB_VA_001,,labs,3,second-year day scholar,"lab systems are an average model, run our programs",lab systems,equipment condition,neutral,False,synthetic,neutral_supplement,validation
+N_LAB_VA_002,,labs,3,final-year student,"lab staff answer doubts when we ask, thats all",lab staff,lab staff,neutral,False,synthetic,neutral_supplement,validation
+N_WIF_VA_001,,wifi,3,girls' hostel resident,wifi speed is moderate in my block,wifi speed,speed,neutral,False,synthetic,neutral_supplement,validation
+N_WIF_VA_002,,wifi,3,outstation student,wifi coverage in the academic block is average,coverage,coverage,neutral,False,synthetic,neutral_supplement,validation
+N_TRN_VA_001,,transport,3,placement-focused student,"bus punctuality is average, sometimes early sometimes late",punctuality,punctuality,neutral,False,synthetic,neutral_supplement,validation
+N_CLS_VA_001,,classrooms,3,club member,"classroom projector is fine for slides, nothing fancy",projector,projector/av,neutral,False,synthetic,neutral_supplement,validation
+N_CLS_VA_002,,classrooms,3,backlog student,light in the classroom is normal,light,lighting,neutral,False,synthetic,neutral_supplement,validation
+N_CAN_TE_001,,canteen,3,club member,"canteen coffee is decent, i wont go out of my way for it",coffee,food quality,neutral,False,synthetic,neutral_supplement,test
+N_CAN_TE_002,,canteen,3,backlog student,canteen staff just take the order and move on,staff,staff behavior,neutral,False,synthetic,neutral_supplement,test
+N_MES_TE_001,,hostel_mess,3,third-year hosteller,"sunday special is okay, same as always",sunday special,food quality,neutral,False,synthetic,neutral_supplement,test
+N_MES_TE_002,,hostel_mess,3,faculty-project student,"mess price is what it is, included in the fees",price,price,neutral,False,synthetic,neutral_supplement,test
+N_LIB_TE_001,,library,3,first-year hosteller,library seating is ok on normal days,seating,seating,neutral,False,synthetic,neutral_supplement,test
+N_LIB_TE_002,,library,3,second-year day scholar,"i use the library for borrowing only, book availability is average",book availability,book availability,neutral,False,synthetic,neutral_supplement,test
+N_ROM_TE_001,,hostel_rooms,3,final-year student,"laundry service is average, takes the usual time",laundry,laundry,neutral,False,synthetic,neutral_supplement,test
+N_ROM_TE_002,,hostel_rooms,3,girls' hostel resident,"the hostel is quiet at night, normal for a college hostel",quiet,noise,neutral,False,synthetic,neutral_supplement,test
+N_LAB_TE_001,,labs,3,outstation student,"lab timings are fine for our batch, nothing to change",lab timings,lab timings,neutral,False,synthetic,neutral_supplement,test
+N_LAB_TE_002,,labs,3,placement-focused student,"software in the lab is average, has what we need",software,software availability,neutral,False,synthetic,neutral_supplement,test
+N_WIF_TE_001,,wifi,3,club member,"wifi reliability is average, no strong opinion",reliability,reliability,neutral,False,synthetic,neutral_supplement,test
+N_TRN_TE_001,,transport,3,backlog student,"bus fare is okay, I dont think about it much",fare,fare,neutral,False,synthetic,neutral_supplement,test
+N_TRN_TE_002,,transport,3,third-year hosteller,"bus driver is normal, neither strict nor friendly",driver,driver behavior,neutral,False,synthetic,neutral_supplement,test
+N_CLS_TE_001,,classrooms,3,faculty-project student,"classroom seating is average, like most colleges",seating,seating,neutral,False,synthetic,neutral_supplement,test
+N_CLS_TE_002,,classrooms,3,first-year hosteller,"ac in our classroom is okay, temperature is bearable",ac,ac/temperature,neutral,False,synthetic,neutral_supplement,test

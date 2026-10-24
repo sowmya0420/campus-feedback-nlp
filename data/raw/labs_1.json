@@ -1,0 +1,977 @@
+[
+  {
+    "id": "C_LAB_01_001",
+    "legacy_id": "C0255",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "systems in the lab are very slow, takes 5 minutes to boot",
+    "aspects": [
+      {
+        "aspect_term": "systems",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_002",
+    "legacy_id": "C0256",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the new computers in lab 3 are fast and smooth",
+    "aspects": [
+      {
+        "aspect_term": "computers",
+        "category": "system speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_003",
+    "legacy_id": "C0257",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "many keyboards and mouse are not working",
+    "aspects": [
+      {
+        "aspect_term": "keyboards",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_004",
+    "legacy_id": "C0258",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "python and vs code are installed and working fine",
+    "aspects": [
+      {
+        "aspect_term": "python",
+        "category": "software availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_005",
+    "legacy_id": "C0259",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "matlab license expired and no one is bothered",
+    "aspects": [
+      {
+        "aspect_term": "matlab",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_006",
+    "legacy_id": "C0260",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "lab assistants are friendly and clear our doubts",
+    "aspects": [
+      {
+        "aspect_term": "lab assistants",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_007",
+    "legacy_id": "C0261",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "lab timings clash with our classes, only 2 hours given",
+    "aspects": [
+      {
+        "aspect_term": "lab timings",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_008",
+    "legacy_id": "C0262",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab is overcrowded, 3 students share one system",
+    "aspects": [
+      {
+        "aspect_term": "overcrowded",
+        "category": "space",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_009",
+    "legacy_id": "C0263",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "ac in the lab keeps the systems cool and us comfortable",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_010",
+    "legacy_id": "C0264",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab is clean and organised",
+    "aspects": [
+      {
+        "aspect_term": "lab",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_011",
+    "legacy_id": "C0265",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "lab instructor was rude when i asked a doubt",
+    "aspects": [
+      {
+        "aspect_term": "lab instructor",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_012",
+    "legacy_id": "C0266",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "not enough oscilloscopes for the electronics lab",
+    "aspects": [
+      {
+        "aspect_term": "oscilloscopes",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_013",
+    "legacy_id": "C0267",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "projector in the lab is clear and bright",
+    "aspects": [
+      {
+        "aspect_term": "projector",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_014",
+    "legacy_id": "C0268",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "open lab hours till 8 pm are really helpful for projects",
+    "aspects": [
+      {
+        "aspect_term": "open lab hours",
+        "category": "lab timings",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_015",
+    "legacy_id": "C0269",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the linux machines hang every time we run docker",
+    "aspects": [
+      {
+        "aspect_term": "linux machines",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_016",
+    "legacy_id": "C0270",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "we can't install any software without admin permission",
+    "aspects": [
+      {
+        "aspect_term": "install any software",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_017",
+    "legacy_id": "C0271",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "good lab, all required tools are available",
+    "aspects": [
+      {
+        "aspect_term": "tools",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_018",
+    "legacy_id": "C0272",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "broken chairs and wobbly tables in the lab",
+    "aspects": [
+      {
+        "aspect_term": "chairs",
+        "category": "space",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_019",
+    "legacy_id": "C0273",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "power fluctuation shuts down the systems during experiments",
+    "aspects": [
+      {
+        "aspect_term": "power fluctuation",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_020",
+    "legacy_id": "C0274",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab technician helped me fix my circuit patiently",
+    "aspects": [
+      {
+        "aspect_term": "lab technician",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_021",
+    "legacy_id": "C0275",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "labs are available only during scheduled hours, no extra time for practice",
+    "aspects": [
+      {
+        "aspect_term": "scheduled hours",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_022",
+    "legacy_id": "C0276",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "monitor flickers on my system, informed twice but nothing done",
+    "aspects": [
+      {
+        "aspect_term": "monitor",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_023",
+    "legacy_id": "C0277",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "internet in the lab is too slow to download packages",
+    "aspects": [
+      {
+        "aspect_term": "internet",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_024",
+    "legacy_id": "C0278",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the machines have the latest versions of visual studio",
+    "aspects": [
+      {
+        "aspect_term": "visual studio",
+        "category": "software availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_025",
+    "legacy_id": "C0279",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "compiler error because outdated java version",
+    "aspects": [
+      {
+        "aspect_term": "java version",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_026",
+    "legacy_id": "C0280",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "space is enough to move around and work comfortably",
+    "aspects": [
+      {
+        "aspect_term": "space",
+        "category": "space",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_027",
+    "legacy_id": "C0281",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab record submission instructions are clear",
+    "aspects": [
+      {
+        "aspect_term": "instructions",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_028",
+    "legacy_id": "C0282",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "network lab has good routers and switches for practice",
+    "aspects": [
+      {
+        "aspect_term": "routers",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_029",
+    "legacy_id": "C0283",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "lab is average, nothing special",
+    "aspects": [
+      {
+        "aspect_term": "lab",
+        "category": "equipment condition",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_030",
+    "legacy_id": "C0284",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "dirty keyboards and sticky mouse everywhere",
+    "aspects": [
+      {
+        "aspect_term": "keyboards",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_031",
+    "legacy_id": "C0285",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab incharge doesn't allow extra time even for submissions",
+    "aspects": [
+      {
+        "aspect_term": "lab incharge",
+        "category": "lab staff",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "extra time",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_032",
+    "legacy_id": "C0286",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "lab semma ah irukku, systems fast ah work aagudhu",
+    "aspects": [
+      {
+        "aspect_term": "systems",
+        "category": "system speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_033",
+    "legacy_id": "C0287",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "system hang aagum, work save panna mudiyala",
+    "aspects": [
+      {
+        "aspect_term": "system",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_034",
+    "legacy_id": "C0288",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "mouse keyboard onnume work aagala da",
+    "aspects": [
+      {
+        "aspect_term": "mouse keyboard",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_035",
+    "legacy_id": "C0289",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "lab sir nalla explain pannuvaru",
+    "aspects": [
+      {
+        "aspect_term": "lab sir",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_036",
+    "legacy_id": "C0290",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "lab time rombo kammi, project mudikka mudiyala",
+    "aspects": [
+      {
+        "aspect_term": "lab time",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_037",
+    "legacy_id": "C0291",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "AC work aagala, lab la romba heat",
+    "aspects": [
+      {
+        "aspect_term": "AC",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_038",
+    "legacy_id": "C0292",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "ore system ku 4 per, idam illa",
+    "aspects": [
+      {
+        "aspect_term": "idam",
+        "category": "space",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_039",
+    "legacy_id": "C0293",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the sistem is so sloww",
+    "aspects": [
+      {
+        "aspect_term": "sistem",
+        "category": "system speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_040",
+    "legacy_id": "C0294",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "labtop connections are not wrking",
+    "aspects": [
+      {
+        "aspect_term": "labtop connections",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_041",
+    "legacy_id": "C0295",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "softwre license is not avilable",
+    "aspects": [
+      {
+        "aspect_term": "softwre license",
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_042",
+    "legacy_id": "C0296",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "lab assitant helped alot",
+    "aspects": [
+      {
+        "aspect_term": "lab assitant",
+        "category": "lab staff",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_043",
+    "legacy_id": "C0297",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab is cold n clean",
+    "aspects": [
+      {
+        "aspect_term": "lab",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_044",
+    "legacy_id": "C0298",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "cant run tensorflow bcos gpu not avilable",
+    "aspects": [
+      {
+        "aspect_term": "gpu",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_045",
+    "legacy_id": "C0299",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "hardware lab has good components and kits, but timings are short",
+    "aspects": [
+      {
+        "aspect_term": "components",
+        "category": "equipment condition",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "timings",
+        "category": "lab timings",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_046",
+    "legacy_id": "C0300",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "labs are clean, but systems are old",
+    "aspects": [
+      {
+        "aspect_term": "labs",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "systems",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_047",
+    "legacy_id": "C0301",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "lab staff are helpful but very less in number",
+    "aspects": [
+      {
+        "aspect_term": "lab staff",
+        "category": "lab staff",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "less in number",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_048",
+    "legacy_id": "C0323",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the lab is a joke, systems are junk and staff are idiots",
+    "aspects": [
+      {
+        "aspect_term": "systems",
+        "category": "equipment condition",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "staff",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_049",
+    "legacy_id": "C0324",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "stupid lab rules, can't even use my own pendrive",
+    "aspects": [
+      {
+        "aspect_term": null,
+        "category": "software availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LAB_01_050",
+    "legacy_id": "C0325",
+    "facility": "labs",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "useless lab assistant, damn clown wastes our time",
+    "aspects": [
+      {
+        "aspect_term": "lab assistant",
+        "category": "lab staff",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

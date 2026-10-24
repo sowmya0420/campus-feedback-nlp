@@ -1,0 +1,982 @@
+[
+  {
+    "id": "C_TRN_02_001",
+    "legacy_id": "C0456",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "gps tracking app helps us know the bus location, very useful",
+    "aspects": [
+      {
+        "aspect_term": "gps tracking app",
+        "category": "punctuality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_002",
+    "legacy_id": "C0457",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus tyre burst yesterday, thankfully no one was hurt",
+    "aspects": [
+      {
+        "aspect_term": "tyre",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_003",
+    "legacy_id": "C0458",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "students without id get blocked and refused a seat",
+    "aspects": [
+      {
+        "aspect_term": "refused a seat",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_004",
+    "legacy_id": "C0459",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "a speed limit warning is announced in the bus now, good",
+    "aspects": [
+      {
+        "aspect_term": "speed limit",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_005",
+    "legacy_id": "C0460",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the pickup point is too far from my home",
+    "aspects": [
+      {
+        "aspect_term": "pickup point",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_006",
+    "legacy_id": "C0461",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "fare should be reduced for students who use only one way",
+    "aspects": [
+      {
+        "aspect_term": "fare",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_007",
+    "legacy_id": "C0462",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "cctv in buses makes girls feel safer",
+    "aspects": [
+      {
+        "aspect_term": "cctv",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_008",
+    "legacy_id": "C0463",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "transport in-charge helped me change my route quickly",
+    "aspects": [
+      {
+        "aspect_term": "transport in-charge",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_009",
+    "legacy_id": "C0464",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus floor is always dirty and stinks",
+    "aspects": [
+      {
+        "aspect_term": "floor",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_010",
+    "legacy_id": "C0465",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the second shift buses are too few",
+    "aspects": [
+      {
+        "aspect_term": "second shift buses",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_011",
+    "legacy_id": "C0466",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "the last bus at 6 pm leaves before our lab ends",
+    "aspects": [
+      {
+        "aspect_term": "last bus",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_012",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "college bus arrives sharp at 7:45 am at tambaram stop.",
+    "aspects": [
+      {
+        "aspect_term": "bus arrives sharp",
+        "category": "punctuality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_013",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "bus number 14 is overcrowded, no place to stand during morning peak hour.",
+    "aspects": [
+      {
+        "aspect_term": "overcrowded",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_014",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "annual bus fare increased by 5000 rupees without any facility improvement.",
+    "aspects": [
+      {
+        "aspect_term": "bus fare",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_015",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "driver drives smoothly and adheres strictly to speed limit on highway.",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "speed limit",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_016",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "new bus route covers avadi and ambattur areas conveniently.",
+    "aspects": [
+      {
+        "aspect_term": "bus route",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_017",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "seats are torn and window panes rattle loudly throughout the trip.",
+    "aspects": [
+      {
+        "aspect_term": "seats",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_018",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "bus delay made me miss my morning placement technical round.",
+    "aspects": [
+      {
+        "aspect_term": "bus delay",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_019",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "speed governor and gps tracking in college buses ensure student safety.",
+    "aspects": [
+      {
+        "aspect_term": "gps tracking",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_020",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "driver talks rashly and honks continuously in traffic.",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_021",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "reasonable transport fees compared to other private engineering colleges.",
+    "aspects": [
+      {
+        "aspect_term": "transport fees",
+        "category": "fare",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_022",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "comfortable cushioned seating in the newly purchased deluxe buses.",
+    "aspects": [
+      {
+        "aspect_term": "seating",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_023",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "evening buses are packed like sardines after 5 pm labs.",
+    "aspects": [
+      {
+        "aspect_term": "evening buses",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_024",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "no college bus connects towards sriperumbudur route.",
+    "aspects": [
+      {
+        "aspect_term": "bus connects",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_025",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "emergency exit door was jammed and locked from outside, dangerous hazard.",
+    "aspects": [
+      {
+        "aspect_term": "emergency exit door",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_026",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "transport coordinator speaks politely and accommodated my bus pass transfer.",
+    "aspects": [
+      {
+        "aspect_term": "transport coordinator",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_027",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "bus arrives on time every single day without fail.",
+    "aspects": [
+      {
+        "aspect_term": "bus arrives on time",
+        "category": "punctuality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_028",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "interior of route 8 bus is neat and floors are swept cleanly.",
+    "aspects": [
+      {
+        "aspect_term": "interior",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_029",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "concession pass is not offered for semester internship students.",
+    "aspects": [
+      {
+        "aspect_term": "concession pass",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_030",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "bus driver took a sharp turn rashly, causing standing students to tumble.",
+    "aspects": [
+      {
+        "aspect_term": "bus driver",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "sharp turn",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_031",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "extensive coverage with over forty bus routes spanning entire chennai city.",
+    "aspects": [
+      {
+        "aspect_term": "bus routes",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_032",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "bus leaves 10 minutes early without waiting for hostel commuters.",
+    "aspects": [
+      {
+        "aspect_term": "leaves 10 minutes early",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_033",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "ample seating available in the 6:30 pm special lab bus.",
+    "aspects": [
+      {
+        "aspect_term": "seating",
+        "category": "crowding",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_034",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "ac bus ticket price is excessively high.",
+    "aspects": [
+      {
+        "aspect_term": "ticket price",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_035",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "first aid kit is properly stocked and available near driver cabin.",
+    "aspects": [
+      {
+        "aspect_term": "first aid kit",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_036",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "suspension is horrible, back pain after every commute.",
+    "aspects": [
+      {
+        "aspect_term": "suspension",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_037",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "driver is courteous and waits patiently for students crossing signal.",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_038",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "bus breakdown near bypass road left us stranded for over an hour.",
+    "aspects": [
+      {
+        "aspect_term": "bus breakdown",
+        "category": "bus condition",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "stranded",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_039",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "special bus arrangements made for inter-college symposium participants.",
+    "aspects": [
+      {
+        "aspect_term": "bus arrangements",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_040",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "footboard travelling is dangerous, students stand on steps due to overload.",
+    "aspects": [
+      {
+        "aspect_term": "footboard travelling",
+        "category": "safety",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "overload",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_041",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "bus timings are punctual but the conductor shouts unnecessarily.",
+    "aspects": [
+      {
+        "aspect_term": "bus timings",
+        "category": "punctuality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "conductor",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_042",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "clean windshield and working wipers help driver during heavy monsoon rains.",
+    "aspects": [
+      {
+        "aspect_term": "wipers",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_043",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "fare refund was denied when bus route was discontinued midway.",
+    "aspects": [
+      {
+        "aspect_term": "fare refund",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_044",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "smooth braking and steady driving throughout the trip.",
+    "aspects": [
+      {
+        "aspect_term": "braking",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_045",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "standing for fifty kilometers due to crowding causes extreme exhaustion.",
+    "aspects": [
+      {
+        "aspect_term": "crowding",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_046",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "transport department covers rural boarding points reliably.",
+    "aspects": [
+      {
+        "aspect_term": "boarding points",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_047",
+    "legacy_id": null,
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "bus is well maintained but the fare is quite steep for day scholars.",
+    "aspects": [
+      {
+        "aspect_term": "bus",
+        "category": "bus condition",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "fare",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_TRN_02_048",
+    "legacy_id": "C0470",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "stupid transport office, damn fools never reply",
+    "aspects": [
+      {
+        "aspect_term": "transport office",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_049",
+    "legacy_id": "C0471",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "bloody useless buses, always late you morons",
+    "aspects": [
+      {
+        "aspect_term": "late",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_02_050",
+    "legacy_id": "C0472",
+    "facility": "transport",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the conductor is a clown who shouts at everyone",
+    "aspects": [
+      {
+        "aspect_term": "conductor",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

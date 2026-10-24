@@ -1,0 +1,997 @@
+[
+  {
+    "id": "C_CLS_01_001",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "projector is crystal clear, slides are readable from the back bench.",
+    "aspects": [
+      {
+        "aspect_term": "projector",
+        "category": "projector/av",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_002",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "ac is not working in room 302, suffocating heat in afternoon lecture.",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_003",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "benches are broken and have protruding nails that tear clothes.",
+    "aspects": [
+      {
+        "aspect_term": "benches",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_004",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "classroom is swept neatly and dustbins are emptied regularly.",
+    "aspects": [
+      {
+        "aspect_term": "classroom",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_005",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "tube lights flicker continuously during morning theory classes.",
+    "aspects": [
+      {
+        "aspect_term": "tube lights",
+        "category": "lighting",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_006",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "heavy construction noise outside classroom drowns out the professor voice.",
+    "aspects": [
+      {
+        "aspect_term": "construction noise",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_007",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "air conditioning keeps the lecture hall cool and pleasant.",
+    "aspects": [
+      {
+        "aspect_term": "air conditioning",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_008",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "sound system has bad feedback noise, speaker emits screeching sounds.",
+    "aspects": [
+      {
+        "aspect_term": "sound system",
+        "category": "projector/av",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "screeching sounds",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_009",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "comfortable ergonomic chairs installed in the new smart classroom.",
+    "aspects": [
+      {
+        "aspect_term": "chairs",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_010",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "bright led lighting illuminates blackboard clearly without glare.",
+    "aspects": [
+      {
+        "aspect_term": "led lighting",
+        "category": "lighting",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_011",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "classroom la romba dust, benches are never wiped properly.",
+    "aspects": [
+      {
+        "aspect_term": "dust",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "benches",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_012",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "smart board touch response is lagging and hdmi cable is loose.",
+    "aspects": [
+      {
+        "aspect_term": "smart board",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_013",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "ac cooling is perfect but desk space is very congested.",
+    "aspects": [
+      {
+        "aspect_term": "ac cooling",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "desk space",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_014",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "ac cooling is great.",
+    "aspects": [
+      {
+        "aspect_term": "ac cooling",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_015",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "traffic honking sound from main road disturbs lecture concentration.",
+    "aspects": [
+      {
+        "aspect_term": "traffic honking sound",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_016",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "spacious classroom with ample natural daylight through large glass windows.",
+    "aspects": [
+      {
+        "aspect_term": "natural daylight",
+        "category": "lighting",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_017",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "mic in room 104 is not working, faculty voice is inaudible.",
+    "aspects": [
+      {
+        "aspect_term": "mic",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_018",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "floors are stained with spilled tea and papers are scattered.",
+    "aspects": [
+      {
+        "aspect_term": "floors",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_019",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "wooden desks are polished smoothly and provide comfortable elbow support.",
+    "aspects": [
+      {
+        "aspect_term": "desks",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_020",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "ceiling fan makes rattling noise throughout class hours.",
+    "aspects": [
+      {
+        "aspect_term": "rattling noise",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_021",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "projector display is dim and yellowed, impossible to read small code snippets.",
+    "aspects": [
+      {
+        "aspect_term": "projector display",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_022",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "clean whiteboard and dustless markers are provided everyday.",
+    "aspects": [
+      {
+        "aspect_term": "whiteboard",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_023",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "room temperature is pleasant and cross ventilation through windows is good.",
+    "aspects": [
+      {
+        "aspect_term": "temperature",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_024",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "poor lighting in corner seats makes notebook writing difficult.",
+    "aspects": [
+      {
+        "aspect_term": "lighting",
+        "category": "lighting",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "corner seats",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_025",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "ac remote missing, temperature locked at 16 degrees freezing everyone.",
+    "aspects": [
+      {
+        "aspect_term": "temperature",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_026",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "cushioned seats are comfortable.",
+    "aspects": [
+      {
+        "aspect_term": "cushioned seats",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_027",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "projector works seamlessly with laptop hdmi connection.",
+    "aspects": [
+      {
+        "aspect_term": "projector",
+        "category": "projector/av",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_028",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "corridor chatter creates severe echo in the room.",
+    "aspects": [
+      {
+        "aspect_term": "echo",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_029",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "classroom walls are freshly painted and room looks very bright.",
+    "aspects": [
+      {
+        "aspect_term": "walls",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "bright",
+        "category": "lighting",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_030",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "bench width is too narrow, three students cannot sit comfortably.",
+    "aspects": [
+      {
+        "aspect_term": "bench width",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_031",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "audio visual setup is top notch with wireless collar mic.",
+    "aspects": [
+      {
+        "aspect_term": "audio visual setup",
+        "category": "projector/av",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_032",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "classroom fan speed slow ah irukku, sweating heavily inside.",
+    "aspects": [
+      {
+        "aspect_term": "fan speed",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_033",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "curtains block harsh sunlight effectively during presentations.",
+    "aspects": [
+      {
+        "aspect_term": "curtains",
+        "category": "lighting",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_034",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "desks are marked with graffiti and chewing gum stuck underneath.",
+    "aspects": [
+      {
+        "aspect_term": "desks",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_035",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "excellent acoustics, faculty voice reaches last row clearly without echo.",
+    "aspects": [
+      {
+        "aspect_term": "acoustics",
+        "category": "noise",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_036",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "projector bulb flickers and shuts down abruptly mid lecture.",
+    "aspects": [
+      {
+        "aspect_term": "projector bulb",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_037",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "air conditioner filter is clogged with thick dust layer.",
+    "aspects": [
+      {
+        "aspect_term": "air conditioner",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "dust",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_038",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "tiered gallery seating ensures clear line of sight to board.",
+    "aspects": [
+      {
+        "aspect_term": "gallery seating",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_039",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "room is dark because two ceiling tube lights are non-functional.",
+    "aspects": [
+      {
+        "aspect_term": "tube lights",
+        "category": "lighting",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_040",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "peaceful atmosphere inside classroom, zero disturbance from outside corridor.",
+    "aspects": [
+      {
+        "aspect_term": "peaceful atmosphere",
+        "category": "noise",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_041",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "projector screen is stained and wrinkled.",
+    "aspects": [
+      {
+        "aspect_term": "projector screen",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_042",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "clean environment and dustless chalk make lecture healthy.",
+    "aspects": [
+      {
+        "aspect_term": "clean environment",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_043",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "explicit_defined",
+    "text": "smart podium has fast touch monitor and working microphone.",
+    "aspects": [
+      {
+        "aspect_term": "smart podium",
+        "category": "projector/av",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_044",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "explicit_defined",
+    "text": "chairs have cushioned backrest but leg space is cramped.",
+    "aspects": [
+      {
+        "aspect_term": "chairs",
+        "category": "seating",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "leg space",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_045",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "ac cooling is quiet and maintains uniform room temperature.",
+    "aspects": [
+      {
+        "aspect_term": "ac cooling",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "quiet",
+        "category": "noise",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_046",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "room lighting is warm and bright.",
+    "aspects": [
+      {
+        "aspect_term": "lighting",
+        "category": "lighting",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_047",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "classroom windows are broken, cold draft enters in morning.",
+    "aspects": [
+      {
+        "aspect_term": "windows",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "cold draft",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_048",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "classrooms are disgusting junk yards and the administration are idiots",
+    "aspects": [
+      {
+        "aspect_term": "classrooms",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_049",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "explicit_defined",
+    "text": "useless department, sitting in this hot furnace classroom is torture you clowns",
+    "aspects": [
+      {
+        "aspect_term": "classroom",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_CLS_01_050",
+    "legacy_id": null,
+    "facility": "classrooms",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "explicit_defined",
+    "text": "moron electrician can't even fix a single projector in this bloody college",
+    "aspects": [
+      {
+        "aspect_term": "projector",
+        "category": "projector/av",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  }
+]

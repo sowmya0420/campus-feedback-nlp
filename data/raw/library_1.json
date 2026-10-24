@@ -1,0 +1,967 @@
+[
+  {
+    "id": "C_LIB_01_001",
+    "legacy_id": "C0329",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "library is peaceful and perfect for study",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_002",
+    "legacy_id": "C0330",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "not enough seats during exam week, people reserve with bags",
+    "aspects": [
+      {
+        "aspect_term": "seats",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_003",
+    "legacy_id": "C0331",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "ac is too cold, i carry a jacket always",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_004",
+    "legacy_id": "C0332",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the librarian is very helpful in finding books",
+    "aspects": [
+      {
+        "aspect_term": "librarian",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_005",
+    "legacy_id": "C0333",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "latest edition books are not available",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_006",
+    "legacy_id": "C0334",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "library closes at 8 pm, need extended hours during exams",
+    "aspects": [
+      {
+        "aspect_term": "closes at 8 pm",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_007",
+    "legacy_id": "C0335",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "people talk loudly near the group study area",
+    "aspects": [
+      {
+        "aspect_term": "talk loudly",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_008",
+    "legacy_id": "C0336",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "ieee and springer access works well from the campus network",
+    "aspects": [
+      {
+        "aspect_term": "ieee",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_009",
+    "legacy_id": "C0337",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the library staff are strict but fair",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_010",
+    "legacy_id": "C0338",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "cleanliness is great, floors and tables are spotless",
+    "aspects": [
+      {
+        "aspect_term": "cleanliness",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_011",
+    "legacy_id": "C0339",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "very few copies of the core textbooks, 100 students for 3 copies",
+    "aspects": [
+      {
+        "aspect_term": "copies",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_012",
+    "legacy_id": "C0340",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "charging points near the seats are a big help",
+    "aspects": [
+      {
+        "aspect_term": "charging points",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_013",
+    "legacy_id": "C0341",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "e journal login keeps failing from the hostel",
+    "aspects": [
+      {
+        "aspect_term": "e journal",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_014",
+    "legacy_id": "C0342",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "washrooms near the library are dirty",
+    "aspects": [
+      {
+        "aspect_term": "washrooms",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_015",
+    "legacy_id": "C0343",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the reading hall is bright and quiet",
+    "aspects": [
+      {
+        "aspect_term": "reading hall",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_016",
+    "legacy_id": "C0344",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "no response from the staff when i asked for a book request",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_017",
+    "legacy_id": "C0345",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "opening hours are good, 8 am to 10 pm",
+    "aspects": [
+      {
+        "aspect_term": "opening hours",
+        "category": "opening hours",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_018",
+    "legacy_id": "C0346",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "ac is not working in the second floor, too hot to sit",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_019",
+    "legacy_id": "C0347",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the new arrivals section is updated regularly",
+    "aspects": [
+      {
+        "aspect_term": "new arrivals",
+        "category": "book availability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_020",
+    "legacy_id": "C0348",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "library is open on sundays now, thanks",
+    "aspects": [
+      {
+        "aspect_term": "open on sundays",
+        "category": "opening hours",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_021",
+    "legacy_id": "C0349",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "some books are torn and pages are missing",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_022",
+    "legacy_id": "C0350",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "catalog search website is slow and confusing",
+    "aspects": [
+      {
+        "aspect_term": "catalog search",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_023",
+    "legacy_id": "C0351",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "silence is not maintained, people use phone calls",
+    "aspects": [
+      {
+        "aspect_term": "silence",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_024",
+    "legacy_id": "C0352",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "best place on campus to study, love the ambience",
+    "aspects": [
+      {
+        "aspect_term": "ambience",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_025",
+    "legacy_id": "C0353",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "digital library has many ebooks for gate prep",
+    "aspects": [
+      {
+        "aspect_term": "digital library",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_026",
+    "legacy_id": "C0354",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "bag counter takes too long, long line at entry",
+    "aspects": [
+      {
+        "aspect_term": "bag counter",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_027",
+    "legacy_id": "C0355",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "chairs are uncomfortable for long study hours",
+    "aspects": [
+      {
+        "aspect_term": "chairs",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_028",
+    "legacy_id": "C0356",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "nptel material and old question papers are easy to find",
+    "aspects": [
+      {
+        "aspect_term": "question papers",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_029",
+    "legacy_id": "C0357",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the staff made us leave exactly at closing time without any grace",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_030",
+    "legacy_id": "C0358",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "average library, nothing great",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "book availability",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_031",
+    "legacy_id": "C0359",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "temperature is just right and the lights are good",
+    "aspects": [
+      {
+        "aspect_term": "temperature",
+        "category": "ac/temperature",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_032",
+    "legacy_id": "C0360",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "no space for sitting on the floor too, so overcrowded",
+    "aspects": [
+      {
+        "aspect_term": "overcrowded",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_033",
+    "legacy_id": "C0361",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "returning books is easy with the drop box",
+    "aspects": [
+      {
+        "aspect_term": "drop box",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_034",
+    "legacy_id": "C0362",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "library semma peaceful, padikka nalla irukku",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "silence",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_035",
+    "legacy_id": "C0363",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "books illa da, one copy ku 20 per waiting",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_036",
+    "legacy_id": "C0364",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "ac romba cold, nadungurathu",
+    "aspects": [
+      {
+        "aspect_term": "ac",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_037",
+    "legacy_id": "C0365",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "night 10 mani varaikum open, helpful for exams",
+    "aspects": [
+      {
+        "aspect_term": "open",
+        "category": "opening hours",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_038",
+    "legacy_id": "C0366",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "staff nalla help pannanga, thanks",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_039",
+    "legacy_id": "C0367",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "seat kedaikave illa exam time la",
+    "aspects": [
+      {
+        "aspect_term": "seat",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_040",
+    "legacy_id": "C0368",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi in the library is poor and e books are not loading",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "digital resources",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_041",
+    "legacy_id": "C0369",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "silence illa, group ah vandhu pesuranga",
+    "aspects": [
+      {
+        "aspect_term": "silence",
+        "category": "silence",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_042",
+    "legacy_id": "C0370",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "libary is too croweded in the evening",
+    "aspects": [
+      {
+        "aspect_term": "croweded",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_043",
+    "legacy_id": "C0371",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the librarain was so rude today",
+    "aspects": [
+      {
+        "aspect_term": "librarain",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_044",
+    "legacy_id": "C0372",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "no good books on machine larning",
+    "aspects": [
+      {
+        "aspect_term": "books",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_045",
+    "legacy_id": "C0373",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "digitl resources are very usefull",
+    "aspects": [
+      {
+        "aspect_term": "digitl resources",
+        "category": "digital resources",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_046",
+    "legacy_id": "C0374",
+    "facility": "library",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "nice place to study but too cold",
+    "aspects": [
+      {
+        "aspect_term": "place",
+        "category": "silence",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "cold",
+        "category": "ac/temperature",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_047",
+    "legacy_id": "C0375",
+    "facility": "library",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "good collection of reference books, but seating is limited",
+    "aspects": [
+      {
+        "aspect_term": "reference books",
+        "category": "book availability",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "seating",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_048",
+    "legacy_id": "C0403",
+    "facility": "library",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the library is a waste, nothing is ever available you idiots",
+    "aspects": [
+      {
+        "aspect_term": "library",
+        "category": "book availability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_049",
+    "legacy_id": "C0404",
+    "facility": "library",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "that librarian is a stupid old fool",
+    "aspects": [
+      {
+        "aspect_term": "librarian",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_LIB_01_050",
+    "legacy_id": "C0405",
+    "facility": "library",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "shut your mouth and open the library on time, useless staff",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "library",
+        "category": "opening hours",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

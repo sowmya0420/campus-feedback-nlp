@@ -1,0 +1,5 @@
+id,facility,type,text,category,sentiment,abusive,note
+C_HM_02_030,hostel_mess,null_aspect_term,"never improving, same issues every year",food quality,negative,False,Aspect opinion is implied without explicit term substring
+C_LAB_01_049,labs,null_aspect_term,"stupid lab rules, can't even use my own pendrive",software availability,negative,True,Aspect opinion is implied without explicit term substring
+C_LIB_02_048,library,null_aspect_term,who is the moron in charge of purchasing books,book availability,negative,True,Aspect opinion is implied without explicit term substring
+C_TRN_01_049,transport,null_aspect_term,driver is a crazy idiot who will kill us one day,safety,negative,True,Aspect opinion is implied without explicit term substring

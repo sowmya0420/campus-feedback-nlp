@@ -1,0 +1,763 @@
+[
+ {
+  "text": "wifi is so slow in the hostel at night",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the speed in the academic block is really good",
+  "aspects": [
+   {
+    "aspect_term": "speed",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "internet disconnects every 10 minutes",
+  "aspects": [
+   {
+    "aspect_term": "disconnects",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "no signal in the library basement",
+  "aspects": [
+   {
+    "aspect_term": "signal",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the login page keeps asking for password again and again",
+  "aspects": [
+   {
+    "aspect_term": "login page",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "daily data limit of 2gb is too low for students",
+  "aspects": [
+   {
+    "aspect_term": "data limit",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi works fine in classrooms",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "connectivity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "connection drops during online exams, very risky",
+  "aspects": [
+   {
+    "aspect_term": "connection drops",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hostel wifi coverage is poor, only works near the corridor",
+  "aspects": [
+   {
+    "aspect_term": "coverage",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "videos buffer endlessly after 8 pm",
+  "aspects": [
+   {
+    "aspect_term": "buffer",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "can't connect two devices at the same time",
+  "aspects": [
+   {
+    "aspect_term": "connect two devices",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "youtube is blocked and even educational videos don't load",
+  "aspects": [
+   {
+    "aspect_term": "youtube",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "new wifi routers have improved coverage a lot",
+  "aspects": [
+   {
+    "aspect_term": "coverage",
+    "category": "coverage",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi is stable during the day",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "reliability",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "it takes ages to download a 50 mb file",
+  "aspects": [
+   {
+    "aspect_term": "download",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "campus wifi is good enough for browsing, but not for downloads",
+  "aspects": [
+   {
+    "aspect_term": "browsing",
+    "category": "speed",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "downloads",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "server is always down during assignment submissions",
+  "aspects": [
+   {
+    "aspect_term": "server",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "excellent speed in the new it block",
+  "aspects": [
+   {
+    "aspect_term": "speed",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the mac address registration process is confusing and slow",
+  "aspects": [
+   {
+    "aspect_term": "mac address registration",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "in the cafeteria wifi is not available at all",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "internet is unusable in the evening when everyone is online",
+  "aspects": [
+   {
+    "aspect_term": "internet",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the wifi signal is strong in the auditorium",
+  "aspects": [
+   {
+    "aspect_term": "signal",
+    "category": "coverage",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we get logged out every hour and have to login again",
+  "aspects": [
+   {
+    "aspect_term": "logged out",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the it department fixed the connectivity issue fast",
+  "aspects": [
+   {
+    "aspect_term": "connectivity",
+    "category": "connectivity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "speed test shows only 1 mbps, shame for an engineering college",
+  "aspects": [
+   {
+    "aspect_term": "1 mbps",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "data cap resets at midnight which is useless",
+  "aspects": [
+   {
+    "aspect_term": "data cap",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "ping is high so online gaming and coding contests lag",
+  "aspects": [
+   {
+    "aspect_term": "ping",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "sometimes wifi connects but there is no internet",
+  "aspects": [
+   {
+    "aspect_term": "no internet",
+    "category": "connectivity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the wifi is ok for emails and docs",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "vpn doesn't work on campus wifi, can't access research papers",
+  "aspects": [
+   {
+    "aspect_term": "vpn",
+    "category": "connectivity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi romba slow, video call kooda pannamudiyala",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hostel la signal illa da, terrace ku poganum",
+  "aspects": [
+   {
+    "aspect_term": "signal",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "net speed super ah irukku today",
+  "aspects": [
+   {
+    "aspect_term": "net speed",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "login aaga mattengudhu, password wrong nu solluthu",
+  "aspects": [
+   {
+    "aspect_term": "login",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "class la wifi nalla work aagudhu",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "connectivity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "daily data mudinjiduchu by evening",
+  "aspects": [
+   {
+    "aspect_term": "data",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi keeps cutting off, rombo irritating",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the wiifi is not conecting in my room",
+  "aspects": [
+   {
+    "aspect_term": "wiifi",
+    "category": "connectivity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "internt speed is vry slow",
+  "aspects": [
+   {
+    "aspect_term": "internt speed",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the passwrd keeps changing every week",
+  "aspects": [
+   {
+    "aspect_term": "passwrd",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cant open any site, blokcing everythng",
+  "aspects": [
+   {
+    "aspect_term": "blokcing",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wfi is workin gud in the lib",
+  "aspects": [
+   {
+    "aspect_term": "wfi",
+    "category": "connectivity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the wifi goes down when it rains",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "signal is weak in the ground floor and fine on upper floors",
+  "aspects": [
+   {
+    "aspect_term": "signal",
+    "category": "coverage",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "upper floors",
+    "category": "coverage",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the speed is fine, but connection is unstable",
+  "aspects": [
+   {
+    "aspect_term": "speed",
+    "category": "speed",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "connection",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "login is simple but the speed is bad",
+  "aspects": [
+   {
+    "aspect_term": "login",
+    "category": "login issues",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "speed",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good coverage across the campus, though speeds drop in the evening",
+  "aspects": [
+   {
+    "aspect_term": "coverage",
+    "category": "coverage",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "speeds",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi works inside the hostel room but not on the terrace",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "coverage",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "terrace",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "students share one login id, so everyone is slow",
+  "aspects": [
+   {
+    "aspect_term": "login id",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the it team's helpdesk number never picks up",
+  "aspects": [
+   {
+    "aspect_term": "helpdesk",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the speed in the library is superb for downloading study material",
+  "aspects": [
+   {
+    "aspect_term": "speed",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we are not able to join zoom classes because of the lag",
+  "aspects": [
+   {
+    "aspect_term": "lag",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the captive portal crashes on my phone",
+  "aspects": [
+   {
+    "aspect_term": "captive portal",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "bandwidth is throttled after the data cap, completely unusable",
+  "aspects": [
+   {
+    "aspect_term": "throttled",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi in the sports complex is non existent",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "campus wifi is better than my home broadband",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we need a better access point in the girls hostel second floor",
+  "aspects": [
+   {
+    "aspect_term": "access point",
+    "category": "coverage",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the connection is reliable during exams, good job",
+  "aspects": [
+   {
+    "aspect_term": "connection",
+    "category": "reliability",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "too many restrictions on websites for coding practice",
+  "aspects": [
+   {
+    "aspect_term": "restrictions",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the wifi at 3 am is faster, that's when i study lol",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "wifi is a scam, fix it you useless clowns",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "the it people are idiots who can't run a single router",
+  "aspects": [
+   {
+    "aspect_term": "it people",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "stupid wifi, stupid password system, i hate this college internet",
+  "aspects": [
+   {
+    "aspect_term": "wifi",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "damn the internet is crap, worthless it team",
+  "aspects": [
+   {
+    "aspect_term": "internet",
+    "category": "speed",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "it team",
+    "category": "reliability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "who the hell designed this bullshit login process",
+  "aspects": [
+   {
+    "aspect_term": "login process",
+    "category": "login issues",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "useless admin, block your own brain not youtube",
+  "aspects": [
+   {
+    "aspect_term": "youtube",
+    "category": "bandwidth limit",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "C_CAN_01_001",
+    "legacy_id": "C0001",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "samosa is crispy and cheap, best snack here",
+    "aspects": [
+      {
+        "aspect_term": "samosa",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "cheap",
+        "category": "price",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_002",
+    "legacy_id": "C0002",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "tea is too sweet always",
+    "aspects": [
+      {
+        "aspect_term": "tea",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_003",
+    "legacy_id": "C0003",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "50 rupees for a plain dosa is too much",
+    "aspects": [
+      {
+        "aspect_term": "dosa",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_004",
+    "legacy_id": "C0004",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "billing counter queue is endless after 1 pm",
+    "aspects": [
+      {
+        "aspect_term": "queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_005",
+    "legacy_id": "C0005",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "parotta and salna combo is the best",
+    "aspects": [
+      {
+        "aspect_term": "parotta",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_006",
+    "legacy_id": "C0006",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "no place to sit during lunch break",
+    "aspects": [
+      {
+        "aspect_term": "sit",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_007",
+    "legacy_id": "C0007",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "noodles were too oily and cold",
+    "aspects": [
+      {
+        "aspect_term": "noodles",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_008",
+    "legacy_id": "C0008",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "flies all over the food counter",
+    "aspects": [
+      {
+        "aspect_term": "flies",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_009",
+    "legacy_id": "C0009",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "upi payment is working fast now, no cash hassle",
+    "aspects": [
+      {
+        "aspect_term": "upi",
+        "category": "waiting time",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_010",
+    "legacy_id": "C0010",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "canteen staff are always smiling and helpful",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_011",
+    "legacy_id": "C0011",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "overpriced juice, 60 for a small glass",
+    "aspects": [
+      {
+        "aspect_term": "juice",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_012",
+    "legacy_id": "C0012",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "quantity of fried rice is very less for the price",
+    "aspects": [
+      {
+        "aspect_term": "quantity",
+        "category": "quantity",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "price",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_013",
+    "legacy_id": "C0013",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the veg puff was stale today",
+    "aspects": [
+      {
+        "aspect_term": "puff",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_014",
+    "legacy_id": "C0014",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "more variety needed, only 4 items after 4 pm",
+    "aspects": [
+      {
+        "aspect_term": "variety",
+        "category": "variety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_015",
+    "legacy_id": "C0015",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "cleanliness is okay but tables stay dirty",
+    "aspects": [
+      {
+        "aspect_term": "cleanliness",
+        "category": "hygiene",
+        "sentiment": "neutral"
+      },
+      {
+        "aspect_term": "tables",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_016",
+    "legacy_id": "C0016",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "sandwiches are fresh and tasty",
+    "aspects": [
+      {
+        "aspect_term": "sandwiches",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_017",
+    "legacy_id": "C0017",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "cashier was rude when i asked for change",
+    "aspects": [
+      {
+        "aspect_term": "cashier",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_018",
+    "legacy_id": "C0018",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "cold coffee is awesome, must try",
+    "aspects": [
+      {
+        "aspect_term": "cold coffee",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_019",
+    "legacy_id": "C0019",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "waiting time for order is 20 mins even for tea",
+    "aspects": [
+      {
+        "aspect_term": "waiting time",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_020",
+    "legacy_id": "C0020",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "filter coffee is perfect, reminds me of home",
+    "aspects": [
+      {
+        "aspect_term": "filter coffee",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_021",
+    "legacy_id": "C0021",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "prices went up again this month",
+    "aspects": [
+      {
+        "aspect_term": "prices",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_022",
+    "legacy_id": "C0022",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "good food court, lots of options",
+    "aspects": [
+      {
+        "aspect_term": "options",
+        "category": "variety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_023",
+    "legacy_id": "C0023",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "chat items are so tasty but the plates are not clean",
+    "aspects": [
+      {
+        "aspect_term": "chat items",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "plates",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_024",
+    "legacy_id": "C0024",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "canteen is overcrowded at lunch time",
+    "aspects": [
+      {
+        "aspect_term": "overcrowded",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_025",
+    "legacy_id": "C0025",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "chicken roll was half raw",
+    "aspects": [
+      {
+        "aspect_term": "chicken roll",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_026",
+    "legacy_id": "C0026",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "combo meal at 80 is a good deal",
+    "aspects": [
+      {
+        "aspect_term": "combo meal",
+        "category": "price",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_027",
+    "legacy_id": "C0027",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "no dustbins so everyone throws waste on the floor",
+    "aspects": [
+      {
+        "aspect_term": "dustbins",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_028",
+    "legacy_id": "C0028",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "vada pav is only decent",
+    "aspects": [
+      {
+        "aspect_term": "vada pav",
+        "category": "food quality",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_029",
+    "legacy_id": "C0029",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "they run out of items by 4 pm",
+    "aspects": [
+      {
+        "aspect_term": "run out",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_030",
+    "legacy_id": "C0030",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the juice shop guy is very friendly",
+    "aspects": [
+      {
+        "aspect_term": "juice shop guy",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_031",
+    "legacy_id": "C0031",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "paneer butter masala tastes like tomato soup",
+    "aspects": [
+      {
+        "aspect_term": "paneer butter masala",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_032",
+    "legacy_id": "C0032",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the canteen near the library is cleaner than main block",
+    "aspects": [
+      {
+        "aspect_term": "canteen",
+        "category": "hygiene",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_033",
+    "legacy_id": "C0033",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "too much waiting for just a maggi",
+    "aspects": [
+      {
+        "aspect_term": "waiting",
+        "category": "waiting time",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "maggi",
+        "category": "food quality",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_034",
+    "legacy_id": "C0034",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "maggi is hot and tasty, 30 rupees ok",
+    "aspects": [
+      {
+        "aspect_term": "maggi",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "rupees",
+        "category": "price",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_035",
+    "legacy_id": "C0035",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "no hand wash near the canteen entrance",
+    "aspects": [
+      {
+        "aspect_term": "hand wash",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_036",
+    "legacy_id": "C0036",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "fresh juice menu has loads of variety",
+    "aspects": [
+      {
+        "aspect_term": "juice menu",
+        "category": "variety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_037",
+    "legacy_id": "C0037",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "biryani portion is huge, shared with friend",
+    "aspects": [
+      {
+        "aspect_term": "portion",
+        "category": "quantity",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "biryani",
+        "category": "food quality",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_038",
+    "legacy_id": "C0038",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "lemon tea was just sugar water",
+    "aspects": [
+      {
+        "aspect_term": "lemon tea",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_039",
+    "legacy_id": "C0039",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "food is expensive compared to outside shops",
+    "aspects": [
+      {
+        "aspect_term": "expensive",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_040",
+    "legacy_id": "C0040",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "seating is comfortable and the fans work well",
+    "aspects": [
+      {
+        "aspect_term": "seating",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_041",
+    "legacy_id": "C0041",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "every time my order gets mixed up, no accuracy",
+    "aspects": [
+      {
+        "aspect_term": "order",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_042",
+    "legacy_id": "C0042",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the canteen is clean, floors mopped regularly",
+    "aspects": [
+      {
+        "aspect_term": "floors",
+        "category": "hygiene",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_043",
+    "legacy_id": "C0043",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "snack time rush is manageable with 2 counters",
+    "aspects": [
+      {
+        "aspect_term": "rush",
+        "category": "waiting time",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_044",
+    "legacy_id": "C0044",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the egg puff is the best thing on campus",
+    "aspects": [
+      {
+        "aspect_term": "egg puff",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_045",
+    "legacy_id": "C0045",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "average food at high price",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "neutral"
+      },
+      {
+        "aspect_term": "price",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_046",
+    "legacy_id": "C0046",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "chappathi kurma is homely and filling",
+    "aspects": [
+      {
+        "aspect_term": "kurma",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_047",
+    "legacy_id": "C0047",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "food semma but rate romba jaasthi",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "rate",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_048",
+    "legacy_id": "C0079",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "canteen manager is a fraud, overcharging students and acting innocent",
+    "aspects": [
+      {
+        "aspect_term": "canteen manager",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_049",
+    "legacy_id": "C0080",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "this canteen food is crap and the staff are idiots",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_CAN_01_050",
+    "legacy_id": "C0081",
+    "facility": "canteen",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "stupid cashier is useless, can't even count change",
+    "aspects": [
+      {
+        "aspect_term": "cashier",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

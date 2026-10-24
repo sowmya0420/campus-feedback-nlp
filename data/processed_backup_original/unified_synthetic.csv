@@ -1,0 +1,611 @@
+id,source,domain,text,aspect_term,category,opinion,sentiment
+C0001,synthetic,canteen,"samosa is crispy and cheap, best snack here",samosa,food quality,,positive
+C0001,synthetic,canteen,"samosa is crispy and cheap, best snack here",cheap,price,,positive
+C0002,synthetic,canteen,tea is too sweet always,tea,food quality,,negative
+C0003,synthetic,canteen,50 rupees for a plain dosa is too much,dosa,price,,negative
+C0004,synthetic,canteen,billing counter queue is endless after 1 pm,queue,waiting time,,negative
+C0005,synthetic,canteen,parotta and salna combo is the best,parotta,food quality,,positive
+C0006,synthetic,canteen,no place to sit during lunch break,sit,seating,,negative
+C0007,synthetic,canteen,noodles were too oily and cold,noodles,food quality,,negative
+C0008,synthetic,canteen,flies all over the food counter,flies,hygiene,,negative
+C0009,synthetic,canteen,"upi payment is working fast now, no cash hassle",upi,waiting time,,positive
+C0010,synthetic,canteen,canteen staff are always smiling and helpful,staff,staff behavior,,positive
+C0011,synthetic,canteen,"overpriced juice, 60 for a small glass",juice,price,,negative
+C0012,synthetic,canteen,quantity of fried rice is very less for the price,quantity,quantity,,negative
+C0012,synthetic,canteen,quantity of fried rice is very less for the price,price,price,,negative
+C0013,synthetic,canteen,the veg puff was stale today,puff,food quality,,negative
+C0014,synthetic,canteen,"more variety needed, only 4 items after 4 pm",variety,variety,,negative
+C0015,synthetic,canteen,cleanliness is okay but tables stay dirty,cleanliness,hygiene,,neutral
+C0015,synthetic,canteen,cleanliness is okay but tables stay dirty,tables,hygiene,,negative
+C0016,synthetic,canteen,sandwiches are fresh and tasty,sandwiches,food quality,,positive
+C0017,synthetic,canteen,cashier was rude when i asked for change,cashier,staff behavior,,negative
+C0018,synthetic,canteen,"cold coffee is awesome, must try",cold coffee,food quality,,positive
+C0019,synthetic,canteen,waiting time for order is 20 mins even for tea,waiting time,waiting time,,negative
+C0020,synthetic,canteen,"filter coffee is perfect, reminds me of home",filter coffee,food quality,,positive
+C0021,synthetic,canteen,prices went up again this month,prices,price,,negative
+C0022,synthetic,canteen,"good food court, lots of options",options,variety,,positive
+C0023,synthetic,canteen,chat items are so tasty but the plates are not clean,chat items,food quality,,positive
+C0023,synthetic,canteen,chat items are so tasty but the plates are not clean,plates,hygiene,,negative
+C0024,synthetic,canteen,canteen is overcrowded at lunch time,overcrowded,seating,,negative
+C0025,synthetic,canteen,chicken roll was half raw,chicken roll,food quality,,negative
+C0026,synthetic,canteen,combo meal at 80 is a good deal,combo meal,price,,positive
+C0027,synthetic,canteen,no dustbins so everyone throws waste on the floor,dustbins,hygiene,,negative
+C0028,synthetic,canteen,vada pav is only decent,vada pav,food quality,,neutral
+C0029,synthetic,canteen,they run out of items by 4 pm,run out,quantity,,negative
+C0030,synthetic,canteen,the juice shop guy is very friendly,juice shop guy,staff behavior,,positive
+C0031,synthetic,canteen,paneer butter masala tastes like tomato soup,paneer butter masala,food quality,,negative
+C0032,synthetic,canteen,the canteen near the library is cleaner than main block,canteen,hygiene,,positive
+C0033,synthetic,canteen,too much waiting for just a maggi,waiting,waiting time,,negative
+C0033,synthetic,canteen,too much waiting for just a maggi,maggi,food quality,,neutral
+C0034,synthetic,canteen,"maggi is hot and tasty, 30 rupees ok",maggi,food quality,,positive
+C0034,synthetic,canteen,"maggi is hot and tasty, 30 rupees ok",rupees,price,,neutral
+C0035,synthetic,canteen,no hand wash near the canteen entrance,hand wash,hygiene,,negative
+C0036,synthetic,canteen,fresh juice menu has loads of variety,juice menu,variety,,positive
+C0037,synthetic,canteen,"biryani portion is huge, shared with friend",portion,quantity,,positive
+C0037,synthetic,canteen,"biryani portion is huge, shared with friend",biryani,food quality,,neutral
+C0038,synthetic,canteen,lemon tea was just sugar water,lemon tea,food quality,,negative
+C0039,synthetic,canteen,food is expensive compared to outside shops,expensive,price,,negative
+C0040,synthetic,canteen,seating is comfortable and the fans work well,seating,seating,,positive
+C0041,synthetic,canteen,"every time my order gets mixed up, no accuracy",order,waiting time,,negative
+C0042,synthetic,canteen,"the canteen is clean, floors mopped regularly",floors,hygiene,,positive
+C0043,synthetic,canteen,snack time rush is manageable with 2 counters,rush,waiting time,,neutral
+C0044,synthetic,canteen,the egg puff is the best thing on campus,egg puff,food quality,,positive
+C0045,synthetic,canteen,average food at high price,food,food quality,,neutral
+C0045,synthetic,canteen,average food at high price,price,price,,negative
+C0046,synthetic,canteen,chappathi kurma is homely and filling,kurma,food quality,,positive
+C0047,synthetic,canteen,food semma but rate romba jaasthi,food,food quality,,positive
+C0047,synthetic,canteen,food semma but rate romba jaasthi,rate,price,,negative
+C0048,synthetic,canteen,"tea kadai la queue romba, 15 min aachu",queue,waiting time,,negative
+C0049,synthetic,canteen,"parotta soft ah irukku, super da",parotta,food quality,,positive
+C0050,synthetic,canteen,canteen la sit panna idam illa,idam,seating,,negative
+C0051,synthetic,canteen,"juice la ice mattum than iruku, fruit illa",juice,food quality,,negative
+C0052,synthetic,canteen,bill pannum bothu counter la rude ah pesuranga,counter,staff behavior,,negative
+C0053,synthetic,canteen,"samosa romba cheap, 10 rupees only",samosa,price,,positive
+C0054,synthetic,canteen,"oil smell varuthu from the fried items, not fresh",oil smell,hygiene,,negative
+C0055,synthetic,canteen,the chicken fried rice was gud but expnsive,chicken fried rice,food quality,,positive
+C0055,synthetic,canteen,the chicken fried rice was gud but expnsive,expnsive,price,,negative
+C0056,synthetic,canteen,canten food is not hygenic at all,hygenic,hygiene,,negative
+C0057,synthetic,canteen,waitng for 25 mins for a burger,waitng,waiting time,,negative
+C0058,synthetic,canteen,fries wer cold n soggy,fries,food quality,,negative
+C0059,synthetic,canteen,tea nd bun combo is lyk a daily habit,tea nd bun combo,variety,,positive
+C0060,synthetic,canteen,boiled corn stall near the gate is yummy,boiled corn,food quality,,positive
+C0061,synthetic,canteen,paid extra for a cover i didn't even need,paid extra,price,,negative
+C0062,synthetic,canteen,the uncle gives extra chutney without asking,uncle,staff behavior,,positive
+C0062,synthetic,canteen,the uncle gives extra chutney without asking,extra chutney,quantity,,positive
+C0063,synthetic,canteen,need healthy options like salads and fruit bowls,healthy options,variety,,negative
+C0064,synthetic,canteen,canteen opens late on mondays,opens late,waiting time,,negative
+C0065,synthetic,canteen,pizza at the canteen is not worth 120 rupees,pizza,food quality,,negative
+C0065,synthetic,canteen,pizza at the canteen is not worth 120 rupees,120 rupees,price,,negative
+C0066,synthetic,canteen,sambar rice is good value,sambar rice,food quality,,positive
+C0066,synthetic,canteen,sambar rice is good value,value,price,,positive
+C0067,synthetic,canteen,"tables were wiped promptly, impressed",tables,hygiene,,positive
+C0068,synthetic,canteen,the staff shout at students if we ask for a refund,staff,staff behavior,,negative
+C0069,synthetic,canteen,good ambience for group study over snacks,ambience,seating,,positive
+C0070,synthetic,canteen,pani puri guy uses dirty water,pani puri,hygiene,,negative
+C0071,synthetic,canteen,kulfi and falooda are great in summer,kulfi,food quality,,positive
+C0072,synthetic,canteen,"food is not bad, sometimes good, sometimes not",food,food quality,,neutral
+C0073,synthetic,canteen,payment machine always has some network problem,payment machine,waiting time,,negative
+C0074,synthetic,canteen,the chole bhature is heavy but tasty,chole bhature,food quality,,positive
+C0075,synthetic,canteen,"rubbish canteen, rubbish food",canteen,food quality,,negative
+C0076,synthetic,canteen,could have more seating near the windows,seating,seating,,negative
+C0077,synthetic,canteen,the cook always makes fresh dosa when asked,dosa,food quality,,positive
+C0078,synthetic,canteen,you pay for the brand not the food,pay,price,,negative
+C0079,synthetic,canteen,"canteen manager is a fraud, overcharging students and acting innocent",canteen manager,price,,negative
+C0080,synthetic,canteen,this canteen food is crap and the staff are idiots,food,food quality,,negative
+C0080,synthetic,canteen,this canteen food is crap and the staff are idiots,staff,staff behavior,,negative
+C0081,synthetic,canteen,"stupid cashier is useless, can't even count change",cashier,staff behavior,,negative
+C0082,synthetic,canteen,bloody thieves charging 60 for a tea,tea,price,,negative
+C0083,synthetic,canteen,canteen is a joke and the owner is a clown,canteen,food quality,,negative
+C0084,synthetic,canteen,"worst food ever, you morons should shut this place down",food,food quality,,negative
+C0085,synthetic,hostel_mess,breakfast idli was cold and the chutney had no taste,idli,food quality,,negative
+C0085,synthetic,hostel_mess,breakfast idli was cold and the chutney had no taste,chutney,food quality,,negative
+C0086,synthetic,hostel_mess,mess food is okay nothing special,food,food quality,,neutral
+C0087,synthetic,hostel_mess,chicken on sundays is really good,chicken,food quality,,positive
+C0088,synthetic,hostel_mess,waiting 30 mins in the queue for dinner every day,queue,waiting time,,negative
+C0089,synthetic,hostel_mess,"semma taste today, biriyani was super",biriyani,food quality,,positive
+C0090,synthetic,hostel_mess,"rice has stones again, how many times we have to complain",rice,food quality,,negative
+C0091,synthetic,hostel_mess,"plates not washed properly, found oil stains",plates,hygiene,,negative
+C0092,synthetic,hostel_mess,food is good but quantity is too less for boys,food,food quality,,positive
+C0092,synthetic,hostel_mess,food is good but quantity is too less for boys,quantity,quantity,,negative
+C0093,synthetic,hostel_mess,"same menu every week, so boring",menu,variety,,negative
+C0094,synthetic,hostel_mess,mess staff are rude when we ask for extra chapati,staff,staff behavior,,negative
+C0094,synthetic,hostel_mess,mess staff are rude when we ask for extra chapati,extra chapati,quantity,,negative
+C0095,synthetic,hostel_mess,"dinner queue is too long, reached late for study hour",queue,waiting time,,negative
+C0096,synthetic,hostel_mess,sambar is watery always,sambar,food quality,,negative
+C0097,synthetic,hostel_mess,"mess is cheap compared to outside, good for the price",price,price,,positive
+C0098,synthetic,hostel_mess,we pay so much mess fees and still get this food,mess fees,price,,negative
+C0098,synthetic,hostel_mess,we pay so much mess fees and still get this food,food,food quality,,negative
+C0099,synthetic,hostel_mess,found a hair in my curd rice yesterday,hair,hygiene,,negative
+C0100,synthetic,hostel_mess,curd rice and pickle for lunch is my fav,curd rice,food quality,,positive
+C0101,synthetic,hostel_mess,"no seating during lunch, standing and eating",seating,seating,,negative
+C0102,synthetic,hostel_mess,"the new menu has more variety, thanks warden",variety,variety,,positive
+C0103,synthetic,hostel_mess,tables are sticky and nobody cleans them,tables,hygiene,,negative
+C0104,synthetic,hostel_mess,"cook uncle is very kind, always gives extra rice",cook,staff behavior,,positive
+C0104,synthetic,hostel_mess,"cook uncle is very kind, always gives extra rice",extra rice,quantity,,positive
+C0105,synthetic,hostel_mess,egg is always overcooked,egg,food quality,,negative
+C0106,synthetic,hostel_mess,food quality has gone down this semester,food quality,food quality,,negative
+C0107,synthetic,hostel_mess,fish fry on fridays is awesome but it finishes in 10 minutes,fish fry,food quality,,positive
+C0107,synthetic,hostel_mess,fish fry on fridays is awesome but it finishes in 10 minutes,finishes,quantity,,negative
+C0108,synthetic,hostel_mess,mess hall smells bad,mess hall,hygiene,,negative
+C0109,synthetic,hostel_mess,water jug is empty most of the time,water jug,quantity,,negative
+C0110,synthetic,hostel_mess,"only 2 vegetables for lunch, need more options",vegetables,variety,,negative
+C0111,synthetic,hostel_mess,"dosa is crispy today, loved it",dosa,food quality,,positive
+C0112,synthetic,hostel_mess,no change in menu since june,menu,variety,,negative
+C0113,synthetic,hostel_mess,food is cold by the time we get it,food,food quality,,negative
+C0114,synthetic,hostel_mess,roti is hard like rubber,roti,food quality,,negative
+C0115,synthetic,hostel_mess,"service is quick, no waiting at all",service,waiting time,,positive
+C0116,synthetic,hostel_mess,mess people don't listen to feedback,mess people,staff behavior,,negative
+C0117,synthetic,hostel_mess,payasam on festival day was great,payasam,food quality,,positive
+C0118,synthetic,hostel_mess,overpriced extras like omelette and milk,overpriced,price,,negative
+C0119,synthetic,hostel_mess,paneer curry has no paneer lol,paneer curry,food quality,,negative
+C0120,synthetic,hostel_mess,"average food, can survive",food,food quality,,neutral
+C0121,synthetic,hostel_mess,"cockroach near the serving area, disgusting",cockroach,hygiene,,negative
+C0122,synthetic,hostel_mess,the queue moves fast after the second counter opened,queue,waiting time,,positive
+C0123,synthetic,hostel_mess,serving portions are small for the money,portions,quantity,,negative
+C0123,synthetic,hostel_mess,serving portions are small for the money,money,price,,negative
+C0124,synthetic,hostel_mess,puri and kurma combo was very tasty,kurma,food quality,,positive
+C0125,synthetic,hostel_mess,too much oil in everything,oil,food quality,,negative
+C0126,synthetic,hostel_mess,mess is clean and tidy in the mornings,clean,hygiene,,positive
+C0127,synthetic,hostel_mess,"chutney and sambar finish early, latecomers get nothing",sambar,quantity,,negative
+C0128,synthetic,hostel_mess,"juice counter is a good addition, reasonable price",juice counter,variety,,positive
+C0128,synthetic,hostel_mess,"juice counter is a good addition, reasonable price",price,price,,positive
+C0129,synthetic,hostel_mess,mess is crowded and hot at lunch,crowded,seating,,negative
+C0130,synthetic,hostel_mess,staff were helpful when i was sick and asked for plain rice,staff,staff behavior,,positive
+C0131,synthetic,hostel_mess,bro the sambar is just coloured water,sambar,food quality,,negative
+C0132,synthetic,hostel_mess,"good veg thali, worth it",veg thali,food quality,,positive
+C0132,synthetic,hostel_mess,"good veg thali, worth it",worth it,price,,positive
+C0133,synthetic,hostel_mess,"queue jumping by seniors every day, mess staff just watch",queue,waiting time,,negative
+C0133,synthetic,hostel_mess,"queue jumping by seniors every day, mess staff just watch",mess staff,staff behavior,,negative
+C0134,synthetic,hostel_mess,coriander and curry leaves are not even washed,coriander,hygiene,,negative
+C0135,synthetic,hostel_mess,"food is tasty, clean, and served on time. great job",food,food quality,,positive
+C0135,synthetic,hostel_mess,"food is tasty, clean, and served on time. great job",clean,hygiene,,positive
+C0135,synthetic,hostel_mess,"food is tasty, clean, and served on time. great job",served on time,waiting time,,positive
+C0136,synthetic,hostel_mess,lunch is fine but dinner is always bad,lunch,food quality,,positive
+C0136,synthetic,hostel_mess,lunch is fine but dinner is always bad,dinner,food quality,,negative
+C0137,synthetic,hostel_mess,"mess committee changed the menu after our complaint, appreciate it",menu,variety,,positive
+C0138,synthetic,hostel_mess,ice cream on saturday is a nice touch,ice cream,variety,,positive
+C0139,synthetic,hostel_mess,aloo curry again?? we get it 4 times a week,aloo curry,variety,,negative
+C0140,synthetic,hostel_mess,tea is just hot water with sugar,tea,food quality,,negative
+C0141,synthetic,hostel_mess,mess bill went up by 500 but nothing improved,mess bill,price,,negative
+C0142,synthetic,hostel_mess,coffee in the morning is decent,coffee,food quality,,positive
+C0143,synthetic,hostel_mess,food semma but queue romba long,food,food quality,,positive
+C0143,synthetic,hostel_mess,food semma but queue romba long,queue,waiting time,,negative
+C0144,synthetic,hostel_mess,"sambar romba thanni da, taste illa",sambar,food quality,,negative
+C0145,synthetic,hostel_mess,"mess la sapadu super, but seating illa",sapadu,food quality,,positive
+C0145,synthetic,hostel_mess,"mess la sapadu super, but seating illa",seating,seating,,negative
+C0146,synthetic,hostel_mess,"ellam same menu, bore adikuthu",menu,variety,,negative
+C0147,synthetic,hostel_mess,chicken gravy nalla irukku,chicken gravy,food quality,,positive
+C0148,synthetic,hostel_mess,"rice la kal irukku, yaar kitta sollurathu",rice,food quality,,negative
+C0149,synthetic,hostel_mess,"serving anna romba kammi pannuraru, quantity illa",quantity,quantity,,negative
+C0150,synthetic,hostel_mess,"plate la ennai, wash pannave illa",plate,hygiene,,negative
+C0151,synthetic,hostel_mess,"dinner queue la 40 min nikanum, waste of time",queue,waiting time,,negative
+C0152,synthetic,hostel_mess,mess uncle semma friendly,mess uncle,staff behavior,,positive
+C0153,synthetic,hostel_mess,the sambr was very sour todya,sambr,food quality,,negative
+C0154,synthetic,hostel_mess,"foood is not hot, always cold",foood,food quality,,negative
+C0155,synthetic,hostel_mess,chiken curry is too spicy for me,chiken curry,food quality,,negative
+C0156,synthetic,hostel_mess,quening for dinner is so tiring,quening,waiting time,,negative
+C0157,synthetic,hostel_mess,mess hygine is poor,hygine,hygiene,,negative
+C0158,synthetic,hostel_mess,"lunch was gud, lyk the rasam",lunch,food quality,,positive
+C0158,synthetic,hostel_mess,"lunch was gud, lyk the rasam",rasam,food quality,,positive
+C0159,synthetic,hostel_mess,mess is ok,mess,food quality,,neutral
+C0160,synthetic,hostel_mess,tasty food and polite staff,food,food quality,,positive
+C0160,synthetic,hostel_mess,tasty food and polite staff,staff,staff behavior,,positive
+C0161,synthetic,hostel_mess,"never improving, same issues every year",,food quality,,negative
+C0162,synthetic,hostel_mess,getting fed up of the queue honestly,queue,waiting time,,negative
+C0163,synthetic,hostel_mess,the food is just average but the price is fair,food,food quality,,neutral
+C0163,synthetic,hostel_mess,the food is just average but the price is fair,price,price,,positive
+C0164,synthetic,hostel_mess,rasam is the only good thing here,rasam,food quality,,positive
+C0165,synthetic,hostel_mess,saturday biryani is worth the wait,biryani,food quality,,positive
+C0165,synthetic,hostel_mess,saturday biryani is worth the wait,wait,waiting time,,neutral
+C0166,synthetic,hostel_mess,"mess workers wear gloves now, good change",gloves,hygiene,,positive
+C0167,synthetic,hostel_mess,"one chapati per head rule is silly, we are hungry",chapati,quantity,,negative
+C0168,synthetic,hostel_mess,mess fee is reasonable for 3 meals + snacks,mess fee,price,,positive
+C0169,synthetic,hostel_mess,need more north indian options for outstation students,north indian options,variety,,negative
+C0170,synthetic,hostel_mess,chicken pieces are tiny and bony,chicken pieces,quantity,,negative
+C0171,synthetic,hostel_mess,snacks at 5 pm are a lifesaver,snacks,variety,,positive
+C0172,synthetic,hostel_mess,the dining area is spacious and well lit,dining area,seating,,positive
+C0173,synthetic,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",cook,staff behavior,,negative
+C0173,synthetic,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",rice,food quality,,negative
+C0174,synthetic,hostel_mess,"this mess is total garbage, whoever runs it is a thief",mess,food quality,,negative
+C0175,synthetic,hostel_mess,"bloody fools, you serve this shit and call it food",food,food quality,,negative
+C0176,synthetic,hostel_mess,shut up and fix the food you lazy morons,food,food quality,,negative
+C0177,synthetic,hostel_mess,"damn this stupid mess, hate every single meal",mess,food quality,,negative
+C0178,synthetic,hostel_mess,whoever approved this menu is a clown,menu,variety,,negative
+C0179,synthetic,hostel_rooms,"water supply stops at 7 am, no water for bathing",water supply,water supply,,negative
+C0180,synthetic,hostel_rooms,fans are not working in our block for 2 weeks,fans,maintenance,,negative
+C0181,synthetic,hostel_rooms,the room is spacious enough for 3 students,room,room size,,positive
+C0182,synthetic,hostel_rooms,bathrooms are dirty and no one cleans them daily,bathrooms,cleanliness,,negative
+C0183,synthetic,hostel_rooms,power cut every evening and no backup in the rooms,power cut,electricity,,negative
+C0184,synthetic,hostel_rooms,warden is very supportive and quick to act,warden,safety,,positive
+C0185,synthetic,hostel_rooms,hot water in the morning is great in winter,hot water,water supply,,positive
+C0186,synthetic,hostel_rooms,room is too small for 4 people,room,room size,,negative
+C0187,synthetic,hostel_rooms,beds are old and the mattress is uncomfortable,mattress,maintenance,,negative
+C0188,synthetic,hostel_rooms,cctv in the corridor makes me feel safe,cctv,safety,,positive
+C0189,synthetic,hostel_rooms,"no proper security at night, anyone can enter",security,safety,,negative
+C0190,synthetic,hostel_rooms,"washing machine is always occupied, waiting for hours",washing machine,laundry,,negative
+C0191,synthetic,hostel_rooms,laundry service is good and clothes come back clean,laundry service,laundry,,positive
+C0192,synthetic,hostel_rooms,loud music from the next room till 1 am,loud music,noise,,negative
+C0193,synthetic,hostel_rooms,rooms are cleaned daily and the staff are polite,rooms,cleanliness,,positive
+C0194,synthetic,hostel_rooms,electricity is stable now after the new transformer,electricity,electricity,,positive
+C0195,synthetic,hostel_rooms,"leaking tap in the bathroom for a month, nobody fixed it",tap,maintenance,,negative
+C0196,synthetic,hostel_rooms,the mosquito problem is out of control in the hostel,mosquito,cleanliness,,negative
+C0197,synthetic,hostel_rooms,"water is yellow some mornings, unfit to drink",water,water supply,,negative
+C0198,synthetic,hostel_rooms,"maintenance team responded within a day, very impressed",maintenance team,maintenance,,positive
+C0199,synthetic,hostel_rooms,the study table and chair are decent,study table,room size,,positive
+C0200,synthetic,hostel_rooms,lights flicker and the switchboard is damaged,switchboard,electricity,,negative
+C0201,synthetic,hostel_rooms,noise from the construction next to the hostel is irritating,construction,noise,,negative
+C0202,synthetic,hostel_rooms,corridor is clean and well lit,corridor,cleanliness,,positive
+C0203,synthetic,hostel_rooms,drying area for clothes is too small,drying area,laundry,,negative
+C0204,synthetic,hostel_rooms,water cooler is working and the water is cold,water cooler,water supply,,positive
+C0205,synthetic,hostel_rooms,"the room has no ventilation, so it gets hot",ventilation,room size,,negative
+C0206,synthetic,hostel_rooms,my cupboard lock is broken and nobody replaced it,cupboard lock,maintenance,,negative
+C0207,synthetic,hostel_rooms,the hostel is peaceful and good for studying,hostel,noise,,positive
+C0208,synthetic,hostel_rooms,"girls hostel gate closes on time and security is strict, which is good",security,safety,,positive
+C0209,synthetic,hostel_rooms,"rats in the room, found one in my bag",rats,cleanliness,,negative
+C0210,synthetic,hostel_rooms,"power backup works instantly, no more dark nights",power backup,electricity,,positive
+C0211,synthetic,hostel_rooms,the bathroom doors don't close properly,bathroom doors,maintenance,,negative
+C0212,synthetic,hostel_rooms,the room is average but i can adjust,room,room size,,neutral
+C0213,synthetic,hostel_rooms,dhobi service charges too much,dhobi service,laundry,,negative
+C0214,synthetic,hostel_rooms,nobody cleans the common area on weekends,common area,cleanliness,,negative
+C0215,synthetic,hostel_rooms,"good hostel, but water issues in the 3rd floor",hostel,cleanliness,,positive
+C0215,synthetic,hostel_rooms,"good hostel, but water issues in the 3rd floor",water,water supply,,negative
+C0216,synthetic,hostel_rooms,rooms are big but dirty,rooms,room size,,positive
+C0216,synthetic,hostel_rooms,rooms are big but dirty,dirty,cleanliness,,negative
+C0217,synthetic,hostel_rooms,"power cut romba, study panna mudiyala",power cut,electricity,,negative
+C0218,synthetic,hostel_rooms,"thanni varala 2 days ah, rombo kastam",thanni,water supply,,negative
+C0219,synthetic,hostel_rooms,"fan kooda work aagala, summer la romba kastam",fan,maintenance,,negative
+C0220,synthetic,hostel_rooms,"room clean ah irukku, thanks to the aunty",room,cleanliness,,positive
+C0221,synthetic,hostel_rooms,"night la noise romba, thoongave mudila",noise,noise,,negative
+C0222,synthetic,hostel_rooms,"warden romba nalla person, help pannuvaanga",warden,safety,,positive
+C0223,synthetic,hostel_rooms,the room cleaning is nvr done properly,room cleaning,cleanliness,,negative
+C0224,synthetic,hostel_rooms,wter pressure is very low in the shower,wter pressure,water supply,,negative
+C0225,synthetic,hostel_rooms,hostl security gaurd sleeps at night,gaurd,safety,,negative
+C0226,synthetic,hostel_rooms,elecricity goes off every nite,elecricity,electricity,,negative
+C0227,synthetic,hostel_rooms,"the mattres is so hard, back pain kills me",mattres,maintenance,,negative
+C0228,synthetic,hostel_rooms,washing mashine broke again,washing mashine,laundry,,negative
+C0229,synthetic,hostel_rooms,roommates are noisy but rooms are ok,roommates,noise,,negative
+C0229,synthetic,hostel_rooms,roommates are noisy but rooms are ok,rooms,room size,,neutral
+C0230,synthetic,hostel_rooms,unlimited hot water and clean bathrooms on the new block,hot water,water supply,,positive
+C0230,synthetic,hostel_rooms,unlimited hot water and clean bathrooms on the new block,bathrooms,cleanliness,,positive
+C0231,synthetic,hostel_rooms,drinking water is tested regularly and it tastes fine,drinking water,water supply,,positive
+C0232,synthetic,hostel_rooms,the warden never answers calls at night during emergencies,warden,safety,,negative
+C0233,synthetic,hostel_rooms,nice and safe place but too many insects,safe,safety,,positive
+C0233,synthetic,hostel_rooms,nice and safe place but too many insects,insects,cleanliness,,negative
+C0234,synthetic,hostel_rooms,broken windows in the corridor have not been repaired for months,windows,maintenance,,negative
+C0235,synthetic,hostel_rooms,sharing 4 people in one room is not comfortable at all,sharing 4 people,room size,,negative
+C0236,synthetic,hostel_rooms,"visitors are not allowed after 6, so the place is peaceful",visitors,noise,,positive
+C0237,synthetic,hostel_rooms,power socket near my bed is loose and sparks sometimes,power socket,electricity,,negative
+C0238,synthetic,hostel_rooms,the toilet flush is damaged and no spare,toilet flush,maintenance,,negative
+C0239,synthetic,hostel_rooms,the common room tv and carrom board are nice to have,common room,room size,,positive
+C0240,synthetic,hostel_rooms,"cleaning staff are working hard, the hostel looks better",cleaning staff,cleanliness,,positive
+C0241,synthetic,hostel_rooms,"phone charging boards are installed in the corridor, useful",charging boards,electricity,,positive
+C0242,synthetic,hostel_rooms,we get laundry slots for each floor which is organised,laundry slots,laundry,,positive
+C0243,synthetic,hostel_rooms,"the stairs have no lights at night, it is unsafe",stairs,safety,,negative
+C0244,synthetic,hostel_rooms,drainage is blocked and the smell is horrible,drainage,cleanliness,,negative
+C0245,synthetic,hostel_rooms,the room is okay,room,room size,,neutral
+C0246,synthetic,hostel_rooms,shower heads are broken in half the bathrooms,shower heads,maintenance,,negative
+C0247,synthetic,hostel_rooms,"terrace is open for students in the evening, nice view",terrace,room size,,positive
+C0248,synthetic,hostel_rooms,hostel office staff are lazy and rude when we complain,staff,maintenance,,negative
+C0249,synthetic,hostel_rooms,"this hostel is a dump, wardens are useless idiots",hostel,cleanliness,,negative
+C0249,synthetic,hostel_rooms,"this hostel is a dump, wardens are useless idiots",wardens,safety,,negative
+C0250,synthetic,hostel_rooms,"damn the water supply is trash, fix it you morons",water supply,water supply,,negative
+C0251,synthetic,hostel_rooms,the maintenance guys are stupid and lazy,maintenance guys,maintenance,,negative
+C0252,synthetic,hostel_rooms,stupid hostel rules and stupid warden,warden,safety,,negative
+C0253,synthetic,hostel_rooms,fix the bloody power cuts you clowns,power cuts,electricity,,negative
+C0254,synthetic,hostel_rooms,"bathrooms stink like hell, disgusting pigs live here",bathrooms,cleanliness,,negative
+C0255,synthetic,labs,"systems in the lab are very slow, takes 5 minutes to boot",systems,system speed,,negative
+C0256,synthetic,labs,the new computers in lab 3 are fast and smooth,computers,system speed,,positive
+C0257,synthetic,labs,many keyboards and mouse are not working,keyboards,equipment condition,,negative
+C0258,synthetic,labs,python and vs code are installed and working fine,python,software availability,,positive
+C0259,synthetic,labs,matlab license expired and no one is bothered,matlab,software availability,,negative
+C0260,synthetic,labs,lab assistants are friendly and clear our doubts,lab assistants,lab staff,,positive
+C0261,synthetic,labs,"lab timings clash with our classes, only 2 hours given",lab timings,lab timings,,negative
+C0262,synthetic,labs,"the lab is overcrowded, 3 students share one system",overcrowded,space,,negative
+C0263,synthetic,labs,ac in the lab keeps the systems cool and us comfortable,ac,cleanliness,,positive
+C0264,synthetic,labs,the lab is clean and organised,lab,cleanliness,,positive
+C0265,synthetic,labs,lab instructor was rude when i asked a doubt,lab instructor,lab staff,,negative
+C0266,synthetic,labs,not enough oscilloscopes for the electronics lab,oscilloscopes,equipment condition,,negative
+C0267,synthetic,labs,projector in the lab is clear and bright,projector,equipment condition,,positive
+C0268,synthetic,labs,open lab hours till 8 pm are really helpful for projects,open lab hours,lab timings,,positive
+C0269,synthetic,labs,the linux machines hang every time we run docker,linux machines,system speed,,negative
+C0270,synthetic,labs,we can't install any software without admin permission,install any software,software availability,,negative
+C0271,synthetic,labs,"good lab, all required tools are available",tools,equipment condition,,positive
+C0272,synthetic,labs,broken chairs and wobbly tables in the lab,chairs,space,,negative
+C0273,synthetic,labs,power fluctuation shuts down the systems during experiments,power fluctuation,equipment condition,,negative
+C0274,synthetic,labs,the lab technician helped me fix my circuit patiently,lab technician,lab staff,,positive
+C0275,synthetic,labs,"labs are available only during scheduled hours, no extra time for practice",scheduled hours,lab timings,,negative
+C0276,synthetic,labs,"monitor flickers on my system, informed twice but nothing done",monitor,equipment condition,,negative
+C0277,synthetic,labs,internet in the lab is too slow to download packages,internet,system speed,,negative
+C0278,synthetic,labs,the machines have the latest versions of visual studio,visual studio,software availability,,positive
+C0279,synthetic,labs,compiler error because outdated java version,java version,software availability,,negative
+C0280,synthetic,labs,space is enough to move around and work comfortably,space,space,,positive
+C0281,synthetic,labs,the lab record submission instructions are clear,instructions,lab staff,,positive
+C0282,synthetic,labs,network lab has good routers and switches for practice,routers,equipment condition,,positive
+C0283,synthetic,labs,"lab is average, nothing special",lab,equipment condition,,neutral
+C0284,synthetic,labs,dirty keyboards and sticky mouse everywhere,keyboards,cleanliness,,negative
+C0285,synthetic,labs,the lab incharge doesn't allow extra time even for submissions,lab incharge,lab staff,,negative
+C0285,synthetic,labs,the lab incharge doesn't allow extra time even for submissions,extra time,lab timings,,negative
+C0286,synthetic,labs,"lab semma ah irukku, systems fast ah work aagudhu",systems,system speed,,positive
+C0287,synthetic,labs,"system hang aagum, work save panna mudiyala",system,system speed,,negative
+C0288,synthetic,labs,mouse keyboard onnume work aagala da,mouse keyboard,equipment condition,,negative
+C0289,synthetic,labs,lab sir nalla explain pannuvaru,lab sir,lab staff,,positive
+C0290,synthetic,labs,"lab time rombo kammi, project mudikka mudiyala",lab time,lab timings,,negative
+C0291,synthetic,labs,"AC work aagala, lab la romba heat",AC,cleanliness,,negative
+C0292,synthetic,labs,"ore system ku 4 per, idam illa",idam,space,,negative
+C0293,synthetic,labs,the sistem is so sloww,sistem,system speed,,negative
+C0294,synthetic,labs,labtop connections are not wrking,labtop connections,equipment condition,,negative
+C0295,synthetic,labs,softwre license is not avilable,softwre license,software availability,,negative
+C0296,synthetic,labs,lab assitant helped alot,lab assitant,lab staff,,positive
+C0297,synthetic,labs,the lab is cold n clean,lab,cleanliness,,positive
+C0298,synthetic,labs,cant run tensorflow bcos gpu not avilable,gpu,equipment condition,,negative
+C0299,synthetic,labs,"hardware lab has good components and kits, but timings are short",components,equipment condition,,positive
+C0299,synthetic,labs,"hardware lab has good components and kits, but timings are short",timings,lab timings,,negative
+C0300,synthetic,labs,"labs are clean, but systems are old",labs,cleanliness,,positive
+C0300,synthetic,labs,"labs are clean, but systems are old",systems,equipment condition,,negative
+C0301,synthetic,labs,lab staff are helpful but very less in number,lab staff,lab staff,,positive
+C0301,synthetic,labs,lab staff are helpful but very less in number,less in number,lab staff,,negative
+C0302,synthetic,labs,good software but internet is poor,software,software availability,,positive
+C0302,synthetic,labs,good software but internet is poor,internet,system speed,,negative
+C0303,synthetic,labs,the lab has latest pcs but the seating is cramped,pcs,system speed,,positive
+C0303,synthetic,labs,the lab has latest pcs but the seating is cramped,seating,space,,negative
+C0304,synthetic,labs,power backup in lab saved our practical exam,power backup,equipment condition,,positive
+C0305,synthetic,labs,the access card system works well for entering the lab,access card system,lab timings,,positive
+C0306,synthetic,labs,printers in the lab are always out of ink,printers,equipment condition,,negative
+C0307,synthetic,labs,lab manual is outdated and the experiments are not useful,lab manual,software availability,,negative
+C0308,synthetic,labs,lab incharge is flexible with the timings for project teams,lab incharge,lab staff,,positive
+C0308,synthetic,labs,lab incharge is flexible with the timings for project teams,timings,lab timings,,positive
+C0309,synthetic,labs,the ai lab with gpu servers is a game changer,gpu servers,equipment condition,,positive
+C0310,synthetic,labs,mouse is stuck and cursor jumps,mouse,equipment condition,,negative
+C0311,synthetic,labs,lab is always locked when we reach on time,locked,lab timings,,negative
+C0312,synthetic,labs,virtual machine setup in lab saves a lot of time,virtual machine,software availability,,positive
+C0313,synthetic,labs,some systems have no headphones for the language lab,headphones,equipment condition,,negative
+C0314,synthetic,labs,"network lab switch is broken, whole row can't connect",switch,equipment condition,,negative
+C0315,synthetic,labs,the lab assistant keeps playing games on his phone and ignores us,lab assistant,lab staff,,negative
+C0316,synthetic,labs,"the lab is okay, i have no complaints",lab,equipment condition,,neutral
+C0317,synthetic,labs,"cooling is poor, systems overheat in summer",cooling,cleanliness,,negative
+C0318,synthetic,labs,we get 3 hours for each practical which is enough,3 hours,lab timings,,positive
+C0319,synthetic,labs,lab desks are wide and have enough power sockets,lab desks,space,,positive
+C0320,synthetic,labs,mobile signal is nil inside the lab,mobile signal,system speed,,negative
+C0321,synthetic,labs,good ventilation and lighting in the chemistry lab,ventilation,cleanliness,,positive
+C0322,synthetic,labs,the instruments in physics lab are rusted,instruments,equipment condition,,negative
+C0323,synthetic,labs,"the lab is a joke, systems are junk and staff are idiots",systems,equipment condition,,negative
+C0323,synthetic,labs,"the lab is a joke, systems are junk and staff are idiots",staff,lab staff,,negative
+C0324,synthetic,labs,"stupid lab rules, can't even use my own pendrive",,software availability,,negative
+C0325,synthetic,labs,"useless lab assistant, damn clown wastes our time",lab assistant,lab staff,,negative
+C0326,synthetic,labs,"the systems suck, who bought this garbage",systems,system speed,,negative
+C0327,synthetic,labs,shut up and fix the computers you lazy morons,computers,equipment condition,,negative
+C0328,synthetic,labs,the lab incharge is a fool who doesn't know anything,lab incharge,lab staff,,negative
+C0329,synthetic,library,library is peaceful and perfect for study,library,silence,,positive
+C0330,synthetic,library,"not enough seats during exam week, people reserve with bags",seats,seating,,negative
+C0331,synthetic,library,"ac is too cold, i carry a jacket always",ac,ac/temperature,,negative
+C0332,synthetic,library,the librarian is very helpful in finding books,librarian,staff behavior,,positive
+C0333,synthetic,library,latest edition books are not available,books,book availability,,negative
+C0334,synthetic,library,"library closes at 8 pm, need extended hours during exams",closes at 8 pm,opening hours,,negative
+C0335,synthetic,library,people talk loudly near the group study area,talk loudly,silence,,negative
+C0336,synthetic,library,ieee and springer access works well from the campus network,ieee,digital resources,,positive
+C0337,synthetic,library,the library staff are strict but fair,staff,staff behavior,,neutral
+C0338,synthetic,library,"cleanliness is great, floors and tables are spotless",cleanliness,cleanliness,,positive
+C0339,synthetic,library,"very few copies of the core textbooks, 100 students for 3 copies",copies,book availability,,negative
+C0340,synthetic,library,charging points near the seats are a big help,charging points,seating,,positive
+C0341,synthetic,library,e journal login keeps failing from the hostel,e journal,digital resources,,negative
+C0342,synthetic,library,washrooms near the library are dirty,washrooms,cleanliness,,negative
+C0343,synthetic,library,the reading hall is bright and quiet,reading hall,silence,,positive
+C0344,synthetic,library,no response from the staff when i asked for a book request,staff,staff behavior,,negative
+C0345,synthetic,library,"opening hours are good, 8 am to 10 pm",opening hours,opening hours,,positive
+C0346,synthetic,library,"ac is not working in the second floor, too hot to sit",ac,ac/temperature,,negative
+C0347,synthetic,library,the new arrivals section is updated regularly,new arrivals,book availability,,positive
+C0348,synthetic,library,"library is open on sundays now, thanks",open on sundays,opening hours,,positive
+C0349,synthetic,library,some books are torn and pages are missing,books,book availability,,negative
+C0350,synthetic,library,catalog search website is slow and confusing,catalog search,digital resources,,negative
+C0351,synthetic,library,"silence is not maintained, people use phone calls",silence,silence,,negative
+C0352,synthetic,library,"best place on campus to study, love the ambience",ambience,silence,,positive
+C0353,synthetic,library,digital library has many ebooks for gate prep,digital library,digital resources,,positive
+C0354,synthetic,library,"bag counter takes too long, long line at entry",bag counter,opening hours,,negative
+C0355,synthetic,library,chairs are uncomfortable for long study hours,chairs,seating,,negative
+C0356,synthetic,library,nptel material and old question papers are easy to find,question papers,digital resources,,positive
+C0357,synthetic,library,the staff made us leave exactly at closing time without any grace,staff,staff behavior,,negative
+C0358,synthetic,library,"average library, nothing great",library,book availability,,neutral
+C0359,synthetic,library,temperature is just right and the lights are good,temperature,ac/temperature,,positive
+C0360,synthetic,library,"no space for sitting on the floor too, so overcrowded",overcrowded,seating,,negative
+C0361,synthetic,library,returning books is easy with the drop box,drop box,staff behavior,,positive
+C0362,synthetic,library,"library semma peaceful, padikka nalla irukku",library,silence,,positive
+C0363,synthetic,library,"books illa da, one copy ku 20 per waiting",books,book availability,,negative
+C0364,synthetic,library,"ac romba cold, nadungurathu",ac,ac/temperature,,negative
+C0365,synthetic,library,"night 10 mani varaikum open, helpful for exams",open,opening hours,,positive
+C0366,synthetic,library,"staff nalla help pannanga, thanks",staff,staff behavior,,positive
+C0367,synthetic,library,seat kedaikave illa exam time la,seat,seating,,negative
+C0368,synthetic,library,wifi in the library is poor and e books are not loading,wifi,digital resources,,negative
+C0369,synthetic,library,"silence illa, group ah vandhu pesuranga",silence,silence,,negative
+C0370,synthetic,library,libary is too croweded in the evening,croweded,seating,,negative
+C0371,synthetic,library,the librarain was so rude today,librarain,staff behavior,,negative
+C0372,synthetic,library,no good books on machine larning,books,book availability,,negative
+C0373,synthetic,library,digitl resources are very usefull,digitl resources,digital resources,,positive
+C0374,synthetic,library,nice place to study but too cold,place,silence,,positive
+C0374,synthetic,library,nice place to study but too cold,cold,ac/temperature,,negative
+C0375,synthetic,library,"good collection of reference books, but seating is limited",reference books,book availability,,positive
+C0375,synthetic,library,"good collection of reference books, but seating is limited",seating,seating,,negative
+C0376,synthetic,library,"librarian helps a lot, however opening hours are short on saturdays",librarian,staff behavior,,positive
+C0376,synthetic,library,"librarian helps a lot, however opening hours are short on saturdays",opening hours,opening hours,,negative
+C0377,synthetic,library,"very clean and well organised, but the ac is noisy",clean,cleanliness,,positive
+C0377,synthetic,library,"very clean and well organised, but the ac is noisy",ac,ac/temperature,,negative
+C0378,synthetic,library,great ebooks but the login page keeps timing out,ebooks,digital resources,,positive
+C0378,synthetic,library,great ebooks but the login page keeps timing out,login page,digital resources,,negative
+C0379,synthetic,library,"reading room is nice, wish it opened earlier",reading room,silence,,positive
+C0379,synthetic,library,"reading room is nice, wish it opened earlier",opened earlier,opening hours,,negative
+C0380,synthetic,library,"the ground floor is noisy, 3rd floor is quiet",ground floor,silence,,negative
+C0380,synthetic,library,"the ground floor is noisy, 3rd floor is quiet",3rd floor,silence,,positive
+C0381,synthetic,library,love the library cafe corner but books are outdated,cafe corner,seating,,positive
+C0381,synthetic,library,love the library cafe corner but books are outdated,books,book availability,,negative
+C0382,synthetic,library,placement prep books are available which is great,placement prep books,book availability,,positive
+C0383,synthetic,library,"journals for research are limited, need more subscriptions",journals,digital resources,,negative
+C0384,synthetic,library,"some students sleep on the tables, no one stops them",sleep on the tables,silence,,negative
+C0385,synthetic,library,the desks have scratches and graffiti,desks,cleanliness,,negative
+C0386,synthetic,library,return date fines are too high,fines,staff behavior,,negative
+C0387,synthetic,library,the library app for renewal is quick and easy,library app,digital resources,,positive
+C0388,synthetic,library,dust on the shelves makes me sneeze,dust,cleanliness,,negative
+C0389,synthetic,library,there is not enough light on the upper floor,light,ac/temperature,,negative
+C0390,synthetic,library,if you reach after 9 am there are no seats left,seats,seating,,negative
+C0391,synthetic,library,water cooler near library is not working,water cooler,cleanliness,,negative
+C0392,synthetic,library,"silent zone is really silent, i love it",silent zone,silence,,positive
+C0393,synthetic,library,the library is ok,library,silence,,neutral
+C0394,synthetic,library,scanning and printing in library is cheap and fast,printing,digital resources,,positive
+C0395,synthetic,library,"so many old edition textbooks, nothing useful for the new syllabus",textbooks,book availability,,negative
+C0396,synthetic,library,staff are friendly and answer doubts patiently,staff,staff behavior,,positive
+C0397,synthetic,library,closing time is too early for final year project students,closing time,opening hours,,negative
+C0398,synthetic,library,"books are arranged by subject, easy to find",arranged by subject,book availability,,positive
+C0399,synthetic,library,smell of damp in the corner section,damp,cleanliness,,negative
+C0400,synthetic,library,we need more sockets for laptops,sockets,seating,,negative
+C0401,synthetic,library,the librarian smiled and helped me with the project report formatting,librarian,staff behavior,,positive
+C0402,synthetic,library,"ac is perfect in summer, thanks to the library for the comfort",ac,ac/temperature,,positive
+C0403,synthetic,library,"the library is a waste, nothing is ever available you idiots",library,book availability,,negative
+C0404,synthetic,library,that librarian is a stupid old fool,librarian,staff behavior,,negative
+C0405,synthetic,library,"shut your mouth and open the library on time, useless staff",staff,staff behavior,,negative
+C0405,synthetic,library,"shut your mouth and open the library on time, useless staff",library,opening hours,,negative
+C0406,synthetic,library,who is the moron in charge of purchasing books,,book availability,,negative
+C0407,synthetic,library,"damn this library, it sucks big time",library,book availability,,negative
+C0408,synthetic,library,staff are lazy idiots who sleep at the desk,staff,staff behavior,,negative
+C0409,synthetic,transport,the bus is always late by 20 minutes,late,punctuality,,negative
+C0410,synthetic,transport,buses are so crowded that i have to stand for an hour,crowded,crowding,,negative
+C0411,synthetic,transport,the driver is very careful and polite,driver,driver behavior,,positive
+C0412,synthetic,transport,our route does not cover the new housing area,route,route coverage,,negative
+C0413,synthetic,transport,"bus reaches college on time every day, thank you",on time,punctuality,,positive
+C0414,synthetic,transport,the seats are broken and windows don't close,seats,bus condition,,negative
+C0415,synthetic,transport,fare increased by 200 rupees this semester,fare,fare,,negative
+C0416,synthetic,transport,driver was driving rashly and overtaking on the highway,driving rashly,driver behavior,,negative
+C0417,synthetic,transport,the bus is clean and well maintained,bus,bus condition,,positive
+C0418,synthetic,transport,no women safety measures in the late evening buses,women safety,safety,,negative
+C0419,synthetic,transport,buses leave without waiting even if students are running,leave without waiting,punctuality,,negative
+C0420,synthetic,transport,the bus broke down on the way twice this month,broke down,bus condition,,negative
+C0421,synthetic,transport,"route coverage is good, stops are near my home",route coverage,route coverage,,positive
+C0422,synthetic,transport,fee is reasonable for the distance covered,fee,fare,,positive
+C0423,synthetic,transport,the conductor is helpful and friendly,conductor,driver behavior,,positive
+C0424,synthetic,transport,ac bus is comfortable and not crowded,ac bus,bus condition,,positive
+C0425,synthetic,transport,we reach home only after 8 pm because of the long route,long route,route coverage,,negative
+C0426,synthetic,transport,the bus is too crowded in the evening,crowded,crowding,,negative
+C0427,synthetic,transport,bus stops at every small stop and wastes time,stops,route coverage,,negative
+C0428,synthetic,transport,"drivers use mobile phones while driving, unsafe",mobile phones,safety,,negative
+C0429,synthetic,transport,bus timing is perfect for morning classes,bus timing,punctuality,,positive
+C0430,synthetic,transport,no fixed seat so we fight every day,fixed seat,crowding,,negative
+C0431,synthetic,transport,"students stand in the door step, dangerous",door step,safety,,negative
+C0432,synthetic,transport,the buses are old and make loud noise,buses,bus condition,,negative
+C0433,synthetic,transport,transport office staff do not respond to complaints,transport office staff,driver behavior,,negative
+C0434,synthetic,transport,bus arrives late during rain,late,punctuality,,negative
+C0435,synthetic,transport,new buses added this year have reduced crowding,new buses,crowding,,positive
+C0436,synthetic,transport,"fuel charges are included, no extra fare so good",extra fare,fare,,positive
+C0437,synthetic,transport,the bus is fine,bus,bus condition,,neutral
+C0438,synthetic,transport,"bus romba late ah varuthu, first hour miss aagudhu",late,punctuality,,negative
+C0439,synthetic,transport,"seat kedaikave illa, nikkave vendiyathu",seat,crowding,,negative
+C0440,synthetic,transport,"driver anna romba nalla person, safe ah ottuvaru",driver,driver behavior,,positive
+C0441,synthetic,transport,namma area ku bus route illa da,bus route,route coverage,,negative
+C0442,synthetic,transport,"fare romba jaasthi, hostel la irundhale nalla",fare,fare,,negative
+C0443,synthetic,transport,"bus clean ah irukku, AC work aagudhu",AC,bus condition,,positive
+C0444,synthetic,transport,"night bus la bayam ah irukku, lights illa",lights,safety,,negative
+C0445,synthetic,transport,buss was latee agaain todaay,latee,punctuality,,negative
+C0446,synthetic,transport,the drivr is rud to students,drivr,driver behavior,,negative
+C0447,synthetic,transport,bus faer is too hihg,faer,fare,,negative
+C0448,synthetic,transport,"no rout to my area, i hav to take auto",rout,route coverage,,negative
+C0449,synthetic,transport,the bus alwys breaks dwn,breaks dwn,bus condition,,negative
+C0450,synthetic,transport,good driver but the bus is overloaded,driver,driver behavior,,positive
+C0450,synthetic,transport,good driver but the bus is overloaded,overloaded,crowding,,negative
+C0451,synthetic,transport,bus is on time but the seats are very uncomfortable,on time,punctuality,,positive
+C0451,synthetic,transport,bus is on time but the seats are very uncomfortable,seats,bus condition,,negative
+C0452,synthetic,transport,fare is okay but the route is too long,fare,fare,,neutral
+C0452,synthetic,transport,fare is okay but the route is too long,route,route coverage,,negative
+C0453,synthetic,transport,"clean buses, rude conductor",clean,bus condition,,positive
+C0453,synthetic,transport,"clean buses, rude conductor",conductor,driver behavior,,negative
+C0454,synthetic,transport,"nice drivers and safe journey, but timing is not fixed",drivers,driver behavior,,positive
+C0454,synthetic,transport,"nice drivers and safe journey, but timing is not fixed",safe journey,safety,,positive
+C0454,synthetic,transport,"nice drivers and safe journey, but timing is not fixed",timing,punctuality,,negative
+C0455,synthetic,transport,"they added a new stop near the metro station, very convenient",new stop,route coverage,,positive
+C0456,synthetic,transport,"gps tracking app helps us know the bus location, very useful",gps tracking app,punctuality,,positive
+C0457,synthetic,transport,"the bus tyre burst yesterday, thankfully no one was hurt",tyre,bus condition,,negative
+C0458,synthetic,transport,students without id get blocked and refused a seat,refused a seat,crowding,,negative
+C0459,synthetic,transport,"a speed limit warning is announced in the bus now, good",speed limit,safety,,positive
+C0460,synthetic,transport,the pickup point is too far from my home,pickup point,route coverage,,negative
+C0461,synthetic,transport,fare should be reduced for students who use only one way,fare,fare,,negative
+C0462,synthetic,transport,cctv in buses makes girls feel safer,cctv,safety,,positive
+C0463,synthetic,transport,transport in-charge helped me change my route quickly,transport in-charge,driver behavior,,positive
+C0464,synthetic,transport,the bus floor is always dirty and stinks,floor,bus condition,,negative
+C0465,synthetic,transport,the second shift buses are too few,second shift buses,crowding,,negative
+C0466,synthetic,transport,the last bus at 6 pm leaves before our lab ends,last bus,punctuality,,negative
+C0467,synthetic,transport,"this transport is a nightmare, worth every complaint",transport,punctuality,,negative
+C0468,synthetic,transport,driver is a crazy idiot who will kill us one day,driver,driver behavior,,negative
+C0468,synthetic,transport,driver is a crazy idiot who will kill us one day,,safety,,negative
+C0469,synthetic,transport,the bus is a pile of junk and the contractor is a thief,bus,bus condition,,negative
+C0469,synthetic,transport,the bus is a pile of junk and the contractor is a thief,contractor,fare,,negative
+C0470,synthetic,transport,"stupid transport office, damn fools never reply",transport office,driver behavior,,negative
+C0471,synthetic,transport,"bloody useless buses, always late you morons",late,punctuality,,negative
+C0472,synthetic,transport,the conductor is a clown who shouts at everyone,conductor,driver behavior,,negative
+C0473,synthetic,wifi,wifi is so slow in the hostel at night,wifi,speed,,negative
+C0474,synthetic,wifi,the speed in the academic block is really good,speed,speed,,positive
+C0475,synthetic,wifi,internet disconnects every 10 minutes,disconnects,reliability,,negative
+C0476,synthetic,wifi,no signal in the library basement,signal,coverage,,negative
+C0477,synthetic,wifi,the login page keeps asking for password again and again,login page,login issues,,negative
+C0478,synthetic,wifi,daily data limit of 2gb is too low for students,data limit,bandwidth limit,,negative
+C0479,synthetic,wifi,wifi works fine in classrooms,wifi,connectivity,,positive
+C0480,synthetic,wifi,"connection drops during online exams, very risky",connection drops,reliability,,negative
+C0481,synthetic,wifi,"hostel wifi coverage is poor, only works near the corridor",coverage,coverage,,negative
+C0482,synthetic,wifi,videos buffer endlessly after 8 pm,buffer,speed,,negative
+C0483,synthetic,wifi,can't connect two devices at the same time,connect two devices,login issues,,negative
+C0484,synthetic,wifi,youtube is blocked and even educational videos don't load,youtube,bandwidth limit,,negative
+C0485,synthetic,wifi,new wifi routers have improved coverage a lot,coverage,coverage,,positive
+C0486,synthetic,wifi,wifi is stable during the day,wifi,reliability,,positive
+C0487,synthetic,wifi,it takes ages to download a 50 mb file,download,speed,,negative
+C0488,synthetic,wifi,"campus wifi is good enough for browsing, but not for downloads",browsing,speed,,positive
+C0488,synthetic,wifi,"campus wifi is good enough for browsing, but not for downloads",downloads,speed,,negative
+C0489,synthetic,wifi,server is always down during assignment submissions,server,reliability,,negative
+C0490,synthetic,wifi,excellent speed in the new it block,speed,speed,,positive
+C0491,synthetic,wifi,the mac address registration process is confusing and slow,mac address registration,login issues,,negative
+C0492,synthetic,wifi,in the cafeteria wifi is not available at all,wifi,coverage,,negative
+C0493,synthetic,wifi,internet is unusable in the evening when everyone is online,internet,speed,,negative
+C0494,synthetic,wifi,the wifi signal is strong in the auditorium,signal,coverage,,positive
+C0495,synthetic,wifi,we get logged out every hour and have to login again,logged out,login issues,,negative
+C0496,synthetic,wifi,the it department fixed the connectivity issue fast,connectivity,connectivity,,positive
+C0497,synthetic,wifi,"speed test shows only 1 mbps, shame for an engineering college",1 mbps,speed,,negative
+C0498,synthetic,wifi,data cap resets at midnight which is useless,data cap,bandwidth limit,,negative
+C0499,synthetic,wifi,ping is high so online gaming and coding contests lag,ping,speed,,negative
+C0500,synthetic,wifi,sometimes wifi connects but there is no internet,no internet,connectivity,,negative
+C0501,synthetic,wifi,the wifi is ok for emails and docs,wifi,speed,,neutral
+C0502,synthetic,wifi,"vpn doesn't work on campus wifi, can't access research papers",vpn,connectivity,,negative
+C0503,synthetic,wifi,"wifi romba slow, video call kooda pannamudiyala",wifi,speed,,negative
+C0504,synthetic,wifi,"hostel la signal illa da, terrace ku poganum",signal,coverage,,negative
+C0505,synthetic,wifi,net speed super ah irukku today,net speed,speed,,positive
+C0506,synthetic,wifi,"login aaga mattengudhu, password wrong nu solluthu",login,login issues,,negative
+C0507,synthetic,wifi,class la wifi nalla work aagudhu,wifi,connectivity,,positive
+C0508,synthetic,wifi,daily data mudinjiduchu by evening,data,bandwidth limit,,negative
+C0509,synthetic,wifi,"wifi keeps cutting off, rombo irritating",wifi,reliability,,negative
+C0510,synthetic,wifi,the wiifi is not conecting in my room,wiifi,connectivity,,negative
+C0511,synthetic,wifi,internt speed is vry slow,internt speed,speed,,negative
+C0512,synthetic,wifi,the passwrd keeps changing every week,passwrd,login issues,,negative
+C0513,synthetic,wifi,"cant open any site, blokcing everythng",blokcing,bandwidth limit,,negative
+C0514,synthetic,wifi,wfi is workin gud in the lib,wfi,connectivity,,positive
+C0515,synthetic,wifi,the wifi goes down when it rains,wifi,reliability,,negative
+C0516,synthetic,wifi,signal is weak in the ground floor and fine on upper floors,signal,coverage,,negative
+C0516,synthetic,wifi,signal is weak in the ground floor and fine on upper floors,upper floors,coverage,,positive
+C0517,synthetic,wifi,"the speed is fine, but connection is unstable",speed,speed,,positive
+C0517,synthetic,wifi,"the speed is fine, but connection is unstable",connection,reliability,,negative
+C0518,synthetic,wifi,login is simple but the speed is bad,login,login issues,,positive
+C0518,synthetic,wifi,login is simple but the speed is bad,speed,speed,,negative
+C0519,synthetic,wifi,"good coverage across the campus, though speeds drop in the evening",coverage,coverage,,positive
+C0519,synthetic,wifi,"good coverage across the campus, though speeds drop in the evening",speeds,speed,,negative
+C0520,synthetic,wifi,wifi works inside the hostel room but not on the terrace,wifi,coverage,,positive
+C0520,synthetic,wifi,wifi works inside the hostel room but not on the terrace,terrace,coverage,,negative
+C0521,synthetic,wifi,"students share one login id, so everyone is slow",login id,login issues,,negative
+C0522,synthetic,wifi,the it team's helpdesk number never picks up,helpdesk,login issues,,negative
+C0523,synthetic,wifi,the speed in the library is superb for downloading study material,speed,speed,,positive
+C0524,synthetic,wifi,we are not able to join zoom classes because of the lag,lag,speed,,negative
+C0525,synthetic,wifi,the captive portal crashes on my phone,captive portal,login issues,,negative
+C0526,synthetic,wifi,"bandwidth is throttled after the data cap, completely unusable",throttled,bandwidth limit,,negative
+C0527,synthetic,wifi,wifi in the sports complex is non existent,wifi,coverage,,negative
+C0528,synthetic,wifi,campus wifi is better than my home broadband,wifi,speed,,positive
+C0529,synthetic,wifi,we need a better access point in the girls hostel second floor,access point,coverage,,negative
+C0530,synthetic,wifi,"the connection is reliable during exams, good job",connection,reliability,,positive
+C0531,synthetic,wifi,too many restrictions on websites for coding practice,restrictions,bandwidth limit,,negative
+C0532,synthetic,wifi,"the wifi at 3 am is faster, that's when i study lol",wifi,speed,,positive
+C0533,synthetic,wifi,"wifi is a scam, fix it you useless clowns",wifi,speed,,negative
+C0534,synthetic,wifi,the it people are idiots who can't run a single router,it people,reliability,,negative
+C0535,synthetic,wifi,"stupid wifi, stupid password system, i hate this college internet",wifi,login issues,,negative
+C0536,synthetic,wifi,"damn the internet is crap, worthless it team",internet,speed,,negative
+C0536,synthetic,wifi,"damn the internet is crap, worthless it team",it team,reliability,,negative
+C0537,synthetic,wifi,who the hell designed this bullshit login process,login process,login issues,,negative
+C0538,synthetic,wifi,"useless admin, block your own brain not youtube",youtube,bandwidth limit,,negative

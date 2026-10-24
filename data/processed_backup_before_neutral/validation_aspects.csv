@@ -1,0 +1,135 @@
+id,legacy_id,facility,batch,persona,text,aspect_term,category,sentiment,abusive,source_type,provenance
+C_CAN_01_002,C0002,canteen,1,second-year day scholar,tea is too sweet always,tea,food quality,negative,False,synthetic,original_recovered
+C_CAN_01_030,C0030,canteen,1,outstation student,the juice shop guy is very friendly,juice shop guy,staff behavior,positive,False,synthetic,original_recovered
+C_CAN_01_033,C0033,canteen,1,final-year student,too much waiting for just a maggi,waiting,waiting time,negative,False,synthetic,original_recovered
+C_CAN_01_033,C0033,canteen,1,final-year student,too much waiting for just a maggi,maggi,food quality,neutral,False,synthetic,original_recovered
+C_CAN_01_038,C0038,canteen,1,final-year student,lemon tea was just sugar water,lemon tea,food quality,negative,False,synthetic,original_recovered
+C_CAN_01_042,C0042,canteen,1,second-year day scholar,"the canteen is clean, floors mopped regularly",floors,hygiene,positive,False,synthetic,original_recovered
+C_CAN_02_002,C0049,canteen,2,club member,"parotta soft ah irukku, super da",parotta,food quality,positive,False,synthetic,original_recovered
+C_CAN_02_011,C0058,canteen,2,placement-focused student,fries wer cold n soggy,fries,food quality,negative,False,synthetic,original_recovered
+C_CAN_02_012,C0059,canteen,2,club member,tea nd bun combo is lyk a daily habit,tea nd bun combo,variety,positive,False,synthetic,original_recovered
+C_CAN_02_013,C0060,canteen,2,backlog student,boiled corn stall near the gate is yummy,boiled corn,food quality,positive,False,synthetic,original_recovered
+C_CAN_02_017,C0064,canteen,2,club member,canteen opens late on mondays,opens late,waiting time,negative,False,synthetic,original_recovered
+C_CAN_02_033,,canteen,2,backlog student,canteen rates are student friendly and affordable.,rates,price,positive,False,synthetic,newly_generated
+C_CAN_02_035,,canteen,2,third-year hosteller,parotta semma crispy but salna romba spicy.,parotta,food quality,positive,False,synthetic,newly_generated
+C_CAN_02_035,,canteen,2,third-year hosteller,parotta semma crispy but salna romba spicy.,salna,food quality,negative,False,synthetic,newly_generated
+C_CAN_02_038,,canteen,2,third-year hosteller,"fried rice oil overflow agudhu, hygiene is very poor.",fried rice,food quality,negative,False,synthetic,newly_generated
+C_CAN_02_038,,canteen,2,third-year hosteller,"fried rice oil overflow agudhu, hygiene is very poor.",hygiene,hygiene,negative,False,synthetic,newly_generated
+C_CAN_02_042,,canteen,2,placement-focused student,sandwich portion is too small for the price they charge.,portion,quantity,negative,False,synthetic,newly_generated
+C_CAN_02_042,,canteen,2,placement-focused student,sandwich portion is too small for the price they charge.,price,price,negative,False,synthetic,newly_generated
+C_CAN_02_049,C0083,canteen,2,third-year hosteller,canteen is a joke and the owner is a clown,canteen,food quality,negative,True,synthetic,original_recovered
+C_CLS_01_002,,classrooms,1,second-year day scholar,"ac is not working in room 302, suffocating heat in afternoon lecture.",ac,ac/temperature,negative,False,synthetic,newly_generated
+C_CLS_01_030,,classrooms,1,final-year student,"bench width is too narrow, three students cannot sit comfortably.",bench width,seating,negative,False,synthetic,newly_generated
+C_CLS_01_033,,classrooms,1,girls' hostel resident,curtains block harsh sunlight effectively during presentations.,curtains,lighting,positive,False,synthetic,newly_generated
+C_CLS_01_038,,classrooms,1,girls' hostel resident,tiered gallery seating ensures clear line of sight to board.,gallery seating,seating,positive,False,synthetic,newly_generated
+C_CLS_01_042,,classrooms,1,second-year day scholar,clean environment and dustless chalk make lecture healthy.,clean environment,cleanliness,positive,False,synthetic,newly_generated
+C_CLS_02_002,,classrooms,2,placement-focused student,chilled ac air helps stay focused during grueling three hour placement tests.,ac,ac/temperature,positive,False,synthetic,newly_generated
+C_CLS_02_011,,classrooms,2,placement-focused student,classroom floor is swept cleanly.,classroom floor,cleanliness,positive,False,synthetic,newly_generated
+C_CLS_02_012,,classrooms,2,faculty-project student,exhaust fan creates continuous loud humming noise during lecture.,humming noise,noise,negative,False,synthetic,newly_generated
+C_CLS_02_013,,classrooms,2,club member,"hdmi port on podium is damaged, faculty had to cancel ppt session.",hdmi port,projector/av,negative,False,synthetic,newly_generated
+C_CLS_02_017,,classrooms,2,faculty-project student,spider webs in room corners show lack of daily maintenance.,spider webs,cleanliness,negative,False,synthetic,newly_generated
+C_CLS_02_033,,classrooms,2,faculty-project student,clean desk surfaces and vacuumed floor carpet make hall look professional.,desk surfaces,cleanliness,positive,False,synthetic,newly_generated
+C_CLS_02_035,,classrooms,2,third-year hosteller,dual display screens allow students on both wings to watch presentation clearly.,display screens,projector/av,positive,False,synthetic,newly_generated
+C_CLS_02_038,,classrooms,2,faculty-project student,window blinds allow adjusting daylight smoothly.,window blinds,lighting,positive,False,synthetic,newly_generated
+C_CLS_02_042,,classrooms,2,club member,room is tidy and waste paper bin is emptied before morning class.,room,cleanliness,positive,False,synthetic,newly_generated
+C_CLS_02_049,,classrooms,2,club member,"the audio equipment in this hall is pathetic crap, fix it you useless clowns",audio equipment,projector/av,negative,True,synthetic,newly_generated
+C_HM_01_002,C0086,hostel_mess,1,second-year day scholar,mess food is okay nothing special,food,food quality,neutral,False,synthetic,original_recovered
+C_HM_01_030,C0114,hostel_mess,1,outstation student,roti is hard like rubber,roti,food quality,negative,False,synthetic,original_recovered
+C_HM_01_033,C0117,hostel_mess,1,final-year student,payasam on festival day was great,payasam,food quality,positive,False,synthetic,original_recovered
+C_HM_01_038,C0122,hostel_mess,1,final-year student,the queue moves fast after the second counter opened,queue,waiting time,positive,False,synthetic,original_recovered
+C_HM_01_042,C0126,hostel_mess,1,second-year day scholar,mess is clean and tidy in the mornings,clean,hygiene,positive,False,synthetic,original_recovered
+C_HM_02_002,C0133,hostel_mess,2,club member,"queue jumping by seniors every day, mess staff just watch",queue,waiting time,negative,False,synthetic,original_recovered
+C_HM_02_002,C0133,hostel_mess,2,club member,"queue jumping by seniors every day, mess staff just watch",mess staff,staff behavior,negative,False,synthetic,original_recovered
+C_HM_02_011,C0142,hostel_mess,2,placement-focused student,coffee in the morning is decent,coffee,food quality,positive,False,synthetic,original_recovered
+C_HM_02_012,C0143,hostel_mess,2,club member,food semma but queue romba long,food,food quality,positive,False,synthetic,original_recovered
+C_HM_02_012,C0143,hostel_mess,2,club member,food semma but queue romba long,queue,waiting time,negative,False,synthetic,original_recovered
+C_HM_02_013,C0144,hostel_mess,2,backlog student,"sambar romba thanni da, taste illa",sambar,food quality,negative,False,synthetic,original_recovered
+C_HM_02_017,C0148,hostel_mess,2,club member,"rice la kal irukku, yaar kitta sollurathu",rice,food quality,negative,False,synthetic,original_recovered
+C_HM_02_033,C0164,hostel_mess,2,backlog student,rasam is the only good thing here,rasam,food quality,positive,False,synthetic,original_recovered
+C_HM_02_035,C0166,hostel_mess,2,faculty-project student,"mess workers wear gloves now, good change",gloves,hygiene,positive,False,synthetic,original_recovered
+C_HM_02_038,C0169,hostel_mess,2,backlog student,need more north indian options for outstation students,north indian options,variety,negative,False,synthetic,original_recovered
+C_HM_02_042,,hostel_mess,2,placement-focused student,"late night study ku tea and biscuits are provided during placement season, really helpful.",tea and biscuits,variety,positive,False,synthetic,newly_generated
+C_HM_02_042,,hostel_mess,2,placement-focused student,"late night study ku tea and biscuits are provided during placement season, really helpful.",provided,food quality,positive,False,synthetic,newly_generated
+C_HM_02_049,C0177,hostel_mess,2,third-year hosteller,"damn this stupid mess, hate every single meal",mess,food quality,negative,True,synthetic,original_recovered
+C_HR_01_002,C0180,hostel_rooms,1,second-year day scholar,fans are not working in our block for 2 weeks,fans,maintenance,negative,False,synthetic,original_recovered
+C_HR_01_030,C0208,hostel_rooms,1,girls' hostel resident,"girls hostel gate closes on time and security is strict, which is good",security,safety,positive,False,synthetic,original_recovered
+C_HR_01_033,C0211,hostel_rooms,1,final-year student,the bathroom doors don't close properly,bathroom doors,maintenance,negative,False,synthetic,original_recovered
+C_HR_01_038,C0216,hostel_rooms,1,final-year student,rooms are big but dirty,rooms,room size,positive,False,synthetic,original_recovered
+C_HR_01_038,C0216,hostel_rooms,1,final-year student,rooms are big but dirty,dirty,cleanliness,negative,False,synthetic,original_recovered
+C_HR_01_042,C0220,hostel_rooms,1,second-year day scholar,"room clean ah irukku, thanks to the aunty",room,cleanliness,positive,False,synthetic,original_recovered
+C_HR_02_002,C0227,hostel_rooms,2,club member,"the mattres is so hard, back pain kills me",mattres,maintenance,negative,False,synthetic,original_recovered
+C_HR_02_011,C0236,hostel_rooms,2,placement-focused student,"visitors are not allowed after 6, so the place is peaceful",visitors,noise,positive,False,synthetic,original_recovered
+C_HR_02_012,C0237,hostel_rooms,2,club member,power socket near my bed is loose and sparks sometimes,power socket,electricity,negative,False,synthetic,original_recovered
+C_HR_02_013,C0238,hostel_rooms,2,backlog student,the toilet flush is damaged and no spare,toilet flush,maintenance,negative,False,synthetic,original_recovered
+C_HR_02_017,C0242,hostel_rooms,2,club member,we get laundry slots for each floor which is organised,laundry slots,laundry,positive,False,synthetic,original_recovered
+C_HR_02_033,,hostel_rooms,2,club member,balcony view is pleasant but clothes drying space is congested.,balcony,room size,positive,False,synthetic,newly_generated
+C_HR_02_033,,hostel_rooms,2,club member,balcony view is pleasant but clothes drying space is congested.,clothes drying space,laundry,negative,False,synthetic,newly_generated
+C_HR_02_035,,hostel_rooms,2,third-year hosteller,tap water has brown rust color in the fourth floor bathrooms.,tap water,water supply,negative,False,synthetic,newly_generated
+C_HR_02_038,,hostel_rooms,2,faculty-project student,cleaning staff mop room floor promptly upon request.,cleaning staff,cleanliness,positive,False,synthetic,newly_generated
+C_HR_02_042,,hostel_rooms,2,faculty-project student,uninterrupted power backup supported my project simulation runs overnight.,power backup,electricity,positive,False,synthetic,newly_generated
+C_HR_02_049,C0253,hostel_rooms,2,third-year hosteller,fix the bloody power cuts you clowns,power cuts,electricity,negative,True,synthetic,original_recovered
+C_LAB_01_002,C0256,labs,1,second-year day scholar,the new computers in lab 3 are fast and smooth,computers,system speed,positive,False,synthetic,original_recovered
+C_LAB_01_030,C0284,labs,1,outstation student,dirty keyboards and sticky mouse everywhere,keyboards,cleanliness,negative,False,synthetic,original_recovered
+C_LAB_01_033,C0287,labs,1,final-year student,"system hang aagum, work save panna mudiyala",system,system speed,negative,False,synthetic,original_recovered
+C_LAB_01_038,C0292,labs,1,final-year student,"ore system ku 4 per, idam illa",idam,space,negative,False,synthetic,original_recovered
+C_LAB_01_042,C0296,labs,1,second-year day scholar,lab assitant helped alot,lab assitant,lab staff,positive,False,synthetic,original_recovered
+C_LAB_02_002,C0303,labs,2,club member,the lab has latest pcs but the seating is cramped,pcs,system speed,positive,False,synthetic,original_recovered
+C_LAB_02_002,C0303,labs,2,club member,the lab has latest pcs but the seating is cramped,seating,space,negative,False,synthetic,original_recovered
+C_LAB_02_011,C0312,labs,2,placement-focused student,virtual machine setup in lab saves a lot of time,virtual machine,software availability,positive,False,synthetic,original_recovered
+C_LAB_02_012,C0313,labs,2,club member,some systems have no headphones for the language lab,headphones,equipment condition,negative,False,synthetic,original_recovered
+C_LAB_02_013,C0314,labs,2,backlog student,"network lab switch is broken, whole row can't connect",switch,equipment condition,negative,False,synthetic,original_recovered
+C_LAB_02_017,C0318,labs,2,club member,we get 3 hours for each practical which is enough,3 hours,lab timings,positive,False,synthetic,original_recovered
+C_LAB_02_033,,labs,2,faculty-project student,cad software crashes repeatedly due to outdated graphics drivers.,cad software,software availability,negative,False,synthetic,newly_generated
+C_LAB_02_035,,labs,2,placement-focused student,lab floors and desks are spotless and dust free.,desks,cleanliness,positive,False,synthetic,newly_generated
+C_LAB_02_038,,labs,2,club member,narrow aisles between lab tables make movement clumsy.,aisles,space,negative,False,synthetic,newly_generated
+C_LAB_02_042,,labs,2,backlog student,compiler took fifteen minutes just to build a simple cpp project.,compiler,system speed,negative,False,synthetic,newly_generated
+C_LAB_02_049,C0327,labs,2,third-year hosteller,shut up and fix the computers you lazy morons,computers,equipment condition,negative,True,synthetic,original_recovered
+C_LIB_01_002,C0330,library,1,second-year day scholar,"not enough seats during exam week, people reserve with bags",seats,seating,negative,False,synthetic,original_recovered
+C_LIB_01_030,C0358,library,1,outstation student,"average library, nothing great",library,book availability,neutral,False,synthetic,original_recovered
+C_LIB_01_033,C0361,library,1,final-year student,returning books is easy with the drop box,drop box,staff behavior,positive,False,synthetic,original_recovered
+C_LIB_01_038,C0366,library,1,final-year student,"staff nalla help pannanga, thanks",staff,staff behavior,positive,False,synthetic,original_recovered
+C_LIB_01_042,C0370,library,1,second-year day scholar,libary is too croweded in the evening,croweded,seating,negative,False,synthetic,original_recovered
+C_LIB_02_002,C0377,library,2,club member,"very clean and well organised, but the ac is noisy",clean,cleanliness,positive,False,synthetic,original_recovered
+C_LIB_02_002,C0377,library,2,club member,"very clean and well organised, but the ac is noisy",ac,ac/temperature,negative,False,synthetic,original_recovered
+C_LIB_02_011,C0386,library,2,placement-focused student,return date fines are too high,fines,staff behavior,negative,False,synthetic,original_recovered
+C_LIB_02_012,C0387,library,2,club member,the library app for renewal is quick and easy,library app,digital resources,positive,False,synthetic,original_recovered
+C_LIB_02_013,C0388,library,2,backlog student,dust on the shelves makes me sneeze,dust,cleanliness,negative,False,synthetic,original_recovered
+C_LIB_02_017,C0392,library,2,club member,"silent zone is really silent, i love it",silent zone,silence,positive,False,synthetic,original_recovered
+C_LIB_02_033,,library,2,faculty-project student,librarian sir helped me locate research conference proceedings patiently.,librarian sir,staff behavior,positive,False,synthetic,newly_generated
+C_LIB_02_035,,library,2,placement-focused student,cushioned chairs are comfortable for long study sessions.,chairs,seating,positive,False,synthetic,newly_generated
+C_LIB_02_038,,library,2,faculty-project student,digital library has fast internet but headphones are missing or broken.,digital library,digital resources,positive,False,synthetic,newly_generated
+C_LIB_02_038,,library,2,faculty-project student,digital library has fast internet but headphones are missing or broken.,headphones,digital resources,negative,False,synthetic,newly_generated
+C_LIB_02_042,,library,2,club member,washrooms near the library stack area are clean and dry.,washrooms,cleanliness,positive,False,synthetic,newly_generated
+C_LIB_02_049,C0407,library,2,third-year hosteller,"damn this library, it sucks big time",library,book availability,negative,True,synthetic,original_recovered
+C_TRN_01_002,C0410,transport,1,second-year day scholar,buses are so crowded that i have to stand for an hour,crowded,crowding,negative,False,synthetic,original_recovered
+C_TRN_01_030,C0438,transport,1,outstation student,"bus romba late ah varuthu, first hour miss aagudhu",late,punctuality,negative,False,synthetic,original_recovered
+C_TRN_01_033,C0441,transport,1,second-year day scholar,namma area ku bus route illa da,bus route,route coverage,negative,False,synthetic,original_recovered
+C_TRN_01_038,C0446,transport,1,final-year student,the drivr is rud to students,drivr,driver behavior,negative,False,synthetic,original_recovered
+C_TRN_01_042,C0450,transport,1,second-year day scholar,good driver but the bus is overloaded,driver,driver behavior,positive,False,synthetic,original_recovered
+C_TRN_01_042,C0450,transport,1,second-year day scholar,good driver but the bus is overloaded,overloaded,crowding,negative,False,synthetic,original_recovered
+C_TRN_02_002,C0457,transport,2,club member,"the bus tyre burst yesterday, thankfully no one was hurt",tyre,bus condition,negative,False,synthetic,original_recovered
+C_TRN_02_011,C0466,transport,2,placement-focused student,the last bus at 6 pm leaves before our lab ends,last bus,punctuality,negative,False,synthetic,original_recovered
+C_TRN_02_012,,transport,2,placement-focused student,college bus arrives sharp at 7:45 am at tambaram stop.,bus arrives sharp,punctuality,positive,False,synthetic,newly_generated
+C_TRN_02_013,,transport,2,backlog student,"bus number 14 is overcrowded, no place to stand during morning peak hour.",overcrowded,crowding,negative,False,synthetic,newly_generated
+C_TRN_02_017,,transport,2,third-year hosteller,seats are torn and window panes rattle loudly throughout the trip.,seats,bus condition,negative,False,synthetic,newly_generated
+C_TRN_02_033,,transport,2,faculty-project student,ample seating available in the 6:30 pm special lab bus.,seating,crowding,positive,False,synthetic,newly_generated
+C_TRN_02_035,,transport,2,placement-focused student,first aid kit is properly stocked and available near driver cabin.,first aid kit,safety,positive,False,synthetic,newly_generated
+C_TRN_02_038,,transport,2,backlog student,bus breakdown near bypass road left us stranded for over an hour.,bus breakdown,bus condition,negative,False,synthetic,newly_generated
+C_TRN_02_038,,transport,2,backlog student,bus breakdown near bypass road left us stranded for over an hour.,stranded,punctuality,negative,False,synthetic,newly_generated
+C_TRN_02_042,,transport,2,faculty-project student,clean windshield and working wipers help driver during heavy monsoon rains.,wipers,bus condition,positive,False,synthetic,newly_generated
+C_TRN_02_049,C0471,transport,2,third-year hosteller,"bloody useless buses, always late you morons",late,punctuality,negative,True,synthetic,original_recovered
+C_WIFI_01_002,C0474,wifi,1,second-year day scholar,the speed in the academic block is really good,speed,speed,positive,False,synthetic,original_recovered
+C_WIFI_01_030,C0502,wifi,1,outstation student,"vpn doesn't work on campus wifi, can't access research papers",vpn,connectivity,negative,False,synthetic,original_recovered
+C_WIFI_01_033,C0505,wifi,1,final-year student,net speed super ah irukku today,net speed,speed,positive,False,synthetic,original_recovered
+C_WIFI_01_038,C0510,wifi,1,final-year student,the wiifi is not conecting in my room,wiifi,connectivity,negative,False,synthetic,original_recovered
+C_WIFI_01_042,C0514,wifi,1,second-year day scholar,wfi is workin gud in the lib,wfi,connectivity,positive,False,synthetic,original_recovered
+C_WIFI_02_002,C0521,wifi,2,club member,"students share one login id, so everyone is slow",login id,login issues,negative,False,synthetic,original_recovered
+C_WIFI_02_011,C0530,wifi,2,placement-focused student,"the connection is reliable during exams, good job",connection,reliability,positive,False,synthetic,original_recovered
+C_WIFI_02_012,C0531,wifi,2,club member,too many restrictions on websites for coding practice,restrictions,bandwidth limit,negative,False,synthetic,original_recovered
+C_WIFI_02_013,C0532,wifi,2,backlog student,"the wifi at 3 am is faster, that's when i study lol",wifi,speed,positive,False,synthetic,original_recovered
+C_WIFI_02_017,,wifi,2,backlog student,2 gb daily bandwidth limit gets exhausted very quickly while downloading lecture slides.,bandwidth limit,bandwidth limit,negative,False,synthetic,newly_generated
+C_WIFI_02_033,,wifi,2,faculty-project student,vpn connection is blocked by the campus firewall.,vpn connection,connectivity,negative,False,synthetic,newly_generated
+C_WIFI_02_035,,wifi,2,club member,fast connection in seminar hall enabled live streaming without glitch.,connection,speed,positive,False,synthetic,newly_generated
+C_WIFI_02_038,,wifi,2,backlog student,it center solved my mac address registration issue in five minutes.,registration,login issues,positive,False,synthetic,newly_generated
+C_WIFI_02_042,,wifi,2,backlog student,speed in mechanical block is sluggish.,speed,speed,negative,False,synthetic,newly_generated
+C_WIFI_02_049,C0537,wifi,2,third-year hosteller,who the hell designed this bullshit login process,login process,login issues,negative,True,synthetic,original_recovered

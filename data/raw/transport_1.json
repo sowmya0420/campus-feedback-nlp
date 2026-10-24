@@ -1,0 +1,992 @@
+[
+  {
+    "id": "C_TRN_01_001",
+    "legacy_id": "C0409",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus is always late by 20 minutes",
+    "aspects": [
+      {
+        "aspect_term": "late",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_002",
+    "legacy_id": "C0410",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "buses are so crowded that i have to stand for an hour",
+    "aspects": [
+      {
+        "aspect_term": "crowded",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_003",
+    "legacy_id": "C0411",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the driver is very careful and polite",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_004",
+    "legacy_id": "C0412",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "our route does not cover the new housing area",
+    "aspects": [
+      {
+        "aspect_term": "route",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_005",
+    "legacy_id": "C0413",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "bus reaches college on time every day, thank you",
+    "aspects": [
+      {
+        "aspect_term": "on time",
+        "category": "punctuality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_006",
+    "legacy_id": "C0414",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the seats are broken and windows don't close",
+    "aspects": [
+      {
+        "aspect_term": "seats",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_007",
+    "legacy_id": "C0415",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "fare increased by 200 rupees this semester",
+    "aspects": [
+      {
+        "aspect_term": "fare",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_008",
+    "legacy_id": "C0416",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "driver was driving rashly and overtaking on the highway",
+    "aspects": [
+      {
+        "aspect_term": "driving rashly",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_009",
+    "legacy_id": "C0417",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus is clean and well maintained",
+    "aspects": [
+      {
+        "aspect_term": "bus",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_010",
+    "legacy_id": "C0418",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "no women safety measures in the late evening buses",
+    "aspects": [
+      {
+        "aspect_term": "women safety",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_011",
+    "legacy_id": "C0419",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "buses leave without waiting even if students are running",
+    "aspects": [
+      {
+        "aspect_term": "leave without waiting",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_012",
+    "legacy_id": "C0420",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus broke down on the way twice this month",
+    "aspects": [
+      {
+        "aspect_term": "broke down",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_013",
+    "legacy_id": "C0421",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "route coverage is good, stops are near my home",
+    "aspects": [
+      {
+        "aspect_term": "route coverage",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_014",
+    "legacy_id": "C0422",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "fee is reasonable for the distance covered",
+    "aspects": [
+      {
+        "aspect_term": "fee",
+        "category": "fare",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_015",
+    "legacy_id": "C0423",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the conductor is helpful and friendly",
+    "aspects": [
+      {
+        "aspect_term": "conductor",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_016",
+    "legacy_id": "C0424",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "ac bus is comfortable and not crowded",
+    "aspects": [
+      {
+        "aspect_term": "ac bus",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_017",
+    "legacy_id": "C0425",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "we reach home only after 8 pm because of the long route",
+    "aspects": [
+      {
+        "aspect_term": "long route",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_018",
+    "legacy_id": "C0426",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus is too crowded in the evening",
+    "aspects": [
+      {
+        "aspect_term": "crowded",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_019",
+    "legacy_id": "C0427",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "bus stops at every small stop and wastes time",
+    "aspects": [
+      {
+        "aspect_term": "stops",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_020",
+    "legacy_id": "C0428",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "drivers use mobile phones while driving, unsafe",
+    "aspects": [
+      {
+        "aspect_term": "mobile phones",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_021",
+    "legacy_id": "C0429",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "bus timing is perfect for morning classes",
+    "aspects": [
+      {
+        "aspect_term": "bus timing",
+        "category": "punctuality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_022",
+    "legacy_id": "C0430",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "no fixed seat so we fight every day",
+    "aspects": [
+      {
+        "aspect_term": "fixed seat",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_023",
+    "legacy_id": "C0431",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "students stand in the door step, dangerous",
+    "aspects": [
+      {
+        "aspect_term": "door step",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_024",
+    "legacy_id": "C0432",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the buses are old and make loud noise",
+    "aspects": [
+      {
+        "aspect_term": "buses",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_025",
+    "legacy_id": "C0433",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "transport office staff do not respond to complaints",
+    "aspects": [
+      {
+        "aspect_term": "transport office staff",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_026",
+    "legacy_id": "C0434",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "bus arrives late during rain",
+    "aspects": [
+      {
+        "aspect_term": "late",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_027",
+    "legacy_id": "C0435",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "new buses added this year have reduced crowding",
+    "aspects": [
+      {
+        "aspect_term": "new buses",
+        "category": "crowding",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_028",
+    "legacy_id": "C0436",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "fuel charges are included, no extra fare so good",
+    "aspects": [
+      {
+        "aspect_term": "extra fare",
+        "category": "fare",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_029",
+    "legacy_id": "C0437",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus is fine",
+    "aspects": [
+      {
+        "aspect_term": "bus",
+        "category": "bus condition",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_030",
+    "legacy_id": "C0438",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "bus romba late ah varuthu, first hour miss aagudhu",
+    "aspects": [
+      {
+        "aspect_term": "late",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_031",
+    "legacy_id": "C0439",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "seat kedaikave illa, nikkave vendiyathu",
+    "aspects": [
+      {
+        "aspect_term": "seat",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_032",
+    "legacy_id": "C0440",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "driver anna romba nalla person, safe ah ottuvaru",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_033",
+    "legacy_id": "C0441",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "stated_in_text",
+    "text": "namma area ku bus route illa da",
+    "aspects": [
+      {
+        "aspect_term": "bus route",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_034",
+    "legacy_id": "C0442",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "fare romba jaasthi, hostel la irundhale nalla",
+    "aspects": [
+      {
+        "aspect_term": "fare",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_035",
+    "legacy_id": "C0443",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "bus clean ah irukku, AC work aagudhu",
+    "aspects": [
+      {
+        "aspect_term": "AC",
+        "category": "bus condition",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_036",
+    "legacy_id": "C0444",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "night bus la bayam ah irukku, lights illa",
+    "aspects": [
+      {
+        "aspect_term": "lights",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_037",
+    "legacy_id": "C0445",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "buss was latee agaain todaay",
+    "aspects": [
+      {
+        "aspect_term": "latee",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_038",
+    "legacy_id": "C0446",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the drivr is rud to students",
+    "aspects": [
+      {
+        "aspect_term": "drivr",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_039",
+    "legacy_id": "C0447",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "bus faer is too hihg",
+    "aspects": [
+      {
+        "aspect_term": "faer",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_040",
+    "legacy_id": "C0448",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "no rout to my area, i hav to take auto",
+    "aspects": [
+      {
+        "aspect_term": "rout",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_041",
+    "legacy_id": "C0449",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus alwys breaks dwn",
+    "aspects": [
+      {
+        "aspect_term": "breaks dwn",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_042",
+    "legacy_id": "C0450",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "good driver but the bus is overloaded",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "overloaded",
+        "category": "crowding",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_043",
+    "legacy_id": "C0451",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "bus is on time but the seats are very uncomfortable",
+    "aspects": [
+      {
+        "aspect_term": "on time",
+        "category": "punctuality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "seats",
+        "category": "bus condition",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_044",
+    "legacy_id": "C0452",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "fare is okay but the route is too long",
+    "aspects": [
+      {
+        "aspect_term": "fare",
+        "category": "fare",
+        "sentiment": "neutral"
+      },
+      {
+        "aspect_term": "route",
+        "category": "route coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_045",
+    "legacy_id": "C0453",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "clean buses, rude conductor",
+    "aspects": [
+      {
+        "aspect_term": "clean",
+        "category": "bus condition",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "conductor",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_046",
+    "legacy_id": "C0454",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "nice drivers and safe journey, but timing is not fixed",
+    "aspects": [
+      {
+        "aspect_term": "drivers",
+        "category": "driver behavior",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "safe journey",
+        "category": "safety",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "timing",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_047",
+    "legacy_id": "C0455",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "they added a new stop near the metro station, very convenient",
+    "aspects": [
+      {
+        "aspect_term": "new stop",
+        "category": "route coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_048",
+    "legacy_id": "C0467",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "this transport is a nightmare, worth every complaint",
+    "aspects": [
+      {
+        "aspect_term": "transport",
+        "category": "punctuality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_049",
+    "legacy_id": "C0468",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "driver is a crazy idiot who will kill us one day",
+    "aspects": [
+      {
+        "aspect_term": "driver",
+        "category": "driver behavior",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": null,
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_TRN_01_050",
+    "legacy_id": "C0469",
+    "facility": "transport",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the bus is a pile of junk and the contractor is a thief",
+    "aspects": [
+      {
+        "aspect_term": "bus",
+        "category": "bus condition",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "contractor",
+        "category": "fare",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

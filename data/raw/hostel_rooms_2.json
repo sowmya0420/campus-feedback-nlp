@@ -1,0 +1,992 @@
+[
+  {
+    "id": "C_HR_02_001",
+    "legacy_id": "C0226",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "elecricity goes off every nite",
+    "aspects": [
+      {
+        "aspect_term": "elecricity",
+        "category": "electricity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_002",
+    "legacy_id": "C0227",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the mattres is so hard, back pain kills me",
+    "aspects": [
+      {
+        "aspect_term": "mattres",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_003",
+    "legacy_id": "C0228",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "washing mashine broke again",
+    "aspects": [
+      {
+        "aspect_term": "washing mashine",
+        "category": "laundry",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_004",
+    "legacy_id": "C0229",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "roommates are noisy but rooms are ok",
+    "aspects": [
+      {
+        "aspect_term": "roommates",
+        "category": "noise",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "rooms",
+        "category": "room size",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_005",
+    "legacy_id": "C0230",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "unlimited hot water and clean bathrooms on the new block",
+    "aspects": [
+      {
+        "aspect_term": "hot water",
+        "category": "water supply",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "bathrooms",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_006",
+    "legacy_id": "C0231",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "drinking water is tested regularly and it tastes fine",
+    "aspects": [
+      {
+        "aspect_term": "drinking water",
+        "category": "water supply",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_007",
+    "legacy_id": "C0232",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the warden never answers calls at night during emergencies",
+    "aspects": [
+      {
+        "aspect_term": "warden",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_008",
+    "legacy_id": "C0233",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "nice and safe place but too many insects",
+    "aspects": [
+      {
+        "aspect_term": "safe",
+        "category": "safety",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "insects",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_009",
+    "legacy_id": "C0234",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "broken windows in the corridor have not been repaired for months",
+    "aspects": [
+      {
+        "aspect_term": "windows",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_010",
+    "legacy_id": "C0235",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "sharing 4 people in one room is not comfortable at all",
+    "aspects": [
+      {
+        "aspect_term": "sharing 4 people",
+        "category": "room size",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_011",
+    "legacy_id": "C0236",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "visitors are not allowed after 6, so the place is peaceful",
+    "aspects": [
+      {
+        "aspect_term": "visitors",
+        "category": "noise",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_012",
+    "legacy_id": "C0237",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "power socket near my bed is loose and sparks sometimes",
+    "aspects": [
+      {
+        "aspect_term": "power socket",
+        "category": "electricity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_013",
+    "legacy_id": "C0238",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the toilet flush is damaged and no spare",
+    "aspects": [
+      {
+        "aspect_term": "toilet flush",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_014",
+    "legacy_id": "C0239",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the common room tv and carrom board are nice to have",
+    "aspects": [
+      {
+        "aspect_term": "common room",
+        "category": "room size",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_015",
+    "legacy_id": "C0240",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "cleaning staff are working hard, the hostel looks better",
+    "aspects": [
+      {
+        "aspect_term": "cleaning staff",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_016",
+    "legacy_id": "C0241",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "phone charging boards are installed in the corridor, useful",
+    "aspects": [
+      {
+        "aspect_term": "charging boards",
+        "category": "electricity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_017",
+    "legacy_id": "C0242",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "we get laundry slots for each floor which is organised",
+    "aspects": [
+      {
+        "aspect_term": "laundry slots",
+        "category": "laundry",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_018",
+    "legacy_id": "C0243",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the stairs have no lights at night, it is unsafe",
+    "aspects": [
+      {
+        "aspect_term": "stairs",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_019",
+    "legacy_id": "C0244",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "drainage is blocked and the smell is horrible",
+    "aspects": [
+      {
+        "aspect_term": "drainage",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_020",
+    "legacy_id": "C0245",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "the room is okay",
+    "aspects": [
+      {
+        "aspect_term": "room",
+        "category": "room size",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_021",
+    "legacy_id": "C0246",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "shower heads are broken in half the bathrooms",
+    "aspects": [
+      {
+        "aspect_term": "shower heads",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_022",
+    "legacy_id": "C0247",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "terrace is open for students in the evening, nice view",
+    "aspects": [
+      {
+        "aspect_term": "terrace",
+        "category": "room size",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_023",
+    "legacy_id": "C0248",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "hostel office staff are lazy and rude when we complain",
+    "aspects": [
+      {
+        "aspect_term": "staff",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_024",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "power cuts occur right when i practice coding on hackerrank at night.",
+    "aspects": [
+      {
+        "aspect_term": "power cuts",
+        "category": "electricity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_025",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "corridor lights are replaced quickly by the electrician.",
+    "aspects": [
+      {
+        "aspect_term": "electrician",
+        "category": "maintenance",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_026",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "washing machine in laundry room is not working for three weeks.",
+    "aspects": [
+      {
+        "aspect_term": "washing machine",
+        "category": "laundry",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_027",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "room is spacious with two cupboards and large study desk.",
+    "aspects": [
+      {
+        "aspect_term": "room",
+        "category": "room size",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_028",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "night time la corridor la romba noise, unable to revise for arrear exam.",
+    "aspects": [
+      {
+        "aspect_term": "noise",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_029",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "hot water comes properly in the geyser every morning.",
+    "aspects": [
+      {
+        "aspect_term": "hot water",
+        "category": "water supply",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_030",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "security guards check student id at hostel gate strictly, feels safe.",
+    "aspects": [
+      {
+        "aspect_term": "security guards",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_031",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "washrooms are cleaned twice daily with phenyl, very hygienic.",
+    "aspects": [
+      {
+        "aspect_term": "washrooms",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_032",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "fan speed is slow and makes annoying vibration noise throughout the night.",
+    "aspects": [
+      {
+        "aspect_term": "fan speed",
+        "category": "electricity",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "noise",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_033",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "balcony view is pleasant but clothes drying space is congested.",
+    "aspects": [
+      {
+        "aspect_term": "balcony",
+        "category": "room size",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "clothes drying space",
+        "category": "laundry",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_034",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "door lock is loose, reported to hostel office but no response.",
+    "aspects": [
+      {
+        "aspect_term": "door lock",
+        "category": "safety",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "hostel office",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_035",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "tap water has brown rust color in the fourth floor bathrooms.",
+    "aspects": [
+      {
+        "aspect_term": "tap water",
+        "category": "water supply",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_036",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "cctv cameras installed in corridors ensure safety.",
+    "aspects": [
+      {
+        "aspect_term": "cctv cameras",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_037",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "triple sharing room is cramped, hard to move around.",
+    "aspects": [
+      {
+        "aspect_term": "room",
+        "category": "room size",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_038",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "cleaning staff mop room floor promptly upon request.",
+    "aspects": [
+      {
+        "aspect_term": "cleaning staff",
+        "category": "cleanliness",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_039",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "plumber attended the leaking pipe within one hour of complaint.",
+    "aspects": [
+      {
+        "aspect_term": "plumber",
+        "category": "maintenance",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_040",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "ironing table and iron box provided in laundry room are good.",
+    "aspects": [
+      {
+        "aspect_term": "laundry room",
+        "category": "laundry",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_041",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "music blasting from neighboring block causes heavy disturbance.",
+    "aspects": [
+      {
+        "aspect_term": "disturbance",
+        "category": "noise",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_042",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "uninterrupted power backup supported my project simulation runs overnight.",
+    "aspects": [
+      {
+        "aspect_term": "power backup",
+        "category": "electricity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_043",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "hostel room size is good but window mesh is torn, letting mosquitoes inside.",
+    "aspects": [
+      {
+        "aspect_term": "room size",
+        "category": "room size",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "window mesh",
+        "category": "maintenance",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_044",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "fingerprint biometric entry at hostel gate works smoothly.",
+    "aspects": [
+      {
+        "aspect_term": "biometric entry",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_045",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "dustbins in the corridor are overflowing, bad smell.",
+    "aspects": [
+      {
+        "aspect_term": "dustbins",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_046",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "water pressure in shower is very low in peak morning hours.",
+    "aspects": [
+      {
+        "aspect_term": "water pressure",
+        "category": "water supply",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_047",
+    "legacy_id": null,
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "spacious wardrobe with sturdy lockers keeps certificates safe.",
+    "aspects": [
+      {
+        "aspect_term": "wardrobe",
+        "category": "room size",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "lockers",
+        "category": "safety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HR_02_048",
+    "legacy_id": "C0252",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "stupid hostel rules and stupid warden",
+    "aspects": [
+      {
+        "aspect_term": "warden",
+        "category": "safety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_049",
+    "legacy_id": "C0253",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "fix the bloody power cuts you clowns",
+    "aspects": [
+      {
+        "aspect_term": "power cuts",
+        "category": "electricity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HR_02_050",
+    "legacy_id": "C0254",
+    "facility": "hostel_rooms",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "bathrooms stink like hell, disgusting pigs live here",
+    "aspects": [
+      {
+        "aspect_term": "bathrooms",
+        "category": "cleanliness",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

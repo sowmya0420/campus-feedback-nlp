@@ -1,0 +1,996 @@
+[
+ {
+  "text": "samosa is crispy and cheap, best snack here",
+  "aspects": [
+   {
+    "aspect_term": "samosa",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "cheap",
+    "category": "price",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "tea is too sweet always",
+  "aspects": [
+   {
+    "aspect_term": "tea",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "50 rupees for a plain dosa is too much",
+  "aspects": [
+   {
+    "aspect_term": "dosa",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "billing counter queue is endless after 1 pm",
+  "aspects": [
+   {
+    "aspect_term": "queue",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "parotta and salna combo is the best",
+  "aspects": [
+   {
+    "aspect_term": "parotta",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "no place to sit during lunch break",
+  "aspects": [
+   {
+    "aspect_term": "sit",
+    "category": "seating",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "noodles were too oily and cold",
+  "aspects": [
+   {
+    "aspect_term": "noodles",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "flies all over the food counter",
+  "aspects": [
+   {
+    "aspect_term": "flies",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "upi payment is working fast now, no cash hassle",
+  "aspects": [
+   {
+    "aspect_term": "upi",
+    "category": "waiting time",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canteen staff are always smiling and helpful",
+  "aspects": [
+   {
+    "aspect_term": "staff",
+    "category": "staff behavior",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "overpriced juice, 60 for a small glass",
+  "aspects": [
+   {
+    "aspect_term": "juice",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "quantity of fried rice is very less for the price",
+  "aspects": [
+   {
+    "aspect_term": "quantity",
+    "category": "quantity",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "price",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the veg puff was stale today",
+  "aspects": [
+   {
+    "aspect_term": "puff",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "more variety needed, only 4 items after 4 pm",
+  "aspects": [
+   {
+    "aspect_term": "variety",
+    "category": "variety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cleanliness is okay but tables stay dirty",
+  "aspects": [
+   {
+    "aspect_term": "cleanliness",
+    "category": "hygiene",
+    "sentiment": "neutral"
+   },
+   {
+    "aspect_term": "tables",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "sandwiches are fresh and tasty",
+  "aspects": [
+   {
+    "aspect_term": "sandwiches",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cashier was rude when i asked for change",
+  "aspects": [
+   {
+    "aspect_term": "cashier",
+    "category": "staff behavior",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cold coffee is awesome, must try",
+  "aspects": [
+   {
+    "aspect_term": "cold coffee",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "waiting time for order is 20 mins even for tea",
+  "aspects": [
+   {
+    "aspect_term": "waiting time",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "filter coffee is perfect, reminds me of home",
+  "aspects": [
+   {
+    "aspect_term": "filter coffee",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "prices went up again this month",
+  "aspects": [
+   {
+    "aspect_term": "prices",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good food court, lots of options",
+  "aspects": [
+   {
+    "aspect_term": "options",
+    "category": "variety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "chat items are so tasty but the plates are not clean",
+  "aspects": [
+   {
+    "aspect_term": "chat items",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "plates",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canteen is overcrowded at lunch time",
+  "aspects": [
+   {
+    "aspect_term": "overcrowded",
+    "category": "seating",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "chicken roll was half raw",
+  "aspects": [
+   {
+    "aspect_term": "chicken roll",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "combo meal at 80 is a good deal",
+  "aspects": [
+   {
+    "aspect_term": "combo meal",
+    "category": "price",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "no dustbins so everyone throws waste on the floor",
+  "aspects": [
+   {
+    "aspect_term": "dustbins",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "vada pav is only decent",
+  "aspects": [
+   {
+    "aspect_term": "vada pav",
+    "category": "food quality",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "they run out of items by 4 pm",
+  "aspects": [
+   {
+    "aspect_term": "run out",
+    "category": "quantity",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the juice shop guy is very friendly",
+  "aspects": [
+   {
+    "aspect_term": "juice shop guy",
+    "category": "staff behavior",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "paneer butter masala tastes like tomato soup",
+  "aspects": [
+   {
+    "aspect_term": "paneer butter masala",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the canteen near the library is cleaner than main block",
+  "aspects": [
+   {
+    "aspect_term": "canteen",
+    "category": "hygiene",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "too much waiting for just a maggi",
+  "aspects": [
+   {
+    "aspect_term": "waiting",
+    "category": "waiting time",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "maggi",
+    "category": "food quality",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "maggi is hot and tasty, 30 rupees ok",
+  "aspects": [
+   {
+    "aspect_term": "maggi",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "rupees",
+    "category": "price",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "no hand wash near the canteen entrance",
+  "aspects": [
+   {
+    "aspect_term": "hand wash",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "fresh juice menu has loads of variety",
+  "aspects": [
+   {
+    "aspect_term": "juice menu",
+    "category": "variety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "biryani portion is huge, shared with friend",
+  "aspects": [
+   {
+    "aspect_term": "portion",
+    "category": "quantity",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "biryani",
+    "category": "food quality",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lemon tea was just sugar water",
+  "aspects": [
+   {
+    "aspect_term": "lemon tea",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "food is expensive compared to outside shops",
+  "aspects": [
+   {
+    "aspect_term": "expensive",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "seating is comfortable and the fans work well",
+  "aspects": [
+   {
+    "aspect_term": "seating",
+    "category": "seating",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "every time my order gets mixed up, no accuracy",
+  "aspects": [
+   {
+    "aspect_term": "order",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the canteen is clean, floors mopped regularly",
+  "aspects": [
+   {
+    "aspect_term": "floors",
+    "category": "hygiene",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "snack time rush is manageable with 2 counters",
+  "aspects": [
+   {
+    "aspect_term": "rush",
+    "category": "waiting time",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the egg puff is the best thing on campus",
+  "aspects": [
+   {
+    "aspect_term": "egg puff",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "average food at high price",
+  "aspects": [
+   {
+    "aspect_term": "food",
+    "category": "food quality",
+    "sentiment": "neutral"
+   },
+   {
+    "aspect_term": "price",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "chappathi kurma is homely and filling",
+  "aspects": [
+   {
+    "aspect_term": "kurma",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "food semma but rate romba jaasthi",
+  "aspects": [
+   {
+    "aspect_term": "food",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "rate",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "tea kadai la queue romba, 15 min aachu",
+  "aspects": [
+   {
+    "aspect_term": "queue",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "parotta soft ah irukku, super da",
+  "aspects": [
+   {
+    "aspect_term": "parotta",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canteen la sit panna idam illa",
+  "aspects": [
+   {
+    "aspect_term": "idam",
+    "category": "seating",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "juice la ice mattum than iruku, fruit illa",
+  "aspects": [
+   {
+    "aspect_term": "juice",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "bill pannum bothu counter la rude ah pesuranga",
+  "aspects": [
+   {
+    "aspect_term": "counter",
+    "category": "staff behavior",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "samosa romba cheap, 10 rupees only",
+  "aspects": [
+   {
+    "aspect_term": "samosa",
+    "category": "price",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "oil smell varuthu from the fried items, not fresh",
+  "aspects": [
+   {
+    "aspect_term": "oil smell",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the chicken fried rice was gud but expnsive",
+  "aspects": [
+   {
+    "aspect_term": "chicken fried rice",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "expnsive",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canten food is not hygenic at all",
+  "aspects": [
+   {
+    "aspect_term": "hygenic",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "waitng for 25 mins for a burger",
+  "aspects": [
+   {
+    "aspect_term": "waitng",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "fries wer cold n soggy",
+  "aspects": [
+   {
+    "aspect_term": "fries",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "tea nd bun combo is lyk a daily habit",
+  "aspects": [
+   {
+    "aspect_term": "tea nd bun combo",
+    "category": "variety",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "boiled corn stall near the gate is yummy",
+  "aspects": [
+   {
+    "aspect_term": "boiled corn",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "paid extra for a cover i didn't even need",
+  "aspects": [
+   {
+    "aspect_term": "paid extra",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the uncle gives extra chutney without asking",
+  "aspects": [
+   {
+    "aspect_term": "uncle",
+    "category": "staff behavior",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "extra chutney",
+    "category": "quantity",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "need healthy options like salads and fruit bowls",
+  "aspects": [
+   {
+    "aspect_term": "healthy options",
+    "category": "variety",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canteen opens late on mondays",
+  "aspects": [
+   {
+    "aspect_term": "opens late",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "pizza at the canteen is not worth 120 rupees",
+  "aspects": [
+   {
+    "aspect_term": "pizza",
+    "category": "food quality",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "120 rupees",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "sambar rice is good value",
+  "aspects": [
+   {
+    "aspect_term": "sambar rice",
+    "category": "food quality",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "value",
+    "category": "price",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "tables were wiped promptly, impressed",
+  "aspects": [
+   {
+    "aspect_term": "tables",
+    "category": "hygiene",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the staff shout at students if we ask for a refund",
+  "aspects": [
+   {
+    "aspect_term": "staff",
+    "category": "staff behavior",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good ambience for group study over snacks",
+  "aspects": [
+   {
+    "aspect_term": "ambience",
+    "category": "seating",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "pani puri guy uses dirty water",
+  "aspects": [
+   {
+    "aspect_term": "pani puri",
+    "category": "hygiene",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "kulfi and falooda are great in summer",
+  "aspects": [
+   {
+    "aspect_term": "kulfi",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "food is not bad, sometimes good, sometimes not",
+  "aspects": [
+   {
+    "aspect_term": "food",
+    "category": "food quality",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "payment machine always has some network problem",
+  "aspects": [
+   {
+    "aspect_term": "payment machine",
+    "category": "waiting time",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the chole bhature is heavy but tasty",
+  "aspects": [
+   {
+    "aspect_term": "chole bhature",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "rubbish canteen, rubbish food",
+  "aspects": [
+   {
+    "aspect_term": "canteen",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "could have more seating near the windows",
+  "aspects": [
+   {
+    "aspect_term": "seating",
+    "category": "seating",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the cook always makes fresh dosa when asked",
+  "aspects": [
+   {
+    "aspect_term": "dosa",
+    "category": "food quality",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "you pay for the brand not the food",
+  "aspects": [
+   {
+    "aspect_term": "pay",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "canteen manager is a fraud, overcharging students and acting innocent",
+  "aspects": [
+   {
+    "aspect_term": "canteen manager",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "this canteen food is crap and the staff are idiots",
+  "aspects": [
+   {
+    "aspect_term": "food",
+    "category": "food quality",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "staff",
+    "category": "staff behavior",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "stupid cashier is useless, can't even count change",
+  "aspects": [
+   {
+    "aspect_term": "cashier",
+    "category": "staff behavior",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "bloody thieves charging 60 for a tea",
+  "aspects": [
+   {
+    "aspect_term": "tea",
+    "category": "price",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "canteen is a joke and the owner is a clown",
+  "aspects": [
+   {
+    "aspect_term": "canteen",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "worst food ever, you morons should shut this place down",
+  "aspects": [
+   {
+    "aspect_term": "food",
+    "category": "food quality",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ }
+]

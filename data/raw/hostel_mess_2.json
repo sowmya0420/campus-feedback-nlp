@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "C_HM_02_001",
+    "legacy_id": "C0132",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "good veg thali, worth it",
+    "aspects": [
+      {
+        "aspect_term": "veg thali",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "worth it",
+        "category": "price",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_002",
+    "legacy_id": "C0133",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "queue jumping by seniors every day, mess staff just watch",
+    "aspects": [
+      {
+        "aspect_term": "queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "mess staff",
+        "category": "staff behavior",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_003",
+    "legacy_id": "C0134",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "coriander and curry leaves are not even washed",
+    "aspects": [
+      {
+        "aspect_term": "coriander",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_004",
+    "legacy_id": "C0135",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "food is tasty, clean, and served on time. great job",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "clean",
+        "category": "hygiene",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "served on time",
+        "category": "waiting time",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_005",
+    "legacy_id": "C0136",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "lunch is fine but dinner is always bad",
+    "aspects": [
+      {
+        "aspect_term": "lunch",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "dinner",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_006",
+    "legacy_id": "C0137",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess committee changed the menu after our complaint, appreciate it",
+    "aspects": [
+      {
+        "aspect_term": "menu",
+        "category": "variety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_007",
+    "legacy_id": "C0138",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "ice cream on saturday is a nice touch",
+    "aspects": [
+      {
+        "aspect_term": "ice cream",
+        "category": "variety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_008",
+    "legacy_id": "C0139",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "aloo curry again?? we get it 4 times a week",
+    "aspects": [
+      {
+        "aspect_term": "aloo curry",
+        "category": "variety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_009",
+    "legacy_id": "C0140",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "tea is just hot water with sugar",
+    "aspects": [
+      {
+        "aspect_term": "tea",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_010",
+    "legacy_id": "C0141",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess bill went up by 500 but nothing improved",
+    "aspects": [
+      {
+        "aspect_term": "mess bill",
+        "category": "price",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_011",
+    "legacy_id": "C0142",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "coffee in the morning is decent",
+    "aspects": [
+      {
+        "aspect_term": "coffee",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_012",
+    "legacy_id": "C0143",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "food semma but queue romba long",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_013",
+    "legacy_id": "C0144",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "sambar romba thanni da, taste illa",
+    "aspects": [
+      {
+        "aspect_term": "sambar",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_014",
+    "legacy_id": "C0145",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "mess la sapadu super, but seating illa",
+    "aspects": [
+      {
+        "aspect_term": "sapadu",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "seating",
+        "category": "seating",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_015",
+    "legacy_id": "C0146",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "ellam same menu, bore adikuthu",
+    "aspects": [
+      {
+        "aspect_term": "menu",
+        "category": "variety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_016",
+    "legacy_id": "C0147",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "chicken gravy nalla irukku",
+    "aspects": [
+      {
+        "aspect_term": "chicken gravy",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_017",
+    "legacy_id": "C0148",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "rice la kal irukku, yaar kitta sollurathu",
+    "aspects": [
+      {
+        "aspect_term": "rice",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_018",
+    "legacy_id": "C0149",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "serving anna romba kammi pannuraru, quantity illa",
+    "aspects": [
+      {
+        "aspect_term": "quantity",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_019",
+    "legacy_id": "C0150",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "plate la ennai, wash pannave illa",
+    "aspects": [
+      {
+        "aspect_term": "plate",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_020",
+    "legacy_id": "C0151",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "dinner queue la 40 min nikanum, waste of time",
+    "aspects": [
+      {
+        "aspect_term": "queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_021",
+    "legacy_id": "C0152",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess uncle semma friendly",
+    "aspects": [
+      {
+        "aspect_term": "mess uncle",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_022",
+    "legacy_id": "C0153",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the sambr was very sour todya",
+    "aspects": [
+      {
+        "aspect_term": "sambr",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_023",
+    "legacy_id": "C0154",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "foood is not hot, always cold",
+    "aspects": [
+      {
+        "aspect_term": "foood",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_024",
+    "legacy_id": "C0155",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "chiken curry is too spicy for me",
+    "aspects": [
+      {
+        "aspect_term": "chiken curry",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_025",
+    "legacy_id": "C0156",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "quening for dinner is so tiring",
+    "aspects": [
+      {
+        "aspect_term": "quening",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_026",
+    "legacy_id": "C0157",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess hygine is poor",
+    "aspects": [
+      {
+        "aspect_term": "hygine",
+        "category": "hygiene",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_027",
+    "legacy_id": "C0158",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "lunch was gud, lyk the rasam",
+    "aspects": [
+      {
+        "aspect_term": "lunch",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "rasam",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_028",
+    "legacy_id": "C0159",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess is ok",
+    "aspects": [
+      {
+        "aspect_term": "mess",
+        "category": "food quality",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_029",
+    "legacy_id": "C0160",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "tasty food and polite staff",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "staff",
+        "category": "staff behavior",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_030",
+    "legacy_id": "C0161",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "never improving, same issues every year",
+    "aspects": [
+      {
+        "aspect_term": null,
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_031",
+    "legacy_id": "C0162",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "getting fed up of the queue honestly",
+    "aspects": [
+      {
+        "aspect_term": "queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_032",
+    "legacy_id": "C0163",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "the food is just average but the price is fair",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "neutral"
+      },
+      {
+        "aspect_term": "price",
+        "category": "price",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_033",
+    "legacy_id": "C0164",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "rasam is the only good thing here",
+    "aspects": [
+      {
+        "aspect_term": "rasam",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_034",
+    "legacy_id": "C0165",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "saturday biryani is worth the wait",
+    "aspects": [
+      {
+        "aspect_term": "biryani",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "wait",
+        "category": "waiting time",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_035",
+    "legacy_id": "C0166",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "mess workers wear gloves now, good change",
+    "aspects": [
+      {
+        "aspect_term": "gloves",
+        "category": "hygiene",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_036",
+    "legacy_id": "C0167",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "one chapati per head rule is silly, we are hungry",
+    "aspects": [
+      {
+        "aspect_term": "chapati",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_037",
+    "legacy_id": "C0168",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "mess fee is reasonable for 3 meals + snacks",
+    "aspects": [
+      {
+        "aspect_term": "mess fee",
+        "category": "price",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_038",
+    "legacy_id": "C0169",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "need more north indian options for outstation students",
+    "aspects": [
+      {
+        "aspect_term": "north indian options",
+        "category": "variety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_039",
+    "legacy_id": "C0170",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "chicken pieces are tiny and bony",
+    "aspects": [
+      {
+        "aspect_term": "chicken pieces",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_040",
+    "legacy_id": "C0171",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "snacks at 5 pm are a lifesaver",
+    "aspects": [
+      {
+        "aspect_term": "snacks",
+        "category": "variety",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_041",
+    "legacy_id": "C0172",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "the dining area is spacious and well lit",
+    "aspects": [
+      {
+        "aspect_term": "dining area",
+        "category": "seating",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_042",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "late night study ku tea and biscuits are provided during placement season, really helpful.",
+    "aspects": [
+      {
+        "aspect_term": "tea and biscuits",
+        "category": "variety",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "provided",
+        "category": "food quality",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_043",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "after club rehearsals the mess is closed, no food available for cultural team.",
+    "aspects": [
+      {
+        "aspect_term": "mess is closed",
+        "category": "waiting time",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "food",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_044",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "saturday special lunch semma taste but token queue takes 45 minutes.",
+    "aspects": [
+      {
+        "aspect_term": "special lunch",
+        "category": "food quality",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "token queue",
+        "category": "waiting time",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_045",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "roti is rock hard daily.",
+    "aspects": [
+      {
+        "aspect_term": "roti",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_046",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "evening snack quantity romba kammi, exam time la hungry ah irukku.",
+    "aspects": [
+      {
+        "aspect_term": "evening snack",
+        "category": "quantity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_047",
+    "legacy_id": null,
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "mess dining hall is clean and tables are wiped regularly.",
+    "aspects": [
+      {
+        "aspect_term": "dining hall",
+        "category": "hygiene",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "tables",
+        "category": "hygiene",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_HM_02_048",
+    "legacy_id": "C0176",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "shut up and fix the food you lazy morons",
+    "aspects": [
+      {
+        "aspect_term": "food",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_049",
+    "legacy_id": "C0177",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "damn this stupid mess, hate every single meal",
+    "aspects": [
+      {
+        "aspect_term": "mess",
+        "category": "food quality",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_HM_02_050",
+    "legacy_id": "C0178",
+    "facility": "hostel_mess",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "whoever approved this menu is a clown",
+    "aspects": [
+      {
+        "aspect_term": "menu",
+        "category": "variety",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

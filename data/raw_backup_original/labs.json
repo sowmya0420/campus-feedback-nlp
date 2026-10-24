@@ -1,0 +1,856 @@
+[
+ {
+  "text": "systems in the lab are very slow, takes 5 minutes to boot",
+  "aspects": [
+   {
+    "aspect_term": "systems",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the new computers in lab 3 are fast and smooth",
+  "aspects": [
+   {
+    "aspect_term": "computers",
+    "category": "system speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "many keyboards and mouse are not working",
+  "aspects": [
+   {
+    "aspect_term": "keyboards",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "python and vs code are installed and working fine",
+  "aspects": [
+   {
+    "aspect_term": "python",
+    "category": "software availability",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "matlab license expired and no one is bothered",
+  "aspects": [
+   {
+    "aspect_term": "matlab",
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab assistants are friendly and clear our doubts",
+  "aspects": [
+   {
+    "aspect_term": "lab assistants",
+    "category": "lab staff",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab timings clash with our classes, only 2 hours given",
+  "aspects": [
+   {
+    "aspect_term": "lab timings",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab is overcrowded, 3 students share one system",
+  "aspects": [
+   {
+    "aspect_term": "overcrowded",
+    "category": "space",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "ac in the lab keeps the systems cool and us comfortable",
+  "aspects": [
+   {
+    "aspect_term": "ac",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab is clean and organised",
+  "aspects": [
+   {
+    "aspect_term": "lab",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab instructor was rude when i asked a doubt",
+  "aspects": [
+   {
+    "aspect_term": "lab instructor",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "not enough oscilloscopes for the electronics lab",
+  "aspects": [
+   {
+    "aspect_term": "oscilloscopes",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "projector in the lab is clear and bright",
+  "aspects": [
+   {
+    "aspect_term": "projector",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "open lab hours till 8 pm are really helpful for projects",
+  "aspects": [
+   {
+    "aspect_term": "open lab hours",
+    "category": "lab timings",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the linux machines hang every time we run docker",
+  "aspects": [
+   {
+    "aspect_term": "linux machines",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we can't install any software without admin permission",
+  "aspects": [
+   {
+    "aspect_term": "install any software",
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good lab, all required tools are available",
+  "aspects": [
+   {
+    "aspect_term": "tools",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "broken chairs and wobbly tables in the lab",
+  "aspects": [
+   {
+    "aspect_term": "chairs",
+    "category": "space",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power fluctuation shuts down the systems during experiments",
+  "aspects": [
+   {
+    "aspect_term": "power fluctuation",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab technician helped me fix my circuit patiently",
+  "aspects": [
+   {
+    "aspect_term": "lab technician",
+    "category": "lab staff",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "labs are available only during scheduled hours, no extra time for practice",
+  "aspects": [
+   {
+    "aspect_term": "scheduled hours",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "monitor flickers on my system, informed twice but nothing done",
+  "aspects": [
+   {
+    "aspect_term": "monitor",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "internet in the lab is too slow to download packages",
+  "aspects": [
+   {
+    "aspect_term": "internet",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the machines have the latest versions of visual studio",
+  "aspects": [
+   {
+    "aspect_term": "visual studio",
+    "category": "software availability",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "compiler error because outdated java version",
+  "aspects": [
+   {
+    "aspect_term": "java version",
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "space is enough to move around and work comfortably",
+  "aspects": [
+   {
+    "aspect_term": "space",
+    "category": "space",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab record submission instructions are clear",
+  "aspects": [
+   {
+    "aspect_term": "instructions",
+    "category": "lab staff",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "network lab has good routers and switches for practice",
+  "aspects": [
+   {
+    "aspect_term": "routers",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab is average, nothing special",
+  "aspects": [
+   {
+    "aspect_term": "lab",
+    "category": "equipment condition",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "dirty keyboards and sticky mouse everywhere",
+  "aspects": [
+   {
+    "aspect_term": "keyboards",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab incharge doesn't allow extra time even for submissions",
+  "aspects": [
+   {
+    "aspect_term": "lab incharge",
+    "category": "lab staff",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "extra time",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab semma ah irukku, systems fast ah work aagudhu",
+  "aspects": [
+   {
+    "aspect_term": "systems",
+    "category": "system speed",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "system hang aagum, work save panna mudiyala",
+  "aspects": [
+   {
+    "aspect_term": "system",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "mouse keyboard onnume work aagala da",
+  "aspects": [
+   {
+    "aspect_term": "mouse keyboard",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab sir nalla explain pannuvaru",
+  "aspects": [
+   {
+    "aspect_term": "lab sir",
+    "category": "lab staff",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab time rombo kammi, project mudikka mudiyala",
+  "aspects": [
+   {
+    "aspect_term": "lab time",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "AC work aagala, lab la romba heat",
+  "aspects": [
+   {
+    "aspect_term": "AC",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "ore system ku 4 per, idam illa",
+  "aspects": [
+   {
+    "aspect_term": "idam",
+    "category": "space",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the sistem is so sloww",
+  "aspects": [
+   {
+    "aspect_term": "sistem",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "labtop connections are not wrking",
+  "aspects": [
+   {
+    "aspect_term": "labtop connections",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "softwre license is not avilable",
+  "aspects": [
+   {
+    "aspect_term": "softwre license",
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab assitant helped alot",
+  "aspects": [
+   {
+    "aspect_term": "lab assitant",
+    "category": "lab staff",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab is cold n clean",
+  "aspects": [
+   {
+    "aspect_term": "lab",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cant run tensorflow bcos gpu not avilable",
+  "aspects": [
+   {
+    "aspect_term": "gpu",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "hardware lab has good components and kits, but timings are short",
+  "aspects": [
+   {
+    "aspect_term": "components",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "timings",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "labs are clean, but systems are old",
+  "aspects": [
+   {
+    "aspect_term": "labs",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "systems",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab staff are helpful but very less in number",
+  "aspects": [
+   {
+    "aspect_term": "lab staff",
+    "category": "lab staff",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "less in number",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good software but internet is poor",
+  "aspects": [
+   {
+    "aspect_term": "software",
+    "category": "software availability",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "internet",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab has latest pcs but the seating is cramped",
+  "aspects": [
+   {
+    "aspect_term": "pcs",
+    "category": "system speed",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "seating",
+    "category": "space",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "power backup in lab saved our practical exam",
+  "aspects": [
+   {
+    "aspect_term": "power backup",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the access card system works well for entering the lab",
+  "aspects": [
+   {
+    "aspect_term": "access card system",
+    "category": "lab timings",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "printers in the lab are always out of ink",
+  "aspects": [
+   {
+    "aspect_term": "printers",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab manual is outdated and the experiments are not useful",
+  "aspects": [
+   {
+    "aspect_term": "lab manual",
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab incharge is flexible with the timings for project teams",
+  "aspects": [
+   {
+    "aspect_term": "lab incharge",
+    "category": "lab staff",
+    "sentiment": "positive"
+   },
+   {
+    "aspect_term": "timings",
+    "category": "lab timings",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the ai lab with gpu servers is a game changer",
+  "aspects": [
+   {
+    "aspect_term": "gpu servers",
+    "category": "equipment condition",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "mouse is stuck and cursor jumps",
+  "aspects": [
+   {
+    "aspect_term": "mouse",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab is always locked when we reach on time",
+  "aspects": [
+   {
+    "aspect_term": "locked",
+    "category": "lab timings",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "virtual machine setup in lab saves a lot of time",
+  "aspects": [
+   {
+    "aspect_term": "virtual machine",
+    "category": "software availability",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "some systems have no headphones for the language lab",
+  "aspects": [
+   {
+    "aspect_term": "headphones",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "network lab switch is broken, whole row can't connect",
+  "aspects": [
+   {
+    "aspect_term": "switch",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab assistant keeps playing games on his phone and ignores us",
+  "aspects": [
+   {
+    "aspect_term": "lab assistant",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab is okay, i have no complaints",
+  "aspects": [
+   {
+    "aspect_term": "lab",
+    "category": "equipment condition",
+    "sentiment": "neutral"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "cooling is poor, systems overheat in summer",
+  "aspects": [
+   {
+    "aspect_term": "cooling",
+    "category": "cleanliness",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "we get 3 hours for each practical which is enough",
+  "aspects": [
+   {
+    "aspect_term": "3 hours",
+    "category": "lab timings",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "lab desks are wide and have enough power sockets",
+  "aspects": [
+   {
+    "aspect_term": "lab desks",
+    "category": "space",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "mobile signal is nil inside the lab",
+  "aspects": [
+   {
+    "aspect_term": "mobile signal",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "good ventilation and lighting in the chemistry lab",
+  "aspects": [
+   {
+    "aspect_term": "ventilation",
+    "category": "cleanliness",
+    "sentiment": "positive"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the instruments in physics lab are rusted",
+  "aspects": [
+   {
+    "aspect_term": "instruments",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": false
+ },
+ {
+  "text": "the lab is a joke, systems are junk and staff are idiots",
+  "aspects": [
+   {
+    "aspect_term": "systems",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   },
+   {
+    "aspect_term": "staff",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "stupid lab rules, can't even use my own pendrive",
+  "aspects": [
+   {
+    "aspect_term": null,
+    "category": "software availability",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "useless lab assistant, damn clown wastes our time",
+  "aspects": [
+   {
+    "aspect_term": "lab assistant",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "the systems suck, who bought this garbage",
+  "aspects": [
+   {
+    "aspect_term": "systems",
+    "category": "system speed",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "shut up and fix the computers you lazy morons",
+  "aspects": [
+   {
+    "aspect_term": "computers",
+    "category": "equipment condition",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ },
+ {
+  "text": "the lab incharge is a fool who doesn't know anything",
+  "aspects": [
+   {
+    "aspect_term": "lab incharge",
+    "category": "lab staff",
+    "sentiment": "negative"
+   }
+  ],
+  "abusive": true
+ }
+]

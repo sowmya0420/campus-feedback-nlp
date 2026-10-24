@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "C_WIFI_01_001",
+    "legacy_id": "C0473",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi is so slow in the hostel at night",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_002",
+    "legacy_id": "C0474",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the speed in the academic block is really good",
+    "aspects": [
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_003",
+    "legacy_id": "C0475",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "internet disconnects every 10 minutes",
+    "aspects": [
+      {
+        "aspect_term": "disconnects",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_004",
+    "legacy_id": "C0476",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "no signal in the library basement",
+    "aspects": [
+      {
+        "aspect_term": "signal",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_005",
+    "legacy_id": "C0477",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the login page keeps asking for password again and again",
+    "aspects": [
+      {
+        "aspect_term": "login page",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_006",
+    "legacy_id": "C0478",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "daily data limit of 2gb is too low for students",
+    "aspects": [
+      {
+        "aspect_term": "data limit",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_007",
+    "legacy_id": "C0479",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi works fine in classrooms",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "connectivity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_008",
+    "legacy_id": "C0480",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "connection drops during online exams, very risky",
+    "aspects": [
+      {
+        "aspect_term": "connection drops",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_009",
+    "legacy_id": "C0481",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "hostel wifi coverage is poor, only works near the corridor",
+    "aspects": [
+      {
+        "aspect_term": "coverage",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_010",
+    "legacy_id": "C0482",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "videos buffer endlessly after 8 pm",
+    "aspects": [
+      {
+        "aspect_term": "buffer",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_011",
+    "legacy_id": "C0483",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "can't connect two devices at the same time",
+    "aspects": [
+      {
+        "aspect_term": "connect two devices",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_012",
+    "legacy_id": "C0484",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "youtube is blocked and even educational videos don't load",
+    "aspects": [
+      {
+        "aspect_term": "youtube",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_013",
+    "legacy_id": "C0485",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "new wifi routers have improved coverage a lot",
+    "aspects": [
+      {
+        "aspect_term": "coverage",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_014",
+    "legacy_id": "C0486",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi is stable during the day",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "reliability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_015",
+    "legacy_id": "C0487",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "it takes ages to download a 50 mb file",
+    "aspects": [
+      {
+        "aspect_term": "download",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_016",
+    "legacy_id": "C0488",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "campus wifi is good enough for browsing, but not for downloads",
+    "aspects": [
+      {
+        "aspect_term": "browsing",
+        "category": "speed",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "downloads",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_017",
+    "legacy_id": "C0489",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "server is always down during assignment submissions",
+    "aspects": [
+      {
+        "aspect_term": "server",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_018",
+    "legacy_id": "C0490",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "excellent speed in the new it block",
+    "aspects": [
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_019",
+    "legacy_id": "C0491",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the mac address registration process is confusing and slow",
+    "aspects": [
+      {
+        "aspect_term": "mac address registration",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_020",
+    "legacy_id": "C0492",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "in the cafeteria wifi is not available at all",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_021",
+    "legacy_id": "C0493",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "internet is unusable in the evening when everyone is online",
+    "aspects": [
+      {
+        "aspect_term": "internet",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_022",
+    "legacy_id": "C0494",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "the wifi signal is strong in the auditorium",
+    "aspects": [
+      {
+        "aspect_term": "signal",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_023",
+    "legacy_id": "C0495",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "we get logged out every hour and have to login again",
+    "aspects": [
+      {
+        "aspect_term": "logged out",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_024",
+    "legacy_id": "C0496",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the it department fixed the connectivity issue fast",
+    "aspects": [
+      {
+        "aspect_term": "connectivity",
+        "category": "connectivity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_025",
+    "legacy_id": "C0497",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "speed test shows only 1 mbps, shame for an engineering college",
+    "aspects": [
+      {
+        "aspect_term": "1 mbps",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_026",
+    "legacy_id": "C0498",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "data cap resets at midnight which is useless",
+    "aspects": [
+      {
+        "aspect_term": "data cap",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_027",
+    "legacy_id": "C0499",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "ping is high so online gaming and coding contests lag",
+    "aspects": [
+      {
+        "aspect_term": "ping",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_028",
+    "legacy_id": "C0500",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "sometimes wifi connects but there is no internet",
+    "aspects": [
+      {
+        "aspect_term": "no internet",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_029",
+    "legacy_id": "C0501",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the wifi is ok for emails and docs",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "neutral"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_030",
+    "legacy_id": "C0502",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "vpn doesn't work on campus wifi, can't access research papers",
+    "aspects": [
+      {
+        "aspect_term": "vpn",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_031",
+    "legacy_id": "C0503",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi romba slow, video call kooda pannamudiyala",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_032",
+    "legacy_id": "C0504",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "hostel la signal illa da, terrace ku poganum",
+    "aspects": [
+      {
+        "aspect_term": "signal",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_033",
+    "legacy_id": "C0505",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "net speed super ah irukku today",
+    "aspects": [
+      {
+        "aspect_term": "net speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_034",
+    "legacy_id": "C0506",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "login aaga mattengudhu, password wrong nu solluthu",
+    "aspects": [
+      {
+        "aspect_term": "login",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_035",
+    "legacy_id": "C0507",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "class la wifi nalla work aagudhu",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "connectivity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_036",
+    "legacy_id": "C0508",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "daily data mudinjiduchu by evening",
+    "aspects": [
+      {
+        "aspect_term": "data",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_037",
+    "legacy_id": "C0509",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi keeps cutting off, rombo irritating",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_038",
+    "legacy_id": "C0510",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the wiifi is not conecting in my room",
+    "aspects": [
+      {
+        "aspect_term": "wiifi",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_039",
+    "legacy_id": "C0511",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "internt speed is vry slow",
+    "aspects": [
+      {
+        "aspect_term": "internt speed",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_040",
+    "legacy_id": "C0512",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the passwrd keeps changing every week",
+    "aspects": [
+      {
+        "aspect_term": "passwrd",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_041",
+    "legacy_id": "C0513",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "cant open any site, blokcing everythng",
+    "aspects": [
+      {
+        "aspect_term": "blokcing",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_042",
+    "legacy_id": "C0514",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "wfi is workin gud in the lib",
+    "aspects": [
+      {
+        "aspect_term": "wfi",
+        "category": "connectivity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_043",
+    "legacy_id": "C0515",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "the wifi goes down when it rains",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_044",
+    "legacy_id": "C0516",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "signal is weak in the ground floor and fine on upper floors",
+    "aspects": [
+      {
+        "aspect_term": "signal",
+        "category": "coverage",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "upper floors",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_045",
+    "legacy_id": "C0517",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "the speed is fine, but connection is unstable",
+    "aspects": [
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "connection",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_046",
+    "legacy_id": "C0518",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "first-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "login is simple but the speed is bad",
+    "aspects": [
+      {
+        "aspect_term": "login",
+        "category": "login issues",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_047",
+    "legacy_id": "C0519",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "second-year day scholar",
+    "persona_status": "assigned_for_balance",
+    "text": "good coverage across the campus, though speeds drop in the evening",
+    "aspects": [
+      {
+        "aspect_term": "coverage",
+        "category": "coverage",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "speeds",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_048",
+    "legacy_id": "C0533",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "final-year student",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi is a scam, fix it you useless clowns",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_049",
+    "legacy_id": "C0534",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "girls' hostel resident",
+    "persona_status": "assigned_for_balance",
+    "text": "the it people are idiots who can't run a single router",
+    "aspects": [
+      {
+        "aspect_term": "it people",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_01_050",
+    "legacy_id": "C0535",
+    "facility": "wifi",
+    "batch": 1,
+    "persona": "outstation student",
+    "persona_status": "assigned_for_balance",
+    "text": "stupid wifi, stupid password system, i hate this college internet",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_001",
+    "legacy_id": "C0520",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi works inside the hostel room but not on the terrace",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "coverage",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "terrace",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_002",
+    "legacy_id": "C0521",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "students share one login id, so everyone is slow",
+    "aspects": [
+      {
+        "aspect_term": "login id",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_003",
+    "legacy_id": "C0522",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the it team's helpdesk number never picks up",
+    "aspects": [
+      {
+        "aspect_term": "helpdesk",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_004",
+    "legacy_id": "C0523",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "the speed in the library is superb for downloading study material",
+    "aspects": [
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_005",
+    "legacy_id": "C0524",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "we are not able to join zoom classes because of the lag",
+    "aspects": [
+      {
+        "aspect_term": "lag",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_006",
+    "legacy_id": "C0525",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "the captive portal crashes on my phone",
+    "aspects": [
+      {
+        "aspect_term": "captive portal",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_007",
+    "legacy_id": "C0526",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "bandwidth is throttled after the data cap, completely unusable",
+    "aspects": [
+      {
+        "aspect_term": "throttled",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_008",
+    "legacy_id": "C0527",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "wifi in the sports complex is non existent",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_009",
+    "legacy_id": "C0528",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "campus wifi is better than my home broadband",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_010",
+    "legacy_id": "C0529",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "we need a better access point in the girls hostel second floor",
+    "aspects": [
+      {
+        "aspect_term": "access point",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_011",
+    "legacy_id": "C0530",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "assigned_for_balance",
+    "text": "the connection is reliable during exams, good job",
+    "aspects": [
+      {
+        "aspect_term": "connection",
+        "category": "reliability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_012",
+    "legacy_id": "C0531",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "assigned_for_balance",
+    "text": "too many restrictions on websites for coding practice",
+    "aspects": [
+      {
+        "aspect_term": "restrictions",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_013",
+    "legacy_id": "C0532",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "the wifi at 3 am is faster, that's when i study lol",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_014",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "wifi speed is excellent in cse department, helps download datasets.",
+    "aspects": [
+      {
+        "aspect_term": "wifi speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_015",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "frequent disconnection during online coding assessments is frustrating.",
+    "aspects": [
+      {
+        "aspect_term": "disconnection",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_016",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "captive portal session expires every thirty minutes automatically.",
+    "aspects": [
+      {
+        "aspect_term": "captive portal",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_017",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "2 gb daily bandwidth limit gets exhausted very quickly while downloading lecture slides.",
+    "aspects": [
+      {
+        "aspect_term": "bandwidth limit",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_018",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "network coverage reaches the open auditorium and canteen lawns seamlessly.",
+    "aspects": [
+      {
+        "aspect_term": "coverage",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_019",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "stable and reliable network connection throughout campus placement interview week.",
+    "aspects": [
+      {
+        "aspect_term": "network connection",
+        "category": "reliability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_020",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "signal drops completely inside hostel corner corridors.",
+    "aspects": [
+      {
+        "aspect_term": "signal",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_021",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "authentication server gives invalid credential errors even with correct roll number password.",
+    "aspects": [
+      {
+        "aspect_term": "authentication server",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_022",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "download speed exceeds 50 mbps on fifth floor lab access point.",
+    "aspects": [
+      {
+        "aspect_term": "download speed",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_023",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "unlimited quota for academic domains like arxiv and github is helpful.",
+    "aspects": [
+      {
+        "aspect_term": "quota",
+        "category": "bandwidth limit",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_024",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "wifi drops randomly whenever rain starts.",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_025",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "ping latency is low, online mock interviews load smoothly.",
+    "aspects": [
+      {
+        "aspect_term": "latency",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_026",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "unable to connect android phone to campus wifi network.",
+    "aspects": [
+      {
+        "aspect_term": "connect",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_027",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "strong signal strength in library reading hall.",
+    "aspects": [
+      {
+        "aspect_term": "signal strength",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_028",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "single sign-on login page loads promptly on browser startup.",
+    "aspects": [
+      {
+        "aspect_term": "login page",
+        "category": "login issues",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_029",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "poor bandwidth throttling makes streaming educational videos buffer constantly.",
+    "aspects": [
+      {
+        "aspect_term": "bandwidth throttling",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "streaming",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_030",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "wifi network is reliable and never went down during symposium registration.",
+    "aspects": [
+      {
+        "aspect_term": "wifi network",
+        "category": "reliability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_031",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "hostel wifi speed crawls below 100 kbps during night peak hours.",
+    "aspects": [
+      {
+        "aspect_term": "wifi speed",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_032",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "access point installed right outside our dorm room provides full bars.",
+    "aspects": [
+      {
+        "aspect_term": "access point",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_033",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "vpn connection is blocked by the campus firewall.",
+    "aspects": [
+      {
+        "aspect_term": "vpn connection",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_034",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "reset password portal took three days to resolve my locked account.",
+    "aspects": [
+      {
+        "aspect_term": "reset password portal",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_035",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "fast connection in seminar hall enabled live streaming without glitch.",
+    "aspects": [
+      {
+        "aspect_term": "connection",
+        "category": "speed",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_036",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "daily quota of 1 gb is ridiculous for engineering students doing projects.",
+    "aspects": [
+      {
+        "aspect_term": "daily quota",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_037",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "wifi is fast in the morning but disconnects repeatedly after lunch.",
+    "aspects": [
+      {
+        "aspect_term": "wifi",
+        "category": "speed",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "disconnects",
+        "category": "connectivity",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_038",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "it center solved my mac address registration issue in five minutes.",
+    "aspects": [
+      {
+        "aspect_term": "registration",
+        "category": "login issues",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_039",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "good network coverage across all workshop buildings.",
+    "aspects": [
+      {
+        "aspect_term": "network coverage",
+        "category": "coverage",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_040",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "constant dns resolution failure makes web pages inaccessible.",
+    "aspects": [
+      {
+        "aspect_term": "dns resolution",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_041",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "smooth roaming between department wifi access points.",
+    "aspects": [
+      {
+        "aspect_term": "roaming",
+        "category": "connectivity",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_042",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "explicit_defined",
+    "text": "speed in mechanical block is sluggish.",
+    "aspects": [
+      {
+        "aspect_term": "speed",
+        "category": "speed",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_043",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "ample bandwidth allocated for video conferencing interviews.",
+    "aspects": [
+      {
+        "aspect_term": "bandwidth",
+        "category": "bandwidth limit",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_044",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "explicit_defined",
+    "text": "dead zones exist in the ground floor bathrooms and cafeteria corner.",
+    "aspects": [
+      {
+        "aspect_term": "dead zones",
+        "category": "coverage",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_045",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "explicit_defined",
+    "text": "network packet drop rate is practically zero today.",
+    "aspects": [
+      {
+        "aspect_term": "packet drop rate",
+        "category": "reliability",
+        "sentiment": "positive"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_046",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "club member",
+    "persona_status": "explicit_defined",
+    "text": "login gateway freezes when too many students connect simultaneously.",
+    "aspects": [
+      {
+        "aspect_term": "login gateway",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_047",
+    "legacy_id": null,
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "placement-focused student",
+    "persona_status": "explicit_defined",
+    "text": "wifi connection has high speed but frequent login timeouts irritate me.",
+    "aspects": [
+      {
+        "aspect_term": "wifi connection",
+        "category": "speed",
+        "sentiment": "positive"
+      },
+      {
+        "aspect_term": "login timeouts",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": false,
+    "source_type": "synthetic",
+    "provenance": "newly_generated"
+  },
+  {
+    "id": "C_WIFI_02_048",
+    "legacy_id": "C0536",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "backlog student",
+    "persona_status": "assigned_for_balance",
+    "text": "damn the internet is crap, worthless it team",
+    "aspects": [
+      {
+        "aspect_term": "internet",
+        "category": "speed",
+        "sentiment": "negative"
+      },
+      {
+        "aspect_term": "it team",
+        "category": "reliability",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_049",
+    "legacy_id": "C0537",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "third-year hosteller",
+    "persona_status": "assigned_for_balance",
+    "text": "who the hell designed this bullshit login process",
+    "aspects": [
+      {
+        "aspect_term": "login process",
+        "category": "login issues",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  },
+  {
+    "id": "C_WIFI_02_050",
+    "legacy_id": "C0538",
+    "facility": "wifi",
+    "batch": 2,
+    "persona": "faculty-project student",
+    "persona_status": "assigned_for_balance",
+    "text": "useless admin, block your own brain not youtube",
+    "aspects": [
+      {
+        "aspect_term": "youtube",
+        "category": "bandwidth limit",
+        "sentiment": "negative"
+      }
+    ],
+    "abusive": true,
+    "source_type": "synthetic",
+    "provenance": "original_recovered"
+  }
+]

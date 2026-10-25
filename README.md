@@ -1,175 +1,102 @@
 # NLP-Based Campus Facility Feedback Analysis System
 
-An NLP research and data engineering platform designed to analyse student feedback across campus facilities. The system is designed to support:
-1. **Text preprocessing and normalization** (handling informal Tamil-English/Tanglish slang, abbreviations, and typos).
-2. **Facility-related aspect extraction** (identifying specific components such as equipment, food, seating, etc.).
-3. **Aspect-Based Sentiment Analysis (ABSA)** (classifying aspect polarities as positive, negative, or neutral).
-4. **Aspect-wise facility ratings** (aggregating sentiment to grade facilities).
-5. **Recurring issue identification** (clustering and tracking chronic complaints).
-6. **AI-based summaries of aggregated feedback** (generating structured executive facility briefs).
-7. **Abusive-content detection** (detecting profanity, insults, and harassment).
+Reads student comments about campus facilities and turns them into something a college can act on: which comments are abusive, what each comment is about, how students feel about each topic, and a rating, a list of recurring issues and a short written summary for every facility. A Streamlit dashboard shows the results.
 
----
+**Facilities covered:** canteen, classrooms, hostel mess, hostel rooms, labs, library, transport, wifi.
+**Data:** 800 synthetic campus comments (560 train, 120 validation, 120 test), 48 of them abusive. Many comments mix English and Tamil-English (Tanglish).
 
-## 1. Directory Structure
+## How it works
 
-```
-campus-feedback-nlp/
-├── data/
-│   ├── raw_backup_original/            # Immutable backup of original 538 raw comments
-│   ├── processed_backup_original/      # Immutable backup of initial processed files
-│   ├── raw/                            # 16 batch files + 8 combined facility files (800 comments total)
-│   │   ├── <facility>_1.json           # Batch 1 (50 comments, 3 abusive)
-│   │   ├── <facility>_2.json           # Batch 2 (50 comments, 3 abusive)
-│   │   └── <facility>.json             # Combined facility file (100 comments, 6 abusive)
-│   ├── processed/                      # Canonical processed CSVs, splits, and reports
-│   │   ├── campus_feedback.csv         # Full 800 comments with metadata & derived sentiment
-│   │   ├── campus_aspects.csv          # 915 flattened aspect rows linked by parent ID
-│   │   ├── train_comments.csv          # Train partition (560 comments, 70%)
-│   │   ├── validation_comments.csv     # Validation partition (120 comments, 15%)
-│   │   ├── test_comments.csv           # Test partition (120 comments, 15%)
-│   │   ├── train_aspects.csv           # 649 aspects for training
-│   │   ├── validation_aspects.csv      # 134 aspects for validation
-│   │   ├── test_aspects.csv            # 132 aspects for testing
-│   │   ├── gold_to_verify.csv          # 100-comment human review sample (sampled strictly from Train)
-│   │   ├── dataset_manifest.json       # Checksums, schemas, provenance, and file inventory
-│   │   ├── data_quality_report.json    # Machine-readable automated validation audit
-│   │   ├── data_quality_report.md      # Human-readable quality assurance report
-│   │   ├── label_distribution.csv      # Facility and global aspect/comment label frequencies
-│   │   ├── unresolved_annotations.csv  # Implied aspects (null terms) and edge annotations
-│   │   ├── unified_edurabsa_train.csv  # EduRABSA train set (16,500 aspect rows)
-│   │   ├── unified_edurabsa_test.csv   # EduRABSA test set (10,537 aspect rows)
-│   │   ├── unified_synthetic.csv       # Standardized schema for synthetic campus data (915 rows)
-│   │   └── jigsaw_abusive_sample.csv   # Balanced Jigsaw benchmark sample (5,000 comments)
-│   └── external/
-│       ├── edurabsa/                   # EduRABSA academic ABSA dataset (train/test jsonl)
-│       └── jigsaw/                     # Jigsaw Toxic Comment Classification Challenge (train.csv)
-├── src/
-│   ├── data_definitions.py             # Schema, categories whitelist, personas constants
-│   ├── validate_dataset.py             # Deterministic 18-rule validation test suite
-│   ├── merge_campus_data.py            # Raw JSON ingestion, normalization, and flattening
-│   ├── split_data.py                   # Comment-level 70/15/15 stratified partitioner with zero leakage
-│   ├── adapters.py                     # Format converters for EduRABSA and Jigsaw
-│   ├── generate_reports.py             # Generates manifest, distributions, and quality reports
-│   └── run_pipeline.py                 # Master single-command pipeline runner
-├── requirements.txt                    # Minimal data pipeline dependencies
-└── README.md                           # Comprehensive documentation and reproducibility guide
-```
+For every comment, `src/pipeline.py` does the following:
 
----
+1. **Abuse detection.** `unitary/toxic-bert` flags abusive comments (cutoff 0.5). Flagged comments are kept out of the ratings.
+2. **Topic finding.** A keyword matcher finds topics and the exact part of the sentence. A DistilBERT model adds topics the keywords missed when it is at least 50% sure (`src/aspects_hybrid.py`).
+3. **Sentiment.** A DistilBERT model judges positive, neutral or negative for each topic.
+4. **Ratings and issues.** `src/aggregate.py` turns the results into a 1 to 5 rating per facility and topic, and lists topics that are mostly negative (`ISSUE_NEG_SHARE = 0.7` in `src/config.py`).
+5. **Summaries.** A local AI model (llama3.1 through Ollama) writes a short summary per facility from the numbers. An automatic check rejects summaries that use numbers or topics that are not in the facts, and a template summary is the fallback.
 
-## 2. Facility Coverage and Allowed Aspect Categories
+## Results
 
-The system covers **eight facilities**, each governed by an explicit whitelist of allowed aspect categories. Category cross-contamination across facilities is prohibited:
-
-| Facility ID | Facility Name | Allowed Aspect Categories |
+| Part | Result | Measured on |
 |---|---|---|
-| `hostel_mess` | Hostel Mess | `food quality`, `price`, `hygiene`, `waiting time`, `seating`, `staff behavior`, `quantity`, `variety` |
-| `canteen` | Campus Canteen / Food Court | `food quality`, `price`, `hygiene`, `waiting time`, `seating`, `staff behavior`, `quantity`, `variety` |
-| `library` | Central Library | `book availability`, `seating`, `silence`, `opening hours`, `staff behavior`, `cleanliness`, `ac/temperature`, `digital resources` |
-| `hostel_rooms` | Hostel Rooms & Living Facilities | `cleanliness`, `water supply`, `electricity`, `maintenance`, `room size`, `safety`, `laundry`, `noise` |
-| `labs` | Computer & Engineering Labs | `equipment condition`, `system speed`, `software availability`, `lab staff`, `lab timings`, `cleanliness`, `space` |
-| `wifi` | Campus Wi-Fi & Internet | `speed`, `connectivity`, `coverage`, `login issues`, `reliability`, `bandwidth limit` |
-| `transport` | College Bus Transport | `punctuality`, `crowding`, `driver behavior`, `route coverage`, `bus condition`, `safety`, `fare` |
-| `classrooms` | Classrooms & Lecture Halls | `ac/temperature`, `seating`, `projector/av`, `cleanliness`, `lighting`, `noise` |
+| Abuse detection (toxic-bert) | precision 88%, recall 90%, F1 0.89 | all 800 campus comments |
+| Abuse detection (old baseline) | precision 63%, recall 90%, F1 0.74 | all 800 campus comments |
+| Topic finding (keywords + DistilBERT) | F1 0.742 | test split |
+| Topic finding (keywords only / model only) | F1 0.698 / 0.656 | validation split |
+| Sentiment | accuracy 0.905, macro-F1 0.875 | test split, correct topics given |
+| Summaries | 8 of 8 written by the AI, read against the ratings, 2 corrected by hand | all facilities |
 
----
+The test split was evaluated once, at the end. Cutoffs and settings were chosen on the validation split.
 
-## 3. Dataset Provenance and Reconstruction
+## Project structure
 
-### 3.1 Provenance Accounting
-- **Original Recovered (538 comments, 100% preserved):** All 538 comments originally present in `data/raw/` (canteen: 84, hostel_mess: 94, hostel_rooms: 76, labs: 74, library: 80, transport: 64, wifi: 66) were mathematically reconciled into Batch 1 and partial Batch 2 without dropping or modifying a single comment text, aspect label, or abusive flag.
-- **Newly Generated (262 comments):** Synthesized to complete partial Batch 2 (162 comments) and generate the missing `classrooms` facility (100 comments across B1 and B2).
-- **Total Dataset:** Exactly 800 comments across 16 batches (50 comments per batch, exactly 3 abusive per batch).
-
-### 3.2 Personas
-- **Batch 1 Personas:** `first-year hosteller`, `second-year day scholar`, `final-year student`, `girls' hostel resident`, `outstation student`.
-- **Batch 2 Personas:** `placement-focused student`, `club member`, `backlog student`, `third-year hosteller`, `faculty-project student`.
-
----
-
-## 4. Annotation Schema and Sentiment Taxonomy
-
-### 4.1 Raw JSON Comment Schema
-```json
-{
-  "id": "C_CAN_01_001",
-  "legacy_id": "C0001",
-  "facility": "canteen",
-  "batch": 1,
-  "persona": "first-year hosteller",
-  "persona_status": "assigned_for_balance",
-  "text": "samosa is crispy and cheap, best snack here",
-  "aspects": [
-    {"aspect_term": "samosa", "category": "food quality", "sentiment": "positive"},
-    {"aspect_term": "cheap", "category": "price", "sentiment": "positive"}
-  ],
-  "abusive": false,
-  "source_type": "synthetic",
-  "provenance": "original_recovered"
-}
+```
+src/
+  pipeline.py            single entry point: analyse(text, facility)
+  aspects.py             keyword topic finder
+  aspects_bert.py        DistilBERT topic model
+  aspects_hybrid.py      keywords + model, used by the pipeline
+  sentiment.py           sentiment prediction
+  sentiment_bert.py      DistilBERT sentiment model loading
+  toxicity_baseline.py   old abuse detector (TF-IDF + logistic regression)
+  toxicity_bert.py       toxic-bert scoring and evaluation
+  compare_toxicity.py    side-by-side comparison of the two abuse detectors
+  aggregate.py           ratings.csv and issues.csv
+  summarize.py           writes summaries.csv (with checks and fallback)
+  summarize_ai.py        Ollama call
+  aspect_errors.py       error analysis of the keyword topic finder
+  evaluate.py            validation and test evaluation
+  config.py              paths and settings
+data/
+  processed/             train, validation and test comment files
+  outputs/               predictions, ratings, issues, summaries
+models/                  not in the repository (see below)
 ```
 
-### 4.2 Explicit Comment-Level Sentiment Derivation
-Let $S_c$ be the set of aspect sentiment polarities in comment $c$:
-- **Mixed:** $\text{'positive'} \in S_c \ \land \ \text{'negative'} \in S_c$.
-- **Positive:** $\text{'positive'} \in S_c \ \land \ \text{'negative'} \notin S_c$.
-- **Negative:** $\text{'negative'} \in S_c \ \land \ \text{'positive'} \notin S_c$.
-- **Neutral:** $S_c = \{\text{'neutral'}\}$.
-- **Unresolved:** $|c.\text{aspects}| = 0$ (e.g. pure insults with no specific facility aspect opinion).
+## Setup
 
----
-
-## 5. Train / Validation / Test Methodology & Leakage Prevention
-
-The dataset is partitioned strictly at the **comment level** using fixed random seed `SEED = 42`:
-- **Training (70%):** 560 comments (649 aspects, 32 abusive comments). Exactly 70 comments per facility.
-- **Validation (15%):** 120 comments (134 aspects, 8 abusive comments). Exactly 15 comments per facility.
-- **Test (15%):** 120 comments (132 aspects, 8 abusive comments). Exactly 15 comments per facility.
-
-### Leakage Verification Suite
-- **Comment ID Overlap:** Zero (Train $\cap$ Val = $\emptyset$, Train $\cap$ Test = $\emptyset$, Val $\cap$ Test = $\emptyset$).
-- **Normalized Text Overlap:** Zero exact text matches across splits.
-- **Near-Duplicate Overlap:** Zero cross-split pairs with token Jaccard similarity $\ge 0.85$.
-- **Aspect Partitioning:** 100% of aspect records partition strictly with their parent comment ID.
-- **Gold Verification Sample (`gold_to_verify.csv`):** Sampled strictly from the **TRAINING partition** (100 comments). Test data is strictly held out.
-
----
-
-## 6. How to Reproduce and Validate the Dataset Pipeline
-
-### 6.1 Setup Environment
-```powershell
+```
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 6.2 Execute Entire Pipeline in One Command
-```powershell
-python src/run_pipeline.py
+### Models (not included in the repository)
+
+| Model | Where it comes from |
+|---|---|
+| `models/sentiment_distilbert_v3` | trained on Colab (see `notebooks/`) |
+| `models/aspect_distilbert_v1` | trained on Colab (see `notebooks/`), includes `labels.json` |
+| `unitary/toxic-bert` | downloads automatically on first run (about 440 MB, needs internet) |
+| `models/toxicity_tfidf_logreg.joblib` | created by `python -m src.toxicity_baseline`, only needed for the comparison |
+
+Set the sentiment model folder with `BERT_MODEL_DIR` in `src/config.py`.
+
+### Summaries (optional)
+
+Install [Ollama](https://ollama.com) and run `ollama pull llama3.1`. If Ollama is not running, the template summary is used instead.
+
+### Extra data (only for retraining or comparison)
+
+The old abuse baseline needs the Jigsaw `train.csv` in `data/external/jigsaw/`. `src/download_edurabsa.py` downloads the EduRABSA benchmark.
+
+## Running
+
 ```
-This automatically runs:
-1. `python src/validate_dataset.py` (pre-validation)
-2. `python src/merge_campus_data.py` (builds `campus_feedback.csv` and `campus_aspects.csv`)
-3. `python src/split_data.py` (produces 70/15/15 partitions and `gold_to_verify.csv`)
-4. `python src/adapters.py` (processes EduRABSA and Jigsaw external datasets)
-5. `python src/generate_reports.py` (generates manifest, quality reports, label distributions)
-6. `python src/validate_dataset.py` (post-validation check)
+python -m src.pipeline            # analyse all comments -> data/outputs/predictions.csv
+python -m src.aggregate           # -> ratings.csv, issues.csv
+python -m src.summarize           # -> summaries.csv (needs Ollama for AI summaries)
+streamlit run <path to dashboard file>
+python -m src.evaluate validation
+```
 
----
+Warning: `src.summarize` overwrites `data/outputs/summaries.csv`, including any hand corrections. `python -m src.evaluate test --final` is meant to be run once, at the very end.
 
-## 7. Known Limitations and Review Tasks
+## Known limits
 
-1. **Synthetic Data Limitations:** The campus dataset was generated using an LLM to simulate Indian engineering college students in Tamil Nadu with ~40% Tanglish phrases. While linguistically diverse, labels represent synthetic annotations.
-2. **Human Annotation Review Status:** Currently `AWAITING_HUMAN_REVIEW`. Reviewers should audit `data/processed/gold_to_verify.csv`, fill in the `verified` column, and save it as `gold_test.csv`.
-3. **Implied Aspects Queue:** Four records with implied aspect terms (`aspect_term: null`) are documented in `data/processed/unresolved_annotations.csv` for human reviewer attention.
-
----
-
-## 8. Starting Model Training (Next Steps)
-
-Once human review of the gold sample is completed, model training can proceed:
-1. **Aspect Extraction & Category Classification:** Train token classification models (e.g. DeBERTa-v3, IndicBERT) or sequence-to-sequence prompt models on `train_aspects.csv`, evaluate on `validation_aspects.csv`, and test on `test_aspects.csv`.
-2. **Aspect-Based Sentiment Analysis (ABSA):** Train sentiment classifiers predicting positive, negative, or neutral for extracted (aspect_term, category) pairs. Use EduRABSA (`unified_edurabsa_train.csv`) for domain pretraining if beneficial.
-3. **Abusive Content Detection:** Train binary classifiers (`abusive: true/false`) on `train_comments.csv`, using `data/processed/jigsaw_abusive_sample.csv` for out-of-domain benchmark evaluation.
+- Mild insults aimed at a person (for example "clown") are missed by both abuse detectors.
+- toxic-bert sometimes flags harsh hygiene complaints ("disgusting", "dirty") as abuse.
+- Topics found only by the model are judged on the whole comment, which is less precise when a comment mixes good and bad points.
+- The topic model was trained on only 560 comments, and some labels are debatable.
+- The data is synthetic and has only 48 abusive comments, so recall numbers are indicative, not exact.
+- The Summaries page is static. An interactive version is planned.

@@ -1,7 +1,7 @@
 """The single entry point. analyse() is used by batch mode, the Streamlit form and evaluation.
 Batch: python -m src.pipeline data/processed/validation_comments.csv   (default: all 3 splits)"""
 import sys, joblib, pandas as pd
-from src.aspects import extract_aspects
+from src.aspects_hybrid import extract_aspects
 from src.sentiment import predict_sentiment
 
 _tox = None

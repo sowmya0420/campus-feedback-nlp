@@ -5,7 +5,7 @@
 import json, sys
 import pandas as pd
 from sklearn.metrics import f1_score, accuracy_score, confusion_matrix
-from src.aspects import extract_aspects
+from src.aspects_hybrid import extract_aspects
 from src.preprocess import clause_with_term
 from src.sentiment import predict_sentiment
 

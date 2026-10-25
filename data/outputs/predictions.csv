@@ -79,7 +79,7 @@ C_WIFI_01_045,wifi,"the speed is fine, but connection is unstable",speed,positiv
 C_WIFI_01_045,wifi,"the speed is fine, but connection is unstable",reliability,negative,False
 C_WIFI_01_045,wifi,"the speed is fine, but connection is unstable",connectivity,negative,False
 C_TRN_01_041,transport,the bus alwys breaks dwn,general,negative,False
-C_WIFI_01_012,wifi,youtube is blocked and even educational videos don't load,bandwidth limit,negative,True
+C_WIFI_01_012,wifi,youtube is blocked and even educational videos don't load,bandwidth limit,negative,False
 C_HR_01_025,hostel_rooms,drying area for clothes is too small,room size,negative,False
 C_HR_01_025,hostel_rooms,drying area for clothes is too small,laundry,negative,False
 C_LAB_02_009,labs,mouse is stuck and cursor jumps,general,negative,False
@@ -95,7 +95,7 @@ C_HR_01_001,hostel_rooms,"water supply stops at 7 am, no water for bathing",wate
 C_HR_01_001,hostel_rooms,"water supply stops at 7 am, no water for bathing",water supply,negative,False
 C_CLS_02_032,classrooms,ac stopped cooling halfway through the guest lecture.,ac/temperature,negative,False
 C_HM_02_021,hostel_mess,mess uncle semma friendly,general,positive,False
-C_HR_02_023,hostel_rooms,hostel office staff are lazy and rude when we complain,general,negative,True
+C_HR_02_023,hostel_rooms,hostel office staff are lazy and rude when we complain,general,negative,False
 C_LIB_01_043,library,the librarain was so rude today,staff behavior,negative,False
 C_TRN_02_034,transport,ac bus ticket price is excessively high.,bus condition,negative,False
 C_TRN_02_034,transport,ac bus ticket price is excessively high.,fare,negative,False
@@ -142,7 +142,7 @@ C_LIB_02_016,library,water cooler near library is not working,general,negative,F
 C_CAN_01_019,canteen,waiting time for order is 20 mins even for tea,food quality,negative,False
 C_CAN_01_019,canteen,waiting time for order is 20 mins even for tea,waiting time,negative,False
 C_HR_02_041,hostel_rooms,music blasting from neighboring block causes heavy disturbance.,noise,negative,False
-C_HM_02_016,hostel_mess,chicken gravy nalla irukku,general,positive,True
+C_HM_02_016,hostel_mess,chicken gravy nalla irukku,general,positive,False
 C_CLS_01_025,classrooms,"ac remote missing, temperature locked at 16 degrees freezing everyone.",ac/temperature,negative,False
 C_CLS_01_025,classrooms,"ac remote missing, temperature locked at 16 degrees freezing everyone.",ac/temperature,negative,False
 C_HR_01_034,hostel_rooms,the room is average but i can adjust,general,neutral,False
@@ -180,7 +180,7 @@ C_TRN_01_014,transport,fee is reasonable for the distance covered,fare,positive,
 C_TRN_01_014,transport,fee is reasonable for the distance covered,route coverage,positive,False
 C_CAN_02_010,canteen,waitng for 25 mins for a burger,food quality,negative,False
 C_CLS_01_031,classrooms,audio visual setup is top notch with wireless collar mic.,projector/av,positive,False
-C_HR_01_004,hostel_rooms,bathrooms are dirty and no one cleans them daily,cleanliness,negative,True
+C_HR_01_004,hostel_rooms,bathrooms are dirty and no one cleans them daily,cleanliness,negative,False
 C_WIFI_01_007,wifi,wifi works fine in classrooms,coverage,positive,False
 C_HR_01_016,hostel_rooms,electricity is stable now after the new transformer,electricity,positive,False
 C_WIFI_02_050,wifi,"useless admin, block your own brain not youtube",coverage,negative,True
@@ -208,7 +208,7 @@ C_HM_01_012,hostel_mess,sambar is watery always,food quality,negative,False
 C_CLS_02_023,classrooms,powerful central ac chills the room uniformly in minutes.,ac/temperature,positive,False
 C_LIB_02_027,library,"ac is perfect in summer, thanks to the library for the comfort",ac/temperature,positive,False
 C_LIB_02_029,library,ac in third floor reference section is chilling cold.,ac/temperature,negative,False
-C_HR_02_001,hostel_rooms,elecricity goes off every nite,general,negative,True
+C_HR_02_001,hostel_rooms,elecricity goes off every nite,general,negative,False
 C_TRN_01_032,transport,"driver anna romba nalla person, safe ah ottuvaru",driver behavior,positive,False
 C_TRN_01_032,transport,"driver anna romba nalla person, safe ah ottuvaru",safety,positive,False
 C_HR_02_009,hostel_rooms,broken windows in the corridor have not been repaired for months,maintenance,negative,False
@@ -307,7 +307,7 @@ C_CAN_01_006,canteen,no place to sit during lunch break,seating,negative,False
 C_LIB_01_041,library,"silence illa, group ah vandhu pesuranga",silence,negative,False
 C_TRN_01_018,transport,the bus is too crowded in the evening,crowding,negative,False
 C_CAN_02_031,canteen,you pay for the brand not the food,food quality,negative,False
-C_HM_02_026,hostel_mess,mess hygine is poor,general,negative,False
+C_HM_02_026,hostel_mess,mess hygine is poor,general,negative,True
 C_LAB_02_022,labs,matlab and ansys licenses are available on all workstations for research scholars.,software availability,positive,False
 C_LAB_02_022,labs,matlab and ansys licenses are available on all workstations for research scholars.,space,positive,False
 C_WIFI_02_018,wifi,network coverage reaches the open auditorium and canteen lawns seamlessly.,coverage,positive,False
@@ -316,7 +316,7 @@ C_LIB_01_040,library,wifi in the library is poor and e books are not loading,boo
 C_WIFI_02_009,wifi,campus wifi is better than my home broadband,general,positive,False
 C_CAN_01_039,canteen,food is expensive compared to outside shops,food quality,negative,False
 C_CAN_01_039,canteen,food is expensive compared to outside shops,price,negative,False
-C_WIFI_01_044,wifi,signal is weak in the ground floor and fine on upper floors,coverage,negative,False
+C_WIFI_01_044,wifi,signal is weak in the ground floor and fine on upper floors,coverage,positive,False
 C_HR_01_019,hostel_rooms,"water is yellow some mornings, unfit to drink",water supply,negative,False
 C_HR_01_048,hostel_rooms,"this hostel is a dump, wardens are useless idiots",general,negative,True
 C_CAN_01_035,canteen,no hand wash near the canteen entrance,general,negative,False
@@ -325,7 +325,7 @@ C_HM_02_003,hostel_mess,coriander and curry leaves are not even washed,food qual
 C_CAN_02_019,canteen,sambar rice is good value,food quality,positive,False
 C_CLS_01_049,classrooms,"useless department, sitting in this hot furnace classroom is torture you clowns",ac/temperature,negative,True
 C_HR_01_026,hostel_rooms,water cooler is working and the water is cold,water supply,negative,False
-C_CAN_01_048,canteen,"canteen manager is a fraud, overcharging students and acting innocent",general,negative,False
+C_CAN_01_048,canteen,"canteen manager is a fraud, overcharging students and acting innocent",general,negative,True
 C_HM_01_023,hostel_mess,fish fry on fridays is awesome but it finishes in 10 minutes,general,positive,False
 C_HR_01_036,hostel_rooms,nobody cleans the common area on weekends,cleanliness,negative,False
 C_WIFI_02_008,wifi,wifi in the sports complex is non existent,general,negative,False
@@ -404,11 +404,11 @@ C_HM_01_010,hostel_mess,mess staff are rude when we ask for extra chapati,staff 
 C_LIB_01_019,library,the new arrivals section is updated regularly,general,positive,False
 C_LAB_02_031,labs,lab staff refuses to let us practice outside scheduled timetable hours.,lab staff,negative,False
 C_LAB_02_031,labs,lab staff refuses to let us practice outside scheduled timetable hours.,lab timings,negative,False
-C_CLS_02_022,classrooms,trash can inside classroom is overflowing with plastic bottles.,cleanliness,negative,True
+C_CLS_02_022,classrooms,trash can inside classroom is overflowing with plastic bottles.,cleanliness,negative,False
 C_TRN_01_026,transport,bus arrives late during rain,punctuality,negative,False
 C_CLS_01_035,classrooms,"excellent acoustics, faculty voice reaches last row clearly without echo.",noise,negative,False
 C_HM_01_006,hostel_mess,"rice has stones again, how many times we have to complain",food quality,negative,False
-C_HR_01_039,hostel_rooms,"power cut romba, study panna mudiyala",electricity,negative,True
+C_HR_01_039,hostel_rooms,"power cut romba, study panna mudiyala",electricity,negative,False
 C_TRN_01_039,transport,bus faer is too hihg,general,negative,False
 C_CLS_01_036,classrooms,projector bulb flickers and shuts down abruptly mid lecture.,projector/av,negative,False
 C_CLS_01_036,classrooms,projector bulb flickers and shuts down abruptly mid lecture.,lighting,negative,False
@@ -559,7 +559,7 @@ C_LAB_01_016,labs,we can't install any software without admin permission,softwar
 C_HR_01_008,hostel_rooms,room is too small for 4 people,room size,negative,False
 C_CAN_02_032,canteen,fresh fruit juice is refreshing during summer placement drives.,food quality,positive,False
 C_LIB_02_026,library,the librarian smiled and helped me with the project report formatting,staff behavior,positive,False
-C_CAN_02_015,canteen,the uncle gives extra chutney without asking,staff behavior,positive,True
+C_CAN_02_015,canteen,the uncle gives extra chutney without asking,staff behavior,positive,False
 C_CAN_01_043,canteen,snack time rush is manageable with 2 counters,general,neutral,False
 C_LIB_02_045,library,"limited seating capacity during placement week, students sit on stairs.",seating,negative,False
 C_LIB_02_045,library,"limited seating capacity during placement week, students sit on stairs.",seating,negative,False
@@ -571,7 +571,7 @@ C_CAN_01_036,canteen,fresh juice menu has loads of variety,food quality,positive
 C_CAN_01_036,canteen,fresh juice menu has loads of variety,variety,neutral,False
 C_TRN_02_007,transport,cctv in buses makes girls feel safer,safety,positive,False
 C_HR_01_027,hostel_rooms,"the room has no ventilation, so it gets hot",general,negative,False
-C_HR_02_019,hostel_rooms,drainage is blocked and the smell is horrible,general,negative,True
+C_HR_02_019,hostel_rooms,drainage is blocked and the smell is horrible,general,negative,False
 C_LIB_01_037,library,"night 10 mani varaikum open, helpful for exams",opening hours,negative,False
 C_LIB_01_037,library,"night 10 mani varaikum open, helpful for exams",staff behavior,positive,False
 C_LAB_01_011,labs,lab instructor was rude when i asked a doubt,lab staff,negative,False
@@ -662,8 +662,8 @@ C_HR_02_022,hostel_rooms,"terrace is open for students in the evening, nice view
 C_WIFI_01_025,wifi,"speed test shows only 1 mbps, shame for an engineering college",speed,negative,False
 C_TRN_01_010,transport,no women safety measures in the late evening buses,punctuality,negative,False
 C_TRN_01_010,transport,no women safety measures in the late evening buses,safety,negative,False
-C_TRN_01_045,transport,"clean buses, rude conductor",bus condition,positive,True
-C_TRN_01_045,transport,"clean buses, rude conductor",driver behavior,negative,True
+C_TRN_01_045,transport,"clean buses, rude conductor",bus condition,positive,False
+C_TRN_01_045,transport,"clean buses, rude conductor",driver behavior,negative,False
 C_LIB_01_020,library,"library is open on sundays now, thanks",opening hours,positive,False
 C_CLS_01_028,classrooms,corridor chatter creates severe echo in the room.,noise,negative,False
 C_LAB_02_030,labs,pc freezes frequently when executing docker containers.,system speed,negative,False
@@ -767,12 +767,12 @@ C_HR_02_035,hostel_rooms,tap water has brown rust color in the fourth floor bath
 C_WIFI_02_002,wifi,"students share one login id, so everyone is slow",login issues,neutral,False
 C_WIFI_02_002,wifi,"students share one login id, so everyone is slow",speed,negative,False
 C_HM_01_002,hostel_mess,mess food is okay nothing special,food quality,negative,False
-C_HR_02_013,hostel_rooms,the toilet flush is damaged and no spare,cleanliness,negative,True
-C_HR_02_013,hostel_rooms,the toilet flush is damaged and no spare,maintenance,negative,True
+C_HR_02_013,hostel_rooms,the toilet flush is damaged and no spare,cleanliness,negative,False
+C_HR_02_013,hostel_rooms,the toilet flush is damaged and no spare,maintenance,negative,False
 C_WIFI_02_042,wifi,speed in mechanical block is sluggish.,speed,negative,False
 C_WIFI_02_042,wifi,speed in mechanical block is sluggish.,coverage,negative,False
 C_WIFI_02_042,wifi,speed in mechanical block is sluggish.,bandwidth limit,negative,False
-C_CAN_02_017,canteen,canteen opens late on mondays,waiting time,negative,True
+C_CAN_02_017,canteen,canteen opens late on mondays,waiting time,negative,False
 C_HM_01_038,hostel_mess,the queue moves fast after the second counter opened,waiting time,negative,False
 C_CLS_02_033,classrooms,clean desk surfaces and vacuumed floor carpet make hall look professional.,cleanliness,positive,False
 C_LAB_02_017,labs,we get 3 hours for each practical which is enough,lab timings,neutral,False
@@ -816,13 +816,13 @@ C_WIFI_02_011,wifi,"the connection is reliable during exams, good job",reliabili
 C_WIFI_02_011,wifi,"the connection is reliable during exams, good job",connectivity,positive,False
 C_TRN_01_042,transport,good driver but the bus is overloaded,driver behavior,positive,False
 C_HR_02_017,hostel_rooms,we get laundry slots for each floor which is organised,laundry,neutral,False
-C_HR_02_002,hostel_rooms,"the mattres is so hard, back pain kills me",general,negative,True
+C_HR_02_002,hostel_rooms,"the mattres is so hard, back pain kills me",general,negative,False
 C_LIB_02_002,library,"very clean and well organised, but the ac is noisy",cleanliness,positive,False
 C_LIB_02_002,library,"very clean and well organised, but the ac is noisy",silence,negative,False
 C_LIB_02_002,library,"very clean and well organised, but the ac is noisy",ac/temperature,negative,False
 C_HR_01_030,hostel_rooms,"girls hostel gate closes on time and security is strict, which is good",safety,negative,False
 C_LIB_02_011,library,return date fines are too high,general,negative,False
-C_LAB_01_030,labs,dirty keyboards and sticky mouse everywhere,cleanliness,negative,True
+C_LAB_01_030,labs,dirty keyboards and sticky mouse everywhere,cleanliness,negative,False
 C_WIFI_02_035,wifi,fast connection in seminar hall enabled live streaming without glitch.,speed,positive,False
 C_WIFI_02_035,wifi,fast connection in seminar hall enabled live streaming without glitch.,bandwidth limit,positive,False
 C_WIFI_02_035,wifi,fast connection in seminar hall enabled live streaming without glitch.,connectivity,positive,False
@@ -830,7 +830,7 @@ C_LIB_01_042,library,libary is too croweded in the evening,general,negative,Fals
 C_TRN_01_038,transport,the drivr is rud to students,general,neutral,False
 C_HM_02_035,hostel_mess,"mess workers wear gloves now, good change",general,positive,False
 C_HR_02_042,hostel_rooms,uninterrupted power backup supported my project simulation runs overnight.,electricity,positive,False
-C_HR_01_038,hostel_rooms,rooms are big but dirty,cleanliness,negative,True
+C_HR_01_038,hostel_rooms,rooms are big but dirty,cleanliness,negative,False
 C_TRN_02_035,transport,first aid kit is properly stocked and available near driver cabin.,driver behavior,positive,False
 C_HR_02_038,hostel_rooms,cleaning staff mop room floor promptly upon request.,cleanliness,neutral,False
 C_LIB_01_002,library,"not enough seats during exam week, people reserve with bags",seating,negative,False
@@ -874,13 +874,13 @@ C_HM_02_048,hostel_mess,shut up and fix the food you lazy morons,food quality,ne
 C_HR_01_021,hostel_rooms,the study table and chair are decent,general,positive,False
 C_CAN_01_024,canteen,canteen is overcrowded at lunch time,general,negative,False
 C_HR_02_036,hostel_rooms,cctv cameras installed in corridors ensure safety.,safety,positive,False
-C_CLS_02_039,classrooms,poorly ventilated back rows feel hot and humid despite wall fans.,ac/temperature,negative,True
+C_CLS_02_039,classrooms,poorly ventilated back rows feel hot and humid despite wall fans.,ac/temperature,negative,False
 C_LAB_01_024,labs,the machines have the latest versions of visual studio,equipment condition,positive,False
 C_LAB_01_024,labs,the machines have the latest versions of visual studio,software availability,positive,False
 C_LAB_02_046,labs,server rack is well maintained with excellent cooling.,general,positive,False
 C_CAN_02_036,canteen,coffee counter anna is polite and quick with billing.,food quality,positive,False
 C_CAN_02_036,canteen,coffee counter anna is polite and quick with billing.,staff behavior,positive,False
-C_HM_02_036,hostel_mess,"one chapati per head rule is silly, we are hungry",food quality,negative,True
+C_HM_02_036,hostel_mess,"one chapati per head rule is silly, we are hungry",food quality,negative,False
 C_WIFI_01_021,wifi,internet is unusable in the evening when everyone is online,speed,negative,False
 C_CLS_01_022,classrooms,clean whiteboard and dustless markers are provided everyday.,cleanliness,positive,False
 C_LAB_01_021,labs,"labs are available only during scheduled hours, no extra time for practice",lab timings,negative,False
@@ -938,7 +938,7 @@ C_HR_01_024,hostel_rooms,corridor is clean and well lit,cleanliness,positive,Fal
 C_HM_02_005,hostel_mess,lunch is fine but dinner is always bad,general,neutral,False
 C_CLS_01_015,classrooms,traffic honking sound from main road disturbs lecture concentration.,noise,negative,False
 C_LAB_02_006,labs,lab manual is outdated and the experiments are not useful,equipment condition,negative,False
-C_HM_01_024,hostel_mess,mess hall smells bad,general,negative,True
+C_HM_01_024,hostel_mess,mess hall smells bad,general,negative,False
 C_WIFI_02_025,wifi,"ping latency is low, online mock interviews load smoothly.",speed,negative,False
 C_CAN_02_014,canteen,paid extra for a cover i didn't even need,general,neutral,False
 C_HM_02_046,hostel_mess,"evening snack quantity romba kammi, exam time la hungry ah irukku.",quantity,negative,False
@@ -980,7 +980,7 @@ C_LAB_01_015,labs,the linux machines hang every time we run docker,system speed,
 C_WIFI_02_039,wifi,good network coverage across all workshop buildings.,coverage,positive,False
 C_LIB_01_024,library,"best place on campus to study, love the ambience",general,positive,False
 C_TRN_01_022,transport,no fixed seat so we fight every day,bus condition,negative,False
-C_HM_02_039,hostel_mess,chicken pieces are tiny and bony,general,negative,True
+C_HM_02_039,hostel_mess,chicken pieces are tiny and bony,general,negative,False
 C_HR_02_046,hostel_rooms,water pressure in shower is very low in peak morning hours.,water supply,negative,False
 C_HR_01_022,hostel_rooms,lights flicker and the switchboard is damaged,maintenance,negative,False
 C_TRN_02_039,transport,special bus arrangements made for inter-college symposium participants.,general,positive,False
@@ -997,8 +997,8 @@ C_HM_02_014,hostel_mess,"mess la sapadu super, but seating illa",food quality,ne
 C_HM_02_014,hostel_mess,"mess la sapadu super, but seating illa",seating,negative,False
 C_CLS_02_048,classrooms,"whoever maintains these classrooms is a complete moron, pure garbage",cleanliness,negative,True
 C_WIFI_02_036,wifi,daily quota of 1 gb is ridiculous for engineering students doing projects.,bandwidth limit,negative,False
-C_CAN_01_015,canteen,cleanliness is okay but tables stay dirty,hygiene,negative,True
-C_CAN_01_015,canteen,cleanliness is okay but tables stay dirty,seating,negative,True
+C_CAN_01_015,canteen,cleanliness is okay but tables stay dirty,hygiene,negative,False
+C_CAN_01_015,canteen,cleanliness is okay but tables stay dirty,seating,negative,False
 C_HR_02_014,hostel_rooms,the common room tv and carrom board are nice to have,general,positive,False
 C_CLS_02_006,classrooms,ac vents leak water droplets directly on students heads during lecture.,ac/temperature,negative,False
 C_CAN_01_021,canteen,prices went up again this month,price,negative,False
@@ -1017,7 +1017,7 @@ C_CLS_02_005,classrooms,seating capacity in third year section is adequate for e
 C_LAB_01_003,labs,many keyboards and mouse are not working,equipment condition,negative,False
 C_LAB_02_039,labs,system hardware is upgraded but monitor display blinks erratically.,system speed,positive,False
 C_WIFI_01_015,wifi,it takes ages to download a 50 mb file,speed,negative,False
-C_CAN_02_048,canteen,bloody thieves charging 60 for a tea,food quality,negative,True
+C_CAN_02_048,canteen,bloody thieves charging 60 for a tea,food quality,negative,False
 C_TRN_01_021,transport,bus timing is perfect for morning classes,punctuality,positive,False
 C_HR_02_006,hostel_rooms,drinking water is tested regularly and it tastes fine,water supply,positive,False
 C_TRN_02_040,transport,"footboard travelling is dangerous, students stand on steps due to overload.",safety,negative,False

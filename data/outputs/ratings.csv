@@ -1,27 +1,27 @@
 facility,rating,category,mentions,positive,neutral,negative,negative_share
-canteen,2.5,OVERALL,107,,,,
-classrooms,2.66,OVERALL,93,,,,
-hostel_mess,2.33,OVERALL,90,,,,
-hostel_rooms,2.28,OVERALL,89,,,,
-labs,2.89,OVERALL,91,,,,
+canteen,2.46,OVERALL,112,,,,
+classrooms,2.62,OVERALL,95,,,,
+hostel_mess,2.32,OVERALL,91,,,,
+hostel_rooms,2.21,OVERALL,94,,,,
+labs,2.87,OVERALL,92,,,,
 library,2.53,OVERALL,106,,,,
-transport,2.49,OVERALL,106,,,,
-wifi,2.33,OVERALL,114,,,,
-canteen,2.93,food quality,55,25.0,3.0,27.0,0.491
-canteen,2.6,hygiene,5,2.0,0.0,3.0,0.6
+transport,2.5,OVERALL,108,,,,
+wifi,2.36,OVERALL,115,,,,
+canteen,2.89,food quality,56,25.0,3.0,28.0,0.5
+canteen,2.33,hygiene,6,2.0,0.0,4.0,0.667
 canteen,2.0,price,16,4.0,0.0,12.0,0.75
 canteen,1.8,quantity,5,1.0,0.0,4.0,0.8
-canteen,2.14,seating,7,2.0,0.0,5.0,0.714
-canteen,2.33,staff behavior,6,2.0,0.0,4.0,0.667
+canteen,2.0,seating,8,2.0,0.0,6.0,0.75
+canteen,2.71,staff behavior,7,3.0,0.0,4.0,0.571
 canteen,2.2,variety,5,1.0,1.0,3.0,0.6
-canteen,1.5,waiting time,8,1.0,0.0,7.0,0.875
-classrooms,3.2,ac/temperature,20,11.0,0.0,9.0,0.45
-classrooms,2.54,cleanliness,13,5.0,0.0,8.0,0.615
+canteen,1.44,waiting time,9,1.0,0.0,8.0,0.889
+classrooms,3.1,ac/temperature,21,11.0,0.0,10.0,0.476
+classrooms,2.43,cleanliness,14,5.0,0.0,9.0,0.643
 classrooms,2.45,lighting,11,4.0,0.0,7.0,0.636
 classrooms,1.93,noise,15,3.0,1.0,11.0,0.733
 classrooms,2.52,projector/av,21,8.0,0.0,13.0,0.619
 classrooms,3.15,seating,13,7.0,0.0,6.0,0.462
-hostel_mess,2.47,food quality,38,13.0,2.0,23.0,0.605
+hostel_mess,2.44,food quality,39,13.0,2.0,24.0,0.615
 hostel_mess,3.0,hygiene,6,3.0,0.0,3.0,0.5
 hostel_mess,3.29,price,7,4.0,0.0,3.0,0.429
 hostel_mess,1.57,quantity,7,1.0,0.0,6.0,0.857
@@ -29,15 +29,15 @@ hostel_mess,2.6,seating,5,2.0,0.0,3.0,0.6
 hostel_mess,3.67,staff behavior,6,4.0,0.0,2.0,0.333
 hostel_mess,1.22,variety,9,0.0,1.0,8.0,0.889
 hostel_mess,1.5,waiting time,12,1.0,1.0,10.0,0.833
-hostel_rooms,3.0,cleanliness,14,6.0,2.0,6.0,0.429
-hostel_rooms,3.29,electricity,7,4.0,0.0,3.0,0.429
+hostel_rooms,2.65,cleanliness,17,6.0,2.0,9.0,0.529
+hostel_rooms,3.0,electricity,8,4.0,0.0,4.0,0.5
 hostel_rooms,2.25,laundry,8,2.0,1.0,5.0,0.625
-hostel_rooms,1.5,maintenance,16,2.0,0.0,14.0,0.875
+hostel_rooms,1.47,maintenance,17,2.0,0.0,15.0,0.882
 hostel_rooms,1.0,noise,7,0.0,0.0,7.0,1.0
 hostel_rooms,2.78,room size,9,4.0,0.0,5.0,0.556
 hostel_rooms,2.54,safety,13,5.0,0.0,8.0,0.615
 hostel_rooms,2.07,water supply,15,4.0,0.0,11.0,0.733
-labs,3.67,cleanliness,6,4.0,0.0,2.0,0.333
+labs,3.29,cleanliness,7,4.0,0.0,3.0,0.429
 labs,2.0,equipment condition,16,4.0,0.0,12.0,0.75
 labs,3.55,lab staff,11,7.0,0.0,4.0,0.364
 labs,2.53,lab timings,17,6.0,1.0,10.0,0.588
@@ -52,16 +52,16 @@ library,2.14,opening hours,14,4.0,0.0,10.0,0.714
 library,2.33,seating,15,5.0,0.0,10.0,0.667
 library,2.23,silence,13,4.0,0.0,9.0,0.692
 library,3.15,staff behavior,13,7.0,0.0,6.0,0.462
-transport,2.07,bus condition,15,4.0,0.0,11.0,0.733
+transport,2.25,bus condition,16,5.0,0.0,11.0,0.688
 transport,1.25,crowding,8,0.0,1.0,7.0,0.875
-transport,3.5,driver behavior,16,10.0,0.0,6.0,0.375
+transport,3.35,driver behavior,17,10.0,0.0,7.0,0.412
 transport,2.43,fare,14,4.0,2.0,8.0,0.571
 transport,2.44,punctuality,18,6.0,1.0,11.0,0.611
 transport,2.68,route coverage,19,8.0,0.0,11.0,0.579
 transport,2.38,safety,16,5.0,1.0,10.0,0.625
-wifi,2.33,bandwidth limit,15,5.0,0.0,10.0,0.667
+wifi,2.25,bandwidth limit,16,5.0,0.0,11.0,0.688
 wifi,2.56,connectivity,18,7.0,0.0,11.0,0.611
-wifi,3.0,coverage,19,9.0,1.0,9.0,0.474
+wifi,3.21,coverage,19,10.0,1.0,8.0,0.421
 wifi,1.71,login issues,17,2.0,2.0,13.0,0.765
 wifi,2.07,reliability,15,4.0,0.0,11.0,0.733
 wifi,2.27,speed,30,9.0,1.0,20.0,0.667

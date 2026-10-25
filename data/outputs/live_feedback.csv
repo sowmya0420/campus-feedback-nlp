@@ -20,3 +20,7 @@ timestamp,facility,text,abusive,aspects
 2026-10-24T16:00:22,canteen,the food is not bad,False,food quality=neutral
 2026-10-24T16:01:25,library,the library closes at 8 pm,False,opening hours=negative
 2026-10-24T16:01:56,wifi,"“great, the wifi is down again",False,reliability=negative
+2026-10-25T17:11:38,canteen,"The canteen manager is a stupid idiot, he should shut up and get lost.",True,general=negative
+2026-10-25T17:12:08,canteen,The canteen food is good but the queue is too long,False,food quality=positive; waiting time=negative
+2026-10-25T17:12:31,canteen,The bus floor is always dirty and stinks,True,hygiene=negative
+2026-10-25T17:12:46,canteen,The canteen owner is a clown.,False,general=negative

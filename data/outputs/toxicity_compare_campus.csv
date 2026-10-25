@@ -1,0 +1,801 @@
+id,facility,text,abusive,bert_score,base_score
+C_CAN_01_001,canteen,"samosa is crispy and cheap, best snack here",False,0.0007563406252302,0.04274567444916984
+C_CAN_01_002,canteen,tea is too sweet always,False,0.0019413401605561,0.17512584359615202
+C_CAN_01_003,canteen,50 rupees for a plain dosa is too much,False,0.0447433777153492,0.2053970260501959
+C_CAN_01_004,canteen,billing counter queue is endless after 1 pm,False,0.0007851989357732,0.016060269436537194
+C_CAN_01_005,canteen,parotta and salna combo is the best,False,0.0008577959961257,0.032643562121248394
+C_CAN_01_006,canteen,no place to sit during lunch break,False,0.001770059694536,0.0707333627279427
+C_CAN_01_007,canteen,noodles were too oily and cold,False,0.0232040621340274,0.1647771454471763
+C_CAN_01_008,canteen,flies all over the food counter,False,0.0370468609035015,0.09322317355401026
+C_CAN_01_009,canteen,"upi payment is working fast now, no cash hassle",False,0.0020762921776622,0.04801097348251091
+C_CAN_01_010,canteen,canteen staff are always smiling and helpful,False,0.0006659402279183,0.03210006688620707
+C_CAN_01_011,canteen,"overpriced juice, 60 for a small glass",False,0.001068134792149,0.14515627983716198
+C_CAN_01_012,canteen,quantity of fried rice is very less for the price,False,0.0011047412408515,0.04128955646468295
+C_CAN_01_013,canteen,the veg puff was stale today,False,0.1125343069434166,0.06262933740435171
+C_CAN_01_014,canteen,"more variety needed, only 4 items after 4 pm",False,0.0005875990027561,0.005592622899099179
+C_CAN_01_015,canteen,cleanliness is okay but tables stay dirty,False,0.0708708837628364,0.7208009605589228
+C_CAN_01_016,canteen,sandwiches are fresh and tasty,False,0.0010263768490403,0.10311981787037211
+C_CAN_01_017,canteen,cashier was rude when i asked for change,False,0.0048931199125945,0.19267709015031248
+C_CAN_01_018,canteen,"cold coffee is awesome, must try",False,0.0011624508770182,0.2004874876027193
+C_CAN_01_019,canteen,waiting time for order is 20 mins even for tea,False,0.0009426820324733,0.05495079704326198
+C_CAN_01_020,canteen,"filter coffee is perfect, reminds me of home",False,0.001129992888309,0.45929588270978233
+C_CAN_01_021,canteen,prices went up again this month,False,0.0009546789806336,0.0698065415557574
+C_CAN_01_022,canteen,"good food court, lots of options",False,0.0005880441167391,0.042486391642288554
+C_CAN_01_023,canteen,chat items are so tasty but the plates are not clean,False,0.0031108402181416,0.03259734868344266
+C_CAN_01_024,canteen,canteen is overcrowded at lunch time,False,0.0016471603885293,0.05885383999599301
+C_CAN_01_025,canteen,chicken roll was half raw,False,0.027866119518876,0.23006326132242524
+C_CAN_01_026,canteen,combo meal at 80 is a good deal,False,0.0006098778685554,0.032751692237818444
+C_CAN_01_027,canteen,no dustbins so everyone throws waste on the floor,False,0.4001955687999725,0.13104027720512462
+C_CAN_01_028,canteen,vada pav is only decent,False,0.0459855534136295,0.02515025465764731
+C_CAN_01_029,canteen,they run out of items by 4 pm,False,0.0016750785289332,0.12472306145380284
+C_CAN_01_030,canteen,the juice shop guy is very friendly,False,0.000699293159414,0.2193087125235059
+C_CAN_01_031,canteen,paneer butter masala tastes like tomato soup,False,0.0025107841938734,0.2774174983351734
+C_CAN_01_032,canteen,the canteen near the library is cleaner than main block,False,0.0009153978899121,0.042060467840110444
+C_CAN_01_033,canteen,too much waiting for just a maggi,False,0.2080750465393066,0.21988818580732478
+C_CAN_01_034,canteen,"maggi is hot and tasty, 30 rupees ok",False,0.1537849307060241,0.11875030291370796
+C_CAN_01_035,canteen,no hand wash near the canteen entrance,False,0.0037014705594629,0.06427982130848024
+C_CAN_01_036,canteen,fresh juice menu has loads of variety,False,0.0006282434333115,0.04854474797009915
+C_CAN_01_037,canteen,"biryani portion is huge, shared with friend",False,0.0018286999547854,0.06649645269007852
+C_CAN_01_038,canteen,lemon tea was just sugar water,False,0.0010509173152968,0.04805006468566057
+C_CAN_01_039,canteen,food is expensive compared to outside shops,False,0.0023505208082497,0.03192156606626735
+C_CAN_01_040,canteen,seating is comfortable and the fans work well,False,0.0006251384620554,0.07792778276303687
+C_CAN_01_041,canteen,"every time my order gets mixed up, no accuracy",False,0.0007990977610461,0.1422434878162485
+C_CAN_01_042,canteen,"the canteen is clean, floors mopped regularly",False,0.0033608514349907,0.21148165292435347
+C_CAN_01_043,canteen,snack time rush is manageable with 2 counters,False,0.0007129234145395,0.10637605737831457
+C_CAN_01_044,canteen,the egg puff is the best thing on campus,False,0.0006909871590323,0.02715955691064472
+C_CAN_01_045,canteen,average food at high price,False,0.0009426329634152,0.03153640239992406
+C_CAN_01_046,canteen,chappathi kurma is homely and filling,False,0.0026255459524691,0.11133008770302104
+C_CAN_01_047,canteen,food semma but rate romba jaasthi,False,0.0393082201480865,0.016944120701469938
+C_CAN_01_048,canteen,"canteen manager is a fraud, overcharging students and acting innocent",True,0.5071295499801636,0.21927393304586604
+C_CAN_01_049,canteen,this canteen food is crap and the staff are idiots,True,0.9790844917297364,0.9987925386823499
+C_CAN_01_050,canteen,"stupid cashier is useless, can't even count change",True,0.9832135438919068,0.9997738617678779
+C_CAN_02_001,canteen,"tea kadai la queue romba, 15 min aachu",False,0.0014447984285652,0.07938519155700757
+C_CAN_02_002,canteen,"parotta soft ah irukku, super da",False,0.0097009930759668,0.04248090674939159
+C_CAN_02_003,canteen,canteen la sit panna idam illa,False,0.0236730277538299,0.2552031328208835
+C_CAN_02_004,canteen,"juice la ice mattum than iruku, fruit illa",False,0.0132061261683702,0.11695026025571756
+C_CAN_02_005,canteen,bill pannum bothu counter la rude ah pesuranga,False,0.1114604249596595,0.45502331421396375
+C_CAN_02_006,canteen,"samosa romba cheap, 10 rupees only",False,0.0125063247978687,0.0430218902125248
+C_CAN_02_007,canteen,"oil smell varuthu from the fried items, not fresh",False,0.000848859664984,0.04693367722181308
+C_CAN_02_008,canteen,the chicken fried rice was gud but expnsive,False,0.0035632639192044,0.1338652756704447
+C_CAN_02_009,canteen,canten food is not hygenic at all,False,0.0030437838286161,0.028570488728647744
+C_CAN_02_010,canteen,waitng for 25 mins for a burger,False,0.0103661026805639,0.024314829868129918
+C_CAN_02_011,canteen,fries wer cold n soggy,False,0.3497939705848694,0.2620479933507885
+C_CAN_02_012,canteen,tea nd bun combo is lyk a daily habit,False,0.013020527549088,0.06618676516521255
+C_CAN_02_013,canteen,boiled corn stall near the gate is yummy,False,0.0014359704218804,0.043724008480047545
+C_CAN_02_014,canteen,paid extra for a cover i didn't even need,False,0.0062020388431847,0.07577020643457602
+C_CAN_02_015,canteen,the uncle gives extra chutney without asking,False,0.029973229393363,0.5326015919416307
+C_CAN_02_016,canteen,need healthy options like salads and fruit bowls,False,0.0006744742277078,0.06630420097115686
+C_CAN_02_017,canteen,canteen opens late on mondays,False,0.0009083339245989,0.5644739201630272
+C_CAN_02_018,canteen,pizza at the canteen is not worth 120 rupees,False,0.0728323459625244,0.038865034721980614
+C_CAN_02_019,canteen,sambar rice is good value,False,0.000651161535643,0.06723892297112072
+C_CAN_02_020,canteen,"tables were wiped promptly, impressed",False,0.0014084202703088,0.09382819279959957
+C_CAN_02_021,canteen,the staff shout at students if we ask for a refund,False,0.0083761550486087,0.008837633763107092
+C_CAN_02_022,canteen,good ambience for group study over snacks,False,0.0005901673575863,0.057789959967130496
+C_CAN_02_023,canteen,pani puri guy uses dirty water,False,0.6282390356063843,0.6710936333500136
+C_CAN_02_024,canteen,kulfi and falooda are great in summer,False,0.0008340519852936,0.030412029744142165
+C_CAN_02_025,canteen,"food is not bad, sometimes good, sometimes not",False,0.0009072989341802,0.03839540630396143
+C_CAN_02_026,canteen,payment machine always has some network problem,False,0.001102676265873,0.1146247930040863
+C_CAN_02_027,canteen,the chole bhature is heavy but tasty,False,0.0322826243937015,0.057186572639801814
+C_CAN_02_028,canteen,"rubbish canteen, rubbish food",False,0.7280912399291992,0.97592310737702
+C_CAN_02_029,canteen,could have more seating near the windows,False,0.0008334335288964,0.048901631913592904
+C_CAN_02_030,canteen,the cook always makes fresh dosa when asked,False,0.000853429781273,0.0074475891798768245
+C_CAN_02_031,canteen,you pay for the brand not the food,False,0.0061755590140819,0.07467546845381322
+C_CAN_02_032,canteen,fresh fruit juice is refreshing during summer placement drives.,False,0.0005287149106152,0.019016216888714663
+C_CAN_02_033,canteen,canteen rates are student friendly and affordable.,False,0.0005931954365223,0.11857695291248979
+C_CAN_02_034,canteen,"lunch rush time la seating illa, club meeting discuss panna place eh kedaikadhu.",False,0.0009491551900282,0.41901291662384654
+C_CAN_02_035,canteen,parotta semma crispy but salna romba spicy.,False,0.0022468538954854,0.002959052931145421
+C_CAN_02_036,canteen,coffee counter anna is polite and quick with billing.,False,0.0006980573525652,0.06062831381946439
+C_CAN_02_037,canteen,"filter coffee superb, keeps me awake for mock tests.",False,0.0014931493205949,0.2844894170425493
+C_CAN_02_038,canteen,"fried rice oil overflow agudhu, hygiene is very poor.",False,0.0100504234433174,0.11269760163620131
+C_CAN_02_039,canteen,egg puffs cost increased to 25 rupees unnecessarily.,False,0.0084727918729186,0.03838261611919329
+C_CAN_02_040,canteen,"good snacks variety like samosa, vadai, and sandwiches.",False,0.0005673462874256,0.05828937278527721
+C_CAN_02_041,canteen,"plates are greasy, not washed with hot water properly.",False,0.0171878617256879,0.25043330516155304
+C_CAN_02_042,canteen,sandwich portion is too small for the price they charge.,False,0.0009385116863995,0.13777655587428878
+C_CAN_02_043,canteen,canteen staff shout at students during rush hour.,False,0.0010649119503796,0.0087525951528324
+C_CAN_02_044,canteen,ghee roast dosa tastes amazing here.,False,0.0007019299082458,0.07008576227278744
+C_CAN_02_045,canteen,veg meal price is reasonable and quantity is decent.,False,0.0032452817540615,0.05595938270225363
+C_CAN_02_046,canteen,waiting time for fresh juice is more than twenty minutes.,False,0.0006246310658752,0.07109049779483385
+C_CAN_02_047,canteen,canteen tables are clean but corner chairs are broken.,False,0.0010820728493854,0.10206488212957075
+C_CAN_02_048,canteen,bloody thieves charging 60 for a tea,True,0.3935435116291046,0.7199372539114645
+C_CAN_02_049,canteen,canteen is a joke and the owner is a clown,True,0.0614830441772937,0.380227775765252
+C_CAN_02_050,canteen,"worst food ever, you morons should shut this place down",True,0.9921350479125975,0.9997291526598366
+C_CLS_01_001,classrooms,"projector is crystal clear, slides are readable from the back bench.",False,0.000576126622036,0.19330574579680476
+C_CLS_01_002,classrooms,"ac is not working in room 302, suffocating heat in afternoon lecture.",False,0.0011144950985908,0.014772937797319344
+C_CLS_01_003,classrooms,benches are broken and have protruding nails that tear clothes.,False,0.0181511212140321,0.10939546031769701
+C_CLS_01_004,classrooms,classroom is swept neatly and dustbins are emptied regularly.,False,0.0007201682310551,0.13318608395233691
+C_CLS_01_005,classrooms,tube lights flicker continuously during morning theory classes.,False,0.0006645132089033,0.040034787327401976
+C_CLS_01_006,classrooms,heavy construction noise outside classroom drowns out the professor voice.,False,0.0010320841101929,0.06655977083210089
+C_CLS_01_007,classrooms,air conditioning keeps the lecture hall cool and pleasant.,False,0.0006213007727637,0.047353522916465024
+C_CLS_01_008,classrooms,"sound system has bad feedback noise, speaker emits screeching sounds.",False,0.011829525232315,0.040852038180741145
+C_CLS_01_009,classrooms,comfortable ergonomic chairs installed in the new smart classroom.,False,0.0006001372821629,0.030378123751060138
+C_CLS_01_010,classrooms,bright led lighting illuminates blackboard clearly without glare.,False,0.0009788571624085,0.23467968812732382
+C_CLS_01_011,classrooms,"classroom la romba dust, benches are never wiped properly.",False,0.0050132232718169,0.1868680327716845
+C_CLS_01_012,classrooms,smart board touch response is lagging and hdmi cable is loose.,False,0.0022242800332605,0.22764166587317666
+C_CLS_01_013,classrooms,ac cooling is perfect but desk space is very congested.,False,0.0006270072772167,0.08397316119929767
+C_CLS_01_014,classrooms,ac cooling is great.,False,0.0006009005592204,0.04001011532712821
+C_CLS_01_015,classrooms,traffic honking sound from main road disturbs lecture concentration.,False,0.0018626940436661,0.1235625063348539
+C_CLS_01_016,classrooms,spacious classroom with ample natural daylight through large glass windows.,False,0.0006031857919879,0.03042844752638534
+C_CLS_01_017,classrooms,"mic in room 104 is not working, faculty voice is inaudible.",False,0.0007207792368717,0.020721249833310557
+C_CLS_01_018,classrooms,floors are stained with spilled tea and papers are scattered.,False,0.001290992135182,0.17646556234924557
+C_CLS_01_019,classrooms,wooden desks are polished smoothly and provide comfortable elbow support.,False,0.0005336874746717,0.0298356164334347
+C_CLS_01_020,classrooms,ceiling fan makes rattling noise throughout class hours.,False,0.0011155677493661,0.05099356016166248
+C_CLS_01_021,classrooms,"projector display is dim and yellowed, impossible to read small code snippets.",False,0.0085330354049801,0.07475930651647218
+C_CLS_01_022,classrooms,clean whiteboard and dustless markers are provided everyday.,False,0.0008802317315712,0.27475253091008905
+C_CLS_01_023,classrooms,room temperature is pleasant and cross ventilation through windows is good.,False,0.0005549568450078,0.026745264124525877
+C_CLS_01_024,classrooms,poor lighting in corner seats makes notebook writing difficult.,False,0.0007575639756396,0.17234636896088262
+C_CLS_01_025,classrooms,"ac remote missing, temperature locked at 16 degrees freezing everyone.",False,0.0014647276839241,0.03095591295061291
+C_CLS_01_026,classrooms,cushioned seats are comfortable.,False,0.0005861282115802,0.0967755966650689
+C_CLS_01_027,classrooms,projector works seamlessly with laptop hdmi connection.,False,0.0006770071340724,0.026295654320028776
+C_CLS_01_028,classrooms,corridor chatter creates severe echo in the room.,False,0.0006150947883725,0.02972227316307856
+C_CLS_01_029,classrooms,classroom walls are freshly painted and room looks very bright.,False,0.0005998202250339,0.16892122479848615
+C_CLS_01_030,classrooms,"bench width is too narrow, three students cannot sit comfortably.",False,0.0009952996624633,0.07767673831140338
+C_CLS_01_031,classrooms,audio visual setup is top notch with wireless collar mic.,False,0.0005621395539492,0.08666831209593599
+C_CLS_01_032,classrooms,"classroom fan speed slow ah irukku, sweating heavily inside.",False,0.0080540627241134,0.2851597363484581
+C_CLS_01_033,classrooms,curtains block harsh sunlight effectively during presentations.,False,0.0006522024050354,0.03457826287990038
+C_CLS_01_034,classrooms,desks are marked with graffiti and chewing gum stuck underneath.,False,0.0039075673557817,0.12463473688174861
+C_CLS_01_035,classrooms,"excellent acoustics, faculty voice reaches last row clearly without echo.",False,0.0006482456228695,0.038180674682900005
+C_CLS_01_036,classrooms,projector bulb flickers and shuts down abruptly mid lecture.,False,0.2156803607940673,0.32787666680657057
+C_CLS_01_037,classrooms,air conditioner filter is clogged with thick dust layer.,False,0.002746716607362,0.13215243392439455
+C_CLS_01_038,classrooms,tiered gallery seating ensures clear line of sight to board.,False,0.0006716001080349,0.045518393382862544
+C_CLS_01_039,classrooms,room is dark because two ceiling tube lights are non-functional.,False,0.00105402758345,0.0638381192853283
+C_CLS_01_040,classrooms,"peaceful atmosphere inside classroom, zero disturbance from outside corridor.",False,0.0005912999040447,0.10109921074435346
+C_CLS_01_041,classrooms,projector screen is stained and wrinkled.,False,0.0417503379285335,0.14960748898927953
+C_CLS_01_042,classrooms,clean environment and dustless chalk make lecture healthy.,False,0.001496292068623,0.07610767646541731
+C_CLS_01_043,classrooms,smart podium has fast touch monitor and working microphone.,False,0.0006360763218253,0.09222216430469331
+C_CLS_01_044,classrooms,chairs have cushioned backrest but leg space is cramped.,False,0.0009667506092227,0.12181194107783187
+C_CLS_01_045,classrooms,ac cooling is quiet and maintains uniform room temperature.,False,0.0006330952746793,0.03240485087233706
+C_CLS_01_046,classrooms,room lighting is warm and bright.,False,0.0006438374985009,0.09759132769100316
+C_CLS_01_047,classrooms,"classroom windows are broken, cold draft enters in morning.",False,0.0008067268063314,0.11549461552025099
+C_CLS_01_048,classrooms,classrooms are disgusting junk yards and the administration are idiots,True,0.992115557193756,0.9975296016876483
+C_CLS_01_049,classrooms,"useless department, sitting in this hot furnace classroom is torture you clowns",True,0.9771341681480408,0.7466731991338234
+C_CLS_01_050,classrooms,moron electrician can't even fix a single projector in this bloody college,True,0.8733083605766296,0.9949033828488909
+C_CLS_02_001,classrooms,smart projector with apple airplay support helped our club pitch presentations immensely.,False,0.0005849305889569,0.06664437072993522
+C_CLS_02_002,classrooms,chilled ac air helps stay focused during grueling three hour placement tests.,False,0.0006004542810842,0.02228443973202694
+C_CLS_02_003,classrooms,"desk sockets are dead, unable to charge laptop during project demo.",False,0.005225149448961,0.12642617898467115
+C_CLS_02_004,classrooms,remedial class room is dirty with trash left behind from lunch.,False,0.700063943862915,0.6787084075081163
+C_CLS_02_005,classrooms,seating capacity in third year section is adequate for eighty students.,False,0.0005755443125963,0.0807888276444841
+C_CLS_02_006,classrooms,ac vents leak water droplets directly on students heads during lecture.,False,0.00194532063324,0.020623882391178006
+C_CLS_02_007,classrooms,high resolution 4k laser projector displays diagrams with exceptional clarity.,False,0.0005740328342653,0.03100064267506919
+C_CLS_02_008,classrooms,glare on the green board from uncovered window blinds makes notes unreadable.,False,0.0006027624476701,0.015013283835566202
+C_CLS_02_009,classrooms,club workshop had comfortable movable tables for team discussions.,False,0.0005682974588125,0.0709995182677352
+C_CLS_02_010,classrooms,sound isolation in the seminar classroom blocks generator noise completely.,False,0.0006649835850112,0.07631201821543362
+C_CLS_02_011,classrooms,classroom floor is swept cleanly.,False,0.0006194781744852,0.12006095779056318
+C_CLS_02_012,classrooms,exhaust fan creates continuous loud humming noise during lecture.,False,0.0007781986496411,0.07763229874533756
+C_CLS_02_013,classrooms,"hdmi port on podium is damaged, faculty had to cancel ppt session.",False,0.0010410174727439,0.22465804883691448
+C_CLS_02_014,classrooms,pleasant room temperature makes long arrear revision classes bearable.,False,0.0006379623664543,0.004744651142526795
+C_CLS_02_015,classrooms,spacious benches allow two students to share textbooks easily.,False,0.0005586671177297,0.012514797057893962
+C_CLS_02_016,classrooms,classroom ac is powerful but wireless mic cuts off every two minutes.,False,0.0016855498543009,0.25877757261997975
+C_CLS_02_017,classrooms,spider webs in room corners show lack of daily maintenance.,False,0.0007206535665318,0.027283817344409086
+C_CLS_02_018,classrooms,diffused ceiling led panels provide balanced lighting without eye strain.,False,0.0005902638658881,0.03256663437787681
+C_CLS_02_019,classrooms,desks wobble uncontrollably when writing fast during examinations.,False,0.0068797590211033,0.05545262261642354
+C_CLS_02_020,classrooms,auditorium classroom has crystal clear surround sound speakers.,False,0.0006105262436904,0.05387956646953505
+C_CLS_02_021,classrooms,drilling noise from civil construction nearby disrupts mock test completely.,False,0.0006620989879593,0.03925432434631699
+C_CLS_02_022,classrooms,trash can inside classroom is overflowing with plastic bottles.,False,0.4956195056438446,0.6145818858176127
+C_CLS_02_023,classrooms,powerful central ac chills the room uniformly in minutes.,False,0.0006740238168276,0.03668587033941654
+C_CLS_02_024,classrooms,dim lighting in the middle rows makes studying strain our eyes.,False,0.0007578693912364,0.10379764300370195
+C_CLS_02_025,classrooms,revolving executive chairs in conference classroom are very comfortable.,False,0.0005638266447931,0.03532874691066987
+C_CLS_02_026,classrooms,interactive stylus for digital screen is missing from podium holder.,False,0.0005997353000566,0.023602669992806566
+C_CLS_02_027,classrooms,silent ceiling fans maintain cool breeze without creating any noise.,False,0.000867451832164,0.05872339981414123
+C_CLS_02_028,classrooms,dust on window sills triggers allergic sneezing in class.,False,0.0049769892357289,0.0305690598160189
+C_CLS_02_029,classrooms,sharp shadows due to poorly positioned spotlights obscure the blackboard.,False,0.0006888056523166,0.04211042162354924
+C_CLS_02_030,classrooms,audio feedback squeal from wall speaker startled the entire lecture hall.,False,0.0017008810536935,0.10323142718473598
+C_CLS_02_031,classrooms,spacious lecture hall with wide desks accommodates placement test papers well.,False,0.0006030730437487,0.026317974685934102
+C_CLS_02_032,classrooms,ac stopped cooling halfway through the guest lecture.,False,0.0006590562989003,0.056661776754475236
+C_CLS_02_033,classrooms,clean desk surfaces and vacuumed floor carpet make hall look professional.,False,0.0012299459194764,0.06764710258063414
+C_CLS_02_034,classrooms,broken chair backrest caused severe posture discomfort during revision class.,False,0.0007557441131211,0.014230185682151512
+C_CLS_02_035,classrooms,dual display screens allow students on both wings to watch presentation clearly.,False,0.0005892986664548,0.04225078673087822
+C_CLS_02_036,classrooms,hall ac keeps temperature ideal but echo from the hard ceiling makes speech muddled.,False,0.0007074332679621,0.03214045170573141
+C_CLS_02_037,classrooms,club banner hanging hooks damaged the ceiling plaster.,False,0.0080185225233435,0.11831578907671292
+C_CLS_02_038,classrooms,window blinds allow adjusting daylight smoothly.,False,0.0005888402229174,0.05214206524671216
+C_CLS_02_039,classrooms,poorly ventilated back rows feel hot and humid despite wall fans.,False,0.0043708216398954,0.5580562874776346
+C_CLS_02_040,classrooms,well padded stadium seating provides excellent lower back support.,False,0.0011015775380656,0.04548938281484783
+C_CLS_02_041,classrooms,"projector remote battery is dead, manual buttons are stuck.",False,0.0029483188409358,0.21289772246383426
+C_CLS_02_042,classrooms,room is tidy and waste paper bin is emptied before morning class.,False,0.0231238789856433,0.12727457450304358
+C_CLS_02_043,classrooms,"room acoustics are well engineered, sound is clear without reverberation.",False,0.0006316310027614,0.07361896088581837
+C_CLS_02_044,classrooms,dim lighting near the blackboard makes professor handwriting hard to see.,False,0.0007948917336761,0.04215654225532983
+C_CLS_02_045,classrooms,lecture hall temperature is comfortable.,False,0.0006178540061227,0.06639414960830474
+C_CLS_02_046,classrooms,modern laser pointer and digital presentation clicker work smoothly.,False,0.0005989198689348,0.01985416750475881
+C_CLS_02_047,classrooms,comfortable desks but projector has annoying flickering problem.,False,0.0018066130578517,0.1660214443717363
+C_CLS_02_048,classrooms,"whoever maintains these classrooms is a complete moron, pure garbage",True,0.9672908186912536,0.9987217285032176
+C_CLS_02_049,classrooms,"the audio equipment in this hall is pathetic crap, fix it you useless clowns",True,0.9796625971794128,0.9985786452626336
+C_CLS_02_050,classrooms,"unbearable noise and stupid college rules, you bloody idiots ruin our studies",True,0.997716784477234,0.9999074716690549
+C_HM_01_001,hostel_mess,breakfast idli was cold and the chutney had no taste,False,0.0252008959650993,0.14170292454569863
+C_HM_01_002,hostel_mess,mess food is okay nothing special,False,0.0011234056437388,0.09046813426646613
+C_HM_01_003,hostel_mess,chicken on sundays is really good,False,0.0028486116789281,0.12426155561320949
+C_HM_01_004,hostel_mess,waiting 30 mins in the queue for dinner every day,False,0.0011106731835752,0.03384815390632641
+C_HM_01_005,hostel_mess,"semma taste today, biriyani was super",False,0.003511321498081,0.04942942077764935
+C_HM_01_006,hostel_mess,"rice has stones again, how many times we have to complain",False,0.002329162787646,0.06700095185326616
+C_HM_01_007,hostel_mess,"plates not washed properly, found oil stains",False,0.0011211161036044,0.17926617539785936
+C_HM_01_008,hostel_mess,food is good but quantity is too less for boys,False,0.0360200926661491,0.12327966891362864
+C_HM_01_009,hostel_mess,"same menu every week, so boring",False,0.1156965270638465,0.08444043338669276
+C_HM_01_010,hostel_mess,mess staff are rude when we ask for extra chapati,False,0.0236668903380632,0.131602751808286
+C_HM_01_011,hostel_mess,"dinner queue is too long, reached late for study hour",False,0.0008699354366399,0.10300465484002279
+C_HM_01_012,hostel_mess,sambar is watery always,False,0.0011248859809711,0.09086351867915705
+C_HM_01_013,hostel_mess,"mess is cheap compared to outside, good for the price",False,0.0010618743253871,0.017222777649478112
+C_HM_01_014,hostel_mess,we pay so much mess fees and still get this food,False,0.0100134760141372,0.17922234084285127
+C_HM_01_015,hostel_mess,found a hair in my curd rice yesterday,False,0.0159800518304109,0.0912552485801606
+C_HM_01_016,hostel_mess,curd rice and pickle for lunch is my fav,False,0.208736315369606,0.1738215858011722
+C_HM_01_017,hostel_mess,"no seating during lunch, standing and eating",False,0.0011724589858204,0.2157898789711776
+C_HM_01_018,hostel_mess,"the new menu has more variety, thanks warden",False,0.0005927113816142,0.004152505692410418
+C_HM_01_019,hostel_mess,tables are sticky and nobody cleans them,False,0.0308197736740112,0.1397123426483002
+C_HM_01_020,hostel_mess,"cook uncle is very kind, always gives extra rice",False,0.0010402342304587,0.16726181610360188
+C_HM_01_021,hostel_mess,egg is always overcooked,False,0.0030146040953695,0.12109463073595007
+C_HM_01_022,hostel_mess,food quality has gone down this semester,False,0.0008696796721778,0.0922865630148212
+C_HM_01_023,hostel_mess,fish fry on fridays is awesome but it finishes in 10 minutes,False,0.0010538343340158,0.08476691929448453
+C_HM_01_024,hostel_mess,mess hall smells bad,False,0.439304918050766,0.6941259589260101
+C_HM_01_025,hostel_mess,water jug is empty most of the time,False,0.0028945710510015,0.07562591004107268
+C_HM_01_026,hostel_mess,"only 2 vegetables for lunch, need more options",False,0.000848913565278,0.053300549625559336
+C_HM_01_027,hostel_mess,"dosa is crispy today, loved it",False,0.0009559505269862,0.051103484923135205
+C_HM_01_028,hostel_mess,no change in menu since june,False,0.0006609515403397,0.0167010115478812
+C_HM_01_029,hostel_mess,food is cold by the time we get it,False,0.0013332099188119,0.11867127463943167
+C_HM_01_030,hostel_mess,roti is hard like rubber,False,0.1274358481168747,0.20419149091903846
+C_HM_01_031,hostel_mess,"service is quick, no waiting at all",False,0.0007821148028597,0.08650560975333313
+C_HM_01_032,hostel_mess,mess people don't listen to feedback,False,0.0025622160173952,0.09243882098946117
+C_HM_01_033,hostel_mess,payasam on festival day was great,False,0.0006682146922685,0.021604334345319085
+C_HM_01_034,hostel_mess,overpriced extras like omelette and milk,False,0.0051380875520408,0.21217374029006014
+C_HM_01_035,hostel_mess,paneer curry has no paneer lol,False,0.0043648616410791,0.237650022506703
+C_HM_01_036,hostel_mess,"average food, can survive",False,0.0011367010883986,0.014863826275526133
+C_HM_01_037,hostel_mess,"cockroach near the serving area, disgusting",False,0.8180223107337952,0.8344747457762938
+C_HM_01_038,hostel_mess,the queue moves fast after the second counter opened,False,0.0007891524001024,0.014972930590006144
+C_HM_01_039,hostel_mess,serving portions are small for the money,False,0.0007091572624631,0.13256070834926678
+C_HM_01_040,hostel_mess,puri and kurma combo was very tasty,False,0.0378637015819549,0.051757773385930274
+C_HM_01_041,hostel_mess,too much oil in everything,False,0.0201250966638326,0.10150520248363411
+C_HM_01_042,hostel_mess,mess is clean and tidy in the mornings,False,0.0009408416226506,0.04523848063210482
+C_HM_01_043,hostel_mess,"chutney and sambar finish early, latecomers get nothing",False,0.0392154119908809,0.34979779604503913
+C_HM_01_044,hostel_mess,"juice counter is a good addition, reasonable price",False,0.0006855726824142,0.022365313744973706
+C_HM_01_045,hostel_mess,mess is crowded and hot at lunch,False,0.0016985459951683,0.10741878706929435
+C_HM_01_046,hostel_mess,staff were helpful when i was sick and asked for plain rice,False,0.000850714801345,0.12115045911808701
+C_HM_01_047,hostel_mess,bro the sambar is just coloured water,False,0.0039234571158885,0.09733698822747876
+C_HM_01_048,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",True,0.9619856476783752,0.9863395280489647
+C_HM_01_049,hostel_mess,"this mess is total garbage, whoever runs it is a thief",True,0.9085504412651062,0.9613562480694343
+C_HM_01_050,hostel_mess,"bloody fools, you serve this shit and call it food",True,0.9974802136421204,0.9999151644715025
+C_HM_02_001,hostel_mess,"good veg thali, worth it",False,0.2707320749759674,0.047500265701362655
+C_HM_02_002,hostel_mess,"queue jumping by seniors every day, mess staff just watch",False,0.0006710069719702,0.06711804919100661
+C_HM_02_003,hostel_mess,coriander and curry leaves are not even washed,False,0.0032765185460448,0.05299469452013477
+C_HM_02_004,hostel_mess,"food is tasty, clean, and served on time. great job",False,0.0009670366998761,0.06419791023944839
+C_HM_02_005,hostel_mess,lunch is fine but dinner is always bad,False,0.0018964288756251,0.055999714096682064
+C_HM_02_006,hostel_mess,"mess committee changed the menu after our complaint, appreciate it",False,0.0005718405591323,0.004893924775832051
+C_HM_02_007,hostel_mess,ice cream on saturday is a nice touch,False,0.000928915804252,0.07361538310876847
+C_HM_02_008,hostel_mess,aloo curry again?? we get it 4 times a week,False,0.0011288615642115,0.15106413494613016
+C_HM_02_009,hostel_mess,tea is just hot water with sugar,False,0.0010777823626995,0.10356723383346578
+C_HM_02_010,hostel_mess,mess bill went up by 500 but nothing improved,False,0.0014043286209926,0.15923236058782098
+C_HM_02_011,hostel_mess,coffee in the morning is decent,False,0.0008130009518936,0.04309120010020507
+C_HM_02_012,hostel_mess,food semma but queue romba long,False,0.0261534675955772,0.012809186657815422
+C_HM_02_013,hostel_mess,"sambar romba thanni da, taste illa",False,0.018724313005805,0.31790220384703055
+C_HM_02_014,hostel_mess,"mess la sapadu super, but seating illa",False,0.0072423126548528,0.0657435434181877
+C_HM_02_015,hostel_mess,"ellam same menu, bore adikuthu",False,0.0089777931571006,0.050800569698613046
+C_HM_02_016,hostel_mess,chicken gravy nalla irukku,False,0.1434645652770996,0.7115546292943514
+C_HM_02_017,hostel_mess,"rice la kal irukku, yaar kitta sollurathu",False,0.011192038655281,0.1144048581574457
+C_HM_02_018,hostel_mess,"serving anna romba kammi pannuraru, quantity illa",False,0.0010224588913843,0.07680429976738053
+C_HM_02_019,hostel_mess,"plate la ennai, wash pannave illa",False,0.0212291534990072,0.14207669375783097
+C_HM_02_020,hostel_mess,"dinner queue la 40 min nikanum, waste of time",False,0.052734550088644,0.2863314109218878
+C_HM_02_021,hostel_mess,mess uncle semma friendly,False,0.0102674197405576,0.10927073383315324
+C_HM_02_022,hostel_mess,the sambr was very sour todya,False,0.0898870080709457,0.04488212820360414
+C_HM_02_023,hostel_mess,"foood is not hot, always cold",False,0.0118712242692708,0.23045569849396214
+C_HM_02_024,hostel_mess,chiken curry is too spicy for me,False,0.0035599404945969,0.039653012050932704
+C_HM_02_025,hostel_mess,quening for dinner is so tiring,False,0.0106891142204403,0.12387292107844505
+C_HM_02_026,hostel_mess,mess hygine is poor,False,0.577122151851654,0.43375911589706284
+C_HM_02_027,hostel_mess,"lunch was gud, lyk the rasam",False,0.0083371261134743,0.04999667855363497
+C_HM_02_028,hostel_mess,mess is ok,False,0.0008405336411669,0.05328337597863061
+C_HM_02_029,hostel_mess,tasty food and polite staff,False,0.0033912751823663,0.027582413438894365
+C_HM_02_030,hostel_mess,"never improving, same issues every year",False,0.0006683316314592,0.03041987758233366
+C_HM_02_031,hostel_mess,getting fed up of the queue honestly,False,0.0019243960268795,0.1273910792614261
+C_HM_02_032,hostel_mess,the food is just average but the price is fair,False,0.0006449162028729,0.009996191370061054
+C_HM_02_033,hostel_mess,rasam is the only good thing here,False,0.0025926704984158,0.03360687039300344
+C_HM_02_034,hostel_mess,saturday biryani is worth the wait,False,0.02041657269001,0.04244758502991902
+C_HM_02_035,hostel_mess,"mess workers wear gloves now, good change",False,0.0008385876426473,0.05689313241509362
+C_HM_02_036,hostel_mess,"one chapati per head rule is silly, we are hungry",False,0.1052852123975753,0.7421146936980577
+C_HM_02_037,hostel_mess,mess fee is reasonable for 3 meals + snacks,False,0.0006901049055159,0.03355784378003223
+C_HM_02_038,hostel_mess,need more north indian options for outstation students,False,0.0011227978393435,0.03557539376919852
+C_HM_02_039,hostel_mess,chicken pieces are tiny and bony,False,0.0688874498009681,0.8808548913692252
+C_HM_02_040,hostel_mess,snacks at 5 pm are a lifesaver,False,0.0506147406995296,0.04534531459768912
+C_HM_02_041,hostel_mess,the dining area is spacious and well lit,False,0.000602786312811,0.06837469074070723
+C_HM_02_042,hostel_mess,"late night study ku tea and biscuits are provided during placement season, really helpful.",False,0.0006324520800262,0.05432486249313527
+C_HM_02_043,hostel_mess,"after club rehearsals the mess is closed, no food available for cultural team.",False,0.0006578103639185,0.02639142332557916
+C_HM_02_044,hostel_mess,saturday special lunch semma taste but token queue takes 45 minutes.,False,0.0007451656856574,0.07135230156664878
+C_HM_02_045,hostel_mess,roti is rock hard daily.,False,0.0085785882547497,0.21912392629679958
+C_HM_02_046,hostel_mess,"evening snack quantity romba kammi, exam time la hungry ah irukku.",False,0.0009145857184194,0.11464343246832476
+C_HM_02_047,hostel_mess,mess dining hall is clean and tables are wiped regularly.,False,0.0156610626727342,0.21137813238460038
+C_HM_02_048,hostel_mess,shut up and fix the food you lazy morons,True,0.9806697964668274,0.9994779543766461
+C_HM_02_049,hostel_mess,"damn this stupid mess, hate every single meal",True,0.9958154559135436,0.9999928534341167
+C_HM_02_050,hostel_mess,whoever approved this menu is a clown,True,0.0509540773928165,0.14799471529255684
+C_HR_01_001,hostel_rooms,"water supply stops at 7 am, no water for bathing",False,0.000765161763411,0.029873979119004187
+C_HR_01_002,hostel_rooms,fans are not working in our block for 2 weeks,False,0.0106168799102306,0.04214656906130813
+C_HR_01_003,hostel_rooms,the room is spacious enough for 3 students,False,0.0007205805159173,0.03320793354936483
+C_HR_01_004,hostel_rooms,bathrooms are dirty and no one cleans them daily,False,0.4461794793605804,0.947568963193132
+C_HR_01_005,hostel_rooms,power cut every evening and no backup in the rooms,False,0.001202171202749,0.18555154876651092
+C_HR_01_006,hostel_rooms,warden is very supportive and quick to act,False,0.0008138713310472,0.09454561374455753
+C_HR_01_007,hostel_rooms,hot water in the morning is great in winter,False,0.000894573458936,0.08266414194553091
+C_HR_01_008,hostel_rooms,room is too small for 4 people,False,0.0013081340584903,0.09114672581432261
+C_HR_01_009,hostel_rooms,beds are old and the mattress is uncomfortable,False,0.0102026779204607,0.3035006828487465
+C_HR_01_010,hostel_rooms,cctv in the corridor makes me feel safe,False,0.000599376799073,0.04663433932803116
+C_HR_01_011,hostel_rooms,"no proper security at night, anyone can enter",False,0.0022726668976247,0.10524760177352108
+C_HR_01_012,hostel_rooms,"washing machine is always occupied, waiting for hours",False,0.0015341362450271,0.19031550449412518
+C_HR_01_013,hostel_rooms,laundry service is good and clothes come back clean,False,0.0038565101567655,0.12195356378886732
+C_HR_01_014,hostel_rooms,loud music from the next room till 1 am,False,0.0010658171959221,0.030960504918575202
+C_HR_01_015,hostel_rooms,rooms are cleaned daily and the staff are polite,False,0.0007344706682488,0.06984920692199326
+C_HR_01_016,hostel_rooms,electricity is stable now after the new transformer,False,0.0009089442319236,0.03310166271952009
+C_HR_01_017,hostel_rooms,"leaking tap in the bathroom for a month, nobody fixed it",False,0.0012156044831499,0.014311780482031272
+C_HR_01_018,hostel_rooms,the mosquito problem is out of control in the hostel,False,0.0010563340038061,0.04934060416578554
+C_HR_01_019,hostel_rooms,"water is yellow some mornings, unfit to drink",False,0.0101092802360653,0.20663780768187062
+C_HR_01_020,hostel_rooms,"maintenance team responded within a day, very impressed",False,0.000564077636227,0.018115505451112686
+C_HR_01_021,hostel_rooms,the study table and chair are decent,False,0.0010105458786711,0.1479706098082235
+C_HR_01_022,hostel_rooms,lights flicker and the switchboard is damaged,False,0.0016708497423678,0.3151868036364028
+C_HR_01_023,hostel_rooms,noise from the construction next to the hostel is irritating,False,0.0033680093474686,0.13861314358995588
+C_HR_01_024,hostel_rooms,corridor is clean and well lit,False,0.000762847601436,0.060156018579121014
+C_HR_01_025,hostel_rooms,drying area for clothes is too small,False,0.0018072582315653,0.15988670107717318
+C_HR_01_026,hostel_rooms,water cooler is working and the water is cold,False,0.0010877468157559,0.15765783384273854
+C_HR_01_027,hostel_rooms,"the room has no ventilation, so it gets hot",False,0.0039811939932405,0.2501817772554772
+C_HR_01_028,hostel_rooms,my cupboard lock is broken and nobody replaced it,False,0.0055098226293921,0.1747403653800929
+C_HR_01_029,hostel_rooms,the hostel is peaceful and good for studying,False,0.0005379522335715,0.0147048561843227
+C_HR_01_030,hostel_rooms,"girls hostel gate closes on time and security is strict, which is good",False,0.0008078619139268,0.041896972509459764
+C_HR_01_031,hostel_rooms,"rats in the room, found one in my bag",False,0.0390393324196338,0.1670116182888798
+C_HR_01_032,hostel_rooms,"power backup works instantly, no more dark nights",False,0.0011740229092538,0.10150342960226351
+C_HR_01_033,hostel_rooms,the bathroom doors don't close properly,False,0.001696755294688,0.043179402353419154
+C_HR_01_034,hostel_rooms,the room is average but i can adjust,False,0.0006599846528843,0.014694408255325019
+C_HR_01_035,hostel_rooms,dhobi service charges too much,False,0.0423543490469455,0.09490065617452637
+C_HR_01_036,hostel_rooms,nobody cleans the common area on weekends,False,0.0016789680812507,0.049536847906077805
+C_HR_01_037,hostel_rooms,"good hostel, but water issues in the 3rd floor",False,0.0005867785657756,0.00581705685091895
+C_HR_01_038,hostel_rooms,rooms are big but dirty,False,0.3409721851348877,0.7988651416803755
+C_HR_01_039,hostel_rooms,"power cut romba, study panna mudiyala",False,0.0075412401929497,0.7406837668724233
+C_HR_01_040,hostel_rooms,"thanni varala 2 days ah, rombo kastam",False,0.0028088251128792,0.14047729545264817
+C_HR_01_041,hostel_rooms,"fan kooda work aagala, summer la romba kastam",False,0.0038426462560892,0.03361358482790538
+C_HR_01_042,hostel_rooms,"room clean ah irukku, thanks to the aunty",False,0.0050516128540039,0.005134579334089069
+C_HR_01_043,hostel_rooms,"night la noise romba, thoongave mudila",False,0.0104780606925487,0.41229823352520834
+C_HR_01_044,hostel_rooms,"warden romba nalla person, help pannuvaanga",False,0.0020575996022671,0.09376461112501278
+C_HR_01_045,hostel_rooms,the room cleaning is nvr done properly,False,0.0013591937022283,0.023775972296890133
+C_HR_01_046,hostel_rooms,wter pressure is very low in the shower,False,0.0218708664178848,0.09722479701735036
+C_HR_01_047,hostel_rooms,hostl security gaurd sleeps at night,False,0.0506126768887043,0.20142586735908702
+C_HR_01_048,hostel_rooms,"this hostel is a dump, wardens are useless idiots",True,0.989293336868286,0.9943160870798157
+C_HR_01_049,hostel_rooms,"damn the water supply is trash, fix it you morons",True,0.993821620941162,0.9948960320364862
+C_HR_01_050,hostel_rooms,the maintenance guys are stupid and lazy,True,0.9530792236328124,0.9994052159216719
+C_HR_02_001,hostel_rooms,elecricity goes off every nite,False,0.0367919355630874,0.6050122793529502
+C_HR_02_002,hostel_rooms,"the mattres is so hard, back pain kills me",False,0.243592619895935,0.5218033928878322
+C_HR_02_003,hostel_rooms,washing mashine broke again,False,0.0129544325172901,0.1860223289263669
+C_HR_02_004,hostel_rooms,roommates are noisy but rooms are ok,False,0.0007206511800177,0.07880909118815575
+C_HR_02_005,hostel_rooms,unlimited hot water and clean bathrooms on the new block,False,0.001165441586636,0.05772497976735433
+C_HR_02_006,hostel_rooms,drinking water is tested regularly and it tastes fine,False,0.0006391850765794,0.11344587976557828
+C_HR_02_007,hostel_rooms,the warden never answers calls at night during emergencies,False,0.0031449818052351,0.026241756449526296
+C_HR_02_008,hostel_rooms,nice and safe place but too many insects,False,0.0012889514910057,0.10577704573279428
+C_HR_02_009,hostel_rooms,broken windows in the corridor have not been repaired for months,False,0.0006755691138096,0.012982049175371463
+C_HR_02_010,hostel_rooms,sharing 4 people in one room is not comfortable at all,False,0.0009034166578203,0.0209528429738835
+C_HR_02_011,hostel_rooms,"visitors are not allowed after 6, so the place is peaceful",False,0.0006128293462097,0.02798247637209402
+C_HR_02_012,hostel_rooms,power socket near my bed is loose and sparks sometimes,False,0.0072605228051543,0.3497563061052402
+C_HR_02_013,hostel_rooms,the toilet flush is damaged and no spare,False,0.1037233918905258,0.895915627898081
+C_HR_02_014,hostel_rooms,the common room tv and carrom board are nice to have,False,0.0007497543119825,0.008518098853852681
+C_HR_02_015,hostel_rooms,"cleaning staff are working hard, the hostel looks better",False,0.0007318129064515,0.017946908166715958
+C_HR_02_016,hostel_rooms,"phone charging boards are installed in the corridor, useful",False,0.000704591278918,0.0327219405767942
+C_HR_02_017,hostel_rooms,we get laundry slots for each floor which is organised,False,0.0007402035989798,0.045580843467079676
+C_HR_02_018,hostel_rooms,"the stairs have no lights at night, it is unsafe",False,0.0021569447126239,0.07335993956566944
+C_HR_02_019,hostel_rooms,drainage is blocked and the smell is horrible,False,0.1163788214325904,0.6662293380642799
+C_HR_02_020,hostel_rooms,the room is okay,False,0.0006969705573283,0.053221017947432975
+C_HR_02_021,hostel_rooms,shower heads are broken in half the bathrooms,False,0.1190559789538383,0.04799071801446977
+C_HR_02_022,hostel_rooms,"terrace is open for students in the evening, nice view",False,0.0005950493505224,0.016819723187582646
+C_HR_02_023,hostel_rooms,hostel office staff are lazy and rude when we complain,False,0.3899902701377868,0.6633586707899736
+C_HR_02_024,hostel_rooms,power cuts occur right when i practice coding on hackerrank at night.,False,0.0008711589616723,0.02855513604295834
+C_HR_02_025,hostel_rooms,corridor lights are replaced quickly by the electrician.,False,0.0006292696343734,0.04488588149191278
+C_HR_02_026,hostel_rooms,washing machine in laundry room is not working for three weeks.,False,0.00124151725322,0.03578959720191432
+C_HR_02_027,hostel_rooms,room is spacious with two cupboards and large study desk.,False,0.000793618732132,0.0742589964960288
+C_HR_02_028,hostel_rooms,"night time la corridor la romba noise, unable to revise for arrear exam.",False,0.0007712197257205,0.1334580477196201
+C_HR_02_029,hostel_rooms,hot water comes properly in the geyser every morning.,False,0.0009575776057317,0.13126217487688405
+C_HR_02_030,hostel_rooms,"security guards check student id at hostel gate strictly, feels safe.",False,0.0007418200257234,0.025085846772229248
+C_HR_02_031,hostel_rooms,"washrooms are cleaned twice daily with phenyl, very hygienic.",False,0.0030701842624694,0.08368846621120377
+C_HR_02_032,hostel_rooms,fan speed is slow and makes annoying vibration noise throughout the night.,False,0.0026508271694183,0.20457942985692695
+C_HR_02_033,hostel_rooms,balcony view is pleasant but clothes drying space is congested.,False,0.0005869026645086,0.04931036854990176
+C_HR_02_034,hostel_rooms,"door lock is loose, reported to hostel office but no response.",False,0.0017660687444731,0.16946367318372296
+C_HR_02_035,hostel_rooms,tap water has brown rust color in the fourth floor bathrooms.,False,0.0006484399782493,0.07148980716818538
+C_HR_02_036,hostel_rooms,cctv cameras installed in corridors ensure safety.,False,0.0005583926686085,0.03723198165308702
+C_HR_02_037,hostel_rooms,"triple sharing room is cramped, hard to move around.",False,0.0009171667043119,0.07452021952912227
+C_HR_02_038,hostel_rooms,cleaning staff mop room floor promptly upon request.,False,0.0009252270683646,0.023861566913671743
+C_HR_02_039,hostel_rooms,plumber attended the leaking pipe within one hour of complaint.,False,0.0008154425304383,0.02799638989060119
+C_HR_02_040,hostel_rooms,ironing table and iron box provided in laundry room are good.,False,0.0009276919881813,0.007818722477469281
+C_HR_02_041,hostel_rooms,music blasting from neighboring block causes heavy disturbance.,False,0.0006997197633609,0.0247689831538236
+C_HR_02_042,hostel_rooms,uninterrupted power backup supported my project simulation runs overnight.,False,0.0006730680470354,0.1234331364007569
+C_HR_02_043,hostel_rooms,"hostel room size is good but window mesh is torn, letting mosquitoes inside.",False,0.0013984497636556,0.047486325987250694
+C_HR_02_044,hostel_rooms,fingerprint biometric entry at hostel gate works smoothly.,False,0.0005797750782221,0.02409346651408424
+C_HR_02_045,hostel_rooms,"dustbins in the corridor are overflowing, bad smell.",False,0.1024976819753646,0.491086895113852
+C_HR_02_046,hostel_rooms,water pressure in shower is very low in peak morning hours.,False,0.0008593439124524,0.10454550405751527
+C_HR_02_047,hostel_rooms,spacious wardrobe with sturdy lockers keeps certificates safe.,False,0.0007006984087638,0.06819012738932388
+C_HR_02_048,hostel_rooms,stupid hostel rules and stupid warden,True,0.9925467371940612,0.9999439712644042
+C_HR_02_049,hostel_rooms,fix the bloody power cuts you clowns,True,0.8922930955886841,0.8895892696166318
+C_HR_02_050,hostel_rooms,"bathrooms stink like hell, disgusting pigs live here",True,0.9959017634391784,0.9987042480657914
+C_LAB_01_001,labs,"systems in the lab are very slow, takes 5 minutes to boot",False,0.0013199426466599,0.08976726787797085
+C_LAB_01_002,labs,the new computers in lab 3 are fast and smooth,False,0.0006211971049197,0.027686907397011074
+C_LAB_01_003,labs,many keyboards and mouse are not working,False,0.0010660995030775,0.0683147064677694
+C_LAB_01_004,labs,python and vs code are installed and working fine,False,0.0006472365348599,0.022449716604932425
+C_LAB_01_005,labs,matlab license expired and no one is bothered,False,0.0013672418426722,0.2165701318080655
+C_LAB_01_006,labs,lab assistants are friendly and clear our doubts,False,0.0006951986579224,0.08402325950091363
+C_LAB_01_007,labs,"lab timings clash with our classes, only 2 hours given",False,0.0006737438379786,0.02192381780449499
+C_LAB_01_008,labs,"the lab is overcrowded, 3 students share one system",False,0.000836381164845,0.02050880181046577
+C_LAB_01_009,labs,ac in the lab keeps the systems cool and us comfortable,False,0.0006239862996153,0.0436873200525798
+C_LAB_01_010,labs,the lab is clean and organised,False,0.0007589267916046,0.07000623514399971
+C_LAB_01_011,labs,lab instructor was rude when i asked a doubt,False,0.0013383663026615,0.17140614140268245
+C_LAB_01_012,labs,not enough oscilloscopes for the electronics lab,False,0.0014881180832162,0.03789317047142487
+C_LAB_01_013,labs,projector in the lab is clear and bright,False,0.0007420640322379,0.10182349643454902
+C_LAB_01_014,labs,open lab hours till 8 pm are really helpful for projects,False,0.0006850871141068,0.02752876973102057
+C_LAB_01_015,labs,the linux machines hang every time we run docker,False,0.0013163659023121,0.11751894529113995
+C_LAB_01_016,labs,we can't install any software without admin permission,False,0.0011795862810686,0.03364564135521787
+C_LAB_01_017,labs,"good lab, all required tools are available",False,0.0005949533078819,0.07004657291819563
+C_LAB_01_018,labs,broken chairs and wobbly tables in the lab,False,0.0013660821132361,0.04146960787142826
+C_LAB_01_019,labs,power fluctuation shuts down the systems during experiments,False,0.0038728625513613,0.053925221739493844
+C_LAB_01_020,labs,the lab technician helped me fix my circuit patiently,False,0.0006141613121144,0.1302190777293489
+C_LAB_01_021,labs,"labs are available only during scheduled hours, no extra time for practice",False,0.0006077593425288,0.020323100577210384
+C_LAB_01_022,labs,"monitor flickers on my system, informed twice but nothing done",False,0.0009044122998602,0.07119085296748637
+C_LAB_01_023,labs,internet in the lab is too slow to download packages,False,0.0017081737751141,0.061062550934890256
+C_LAB_01_024,labs,the machines have the latest versions of visual studio,False,0.0006532207480631,0.02121954394434801
+C_LAB_01_025,labs,compiler error because outdated java version,False,0.000985664431937,0.022632614804139896
+C_LAB_01_026,labs,space is enough to move around and work comfortably,False,0.0007126528071239,0.04065464340709052
+C_LAB_01_027,labs,the lab record submission instructions are clear,False,0.0005682709161192,0.031501104243370055
+C_LAB_01_028,labs,network lab has good routers and switches for practice,False,0.000612360832747,0.023835482334162
+C_LAB_01_029,labs,"lab is average, nothing special",False,0.0009122472838498,0.08907082215220251
+C_LAB_01_030,labs,dirty keyboards and sticky mouse everywhere,False,0.4854345917701721,0.5853528122818777
+C_LAB_01_031,labs,the lab incharge doesn't allow extra time even for submissions,False,0.0007491157739423,0.047662333408746385
+C_LAB_01_032,labs,"lab semma ah irukku, systems fast ah work aagudhu",False,0.0085072647780179,0.05136761021942493
+C_LAB_01_033,labs,"system hang aagum, work save panna mudiyala",False,0.023803099989891,0.08938627555319098
+C_LAB_01_034,labs,mouse keyboard onnume work aagala da,False,0.0057633528485894,0.18801392713420112
+C_LAB_01_035,labs,lab sir nalla explain pannuvaru,False,0.000863442372065,0.015429411417902132
+C_LAB_01_036,labs,"lab time rombo kammi, project mudikka mudiyala",False,0.0008709713001735,0.04370548250914424
+C_LAB_01_037,labs,"AC work aagala, lab la romba heat",False,0.0016682493733242,0.031914674422561094
+C_LAB_01_038,labs,"ore system ku 4 per, idam illa",False,0.0009436119580641,0.03657702998756871
+C_LAB_01_039,labs,the sistem is so sloww,False,0.0431457720696926,0.3849331481890174
+C_LAB_01_040,labs,labtop connections are not wrking,False,0.0360244624316692,0.046096234834334116
+C_LAB_01_041,labs,softwre license is not avilable,False,0.0014431744348257,0.05031675734618906
+C_LAB_01_042,labs,lab assitant helped alot,False,0.0156939886510372,0.06732927608663158
+C_LAB_01_043,labs,the lab is cold n clean,False,0.0174014344811439,0.1193708181896466
+C_LAB_01_044,labs,cant run tensorflow bcos gpu not avilable,False,0.0032839158084243,0.20295787957686273
+C_LAB_01_045,labs,"hardware lab has good components and kits, but timings are short",False,0.0005726622766815,0.029815924857558768
+C_LAB_01_046,labs,"labs are clean, but systems are old",False,0.0088412445038557,0.10024731781049297
+C_LAB_01_047,labs,lab staff are helpful but very less in number,False,0.0007909539854153,0.026855197254142208
+C_LAB_01_048,labs,"the lab is a joke, systems are junk and staff are idiots",True,0.915902614593506,0.9722439362481029
+C_LAB_01_049,labs,"stupid lab rules, can't even use my own pendrive",True,0.9188107252120972,0.9915743506329301
+C_LAB_01_050,labs,"useless lab assistant, damn clown wastes our time",True,0.9758067727088928,0.8675771177624483
+C_LAB_02_001,labs,good software but internet is poor,False,0.011458022519946,0.134353267712836
+C_LAB_02_002,labs,the lab has latest pcs but the seating is cramped,False,0.0005913151544518,0.03789890600262981
+C_LAB_02_003,labs,power backup in lab saved our practical exam,False,0.0006956207798793,0.04357284527280001
+C_LAB_02_004,labs,the access card system works well for entering the lab,False,0.0005887353327125,0.026238242677767674
+C_LAB_02_005,labs,printers in the lab are always out of ink,False,0.0008358803461305,0.1075726768985575
+C_LAB_02_006,labs,lab manual is outdated and the experiments are not useful,False,0.0046359235420823,0.10413917764856655
+C_LAB_02_007,labs,lab incharge is flexible with the timings for project teams,False,0.0006045636255294,0.038358481218534995
+C_LAB_02_008,labs,the ai lab with gpu servers is a game changer,False,0.00163414189592,0.05487592064519236
+C_LAB_02_009,labs,mouse is stuck and cursor jumps,False,0.0145655963569879,0.15905310978188936
+C_LAB_02_010,labs,lab is always locked when we reach on time,False,0.0007956787594594,0.0178286845201486
+C_LAB_02_011,labs,virtual machine setup in lab saves a lot of time,False,0.0006757514202035,0.05797013168030025
+C_LAB_02_012,labs,some systems have no headphones for the language lab,False,0.0008201090968213,0.0515957731698101
+C_LAB_02_013,labs,"network lab switch is broken, whole row can't connect",False,0.000845112488605,0.04665461506193357
+C_LAB_02_014,labs,the lab assistant keeps playing games on his phone and ignores us,False,0.0027704979293048,0.05911545104916455
+C_LAB_02_015,labs,"the lab is okay, i have no complaints",False,0.0006341520347632,0.08051470546383689
+C_LAB_02_016,labs,"cooling is poor, systems overheat in summer",False,0.0023031008895486,0.08248578615206802
+C_LAB_02_017,labs,we get 3 hours for each practical which is enough,False,0.0007387139485217,0.027113235303835168
+C_LAB_02_018,labs,lab desks are wide and have enough power sockets,False,0.0014133393997326,0.316603098099076
+C_LAB_02_019,labs,mobile signal is nil inside the lab,False,0.0008951592026278,0.07992335877157293
+C_LAB_02_020,labs,good ventilation and lighting in the chemistry lab,False,0.0005861815297976,0.02998807293573477
+C_LAB_02_021,labs,the instruments in physics lab are rusted,False,0.0006722006364725,0.05665209146191308
+C_LAB_02_022,labs,matlab and ansys licenses are available on all workstations for research scholars.,False,0.0005984177696518,0.05046377016739291
+C_LAB_02_023,labs,"lab systems boot fast with nvme ssd, saves a lot of test runtime.",False,0.0009846207685768,0.02723880355459702
+C_LAB_02_024,labs,oscilloscope in circuits lab displays erratic waveform readings.,False,0.0006694818730466,0.03062278893450211
+C_LAB_02_025,labs,lab technician explained soldering and pcb testing steps very clearly.,False,0.0005729781114496,0.08548593935126318
+C_LAB_02_026,labs,"lab opens till 9 pm during project review week, super helpful.",False,0.0005757333710789,0.004875692657792712
+C_LAB_02_027,labs,keyboards have stuck keys and mouse scroll wheels are broken.,False,0.0008040453540161,0.12485521412959444
+C_LAB_02_028,labs,visual studio code and python packages are pre-installed properly.,False,0.0005844134138897,0.05963418036052062
+C_LAB_02_029,labs,ai lab is clean and has spacious workstations for research scholars.,False,0.0006925396737642,0.032857351376276885
+C_LAB_02_030,labs,pc freezes frequently when executing docker containers.,False,0.0006829245830886,0.035168713274795545
+C_LAB_02_031,labs,lab staff refuses to let us practice outside scheduled timetable hours.,False,0.0007974478066898,0.01895379427035053
+C_LAB_02_032,labs,spacious robotics lab allows easy maneuvering for autonomous rovers.,False,0.000562030239962,0.032417732475698804
+C_LAB_02_033,labs,cad software crashes repeatedly due to outdated graphics drivers.,False,0.0016032821731641,0.0970354802927888
+C_LAB_02_034,labs,microcontroller boards are burnt and jumper wires are missing.,False,0.0053329314105212,0.08158309561793839
+C_LAB_02_035,labs,lab floors and desks are spotless and dust free.,False,0.0009224683744832,0.13141975737566963
+C_LAB_02_036,labs,two hour lab period is too short to complete practical experiments.,False,0.0007215665536932,0.03562827631392098
+C_LAB_02_037,labs,broadband download speed on lab terminals is blazing fast.,False,0.0006080330349504,0.05440744849123413
+C_LAB_02_038,labs,narrow aisles between lab tables make movement clumsy.,False,0.000792822393123,0.019871572079546266
+C_LAB_02_039,labs,system hardware is upgraded but monitor display blinks erratically.,False,0.0007085874094627,0.03313606879947904
+C_LAB_02_040,labs,lab attendant helped configure my network proxy settings patiently.,False,0.000617784447968,0.09757088622613716
+C_LAB_02_041,labs,dust accumulation inside cpu cabinets creates overheating.,False,0.000861735723447,0.07772928668242733
+C_LAB_02_042,labs,compiler took fifteen minutes just to build a simple cpp project.,False,0.0006451171939261,0.10941748482249501
+C_LAB_02_043,labs,multimeter batteries are dead in physics laboratory.,False,0.0010236606467515,0.3873118008344221
+C_LAB_02_044,labs,generous lab hours during weekend hackathons supported our project team.,False,0.000585489149671,0.0345151707961406
+C_LAB_02_045,labs,lab is tidy and monitors are sanitized before every batch.,False,0.0007026895182207,0.1061467281914927
+C_LAB_02_046,labs,server rack is well maintained with excellent cooling.,False,0.0005620060837827,0.017383581307906817
+C_LAB_02_047,labs,workbench space is broad enough for four members to solder together.,False,0.0011099972762167,0.05236229272510071
+C_LAB_02_048,labs,"the systems suck, who bought this garbage",True,0.9785918593406676,0.9956124036862355
+C_LAB_02_049,labs,shut up and fix the computers you lazy morons,True,0.982062041759491,0.9994147905228897
+C_LAB_02_050,labs,the lab incharge is a fool who doesn't know anything,True,0.8257869482040405,0.6334367117155026
+C_LIB_01_001,library,library is peaceful and perfect for study,False,0.0006317355437204,0.13625457288333642
+C_LIB_01_002,library,"not enough seats during exam week, people reserve with bags",False,0.0006897657294757,0.03201588319917826
+C_LIB_01_003,library,"ac is too cold, i carry a jacket always",False,0.0024230927228927,0.09194764785908381
+C_LIB_01_004,library,the librarian is very helpful in finding books,False,0.0007670639897696,0.009522500934642478
+C_LIB_01_005,library,latest edition books are not available,False,0.0007255192613229,0.030982713959173108
+C_LIB_01_006,library,"library closes at 8 pm, need extended hours during exams",False,0.0010324242757633,0.0124111412251301
+C_LIB_01_007,library,people talk loudly near the group study area,False,0.0006348707247525,0.047328768236995576
+C_LIB_01_008,library,ieee and springer access works well from the campus network,False,0.0005655231070704,0.02614528734141991
+C_LIB_01_009,library,the library staff are strict but fair,False,0.0006336427759379,0.006360860473352083
+C_LIB_01_010,library,"cleanliness is great, floors and tables are spotless",False,0.0018741614185273,0.16885719660836687
+C_LIB_01_011,library,"very few copies of the core textbooks, 100 students for 3 copies",False,0.000683863996528,0.00878240962201044
+C_LIB_01_012,library,charging points near the seats are a big help,False,0.0008203185279853,0.049450872765897914
+C_LIB_01_013,library,e journal login keeps failing from the hostel,False,0.0017735139699652,0.06420524933107588
+C_LIB_01_014,library,washrooms near the library are dirty,False,0.3282987773418426,0.4359754750391629
+C_LIB_01_015,library,the reading hall is bright and quiet,False,0.001310717430897,0.13167556474972747
+C_LIB_01_016,library,no response from the staff when i asked for a book request,False,0.0006566619849763,0.014162001135818749
+C_LIB_01_017,library,"opening hours are good, 8 am to 10 pm",False,0.0006470416556112,0.052390892622381564
+C_LIB_01_018,library,"ac is not working in the second floor, too hot to sit",False,0.0044317129068076,0.0867017168611852
+C_LIB_01_019,library,the new arrivals section is updated regularly,False,0.0006465630140155,0.030022817212685814
+C_LIB_01_020,library,"library is open on sundays now, thanks",False,0.0006114114075899,0.020545302512280823
+C_LIB_01_021,library,some books are torn and pages are missing,False,0.0009608810651116,0.11278344811312643
+C_LIB_01_022,library,catalog search website is slow and confusing,False,0.001505511929281,0.09975415911885135
+C_LIB_01_023,library,"silence is not maintained, people use phone calls",False,0.0009241504012607,0.04642716172856372
+C_LIB_01_024,library,"best place on campus to study, love the ambience",False,0.0007214578799903,0.02572169371743742
+C_LIB_01_025,library,digital library has many ebooks for gate prep,False,0.0007071265717968,0.015403183028374493
+C_LIB_01_026,library,"bag counter takes too long, long line at entry",False,0.0067626335658133,0.09468606629348071
+C_LIB_01_027,library,chairs are uncomfortable for long study hours,False,0.0010241385316476,0.17430465308372653
+C_LIB_01_028,library,nptel material and old question papers are easy to find,False,0.0006042824243195,0.01587202894757284
+C_LIB_01_029,library,the staff made us leave exactly at closing time without any grace,False,0.0007871898123994,0.007163074985898016
+C_LIB_01_030,library,"average library, nothing great",False,0.0013081782963126,0.03523016566353749
+C_LIB_01_031,library,temperature is just right and the lights are good,False,0.0005807785782963,0.014102632027001032
+C_LIB_01_032,library,"no space for sitting on the floor too, so overcrowded",False,0.0220773257315158,0.11514802326321436
+C_LIB_01_033,library,returning books is easy with the drop box,False,0.0007040774216875,0.022504868455522294
+C_LIB_01_034,library,"library semma peaceful, padikka nalla irukku",False,0.0015082331374287,0.0170919343887906
+C_LIB_01_035,library,"books illa da, one copy ku 20 per waiting",False,0.0012127282097935,0.011222223166871746
+C_LIB_01_036,library,"ac romba cold, nadungurathu",False,0.0097153503447771,0.11581215231691089
+C_LIB_01_037,library,"night 10 mani varaikum open, helpful for exams",False,0.0012479133438318,0.043079361153242374
+C_LIB_01_038,library,"staff nalla help pannanga, thanks",False,0.0006773255881853,0.0006492290749482521
+C_LIB_01_039,library,seat kedaikave illa exam time la,False,0.0013718552654609,0.07906597293949201
+C_LIB_01_040,library,wifi in the library is poor and e books are not loading,False,0.0347516052424907,0.057753921093753796
+C_LIB_01_041,library,"silence illa, group ah vandhu pesuranga",False,0.0079236328601837,0.3636847397011187
+C_LIB_01_042,library,libary is too croweded in the evening,False,0.0056051146239042,0.038115295319111606
+C_LIB_01_043,library,the librarain was so rude today,False,0.0392905846238136,0.18144503099951245
+C_LIB_01_044,library,no good books on machine larning,False,0.0010780447628349,0.03543204248406698
+C_LIB_01_045,library,digitl resources are very usefull,False,0.0007201370317488,0.034634296196868274
+C_LIB_01_046,library,nice place to study but too cold,False,0.0031271309126168,0.14233785037722363
+C_LIB_01_047,library,"good collection of reference books, but seating is limited",False,0.0005599040887318,0.024696154449010778
+C_LIB_01_048,library,"the library is a waste, nothing is ever available you idiots",True,0.980129599571228,0.9846229352907955
+C_LIB_01_049,library,that librarian is a stupid old fool,True,0.9880099892616272,0.9999979901810787
+C_LIB_01_050,library,"shut your mouth and open the library on time, useless staff",True,0.9652162790298462,0.9444311823780259
+C_LIB_02_001,library,"librarian helps a lot, however opening hours are short on saturdays",False,0.0006698999786749,0.06770385299384665
+C_LIB_02_002,library,"very clean and well organised, but the ac is noisy",False,0.0005991385551169,0.019319962240912564
+C_LIB_02_003,library,great ebooks but the login page keeps timing out,False,0.0006901019951328,0.034211516319449534
+C_LIB_02_004,library,"reading room is nice, wish it opened earlier",False,0.0007997436914592,0.020013448582574516
+C_LIB_02_005,library,"the ground floor is noisy, 3rd floor is quiet",False,0.0007941728108562,0.055417670247806576
+C_LIB_02_006,library,love the library cafe corner but books are outdated,False,0.0058626006357371,0.028364662146690933
+C_LIB_02_007,library,placement prep books are available which is great,False,0.0006071618408896,0.031031883718470026
+C_LIB_02_008,library,"journals for research are limited, need more subscriptions",False,0.000718729395885,0.04013794194201792
+C_LIB_02_009,library,"some students sleep on the tables, no one stops them",False,0.0077132545411586,0.04952114136038913
+C_LIB_02_010,library,the desks have scratches and graffiti,False,0.0340995453298091,0.07294541956107974
+C_LIB_02_011,library,return date fines are too high,False,0.0012809175532311,0.260933866981496
+C_LIB_02_012,library,the library app for renewal is quick and easy,False,0.0006587539683096,0.02907897655873359
+C_LIB_02_013,library,dust on the shelves makes me sneeze,False,0.0432907789945602,0.03005007457334303
+C_LIB_02_014,library,there is not enough light on the upper floor,False,0.0010190391913056,0.009477920017559939
+C_LIB_02_015,library,if you reach after 9 am there are no seats left,False,0.001174657838419,0.03547787567761229
+C_LIB_02_016,library,water cooler near library is not working,False,0.0010577348293736,0.018696534607636178
+C_LIB_02_017,library,"silent zone is really silent, i love it",False,0.0007934754248708,0.17288998123307409
+C_LIB_02_018,library,the library is ok,False,0.0006457541603595,0.028260134945732804
+C_LIB_02_019,library,scanning and printing in library is cheap and fast,False,0.0011263823835179,0.07315957677276391
+C_LIB_02_020,library,"so many old edition textbooks, nothing useful for the new syllabus",False,0.0029105462599545,0.09838458313155858
+C_LIB_02_021,library,staff are friendly and answer doubts patiently,False,0.000618347665295,0.06491208713215355
+C_LIB_02_022,library,closing time is too early for final year project students,False,0.0010775384726002,0.028680751521943586
+C_LIB_02_023,library,"books are arranged by subject, easy to find",False,0.0006254426552914,0.01228313567503036
+C_LIB_02_024,library,smell of damp in the corner section,False,0.0020846058614552,0.25380303845698116
+C_LIB_02_025,library,we need more sockets for laptops,False,0.0007056516478769,0.052795263269119895
+C_LIB_02_026,library,the librarian smiled and helped me with the project report formatting,False,0.0005948460893705,0.08714729069660887
+C_LIB_02_027,library,"ac is perfect in summer, thanks to the library for the comfort",False,0.0005579766002483,0.012383260275647697
+C_LIB_02_028,library,"digital library computers have high-speed access to IEEE journals, great for thesis work.",False,0.0005746051901951,0.011976917980878536
+C_LIB_02_029,library,ac in third floor reference section is chilling cold.,False,0.0006155114970169,0.044480711712187815
+C_LIB_02_030,library,"need gate exam preparation books, current edition not available.",False,0.0005987318581901,0.01595412747497625
+C_LIB_02_031,library,"reference section la silence semma, able to concentrate on aptitude tests without disturbance.",False,0.0006391968927346,0.02793304240789688
+C_LIB_02_032,library,"library timing extend panna nalla irukum, closing at 7 pm is too early during semester exams.",False,0.0009021032019518,0.01871739609460947
+C_LIB_02_033,library,librarian sir helped me locate research conference proceedings patiently.,False,0.0005638875882141,0.07659275559164636
+C_LIB_02_034,library,reading hall tables are clean and dusted daily.,False,0.0019212152110412,0.07897979690802924
+C_LIB_02_035,library,cushioned chairs are comfortable for long study sessions.,False,0.0005583074525929,0.11293642905329077
+C_LIB_02_036,library,e-book portal login throws database error frequently.,False,0.0010326859774067,0.013459470754043378
+C_LIB_02_037,library,circulation desk staff are extremely rude when asking for renewals.,False,0.0015127647202461,0.1226452390773443
+C_LIB_02_038,library,digital library has fast internet but headphones are missing or broken.,False,0.000873630226124,0.018524090537742323
+C_LIB_02_039,library,book stock is updated with latest core engineering publications.,False,0.000562404282391,0.02186372001115154
+C_LIB_02_040,library,whispering sound from the entrance lobby destroys the silence.,False,0.0010934907477349,0.05092705160174517
+C_LIB_02_041,library,comfortable seating on the first floor but ceiling fan makes squeaking noise.,False,0.000860939559061,0.04729700252537926
+C_LIB_02_042,library,washrooms near the library stack area are clean and dry.,False,0.0021804827265441,0.061165251868037084
+C_LIB_02_043,library,"the library opens at 8 am promptly, which is very convenient.",False,0.0005771728465333,0.015891034615077213
+C_LIB_02_044,library,springer and scopus search tools work smoothly on all library systems.,False,0.0005762832006439,0.014542098821788694
+C_LIB_02_045,library,"limited seating capacity during placement week, students sit on stairs.",False,0.0010343100875616,0.11764198507917938
+C_LIB_02_046,library,ac cooling is comfortable in afternoon heat.,False,0.0005882843397557,0.03767212772698226
+C_LIB_02_047,library,core subject question bank books are completely missing from shelves.,False,0.0006052326643839,0.009278857098296456
+C_LIB_02_048,library,who is the moron in charge of purchasing books,True,0.8111596703529358,0.7399315645896745
+C_LIB_02_049,library,"damn this library, it sucks big time",True,0.9799312949180604,0.9987914095451061
+C_LIB_02_050,library,staff are lazy idiots who sleep at the desk,True,0.954572856426239,0.9767319370563616
+C_TRN_01_001,transport,the bus is always late by 20 minutes,False,0.002340376144275,0.2642416948651227
+C_TRN_01_002,transport,buses are so crowded that i have to stand for an hour,False,0.019782967865467,0.14222045267477498
+C_TRN_01_003,transport,the driver is very careful and polite,False,0.0007237407262437,0.03572041241048587
+C_TRN_01_004,transport,our route does not cover the new housing area,False,0.0009655650937929,0.0390252783502757
+C_TRN_01_005,transport,"bus reaches college on time every day, thank you",False,0.00074446760118,0.018985385797747036
+C_TRN_01_006,transport,the seats are broken and windows don't close,False,0.0014583421871066,0.07996035775494101
+C_TRN_01_007,transport,fare increased by 200 rupees this semester,False,0.0014346526004374,0.10076220002268022
+C_TRN_01_008,transport,driver was driving rashly and overtaking on the highway,False,0.0025208184961229,0.022886031461167394
+C_TRN_01_009,transport,the bus is clean and well maintained,False,0.0008680955506861,0.03582887645701181
+C_TRN_01_010,transport,no women safety measures in the late evening buses,False,0.0138673912733793,0.2042196543131254
+C_TRN_01_011,transport,buses leave without waiting even if students are running,False,0.0126835014671087,0.43654327928331443
+C_TRN_01_012,transport,the bus broke down on the way twice this month,False,0.0008519514813087,0.025023401655831584
+C_TRN_01_013,transport,"route coverage is good, stops are near my home",False,0.0006295326165854,0.14182605807793028
+C_TRN_01_014,transport,fee is reasonable for the distance covered,False,0.0006283991388045,0.01715080977802112
+C_TRN_01_015,transport,the conductor is helpful and friendly,False,0.0006093136616982,0.039562856243152825
+C_TRN_01_016,transport,ac bus is comfortable and not crowded,False,0.0007595040951855,0.09494076467393889
+C_TRN_01_017,transport,we reach home only after 8 pm because of the long route,False,0.0007922537042759,0.01723294477877647
+C_TRN_01_018,transport,the bus is too crowded in the evening,False,0.0009153787395916,0.03263022345243183
+C_TRN_01_019,transport,bus stops at every small stop and wastes time,False,0.0142478654161095,0.21089889624302322
+C_TRN_01_020,transport,"drivers use mobile phones while driving, unsafe",False,0.0007047231774777,0.027404974382514453
+C_TRN_01_021,transport,bus timing is perfect for morning classes,False,0.0009052618988789,0.21397954012890663
+C_TRN_01_022,transport,no fixed seat so we fight every day,False,0.0250010509043931,0.13374058494990657
+C_TRN_01_023,transport,"students stand in the door step, dangerous",False,0.0502115339040756,0.01667770526588812
+C_TRN_01_024,transport,the buses are old and make loud noise,False,0.2573234438896179,0.45207885147365595
+C_TRN_01_025,transport,transport office staff do not respond to complaints,False,0.00096761866007,0.017644281757821036
+C_TRN_01_026,transport,bus arrives late during rain,False,0.0012631850549951,0.04875486677770423
+C_TRN_01_027,transport,new buses added this year have reduced crowding,False,0.0017502568662166,0.06426856868052838
+C_TRN_01_028,transport,"fuel charges are included, no extra fare so good",False,0.0007328911451622,0.09856055360191157
+C_TRN_01_029,transport,the bus is fine,False,0.001440298045054,0.01676329899981678
+C_TRN_01_030,transport,"bus romba late ah varuthu, first hour miss aagudhu",False,0.00547776510939,0.14128963025144536
+C_TRN_01_031,transport,"seat kedaikave illa, nikkave vendiyathu",False,0.0017394040478393,0.08229572672839605
+C_TRN_01_032,transport,"driver anna romba nalla person, safe ah ottuvaru",False,0.0022547398693859,0.17786806672551728
+C_TRN_01_033,transport,namma area ku bus route illa da,False,0.0028878517914563,0.07898146441002729
+C_TRN_01_034,transport,"fare romba jaasthi, hostel la irundhale nalla",False,0.001261567347683,0.07425991199230071
+C_TRN_01_035,transport,"bus clean ah irukku, AC work aagudhu",False,0.0312236547470092,0.05160227925574813
+C_TRN_01_036,transport,"night bus la bayam ah irukku, lights illa",False,0.0095996772870421,0.19323720737262082
+C_TRN_01_037,transport,buss was latee agaain todaay,False,0.0179517455399036,0.05957267219402692
+C_TRN_01_038,transport,the drivr is rud to students,False,0.015618291683495,0.04846469099721661
+C_TRN_01_039,transport,bus faer is too hihg,False,0.0636999607086181,0.12296761618718688
+C_TRN_01_040,transport,"no rout to my area, i hav to take auto",False,0.0162258818745613,0.4284514669629557
+C_TRN_01_041,transport,the bus alwys breaks dwn,False,0.0381310805678367,0.05623449807954777
+C_TRN_01_042,transport,good driver but the bus is overloaded,False,0.0013786494964733,0.019715555829467244
+C_TRN_01_043,transport,bus is on time but the seats are very uncomfortable,False,0.000797578075435,0.018218725199658753
+C_TRN_01_044,transport,fare is okay but the route is too long,False,0.0008191246306523,0.023803650338825897
+C_TRN_01_045,transport,"clean buses, rude conductor",False,0.1632336676120758,0.5106980440576299
+C_TRN_01_046,transport,"nice drivers and safe journey, but timing is not fixed",False,0.0005498197278939,0.03432386439665051
+C_TRN_01_047,transport,"they added a new stop near the metro station, very convenient",False,0.0005826298147439,0.020236446941756924
+C_TRN_01_048,transport,"this transport is a nightmare, worth every complaint",True,0.0643803179264068,0.2937279117413377
+C_TRN_01_049,transport,driver is a crazy idiot who will kill us one day,True,0.9927823543548584,0.9995541277439258
+C_TRN_01_050,transport,the bus is a pile of junk and the contractor is a thief,True,0.8764047622680664,0.5917857221794128
+C_TRN_02_001,transport,"gps tracking app helps us know the bus location, very useful",False,0.000568259274587,0.02368159549263043
+C_TRN_02_002,transport,"the bus tyre burst yesterday, thankfully no one was hurt",False,0.0011864822590723,0.15619532814927076
+C_TRN_02_003,transport,students without id get blocked and refused a seat,False,0.1862454563379287,0.23473713842378333
+C_TRN_02_004,transport,"a speed limit warning is announced in the bus now, good",False,0.0007977966452017,0.02503441707552226
+C_TRN_02_005,transport,the pickup point is too far from my home,False,0.0014696499565616,0.024178718415142814
+C_TRN_02_006,transport,fare should be reduced for students who use only one way,False,0.0007438502507284,0.01748251233925945
+C_TRN_02_007,transport,cctv in buses makes girls feel safer,False,0.00336614693515,0.34444737365749944
+C_TRN_02_008,transport,transport in-charge helped me change my route quickly,False,0.0006598579348064,0.13690250637355733
+C_TRN_02_009,transport,the bus floor is always dirty and stinks,False,0.9097904562950134,0.917998750327704
+C_TRN_02_010,transport,the second shift buses are too few,False,0.0172605961561203,0.42109791255146145
+C_TRN_02_011,transport,the last bus at 6 pm leaves before our lab ends,False,0.0016194600611925,0.01344479088009412
+C_TRN_02_012,transport,college bus arrives sharp at 7:45 am at tambaram stop.,False,0.0006420754361897,0.11788708316366722
+C_TRN_02_013,transport,"bus number 14 is overcrowded, no place to stand during morning peak hour.",False,0.0011545901652425,0.0667011575365987
+C_TRN_02_014,transport,annual bus fare increased by 5000 rupees without any facility improvement.,False,0.0010525835677981,0.0313861024156119
+C_TRN_02_015,transport,driver drives smoothly and adheres strictly to speed limit on highway.,False,0.0006793804350309,0.07288234658684763
+C_TRN_02_016,transport,new bus route covers avadi and ambattur areas conveniently.,False,0.0008197778370231,0.05257412453720453
+C_TRN_02_017,transport,seats are torn and window panes rattle loudly throughout the trip.,False,0.0010391665855422,0.06757871795182385
+C_TRN_02_018,transport,bus delay made me miss my morning placement technical round.,False,0.0007117954664863,0.07277600438991737
+C_TRN_02_019,transport,speed governor and gps tracking in college buses ensure student safety.,False,0.0006225111428648,0.03831608303616331
+C_TRN_02_020,transport,driver talks rashly and honks continuously in traffic.,False,0.0085411090403795,0.04617124537647844
+C_TRN_02_021,transport,reasonable transport fees compared to other private engineering colleges.,False,0.0005620977608487,0.012588407267824004
+C_TRN_02_022,transport,comfortable cushioned seating in the newly purchased deluxe buses.,False,0.0005876211216673,0.11976715773855531
+C_TRN_02_023,transport,evening buses are packed like sardines after 5 pm labs.,False,0.0027130069211125,0.18998484254168008
+C_TRN_02_024,transport,no college bus connects towards sriperumbudur route.,False,0.000945180770941,0.01921041900793576
+C_TRN_02_025,transport,"emergency exit door was jammed and locked from outside, dangerous hazard.",False,0.0012078592553734,0.014645569160824382
+C_TRN_02_026,transport,transport coordinator speaks politely and accommodated my bus pass transfer.,False,0.0005582412704825,0.03579474414083499
+C_TRN_02_027,transport,bus arrives on time every single day without fail.,False,0.0008263697382062,0.18086339235579668
+C_TRN_02_028,transport,interior of route 8 bus is neat and floors are swept cleanly.,False,0.0005959526752121,0.13512006760954895
+C_TRN_02_029,transport,concession pass is not offered for semester internship students.,False,0.0006083680782467,0.03928008585123091
+C_TRN_02_030,transport,"bus driver took a sharp turn rashly, causing standing students to tumble.",False,0.001932639745064,0.03452566851138756
+C_TRN_02_031,transport,extensive coverage with over forty bus routes spanning entire chennai city.,False,0.0005664179916493,0.05034570751157042
+C_TRN_02_032,transport,bus leaves 10 minutes early without waiting for hostel commuters.,False,0.0010398072190582,0.15396024512798673
+C_TRN_02_033,transport,ample seating available in the 6:30 pm special lab bus.,False,0.0005857908399775,0.02018472548482184
+C_TRN_02_034,transport,ac bus ticket price is excessively high.,False,0.0008299418259412,0.0736413238474916
+C_TRN_02_035,transport,first aid kit is properly stocked and available near driver cabin.,False,0.0006013973033986,0.06623775739740423
+C_TRN_02_036,transport,"suspension is horrible, back pain after every commute.",False,0.0344956889748573,0.34873611056856163
+C_TRN_02_037,transport,driver is courteous and waits patiently for students crossing signal.,False,0.000553106481675,0.10704434011901207
+C_TRN_02_038,transport,bus breakdown near bypass road left us stranded for over an hour.,False,0.0007368170772679,0.07528707382013469
+C_TRN_02_039,transport,special bus arrangements made for inter-college symposium participants.,False,0.0005391691811382,0.016998356654414033
+C_TRN_02_040,transport,"footboard travelling is dangerous, students stand on steps due to overload.",False,0.0027859834954142,0.025257770262688193
+C_TRN_02_041,transport,bus timings are punctual but the conductor shouts unnecessarily.,False,0.0007058275514282,0.022451191822828447
+C_TRN_02_042,transport,clean windshield and working wipers help driver during heavy monsoon rains.,False,0.0009659459465183,0.011095415734573554
+C_TRN_02_043,transport,fare refund was denied when bus route was discontinued midway.,False,0.0006391028291545,0.025908098934427026
+C_TRN_02_044,transport,smooth braking and steady driving throughout the trip.,False,0.0005451830802485,0.028688701192115616
+C_TRN_02_045,transport,standing for fifty kilometers due to crowding causes extreme exhaustion.,False,0.0006082472391426,0.07789000575249748
+C_TRN_02_046,transport,transport department covers rural boarding points reliably.,False,0.0005628960789181,0.03991074178879823
+C_TRN_02_047,transport,bus is well maintained but the fare is quite steep for day scholars.,False,0.0006247189012356,0.013642492445536088
+C_TRN_02_048,transport,"stupid transport office, damn fools never reply",True,0.9959392547607422,0.9999585845819539
+C_TRN_02_049,transport,"bloody useless buses, always late you morons",True,0.9939860105514526,0.9996015765614601
+C_TRN_02_050,transport,the conductor is a clown who shouts at everyone,True,0.0151280993595719,0.10795242249365386
+C_WIFI_01_001,wifi,wifi is so slow in the hostel at night,False,0.015108042396605,0.10076513048136213
+C_WIFI_01_002,wifi,the speed in the academic block is really good,False,0.0008650920353829,0.009751692602836487
+C_WIFI_01_003,wifi,internet disconnects every 10 minutes,False,0.0009006505133584,0.36025219605172415
+C_WIFI_01_004,wifi,no signal in the library basement,False,0.0020955987274646,0.08759707336958152
+C_WIFI_01_005,wifi,the login page keeps asking for password again and again,False,0.0009238594211637,0.01988681447184214
+C_WIFI_01_006,wifi,daily data limit of 2gb is too low for students,False,0.0012351420009508,0.09901643267278244
+C_WIFI_01_007,wifi,wifi works fine in classrooms,False,0.0009175533778034,0.015256337265981471
+C_WIFI_01_008,wifi,"connection drops during online exams, very risky",False,0.0007420490728691,0.02661529714681944
+C_WIFI_01_009,wifi,"hostel wifi coverage is poor, only works near the corridor",False,0.0016849449602887,0.07203587555614797
+C_WIFI_01_010,wifi,videos buffer endlessly after 8 pm,False,0.0010592135367915,0.030109321273310372
+C_WIFI_01_011,wifi,can't connect two devices at the same time,False,0.0007269972120411,0.012996688806679146
+C_WIFI_01_012,wifi,youtube is blocked and even educational videos don't load,False,0.0141311399638652,0.5316090957066639
+C_WIFI_01_013,wifi,new wifi routers have improved coverage a lot,False,0.0009700541850179,0.06956283432247554
+C_WIFI_01_014,wifi,wifi is stable during the day,False,0.001148201408796,0.02967295837670955
+C_WIFI_01_015,wifi,it takes ages to download a 50 mb file,False,0.0006985784857533,0.024253868318672725
+C_WIFI_01_016,wifi,"campus wifi is good enough for browsing, but not for downloads",False,0.0006178725161589,0.017461829613525617
+C_WIFI_01_017,wifi,server is always down during assignment submissions,False,0.0009898809948936,0.04564640259584111
+C_WIFI_01_018,wifi,excellent speed in the new it block,False,0.000799648463726,0.008992448092448913
+C_WIFI_01_019,wifi,the mac address registration process is confusing and slow,False,0.0015432551736012,0.026894518696099996
+C_WIFI_01_020,wifi,in the cafeteria wifi is not available at all,False,0.0008257491863332,0.013437696737936046
+C_WIFI_01_021,wifi,internet is unusable in the evening when everyone is online,False,0.0008882309193722,0.06052958439496904
+C_WIFI_01_022,wifi,the wifi signal is strong in the auditorium,False,0.0006048243376426,0.018480818243375764
+C_WIFI_01_023,wifi,we get logged out every hour and have to login again,False,0.0009070482337847,0.11943591276682763
+C_WIFI_01_024,wifi,the it department fixed the connectivity issue fast,False,0.0006694637122564,0.007123124628983385
+C_WIFI_01_025,wifi,"speed test shows only 1 mbps, shame for an engineering college",False,0.0301435235887765,0.05210409878217036
+C_WIFI_01_026,wifi,data cap resets at midnight which is useless,False,0.0150054972618818,0.1255645622966936
+C_WIFI_01_027,wifi,ping is high so online gaming and coding contests lag,False,0.0224289745092391,0.0526440312166026
+C_WIFI_01_028,wifi,sometimes wifi connects but there is no internet,False,0.0009590582340024,0.014705631011089283
+C_WIFI_01_029,wifi,the wifi is ok for emails and docs,False,0.000846738286782,0.0321693240606714
+C_WIFI_01_030,wifi,"vpn doesn't work on campus wifi, can't access research papers",False,0.0009955381974577,0.011625969179625214
+C_WIFI_01_031,wifi,"wifi romba slow, video call kooda pannamudiyala",False,0.0023539224639534,0.04818047861825897
+C_WIFI_01_032,wifi,"hostel la signal illa da, terrace ku poganum",False,0.0034861150197684,0.10151051481019022
+C_WIFI_01_033,wifi,net speed super ah irukku today,False,0.0048409737646579,0.021390892378971606
+C_WIFI_01_034,wifi,"login aaga mattengudhu, password wrong nu solluthu",False,0.0211638715118169,0.012501948555812931
+C_WIFI_01_035,wifi,class la wifi nalla work aagudhu,False,0.0844053402543068,0.016780637612027312
+C_WIFI_01_036,wifi,daily data mudinjiduchu by evening,False,0.0008681252948008,0.03051637350982989
+C_WIFI_01_037,wifi,"wifi keeps cutting off, rombo irritating",False,0.0642778128385543,0.2765981542265685
+C_WIFI_01_038,wifi,the wiifi is not conecting in my room,False,0.0095218513160943,0.020290659306304318
+C_WIFI_01_039,wifi,internt speed is vry slow,False,0.0040040663443505,0.1038931756794954
+C_WIFI_01_040,wifi,the passwrd keeps changing every week,False,0.0010627390583977,0.0834334290527811
+C_WIFI_01_041,wifi,"cant open any site, blokcing everythng",False,0.4683441817760467,0.24573592386954554
+C_WIFI_01_042,wifi,wfi is workin gud in the lib,False,0.00802284758538,0.033645509298176994
+C_WIFI_01_043,wifi,the wifi goes down when it rains,False,0.0211710818111896,0.0868814511581529
+C_WIFI_01_044,wifi,signal is weak in the ground floor and fine on upper floors,False,0.0008921275148168,0.05653329760701648
+C_WIFI_01_045,wifi,"the speed is fine, but connection is unstable",False,0.000622185121756,0.014652359602326782
+C_WIFI_01_046,wifi,login is simple but the speed is bad,False,0.002913944190368,0.08294308621051093
+C_WIFI_01_047,wifi,"good coverage across the campus, though speeds drop in the evening",False,0.0005773178418166,0.01593452584361023
+C_WIFI_01_048,wifi,"wifi is a scam, fix it you useless clowns",True,0.9274067282676696,0.7907767880200942
+C_WIFI_01_049,wifi,the it people are idiots who can't run a single router,True,0.94585520029068,0.9170494612293649
+C_WIFI_01_050,wifi,"stupid wifi, stupid password system, i hate this college internet",True,0.9924938678741456,0.9999587236770541
+C_WIFI_02_001,wifi,wifi works inside the hostel room but not on the terrace,False,0.0007501692161895,0.01474242225359903
+C_WIFI_02_002,wifi,"students share one login id, so everyone is slow",False,0.0109644010663032,0.03263978406351351
+C_WIFI_02_003,wifi,the it team's helpdesk number never picks up,False,0.0009254844626411,0.05091917213942175
+C_WIFI_02_004,wifi,the speed in the library is superb for downloading study material,False,0.0006353284115903,0.022742619955113147
+C_WIFI_02_005,wifi,we are not able to join zoom classes because of the lag,False,0.0011731297709047,0.019017739924934156
+C_WIFI_02_006,wifi,the captive portal crashes on my phone,False,0.0224988218396902,0.03902670637918037
+C_WIFI_02_007,wifi,"bandwidth is throttled after the data cap, completely unusable",False,0.0009292801260016,0.051759656944337894
+C_WIFI_02_008,wifi,wifi in the sports complex is non existent,False,0.001081280526705,0.021576509972920096
+C_WIFI_02_009,wifi,campus wifi is better than my home broadband,False,0.0007827180088497,0.03360986648005309
+C_WIFI_02_010,wifi,we need a better access point in the girls hostel second floor,False,0.0013384670019149,0.04070536030906758
+C_WIFI_02_011,wifi,"the connection is reliable during exams, good job",False,0.0005617003771476,0.02071307491718041
+C_WIFI_02_012,wifi,too many restrictions on websites for coding practice,False,0.0012391005875542,0.03356046624519209
+C_WIFI_02_013,wifi,"the wifi at 3 am is faster, that's when i study lol",False,0.0012189064873382,0.07537944683319213
+C_WIFI_02_014,wifi,"wifi speed is excellent in cse department, helps download datasets.",False,0.0005799668142572,0.016952188596859624
+C_WIFI_02_015,wifi,frequent disconnection during online coding assessments is frustrating.,False,0.0006247703568078,0.02381786161387105
+C_WIFI_02_016,wifi,captive portal session expires every thirty minutes automatically.,False,0.0005950153572484,0.1190850612619638
+C_WIFI_02_017,wifi,2 gb daily bandwidth limit gets exhausted very quickly while downloading lecture slides.,False,0.0006784248398616,0.06001827688987605
+C_WIFI_02_018,wifi,network coverage reaches the open auditorium and canteen lawns seamlessly.,False,0.0005464206915348,0.04177374333763377
+C_WIFI_02_019,wifi,stable and reliable network connection throughout campus placement interview week.,False,0.0005360671202652,0.03460607797472115
+C_WIFI_02_020,wifi,signal drops completely inside hostel corner corridors.,False,0.000681780395098,0.14399815125211865
+C_WIFI_02_021,wifi,authentication server gives invalid credential errors even with correct roll number password.,False,0.0008848013821989,0.0311235549776647
+C_WIFI_02_022,wifi,download speed exceeds 50 mbps on fifth floor lab access point.,False,0.0005740547203458,0.10179399889699597
+C_WIFI_02_023,wifi,unlimited quota for academic domains like arxiv and github is helpful.,False,0.0005928034661337,0.17899080062382955
+C_WIFI_02_024,wifi,wifi drops randomly whenever rain starts.,False,0.0010367601644247,0.020422535473143943
+C_WIFI_02_025,wifi,"ping latency is low, online mock interviews load smoothly.",False,0.0007229865295812,0.1244861942735458
+C_WIFI_02_026,wifi,unable to connect android phone to campus wifi network.,False,0.0007781686726957,0.00927897399980668
+C_WIFI_02_027,wifi,strong signal strength in library reading hall.,False,0.0005898738163523,0.014411782043554755
+C_WIFI_02_028,wifi,single sign-on login page loads promptly on browser startup.,False,0.0006034528487361,0.03819657173539265
+C_WIFI_02_029,wifi,poor bandwidth throttling makes streaming educational videos buffer constantly.,False,0.0106525821611285,0.14897846472007478
+C_WIFI_02_030,wifi,wifi network is reliable and never went down during symposium registration.,False,0.000727299018763,0.0886449593862145
+C_WIFI_02_031,wifi,hostel wifi speed crawls below 100 kbps during night peak hours.,False,0.0007343072793446,0.04418097881142754
+C_WIFI_02_032,wifi,access point installed right outside our dorm room provides full bars.,False,0.0009588247048668,0.01836484145108205
+C_WIFI_02_033,wifi,vpn connection is blocked by the campus firewall.,False,0.0008741880883462,0.030049180401789687
+C_WIFI_02_034,wifi,reset password portal took three days to resolve my locked account.,False,0.0007435415755026,0.019547468697801648
+C_WIFI_02_035,wifi,fast connection in seminar hall enabled live streaming without glitch.,False,0.0007268281769938,0.04356892204242311
+C_WIFI_02_036,wifi,daily quota of 1 gb is ridiculous for engineering students doing projects.,False,0.0215843562036752,0.41610038342780165
+C_WIFI_02_037,wifi,wifi is fast in the morning but disconnects repeatedly after lunch.,False,0.0008489931351505,0.05863668741907647
+C_WIFI_02_038,wifi,it center solved my mac address registration issue in five minutes.,False,0.0006683901301585,0.020696764520355924
+C_WIFI_02_039,wifi,good network coverage across all workshop buildings.,False,0.0005617614369839,0.059157320281304944
+C_WIFI_02_040,wifi,constant dns resolution failure makes web pages inaccessible.,False,0.0015243334928527,0.07533007832282886
+C_WIFI_02_041,wifi,smooth roaming between department wifi access points.,False,0.0006439942517317,0.015967919720265518
+C_WIFI_02_042,wifi,speed in mechanical block is sluggish.,False,0.0010250547202304,0.04335464884701329
+C_WIFI_02_043,wifi,ample bandwidth allocated for video conferencing interviews.,False,0.0005858840886503,0.033494324395764066
+C_WIFI_02_044,wifi,dead zones exist in the ground floor bathrooms and cafeteria corner.,False,0.0007417642045766,0.22002279495266577
+C_WIFI_02_045,wifi,network packet drop rate is practically zero today.,False,0.0009189112461172,0.16310398578046656
+C_WIFI_02_046,wifi,login gateway freezes when too many students connect simultaneously.,False,0.0007435766747221,0.035480689809179795
+C_WIFI_02_047,wifi,wifi connection has high speed but frequent login timeouts irritate me.,False,0.0015118669252842,0.026531148896655466
+C_WIFI_02_048,wifi,"damn the internet is crap, worthless it team",True,0.9790052175521852,0.9996984024020797
+C_WIFI_02_049,wifi,who the hell designed this bullshit login process,True,0.9795175790786744,0.9998823476683595
+C_WIFI_02_050,wifi,"useless admin, block your own brain not youtube",True,0.9192388653755188,0.9859853708438847

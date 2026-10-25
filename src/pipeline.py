@@ -6,11 +6,13 @@ from src.sentiment import predict_sentiment
 
 _tox = None
 def is_abusive(text, thr=0.5):
-    """Swappable: replace with DistilBERT / toxic-bert later, same signature."""
+    """toxic-bert (pre-trained). Score = the highest of its six toxicity scores."""
     global _tox
     if _tox is None:
-        _tox = joblib.load("models/toxicity_tfidf_logreg.joblib")
-    return bool(_tox.predict_proba([str(text)])[0, 1] >= thr)
+        from transformers import pipeline as hf_pipeline
+        _tox = hf_pipeline("text-classification", model="unitary/toxic-bert", top_k=None)
+    out = _tox([str(text)], truncation=True, max_length=128, function_to_apply="sigmoid")[0]
+    return bool(max(d["score"] for d in out) >= thr)
 
 def analyse(text, facility):
     """-> {'abusive': bool, 'aspects': [{'category','aspect_term','clause','sentiment'}]}"""

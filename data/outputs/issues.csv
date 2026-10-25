@@ -1,19 +1,18 @@
 facility,category,mentions,rating,positive,neutral,negative,negative_share
-canteen,waiting time,8,1.5,1,0,7,0.875
+canteen,waiting time,9,1.44,1,0,8,0.889
 canteen,quantity,5,1.8,1,0,4,0.8
 canteen,price,16,2.0,4,0,12,0.75
-canteen,seating,7,2.14,2,0,5,0.714
+canteen,seating,8,2.0,2,0,6,0.75
 classrooms,noise,15,1.93,3,1,11,0.733
 hostel_mess,variety,9,1.22,0,1,8,0.889
 hostel_mess,quantity,7,1.57,1,0,6,0.857
 hostel_mess,waiting time,12,1.5,1,1,10,0.833
 hostel_rooms,noise,7,1.0,0,0,7,1.0
-hostel_rooms,maintenance,16,1.5,2,0,14,0.875
+hostel_rooms,maintenance,17,1.47,2,0,15,0.882
 hostel_rooms,water supply,15,2.07,4,0,11,0.733
 labs,equipment condition,16,2.0,4,0,12,0.75
 library,ac/temperature,11,2.09,3,0,8,0.727
 library,opening hours,14,2.14,4,0,10,0.714
 transport,crowding,8,1.25,0,1,7,0.875
-transport,bus condition,15,2.07,4,0,11,0.733
 wifi,login issues,17,1.71,2,2,13,0.765
 wifi,reliability,15,2.07,4,0,11,0.733

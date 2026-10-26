@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block title %}Ratings - {{ project_name }}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Facility and Topic Ratings</h1>
+    <p class="page-subtitle">Overall facility scores (1 to 5) and topic-level sentiment breakdowns across eight campus facilities.</p>
+    <div class="tip-box">
+        <span class="tip-symbol">💡</span>
+        <span>Use the view toggle to switch between facility-level scores and topic breakdowns, or filter the table below.</span>
+    </div>
+</div>
+
+<!-- Section 1: Interactive Control Panel & Chart -->
+<section class="content-panel panel-white">
+    <div class="panel-header">
+        <div>
+            <h2 class="section-title" id="chartHeaderTitle">Overall Facility Ratings</h2>
+            <p class="section-desc" id="chartHeaderDesc">Average ratings on a 1.0 to 5.0 scale. The dashed line marks the campus benchmark (2.54).</p>
+        </div>
+        
+        <!-- Controls: View Toggle, Facility Picker, Topic Picker -->
+        <div class="ratings-controls-wrap">
+            <div class="btn-group" id="viewModeGroup">
+                <button type="button" class="btn-sort active" id="btnModeOverall" data-mode="overall">All facilities</button>
+                <button type="button" class="btn-sort" id="btnModeTopics" data-mode="topics">Topic breakdown</button>
+            </div>
+
+            <div class="select-group">
+                <label for="facilitySelect" class="control-label">Facility:</label>
+                <select id="facilitySelect" class="form-select">
+                    <option value="all">All facilities</option>
+                    {% for fac in facilities %}
+                    <option value="{{ fac.id }}">{{ fac.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="select-group" id="topicSelectWrap" style="display: none;">
+                <label for="topicSelect" class="control-label">Topic:</label>
+                <select id="topicSelect" class="form-select">
+                    <option value="all">All topics</option>
+                    {% for top in topics %}
+                    <option value="{{ top }}">{{ top }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart Canvas -->
+    <div class="chart-container-box">
+        <div class="chart-wrapper">
+            <canvas id="ratingsChart" height="290"></canvas>
+        </div>
+        <div class="chart-legend-row">
+            <div class="legend-item"><span class="legend-swatch swatch-green"></span> Good (&ge; 2.60)</div>
+            <div class="legend-item"><span class="legend-swatch swatch-amber"></span> Moderate (2.45 &ndash; 2.59)</div>
+            <div class="legend-item"><span class="legend-swatch swatch-red"></span> Needs attention (&lt; 2.45)</div>
+            <div class="legend-item"><span class="legend-line-dashed"></span> Campus average (2.54)</div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2: Sortable Ratings Data Table -->
+<section class="content-panel panel-white">
+    <div class="panel-header">
+        <div>
+            <h2 class="section-title">Ratings Data Table</h2>
+            <p class="section-desc">Click any column header to sort ascending or descending. Use the search bar to filter rows instantly.</p>
+        </div>
+        <div class="table-search-box">
+            <input type="text" id="ratingsTableSearch" placeholder="Filter by facility or topic..." class="input-search">
+        </div>
+    </div>
+
+    <!-- Row Count Indicator -->
+    <div class="table-meta-bar">
+        <span class="row-count-text" id="tableRowCount">Showing 66 records</span>
+        <span class="table-note-text">Extracted from 800 verified student feedback comments</span>
+    </div>
+
+    <!-- Sortable Table -->
+    <div class="table-responsive">
+        <table class="data-table" id="ratingsDataTable">
+            <thead>
+                <tr>
+                    <th class="sortable-th" data-col="display_facility">
+                        Facility <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="category">
+                        Topic / Category <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="rating">
+                        Rating <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="mentions">
+                        Mentions <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="positive">
+                        Positive <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="neutral">
+                        Neutral <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="negative">
+                        Negative <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="negative_share">
+                        Negative share <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="ratingsTableBody">
+                <!-- Injected and updated dynamically via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}
+
+{% block story_nav %}
+<div class="story-nav-bar">
+    <div class="story-current">
+        <span class="story-step-indicator">Page 2 of 6</span>
+        <span class="story-desc">Facility &amp; Topic Ratings</span>
+    </div>
+    <div class="story-next">
+        <a href="{{ url_for('issues') }}" class="btn-story-next">
+            Next: Recurring issues &rarr;
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Embed data directly from ratings.csv
+    window.RATINGS_DATA = {{ ratings_data|tojson }};
+    window.CAMPUS_AVG = {{ campus_avg }};
+</script>
+{% endblock %}

@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}Submit Feedback - {{ project_name }}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Submit Live Feedback</h1>
+    <p class="page-subtitle">Test custom student feedback comments in real time through the natural language processing pipeline.</p>
+    <div class="tip-box">
+        <span class="tip-symbol">💡</span>
+        <span>Comments submitted here are evaluated live in memory for demonstration purposes and are never saved to disk.</span>
+    </div>
+</div>
+
+<!-- Section 1: Interactive Submission Form -->
+<section class="content-panel panel-white">
+    {% if not models_ready %}
+    <div class="alert-banner-error" style="margin-bottom: 24px;">
+        <strong>Notice:</strong> Machine learning models could not be loaded into memory. {{ model_error|default("Please ensure model files exist in models/.") }}
+    </div>
+    {% endif %}
+
+    <div class="submit-form-wrap">
+        <!-- Demo Quick-Fill Buttons -->
+        <div class="quick-examples-box">
+            <span class="quick-examples-label">Demo Quick-Fill:</span>
+            <div class="quick-btn-group">
+                <button type="button" class="btn-example" onclick="loadExample('positive')">Positive</button>
+                <button type="button" class="btn-example" onclick="loadExample('negative')">Negative</button>
+                <button type="button" class="btn-example" onclick="loadExample('mixed')">Mixed</button>
+                <button type="button" class="btn-example" onclick="loadExample('neutral')">Neutral</button>
+                <button type="button" class="btn-example" onclick="loadExample('abusive')">Abusive</button>
+            </div>
+        </div>
+
+        <form id="feedbackForm" onsubmit="handleFeedbackSubmit(event)">
+            <div class="form-row-top">
+                <div class="form-group facility-picker-group">
+                    <label for="submitFacility" class="form-label">Campus Facility</label>
+                    <select id="submitFacility" class="form-select submit-facility-select" required>
+                        {% for fac in facilities %}
+                        <option value="{{ fac.id }}">{{ fac.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group text-group">
+                <div class="textarea-header">
+                    <label for="submitText" class="form-label">Student Feedback Comment</label>
+                    <span class="char-count" id="charCounter">0 / 1000 characters</span>
+                </div>
+                <textarea id="submitText" rows="4" class="form-textarea" placeholder="Type or paste student feedback here (e.g. 'The library is very quiet and peaceful with plenty of clean study desks.')..." required maxlength="3000"></textarea>
+                <div id="formErrorMessage" class="form-error-msg" style="display: none;"></div>
+            </div>
+
+            <div class="submit-actions-row">
+                <button type="submit" class="btn-primary-action" id="btnSubmitAnalyse">
+                    <span id="btnSubmitSpinner" style="display:none;" class="spinner"></span>
+                    <span id="btnSubmitText">Analyse comment</span>
+                </button>
+                <button type="button" class="btn-clear-action" id="btnClear" onclick="clearFeedbackForm()">
+                    Clear
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Section 2: Real-time Analysis Results Area -->
+<section class="content-panel panel-white" id="resultsSection" style="display: none;">
+    <div class="panel-header">
+        <div>
+            <h2 class="section-title">Analysis Results</h2>
+            <p class="section-desc">Real-time inference using aspect DistilBERT, sentiment DistilBERT, and Toxic-BERT.</p>
+        </div>
+        <div id="metaDetailsBadge" class="clean-score-pill"></div>
+    </div>
+
+    <!-- Truncation notification if > 1000 characters -->
+    <div id="truncationNoticeBox" class="truncation-warning" style="display: none; margin-bottom: 16px;"></div>
+
+    <!-- Abusive Quarantine Alert (Shows if comment is abusive, with ZERO topic cards) -->
+    <div id="quarantineAlertBox" class="quarantine-alert-box" style="display: none;">
+        <div class="quarantine-header">
+            <h3 class="quarantine-title">Quarantined Abusive Content</h3>
+            <span id="quarantineScoreBadge" class="quarantine-score-pill"></span>
+        </div>
+        <p class="quarantine-desc">
+            This comment was marked as abusive by the Toxic-BERT model. In accordance with campus data moderation policy, it has been quarantined and excluded from all facility ratings and topic breakdowns.
+        </p>
+        <p class="quarantine-notice">
+            Policy enforcement: Zero abusive entries are admitted into facility scorecards or sentiment counts.
+        </p>
+    </div>
+
+    <!-- Safe Assessment Bar (Shows if clean) -->
+    <div id="safeAssessmentBox" class="clean-eval-strip" style="display: none;">
+        <span class="clean-eval-title">Content Check Passed &bull; Safe for Facility Evaluation</span>
+        <span id="safeScoreBadge" class="clean-score-pill"></span>
+    </div>
+
+    <!-- Identified Topics Section (Shows if clean and aspects exist) -->
+    <div id="aspectsContainer" style="display: none;">
+        <div style="font-size: 0.95rem; font-weight: 700; color: var(--main-color); margin-bottom: 14px;">
+            Detected Facility Topics &amp; Sentiment:
+        </div>
+        <div id="aspectsCardsGrid" class="aspect-results-grid"></div>
+    </div>
+
+    <!-- No Topics Fallback (Shows if clean but no topics detected) -->
+    <div id="noAspectsBox" class="no-topics-box" style="display: none;">
+        No specific facility topics were identified in this comment. The text was evaluated as general feedback.
+    </div>
+</section>
+{% endblock %}
+
+{% block story_nav %}
+<div class="story-nav-bar">
+    <div class="story-current">
+        <span class="story-step-indicator">Page 6 of 6</span>
+        <span class="story-desc">Submit Live Feedback</span>
+    </div>
+    <div class="story-next">
+        <a href="{{ url_for('home') }}" class="btn-story-next">
+            &larr; Back to Home Overview
+        </a>
+    </div>
+</div>
+{% endblock %}

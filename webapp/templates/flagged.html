@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block title %}Flagged Comments - {{ project_name }}{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Flagged Abusive Comments</h1>
+    <p class="page-subtitle">Comments that the toxicity model marked as abusive and quarantined to protect facility rating integrity.</p>
+    <div class="tip-box">
+        <span class="tip-symbol">💡</span>
+        <span>Comments are truncated to prevent offensive language from displaying prominently. Click any row to inspect the full submission.</span>
+    </div>
+</div>
+
+<!-- Section 1: Executive Count & Policy Explanation -->
+<section class="content-panel panel-white">
+    <div class="flagged-overview-grid">
+        <div class="flagged-stat-col">
+            <div class="kpi-label">Quarantined Content Count</div>
+            <div class="kpi-value">
+                {{ flagged_count }} <span class="kpi-unit">of {{ total_comments }} comments</span>
+            </div>
+            <div class="kpi-sub">{{ moderation_rate }}% total campus feedback moderation rate</div>
+        </div>
+        
+        <div class="flagged-explanation-col">
+            <h3 class="explanation-title">Data Integrity Policy</h3>
+            <p class="explanation-text">
+                To ensure that facility ratings accurately reflect constructive student feedback rather than personal abuse, submissions flagged with a confidence score above 0.50 by Toxic-BERT are isolated from the dataset and excluded from all rating, topic, and sentiment calculations.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Section 2: Small Bar Summary by Facility -->
+<section class="content-panel panel-white">
+    <div class="panel-header">
+        <div>
+            <h2 class="section-title">Flagged Comments per Facility</h2>
+            <p class="section-desc">Distribution of quarantined comments across campus facilities. Click any facility pill to filter the table below.</p>
+        </div>
+        <div class="filter-reset-wrap">
+            <button type="button" class="btn-sort" id="btnResetFacilityFilter">Show all facilities</button>
+        </div>
+    </div>
+
+    <!-- Mini Horizontal Bars / Distribution Grid -->
+    <div class="facility-dist-grid" id="facilityDistGrid">
+        {% for item in facility_breakdown %}
+        <div class="dist-card" data-fac="{{ item.id }}" onclick="filterByFacilityCard('{{ item.id }}')">
+            <div class="dist-card-header">
+                <span class="dist-fac-name">{{ item.name }}</span>
+                <span class="dist-count-badge">{{ item.count }} flagged</span>
+            </div>
+            <div class="dist-bar-track">
+                <div class="dist-bar-fill" style="width: {{ (item.count / 7) * 100 }}%;"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Section 3: Quarantined Feedback Data Table -->
+<section class="content-panel panel-white">
+    <div class="panel-header">
+        <div>
+            <h2 class="section-title">Quarantined Feedback Records</h2>
+            <p class="section-desc">Click column headers to sort. Each comment is truncated by default to maintain safe presentation.</p>
+        </div>
+
+        <div class="flagged-controls-row">
+            <div class="select-group">
+                <label for="flaggedFacilitySelect" class="control-label">Facility:</label>
+                <select id="flaggedFacilitySelect" class="form-select">
+                    <option value="all">All facilities</option>
+                    {% for item in facility_breakdown %}
+                    <option value="{{ item.id }}">{{ item.name }} ({{ item.count }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="search-wrap">
+                <input type="text" id="flaggedSearchInput" placeholder="Search by comment text or ID..." class="input-search">
+            </div>
+        </div>
+    </div>
+
+    <!-- Meta Bar with Dynamic Count -->
+    <div class="table-meta-bar">
+        <span class="row-count-text" id="flaggedRowCount">Showing {{ flagged_count }} of {{ flagged_count }} flagged comments</span>
+        <span class="table-note-text">Evaluated with pre-trained unitary/toxic-bert model</span>
+    </div>
+
+    <!-- Clean Table -->
+    <div class="table-responsive">
+        <table class="data-table" id="flaggedDataTable">
+            <thead>
+                <tr>
+                    <th class="sortable-th" data-col="id" style="width: 150px;">
+                        Comment ID <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="display_facility" style="width: 160px;">
+                        Facility <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="bert_score" style="width: 170px;">
+                        Toxicity score <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                    <th class="sortable-th" data-col="text">
+                        Comment text (click to expand) <span class="sort-icon">&updownarrow;</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="flaggedTableBody">
+                <!-- Injected dynamically via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}
+
+{% block story_nav %}
+<div class="story-nav-bar">
+    <div class="story-current">
+        <span class="story-step-indicator">Page 5 of 6</span>
+        <span class="story-desc">Flagged Abusive Comments</span>
+    </div>
+    <div class="story-next">
+        <a href="{{ url_for('submit') }}" class="btn-story-next">
+            Next: Submit feedback &rarr;
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Embed 49 flagged comments strictly from predictions.csv and toxicity_bert_campus.csv
+    window.FLAGGED_DATA = {{ flagged_comments|tojson }};
+</script>
+{% endblock %}

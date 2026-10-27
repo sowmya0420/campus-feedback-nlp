@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Facility Explorer - {{ project_name }}{% endblock %}
+
+{% block content %}
+<div class="page-container">
+    <header class="page-header">
+        <div class="header-content">
+            <h1 class="page-title">Facility Explorer</h1>
+            <p class="page-subtitle">Inspect individual campus facilities, overall scores, and primary complaint areas.</p>
+        </div>
+        <!-- Facility Picker Dropdown -->
+        <div class="header-control">
+            <label for="explorerFacilitySelect" class="control-label">Facility:</label>
+            <select id="explorerFacilitySelect" class="form-select explorer-select">
+                {% for fac in facilities %}
+                <option value="{{ fac.id }}">{{ fac.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </header>
+
+    {% if not facilities %}
+    <div class="empty-results-placeholder">
+        <p class="placeholder-text">No facility data available.</p>
+    </div>
+    {% else %}
+    <!-- 4 KPI Cards for the Selected Facility -->
+    <div class="kpi-grid kpi-grid-4">
+        <div class="kpi-card">
+            <span class="kpi-label">Overall Rating</span>
+            <div class="kpi-value-row">
+                <span class="kpi-value" id="facRating">--</span>
+                <span class="rating-badge" id="facBadge">--</span>
+            </div>
+            <span class="kpi-sub" id="facStatus">--</span>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-label">Feedback Volume</span>
+            <span class="kpi-value" id="facComments">--</span>
+            <span class="kpi-sub">verified student comments</span>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-label">Top Complaint Area</span>
+            <span class="kpi-value" id="facTopIssue">--</span>
+            <span class="kpi-sub">most frequent negative topic</span>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-label">Recurring Issues</span>
+            <span class="kpi-value" id="facIssuesCount">--</span>
+            <span class="kpi-sub">problem areas identified</span>
+        </div>
+    </div>
+
+    <!-- Split Cards: Left = Small Chart, Right = Aspect Breakdown -->
+    <div class="explorer-body-grid">
+        <div class="content-panel">
+            <div class="panel-header-compact">
+                <h3 class="panel-title" id="chartCardTitle">Aspect Sentiment Ratings</h3>
+                <span class="panel-hint">Aspect scores on a 1.0 to 5.0 scale</span>
+            </div>
+            <div class="chart-wrapper-compact">
+                <canvas id="explorerChart" height="230"></canvas>
+            </div>
+        </div>
+
+        <div class="content-panel">
+            <div class="panel-header-compact">
+                <h3 class="panel-title">Aspect Details</h3>
+                <span class="panel-hint" id="aspectCountHint">Aspect breakdown</span>
+            </div>
+            <div class="aspect-scroll-list" id="explorerAspectList">
+                <!-- Rendered dynamically -->
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    window.EXPLORER_DATA = {{ facilities|tojson }};
+</script>
+{% endblock %}

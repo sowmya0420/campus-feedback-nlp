@@ -3,115 +3,106 @@
 {% block title %}Recurring Issues - {{ project_name }}{% endblock %}
 
 {% block content %}
-<div class="page-header">
-    <h1 class="page-title">Recurring Campus Issues</h1>
-    <p class="page-subtitle">Topics with high negative mention shares and significant student complaints across campus facilities.</p>
-    <div class="tip-box">
-        <span class="tip-symbol">💡</span>
-        <span>Adjust the severity slider to filter issues by negative complaint percentage, and click any row to inspect real student comments.</span>
-    </div>
-</div>
-
-<!-- Section 1: Interactive Control Panel & Horizontal Bar Chart -->
-<section class="content-panel panel-white">
-    <div class="panel-header">
-        <div>
-            <h2 class="section-title" id="issuesChartTitle">Recurring Issues Ranked by Negative Share</h2>
-            <p class="section-desc" id="issuesChartDesc">Displaying recurring problem areas with a negative mention share of at least 70%.</p>
+<div class="page-container">
+    <header class="page-header">
+        <div class="header-content">
+            <h1 class="page-title">Recurring Campus Issues</h1>
+            <p class="page-subtitle">Topics with high negative mention shares and significant student complaints across campus facilities.</p>
         </div>
-        
-        <!-- Controls: Facility Filter, Severity Slider, Sorting -->
-        <div class="issues-controls-wrap">
-            <div class="control-item">
-                <label for="issueFacilitySelect" class="control-label">Facility:</label>
-                <select id="issueFacilitySelect" class="form-select">
-                    <option value="all">All facilities</option>
-                    {% for fac in facilities %}
-                    <option value="{{ fac.id }}">{{ fac.name }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <!-- Inner Tabs Bar -->
+        <div class="inner-tabs-bar" data-target="issuesPanels">
+            <button type="button" class="btn-inner-tab active" data-tab="chart">Severity Chart</button>
+            <button type="button" class="btn-inner-tab" data-tab="comments">Verified Comments</button>
+        </div>
+    </header>
 
-            <div class="control-item slider-control-item">
-                <label for="severitySlider" class="control-label">
-                    Severity threshold: <strong id="sliderValueDisplay">{{ slider_min }}%</strong>
-                </label>
-                <input type="range" 
-                       id="severitySlider" 
-                       min="{{ slider_min }}" 
-                       max="{{ slider_max }}" 
-                       step="0.5" 
-                       value="{{ slider_min }}" 
-                       class="form-range">
-                <div class="slider-scale-limits">
-                    <span>{{ slider_min }}%</span>
-                    <span>{{ slider_max }}%</span>
+    <!-- Tab Panel 1: Interactive Severity Chart -->
+    <div class="inner-tab-panel" id="tabPanel-chart">
+        <section class="content-panel">
+            <div class="panel-header">
+                <div>
+                    <h2 class="section-title" id="issuesChartTitle">Recurring Issues Ranked by Negative Share</h2>
+                    <p class="section-desc" id="issuesChartDesc">Displaying recurring problem areas with a negative mention share of at least 70%.</p>
+                </div>
+                
+                <!-- Controls: Facility Filter, Severity Slider, Sorting -->
+                <div class="issues-controls-wrap">
+                    <div class="control-item">
+                        <label for="issueFacilitySelect" class="control-label">Facility:</label>
+                        <select id="issueFacilitySelect" class="form-select">
+                            <option value="all">All facilities</option>
+                            {% for fac in facilities %}
+                            <option value="{{ fac.id }}">{{ fac.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="control-item slider-control-item">
+                        <label for="severitySlider" class="control-label">
+                            Severity threshold: <strong id="sliderValueDisplay">{{ slider_min }}%</strong>
+                        </label>
+                        <input type="range" 
+                               id="severitySlider" 
+                               min="{{ slider_min }}" 
+                               max="{{ slider_max }}" 
+                               step="0.5" 
+                               value="{{ slider_min }}" 
+                               class="form-range">
+                        <div class="slider-scale-limits">
+                            <span>{{ slider_min }}%</span>
+                            <span>{{ slider_max }}%</span>
+                        </div>
+                    </div>
+
+                    <div class="control-item">
+                        <label for="issueSortSelect" class="control-label">Sort by:</label>
+                        <select id="issueSortSelect" class="form-select">
+                            <option value="neg_share">Highest negative share</option>
+                            <option value="mentions">Most mentions</option>
+                            <option value="rating">Lowest rating</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
-            <div class="control-item">
-                <label for="issueSortSelect" class="control-label">Sort by:</label>
-                <select id="issueSortSelect" class="form-select">
-                    <option value="neg_share">Highest negative share</option>
-                    <option value="mentions">Most mentions</option>
-                    <option value="rating">Lowest rating</option>
-                </select>
+            <!-- Horizontal Bar Chart -->
+            <div class="chart-container-box">
+                <div class="chart-wrapper">
+                    <canvas id="issuesChart" height="340"></canvas>
+                </div>
+                <div class="chart-legend-row">
+                    <div class="legend-item"><span class="legend-swatch swatch-red"></span> High severity (&ge; 85% negative)</div>
+                    <div class="legend-item"><span class="legend-swatch swatch-amber"></span> Moderate severity (75% &ndash; 84.9%)</div>
+                    <div class="legend-item"><span class="legend-swatch swatch-orange"></span> Notable severity (70% &ndash; 74.9%)</div>
+                </div>
             </div>
-        </div>
+        </section>
     </div>
 
-    <!-- Horizontal Bar Chart -->
-    <div class="chart-container-box">
-        <div class="chart-wrapper">
-            <canvas id="issuesChart" height="360"></canvas>
-        </div>
-        <div class="chart-legend-row">
-            <div class="legend-item"><span class="legend-swatch swatch-red"></span> High severity (&ge; 85% negative)</div>
-            <div class="legend-item"><span class="legend-swatch swatch-amber"></span> Moderate severity (75% &ndash; 84.9%)</div>
-            <div class="legend-item"><span class="legend-swatch swatch-purple"></span> Notable severity (70% &ndash; 74.9%)</div>
-        </div>
-    </div>
-</section>
+    <!-- Tab Panel 2: Expandable Issues List with Comments -->
+    <div class="inner-tab-panel" id="tabPanel-comments" style="display: none;">
+        <section class="content-panel">
+            <div class="panel-header">
+                <div>
+                    <h2 class="section-title">Verified Student Comments by Issue</h2>
+                    <p class="section-desc">Click any recurring issue below to inspect verified student comments explaining why students were dissatisfied.</p>
+                </div>
+                <div class="table-meta-bar" style="margin: 0;">
+                    <span class="row-count-text" id="issuesRowCount">Showing recurring issues</span>
+                </div>
+            </div>
 
-<!-- Section 2: Expandable Issues List with Verified Student Comments -->
-<section class="content-panel panel-white">
-    <div class="panel-header">
-        <div>
-            <h2 class="section-title">Verified Student Comments by Issue</h2>
-            <p class="section-desc">Click any recurring issue below to expand verified student comments explaining why students were dissatisfied.</p>
-        </div>
-    </div>
-
-    <!-- Meta Bar with Dynamic Row Count -->
-    <div class="table-meta-bar">
-        <span class="row-count-text" id="issuesRowCount">Showing 16 of 16 recurring issues</span>
-        <span class="table-note-text">Abusive content has been quarantined and excluded</span>
-    </div>
-
-    <!-- Expandable Issues Container -->
-    <div class="expandable-issues-container" id="expandableIssuesList">
-        <!-- Rendered dynamically by JavaScript -->
-    </div>
-</section>
-{% endblock %}
-
-{% block story_nav %}
-<div class="story-nav-bar">
-    <div class="story-current">
-        <span class="story-step-indicator">Page 3 of 6</span>
-        <span class="story-desc">Recurring Campus Issues</span>
-    </div>
-    <div class="story-next">
-        <a href="{{ url_for('summaries') }}" class="btn-story-next">
-            Next: Summaries &rarr;
-        </a>
+            <!-- Expandable Issues Container with internal scroll -->
+            <div class="expandable-issues-container" id="expandableIssuesList">
+                <!-- Rendered dynamically by JavaScript -->
+            </div>
+        </section>
     </div>
 </div>
 {% endblock %}
 
 {% block extra_scripts %}
 <script>
-    // Embed issues data and slider bounds strictly from data/outputs/issues.csv
     window.ISSUES_DATA = {{ issues_data|tojson }};
     window.SLIDER_MIN = {{ slider_min }};
     window.SLIDER_MAX = {{ slider_max }};

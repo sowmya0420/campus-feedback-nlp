@@ -1,344 +1,648 @@
 /**
- * Campus Facility Feedback Analysis System - Frontend Interactivity
- * Offline Chart.js implementation with local Inter font styling,
- * Home page overview chart, and Ratings page interactive chart & sortable table.
+ * Campus Facility Feedback Analysis System - Dark Dashboard Interactive Logic
+ * Offline Chart.js implementation and multi-stage live NLP demo pipeline.
  */
 
-// Set global Chart.js typography to Inter and dark body text
+// Set global Chart.js typography and dark palette styling
 if (typeof Chart !== "undefined") {
     Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
-    Chart.defaults.color = "#4b5563";
+    Chart.defaults.color = "#9aa3b0";
+    Chart.defaults.borderColor = "#2b303a";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Initialize Home page components if present
-    initHomeRatingChart();
-    initFacilityInspector();
+    // 0. Initialize Generic Inner Tabs across all pages
+    initInnerTabs();
 
-    // Initialize Ratings page components if present
+    // 1. Initialize Facility Explorer if present
+    initExplorerPage();
+
+    // 2. Initialize Live Demo components if present
+    initLiveDemo();
+
+    // 3. Initialize Ratings page components if present
     initRatingsPage();
 
-    // Initialize Recurring Issues page components if present
+    // 4. Initialize Recurring Issues page components if present
     initIssuesPage();
 
-    // Initialize Summaries page components if present
+    // 5. Initialize Summaries / Briefs page components if present
     initSummariesPage();
 
-    // Initialize Flagged Comments page components if present
+    // 6. Initialize Flagged / Abusive Content page components if present
     initFlaggedPage();
-
-    // Initialize Submit Feedback page components if present
-    initSubmitPage();
 });
 
 // -------------------------------------------------------------
-// Helper: Rating Tier Colors
-// Green (>= 2.60): Good (#15803d)
-// Amber (2.45 - 2.59): Moderate (#b45309)
-// Red (< 2.45): Needs Attention (#b91c1c)
+// Helper: Rating Tier Colors (Dark palette rules)
+// Green (>= 2.60): Good (#4ade80)
+// Amber (2.45 - 2.59): Moderate (#fbbf24)
+// Red (< 2.45): Needs Attention (#f87171)
 // -------------------------------------------------------------
 function getRatingColor(rating) {
-    if (rating >= 2.60) return "#15803d";
-    if (rating >= 2.45) return "#b45309";
-    return "#b91c1c";
+    if (rating >= 2.60) return "#4ade80";
+    if (rating >= 2.45) return "#fbbf24";
+    return "#f87171";
 }
 
 function getRatingBadgeClass(rating) {
-    if (rating >= 2.60) return "badge-good";
-    if (rating >= 2.45) return "badge-mid";
-    return "badge-bad";
+    if (rating >= 2.60) return "badge-pos";
+    if (rating >= 2.45) return "badge-neu";
+    return "badge-neg";
 }
 
-// -------------------------------------------------------------
-// 1. Home Page: Facility Ratings Overview Chart
-// -------------------------------------------------------------
-let homeRatingChartInstance = null;
+// Helper: Escape HTML to prevent injection
+function escapeHtml(text) {
+    if (!text) return "";
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
 
-function initHomeRatingChart() {
-    const ctx = document.getElementById("facilityRatingChart");
-    if (!ctx || !window.FACILITY_DATA) return;
-
-    let currentSort = "highest";
-    let dataCopy = [...window.FACILITY_DATA];
-
-    function sortData(mode) {
-        if (mode === "highest") {
-            dataCopy.sort((a, b) => b.rating - a.rating);
-        } else if (mode === "lowest") {
-            dataCopy.sort((a, b) => a.rating - b.rating);
-        } else if (mode === "alpha") {
-            dataCopy.sort((a, b) => a.name.localeCompare(b.name));
-        }
+// Helper: Draw Star Rating with clean outline/filled SVGs
+function renderStarsHtml(stars) {
+    const filledStar = `<svg class="star-svg star-filled" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    const emptyStar = `<svg class="star-svg star-empty" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`;
+    
+    let html = '<div class="star-rating-cell">';
+    for (let i = 1; i <= 5; i++) {
+        html += (i <= stars) ? filledStar : emptyStar;
     }
-
-    sortData(currentSort);
-
-    const chartConfig = {
-        data: {
-            labels: dataCopy.map(d => d.name),
-            datasets: [
-                {
-                    type: "line",
-                    label: "Campus Average (2.54)",
-                    data: dataCopy.map(() => 2.54),
-                    borderColor: "#4a2c6d",           // Main brand colour (#4a2c6d)
-                    borderWidth: 2,
-                    borderDash: [6, 4],
-                    pointRadius: 0,
-                    pointHoverRadius: 0,
-                    fill: false,
-                    order: 1
-                },
-                {
-                    type: "bar",
-                    label: "Facility Rating",
-                    data: dataCopy.map(d => d.rating),
-                    backgroundColor: dataCopy.map(d => getRatingColor(d.rating)),
-                    borderRadius: 4,
-                    barThickness: 32,
-                    order: 2
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            animation: {
-                duration: 250
-            },
-            plugins: {
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    backgroundColor: "#111827",
-                    titleFont: { family: "'Inter', sans-serif", size: 13, weight: "600" },
-                    bodyFont: { family: "'Inter', sans-serif", size: 13 },
-                    padding: 12,
-                    cornerRadius: 4,
-                    callbacks: {
-                        label: function(context) {
-                            if (context.datasetIndex === 0) {
-                                return ` Campus Benchmark: 2.54 / 5.0`;
-                            }
-                            const val = context.parsed.y;
-                            const item = dataCopy[context.dataIndex];
-                            let tier = "Moderate";
-                            if (val >= 2.60) tier = "Good (above average)";
-                            else if (val < 2.45) tier = "Needs attention";
-
-                            return [
-                                ` Overall Rating: ${val.toFixed(2)} / 5.0`,
-                                ` Performance: ${tier}`,
-                                ` Primary Complaint: ${item.top_issue}`,
-                                ` Verified Comments: ${item.comments_count}`
-                            ];
-                        }
-                    }
-                }
-            },
-            scales: {
-                y: {
-                    min: 1.0,
-                    max: 3.5,
-                    ticks: {
-                        stepSize: 0.5,
-                        font: { family: "'Inter', sans-serif", size: 12 },
-                        color: "#6b7280",
-                        callback: function(value) {
-                            return value.toFixed(1);
-                        }
-                    },
-                    grid: {
-                        color: "#f3f4f6"
-                    }
-                },
-                x: {
-                    ticks: {
-                        font: { family: "'Inter', sans-serif", size: 13, weight: "600" },
-                        color: "#111827"
-                    },
-                    grid: {
-                        display: false
-                    }
-                }
-            },
-            onClick: (event, elements) => {
-                if (elements.length > 0) {
-                    const el = elements.find(e => e.datasetIndex === 1);
-                    if (el) {
-                        const idx = el.index;
-                        const selected = dataCopy[idx];
-                        selectFacilityCard(selected.id);
-                    }
-                }
-            }
-        }
-    };
-
-    homeRatingChartInstance = new Chart(ctx, chartConfig);
-
-    // Sort control listeners
-    const sortButtons = document.querySelectorAll("#chartSortGroup .btn-sort");
-    sortButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            sortButtons.forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            const mode = btn.getAttribute("data-sort");
-            sortData(mode);
-
-            // Update chart data
-            homeRatingChartInstance.data.labels = dataCopy.map(d => d.name);
-            homeRatingChartInstance.data.datasets[0].data = dataCopy.map(() => 2.54);
-            homeRatingChartInstance.data.datasets[1].data = dataCopy.map(d => d.rating);
-            homeRatingChartInstance.data.datasets[1].backgroundColor = dataCopy.map(d => getRatingColor(d.rating));
-            homeRatingChartInstance.update();
-        });
-    });
+    html += '<span class="rating-est-label">estimated from sentiment</span>';
+    html += '</div>';
+    return html;
 }
 
-// -------------------------------------------------------------
-// 2. Home Page: Interactive Facility Inspector & Search Filter
-// -------------------------------------------------------------
-function selectFacilityCard(facilityId) {
-    const cards = document.querySelectorAll(".facility-card");
-    let target = null;
-    cards.forEach(card => {
-        if (card.getAttribute("data-id") === facilityId) {
-            target = card;
-        }
-    });
+// =============================================================
+// GENERIC INNER TABS (For single-screen compact card views)
+// =============================================================
+function initInnerTabs() {
+    const tabBars = document.querySelectorAll(".inner-tabs-bar");
+    tabBars.forEach(bar => {
+        const buttons = bar.querySelectorAll(".btn-inner-tab");
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const targetTab = btn.getAttribute("data-tab");
+                if (!targetTab) return;
 
-    if (target) {
-        cards.forEach(c => c.classList.remove("selected"));
-        target.classList.add("selected");
-        updateInspectorDetail(target);
-    }
-}
+                buttons.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
 
-function updateInspectorDetail(card) {
-    const name = card.getAttribute("data-name");
-    const rating = parseFloat(card.getAttribute("data-rating"));
-    const comments = card.getAttribute("data-comments");
-    const topIssue = card.getAttribute("data-topissue");
+                const container = bar.closest(".page-container") || document;
+                const panels = container.querySelectorAll(".inner-tab-panel");
+                panels.forEach(p => {
+                    if (p.id === `tabPanel-${targetTab}`) {
+                        p.style.display = "block";
+                    } else {
+                        p.style.display = "none";
+                    }
+                });
 
-    const statusEl = document.getElementById("inspectStatus");
-    const nameEl = document.getElementById("inspectName");
-    const ratingEl = document.getElementById("inspectRating");
-    const commentsEl = document.getElementById("inspectComments");
-    const topIssueEl = document.getElementById("inspectTopIssue");
-
-    if (statusEl) {
-        if (rating >= 2.60) {
-            statusEl.textContent = "Good (above average)";
-            statusEl.style.color = "#15803d";
-            statusEl.style.backgroundColor = "#f3eefc";
-        } else if (rating >= 2.45) {
-            statusEl.textContent = "Moderate";
-            statusEl.style.color = "#b45309";
-            statusEl.style.backgroundColor = "#fffbeb";
-        } else {
-            statusEl.textContent = "Needs attention";
-            statusEl.style.color = "#b91c1c";
-            statusEl.style.backgroundColor = "#fef2f2";
-        }
-    }
-    if (nameEl) nameEl.textContent = name;
-    if (ratingEl) ratingEl.textContent = `${rating.toFixed(2)} / 5.0`;
-    if (commentsEl) commentsEl.textContent = comments;
-    if (topIssueEl) topIssueEl.textContent = topIssue;
-}
-
-function initFacilityInspector() {
-    const cards = document.querySelectorAll(".facility-card");
-    const searchInput = document.getElementById("facilitySearchInput");
-
-    // Click handler for cards
-    cards.forEach(card => {
-        card.addEventListener("click", () => {
-            cards.forEach(c => c.classList.remove("selected"));
-            card.classList.add("selected");
-            updateInspectorDetail(card);
-        });
-    });
-
-    // Real-time search filter
-    if (searchInput) {
-        searchInput.addEventListener("input", (e) => {
-            const term = e.target.value.toLowerCase().trim();
-            cards.forEach(card => {
-                const name = card.getAttribute("data-name").toLowerCase();
-                const issue = card.getAttribute("data-topissue").toLowerCase();
-                if (name.includes(term) || issue.includes(term)) {
-                    card.style.display = "block";
-                } else {
-                    card.style.display = "none";
+                if (typeof ratingsChartInstance !== "undefined" && ratingsChartInstance) {
+                    ratingsChartInstance.resize();
+                }
+                if (typeof issuesChartInstance !== "undefined" && issuesChartInstance) {
+                    issuesChartInstance.resize();
                 }
             });
         });
-    }
+    });
 }
 
 // =============================================================
-// 3. Ratings Page: Interactive Chart & Sortable Data Table
+// 1. FACILITY EXPLORER
+// =============================================================
+let explorerChartInstance = null;
+
+function initExplorerPage() {
+    const select = document.getElementById("explorerFacilitySelect");
+    if (!select || !window.EXPLORER_DATA) return;
+
+    const facRating = document.getElementById("facRating");
+    const facBadge = document.getElementById("facBadge");
+    const facStatus = document.getElementById("facStatus");
+    const facComments = document.getElementById("facComments");
+    const facTopIssue = document.getElementById("facTopIssue");
+    const facIssuesCount = document.getElementById("facIssuesCount");
+    const chartCardTitle = document.getElementById("chartCardTitle");
+    const aspectList = document.getElementById("explorerAspectList");
+    const aspectCountHint = document.getElementById("aspectCountHint");
+    const chartCanvas = document.getElementById("explorerChart");
+
+    function renderFacility(facId) {
+        const fac = window.EXPLORER_DATA.find(f => f.id === facId) || window.EXPLORER_DATA[0];
+        if (!fac) return;
+
+        if (facRating) facRating.textContent = fac.rating.toFixed(2);
+        if (facBadge) {
+            facBadge.textContent = `${fac.rating.toFixed(2)} / 5.0`;
+            facBadge.className = `rating-badge ${getRatingBadgeClass(fac.rating)}`;
+        }
+        if (facStatus) facStatus.textContent = `Status: ${fac.status}`;
+        if (facComments) facComments.textContent = `${fac.comments_count} comments`;
+        if (facTopIssue) facTopIssue.textContent = fac.top_issue;
+        if (facIssuesCount) facIssuesCount.textContent = `${fac.issues_count} recurring`;
+
+        if (chartCardTitle) chartCardTitle.textContent = `${fac.name}: Aspect Sentiment Ratings`;
+        if (aspectCountHint) aspectCountHint.textContent = `${fac.aspects ? fac.aspects.length : 0} detected aspects`;
+
+        // Render aspect breakdown list
+        if (aspectList && fac.aspects) {
+            if (fac.aspects.length === 0) {
+                aspectList.innerHTML = `<div style="padding: 16px; color: var(--text-muted); text-align: center;">No specific aspect ratings available.</div>`;
+            } else {
+                aspectList.innerHTML = fac.aspects.map(asp => `
+                    <div class="aspect-scroll-item">
+                        <div class="aspect-scroll-header">
+                            <span class="aspect-item-title">${escapeHtml(asp.category)}</span>
+                            <span class="${getRatingBadgeClass(asp.rating)}">${asp.rating.toFixed(2)}</span>
+                        </div>
+                        <div class="aspect-scroll-meta">
+                            <span>${asp.mentions} mentions</span>
+                        </div>
+                    </div>
+                `).join("");
+            }
+        }
+
+        // Render small horizontal bar chart with Chart.js
+        if (chartCanvas && fac.aspects && fac.aspects.length > 0) {
+            const labels = fac.aspects.map(a => a.category);
+            const values = fac.aspects.map(a => a.rating);
+            const colors = fac.aspects.map(a => getRatingColor(a.rating));
+
+            if (!explorerChartInstance) {
+                explorerChartInstance = new Chart(chartCanvas, {
+                    type: "bar",
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: "Rating",
+                            data: values,
+                            backgroundColor: colors,
+                            borderRadius: 4,
+                            barThickness: labels.length > 6 ? 16 : 24
+                        }]
+                    },
+                    options: {
+                        indexAxis: "y",
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        animation: { duration: 250 },
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                backgroundColor: "#1f232b",
+                                borderColor: "#2b303a",
+                                borderWidth: 1,
+                                titleColor: "#e8eaed",
+                                bodyColor: "#9aa3b0",
+                                callbacks: {
+                                    label: function(ctx) {
+                                        const asp = fac.aspects[ctx.dataIndex];
+                                        return [` Rating: ${ctx.parsed.x.toFixed(2)} / 5.0`, ` Mentions: ${asp.mentions}`];
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                min: 1.0,
+                                max: 4.0,
+                                ticks: {
+                                    stepSize: 0.5,
+                                    color: "#9aa3b0",
+                                    callback: function(v) { return v.toFixed(1); }
+                                },
+                                grid: { color: "#2b303a" }
+                            },
+                            y: {
+                                ticks: { color: "#9aa3b0", font: { weight: "600" } },
+                                grid: { display: false }
+                            }
+                        }
+                    }
+                });
+            } else {
+                explorerChartInstance.data.labels = labels;
+                explorerChartInstance.data.datasets[0].data = values;
+                explorerChartInstance.data.datasets[0].backgroundColor = colors;
+                explorerChartInstance.data.datasets[0].barThickness = labels.length > 6 ? 16 : 24;
+                explorerChartInstance.update();
+            }
+        }
+    }
+
+    select.addEventListener("change", () => renderFacility(select.value));
+    renderFacility(select.value);
+}
+
+// =============================================================
+// LIVE DEMO: Six-Stage Pipeline Inference & Ollama Summary
+// =============================================================
+window.DEMO_EXAMPLES = {
+    positive: {
+        facility: 'library',
+        text: 'The library is very quiet and peaceful with plenty of clean study desks.'
+    },
+    negative: {
+        facility: 'canteen',
+        text: 'The food in the canteen is oily, stale and completely cold.'
+    },
+    mixed: {
+        facility: 'classrooms',
+        text: 'The projectors in the classrooms work well but the air conditioning is broken and noisy.'
+    },
+    neutral: {
+        facility: 'library',
+        text: 'The library hours are posted on the notice board.'
+    },
+    abusive: {
+        facility: 'canteen',
+        text: 'The canteen staff are complete idiots and stupid fools.'
+    }
+};
+
+function initLiveDemo() {
+    const form = document.getElementById("demoFeedbackForm") || document.getElementById("feedbackForm");
+    if (!form) return;
+
+    const demoFacility = document.getElementById("demoFacility") || document.getElementById("submitFacility");
+    const demoCommentText = document.getElementById("demoCommentText") || document.getElementById("submitText");
+    const demoCharCounter = document.getElementById("demoCharCounter") || document.getElementById("charCounter");
+    const demoFormError = document.getElementById("demoFormError") || document.getElementById("formErrorMessage");
+    const btnAnalyse = document.getElementById("btnAnalyse") || document.getElementById("btnSubmitAnalyse");
+    const btnAnalyseSpinner = document.getElementById("btnAnalyseSpinner") || document.getElementById("btnSubmitSpinner");
+    const btnAnalyseText = document.getElementById("btnAnalyseText") || document.getElementById("btnSubmitText");
+
+    const emptyPlaceholder = document.getElementById("emptyPlaceholder");
+    const resultsContent = document.getElementById("resultsContent") || document.getElementById("resultsSection");
+    const checkCleanBox = document.getElementById("checkCleanBox");
+    const checkCleanScore = document.getElementById("checkCleanScore");
+    const checkAbusiveBox = document.getElementById("checkAbusiveBox");
+    const checkAbusiveScore = document.getElementById("checkAbusiveScore");
+    const cleanResultsSection = document.getElementById("cleanResultsSection");
+    const aspectsTableBody = document.getElementById("aspectsTableBody");
+    const noAspectsMessage = document.getElementById("noAspectsMessage");
+    const summaryCard = document.getElementById("summaryCard");
+    const summarySourceBadge = document.getElementById("summarySourceBadge");
+    const summaryLoading = document.getElementById("summaryLoading");
+    const summaryText = document.getElementById("summaryText");
+
+    // Live character count listener
+    function updateCounter() {
+        if (!demoCommentText || !demoCharCounter) return;
+        const len = demoCommentText.value.length;
+        demoCharCounter.textContent = `${len} / 1000 characters`;
+        if (len >= 1000) {
+            demoCharCounter.style.color = "var(--sentiment-neu)";
+        } else {
+            demoCharCounter.style.color = "";
+        }
+    }
+
+    if (demoCommentText) {
+        demoCommentText.addEventListener("input", updateCounter);
+    }
+
+    // Step strip controller
+    function resetStepStrip() {
+        for (let i = 1; i <= 6; i++) {
+            const step = document.getElementById(`step${i}`);
+            if (step) {
+                step.className = (i === 1) ? "step-item active" : "step-item";
+            }
+            const conn = document.getElementById(`conn${i}`);
+            if (conn) {
+                conn.className = "step-connector";
+            }
+        }
+    }
+
+    function setStepState(stepNum, state) {
+        const step = document.getElementById(`step${stepNum}`);
+        if (!step) return;
+        if (state === "active") {
+            step.className = "step-item active";
+        } else if (state === "complete") {
+            step.className = "step-item complete";
+        } else if (state === "flagged") {
+            step.className = "step-item flagged-abusive";
+        } else {
+            step.className = "step-item";
+        }
+    }
+
+    function setConnActive(connNum) {
+        const conn = document.getElementById(`conn${connNum}`);
+        if (conn) conn.classList.add("active");
+    }
+
+    // Quick example loader
+    window.loadDemoExample = function(key) {
+        if (!window.DEMO_EXAMPLES || !window.DEMO_EXAMPLES[key]) return;
+        const ex = window.DEMO_EXAMPLES[key];
+        if (demoFacility) demoFacility.value = ex.facility;
+        if (demoCommentText) {
+            demoCommentText.value = ex.text;
+            updateCounter();
+            demoCommentText.focus();
+        }
+        if (demoFormError) demoFormError.style.display = "none";
+    };
+    window.loadExample = window.loadDemoExample;
+
+    // Clear form helper
+    window.clearDemoForm = function() {
+        if (demoCommentText) {
+            demoCommentText.value = "";
+            updateCounter();
+        }
+        if (demoFormError) demoFormError.style.display = "none";
+        if (emptyPlaceholder) emptyPlaceholder.style.display = "flex";
+        if (resultsContent) resultsContent.style.display = "none";
+        resetStepStrip();
+    };
+    window.clearFeedbackForm = window.clearDemoForm;
+
+    // Submit handler
+    window.handleDemoSubmit = async function(e) {
+        if (e) e.preventDefault();
+
+        const rawText = demoCommentText ? demoCommentText.value.trim() : "";
+        if (!rawText) {
+            if (demoFormError) {
+                demoFormError.textContent = "Please enter a comment to analyse.";
+                demoFormError.style.display = "block";
+            }
+            return;
+        }
+
+        if (demoFormError) demoFormError.style.display = "none";
+
+        // Loading state
+        if (btnAnalyseSpinner) btnAnalyseSpinner.style.display = "inline-block";
+        if (btnAnalyseText) btnAnalyseText.textContent = "Analysing...";
+        if (btnAnalyse) btnAnalyse.disabled = true;
+
+        // Reset step strip & start stage progression
+        resetStepStrip();
+        setStepState(1, "complete");
+        setConnActive(1);
+        setStepState(2, "active");
+
+        try {
+            const facility = demoFacility ? demoFacility.value : "library";
+
+            // Stage 1 & 2: Real-time Toxicity and Aspect Analysis
+            const resp = await fetch("/api/analyse", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ facility: facility, text: rawText })
+            });
+
+            const data = await resp.json();
+
+            if (!data.success) {
+                if (demoFormError) {
+                    demoFormError.textContent = data.error || "An error occurred during analysis.";
+                    demoFormError.style.display = "block";
+                }
+                resetStepStrip();
+                return;
+            }
+
+            // Reveal results content area
+            if (emptyPlaceholder) emptyPlaceholder.style.display = "none";
+            if (resultsContent) resultsContent.style.display = "flex";
+
+            if (data.abusive) {
+                // Abusive comment: STOP strip at stage 2 and mark it red
+                setStepState(2, "flagged");
+                
+                // Show abusive result box
+                if (checkAbusiveBox) {
+                    checkAbusiveBox.style.display = "flex";
+                    if (checkAbusiveScore) {
+                        checkAbusiveScore.textContent = `Toxicity score: ${data.toxicity_score_display || data.toxicity_score.toFixed(3)}`;
+                    }
+                }
+                if (checkCleanBox) checkCleanBox.style.display = "none";
+                if (cleanResultsSection) cleanResultsSection.style.display = "none";
+
+            } else {
+                // Clean comment: Complete stage 2 and proceed through stages 3, 4, 5
+                setStepState(2, "complete");
+                setConnActive(2);
+
+                // Calm sequential lighting of stages
+                await new Promise(r => setTimeout(r, 120));
+                setStepState(3, "complete");
+                setConnActive(3);
+
+                await new Promise(r => setTimeout(r, 120));
+                setStepState(4, "complete");
+                setConnActive(4);
+
+                await new Promise(r => setTimeout(r, 120));
+                setStepState(5, "complete");
+                setConnActive(5);
+
+                setStepState(6, "active");
+
+                // Show clean check box
+                if (checkCleanBox) {
+                    checkCleanBox.style.display = "flex";
+                    if (checkCleanScore) {
+                        checkCleanScore.textContent = `Toxicity score: ${data.toxicity_score_display || data.toxicity_score.toFixed(3)}`;
+                    }
+                }
+                if (checkAbusiveBox) checkAbusiveBox.style.display = "none";
+                if (cleanResultsSection) cleanResultsSection.style.display = "block";
+
+                // Toggle honest disclaimer and header note
+                const allFacDisclaimer = document.getElementById("allFacDisclaimer");
+                if (allFacDisclaimer) {
+                    allFacDisclaimer.style.display = (data.is_all_mode && data.has_topics) ? "block" : "none";
+                }
+                const tableHeaderNote = document.getElementById("tableHeaderNote");
+                if (tableHeaderNote) {
+                    tableHeaderNote.textContent = data.is_all_mode ? "Grouped by facility & aspect" : "One row per detected aspect";
+                }
+
+                // Render aspects table (one row per aspect group)
+                const hasGroups = data.aspect_groups && data.aspect_groups.length > 0;
+                if (hasGroups) {
+                    if (aspectsTableBody) {
+                        aspectsTableBody.innerHTML = data.aspect_groups.map(grp => {
+                            let badgeClass = "badge-neu";
+                            if (grp.sentiment === "positive") {
+                                badgeClass = "badge-pos";
+                            } else if (grp.sentiment === "negative") {
+                                badgeClass = "badge-neg";
+                            } else if (grp.sentiment === "mixed") {
+                                badgeClass = "badge-mixed";
+                            }
+
+                            const facTagHtml = data.is_all_mode ? `
+                                <div class="facility-tag-row">
+                                    <span class="facility-tag">${escapeHtml(grp.facility_display)}</span>
+                                    ${grp.facility_note ? `<span class="facility-subnote">(${escapeHtml(grp.facility_note)})</span>` : ''}
+                                </div>
+                            ` : "";
+
+                            return `
+                                <tr>
+                                    <td>
+                                        ${facTagHtml}
+                                        <span class="aspect-cell-title">${escapeHtml(grp.display_category)}</span>
+                                        ${grp.evidence ? `<span class="aspect-evidence">${escapeHtml(grp.evidence)}</span>` : ''}
+                                    </td>
+                                    <td>
+                                        <span class="${badgeClass}">${escapeHtml(grp.badge_label)}</span>
+                                    </td>
+                                    <td>
+                                        ${renderStarsHtml(grp.stars || 3)}
+                                    </td>
+                                </tr>
+                            `;
+                        }).join("");
+                    }
+                    if (noAspectsMessage) noAspectsMessage.style.display = "none";
+                    if (summaryCard) summaryCard.style.display = "block";
+                } else {
+                    if (aspectsTableBody) aspectsTableBody.innerHTML = "";
+                    if (noAspectsMessage) noAspectsMessage.style.display = "block";
+                    if (allFacDisclaimer) allFacDisclaimer.style.display = "none";
+                    if (summaryCard) summaryCard.style.display = "none";
+                }
+
+                if (hasGroups) {
+                    // Show summary loading indicator while model works
+                    if (summaryLoading) summaryLoading.style.display = "flex";
+                    if (summaryText) {
+                        summaryText.style.display = "none";
+                        summaryText.textContent = "";
+                    }
+                    if (summarySourceBadge) {
+                        summarySourceBadge.textContent = "Writing summary...";
+                        summarySourceBadge.className = "summary-badge";
+                    }
+
+                    // Stage 6: Call Ollama Live Summary API
+                    try {
+                        const sumResp = await fetch("/api/summarize-live", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({
+                                facility: facility,
+                                text: rawText,
+                                aspect_groups: data.aspect_groups,
+                                abusive: data.abusive
+                            })
+                        });
+
+                        const sumData = await sumResp.json();
+                        
+                        if (summaryLoading) summaryLoading.style.display = "none";
+                        if (summaryText) {
+                            summaryText.textContent = sumData.summary || "No summary could be generated.";
+                            summaryText.style.display = "block";
+                        }
+                        if (summarySourceBadge) {
+                            summarySourceBadge.textContent = sumData.label || "AI summary (local model)";
+                            if (sumData.source === "ollama") {
+                                summarySourceBadge.className = "summary-badge ai-badge";
+                            } else {
+                                summarySourceBadge.className = "summary-badge";
+                            }
+                        }
+                        setStepState(6, "complete");
+
+                    } catch (sumErr) {
+                        if (summaryLoading) summaryLoading.style.display = "none";
+                        if (summaryText) {
+                            summaryText.textContent = "Student feedback was evaluated across detected campus facilities.";
+                            summaryText.style.display = "block";
+                        }
+                        if (summarySourceBadge) {
+                            summarySourceBadge.textContent = "Auto-generated from detected aspects";
+                            summarySourceBadge.className = "summary-badge";
+                        }
+                        setStepState(6, "complete");
+                    }
+                } else {
+                    setStepState(6, "complete");
+                }
+            }
+
+        } catch (err) {
+            if (demoFormError) {
+                demoFormError.textContent = "Could not communicate with the analysis server. Please ensure the web application is running.";
+                demoFormError.style.display = "block";
+            }
+            resetStepStrip();
+        } finally {
+            if (btnAnalyseSpinner) btnAnalyseSpinner.style.display = "none";
+            if (btnAnalyseText) btnAnalyseText.textContent = "Analyse comment";
+            if (btnAnalyse) btnAnalyse.disabled = false;
+        }
+    };
+    window.handleFeedbackSubmit = window.handleDemoSubmit;
+}
+
+// =============================================================
+// 4. Aspect-wise Ratings Page: Chart & Sortable Data Table
 // =============================================================
 let ratingsChartInstance = null;
-let currentSortColumn = "rating";
-let currentSortAsc = false; // default highest rating first
 
 function initRatingsPage() {
-    const tableBody = document.getElementById("ratingsTableBody");
     const chartCtx = document.getElementById("ratingsChart");
-    if (!tableBody || !chartCtx || !window.RATINGS_DATA) return;
+    const tableBody = document.getElementById("ratingsTableBody");
+    if (!chartCtx || !tableBody || !window.RATINGS_DATA) return;
 
+    let currentSortColumn = "rating";
+    let currentSortAsc = false;
+
+    const btnModeOverall = document.getElementById("btnModeOverall");
+    const btnModeTopics = document.getElementById("btnModeTopics");
     const facilitySelect = document.getElementById("facilitySelect");
     const topicSelect = document.getElementById("topicSelect");
     const topicSelectWrap = document.getElementById("topicSelectWrap");
-    const btnModeOverall = document.getElementById("btnModeOverall");
-    const btnModeTopics = document.getElementById("btnModeTopics");
     const searchInput = document.getElementById("ratingsTableSearch");
     const tableRowCount = document.getElementById("tableRowCount");
     const chartHeaderTitle = document.getElementById("chartHeaderTitle");
     const chartHeaderDesc = document.getElementById("chartHeaderDesc");
 
-    let activeMode = "overall"; // "overall" | "topics"
+    let activeMode = "overall";
 
-    // ---------------------------------------------------------
-    // Function: Render Data Table
-    // ---------------------------------------------------------
     function renderTable() {
         const facFilter = facilitySelect.value;
         const topFilter = topicSelect.value;
         const searchTerm = searchInput.value.toLowerCase().trim();
 
-        // 1. Filter rows
         let filtered = window.RATINGS_DATA.filter(row => {
-            // Mode filter
             if (activeMode === "overall" && !row.is_overall) return false;
             if (activeMode === "topics" && row.is_overall) return false;
 
-            // Facility filter
             if (facFilter !== "all" && row.facility !== facFilter) return false;
-
-            // Topic filter
             if (topFilter !== "all" && row.category !== topFilter) return false;
 
-            // Search filter
             if (searchTerm) {
                 const matchFac = row.display_facility.toLowerCase().includes(searchTerm);
                 const matchCat = row.category.toLowerCase().includes(searchTerm);
                 if (!matchFac && !matchCat) return false;
             }
-
             return true;
         });
 
-        // 2. Sort rows
         filtered.sort((a, b) => {
             let valA = a[currentSortColumn];
             let valB = b[currentSortColumn];
 
-            // Handle nulls
             if (valA === null || valA === undefined) valA = -999;
             if (valB === null || valB === undefined) valB = -999;
 
@@ -348,17 +652,16 @@ function initRatingsPage() {
             return currentSortAsc ? valA - valB : valB - valA;
         });
 
-        // 3. Render HTML
         if (filtered.length === 0) {
             tableBody.innerHTML = `<tr><td colspan="8" style="text-align: center; padding: 32px; color: var(--text-muted);">No matching rating records found.</td></tr>`;
         } else {
             tableBody.innerHTML = filtered.map(row => {
-                const ratingBadge = `<span class="badge-rating ${getRatingBadgeClass(row.rating)}">${row.rating.toFixed(2)}</span>`;
-                const catDisplay = row.is_overall ? `<span class="badge-overall">OVERALL</span>` : row.category;
-                const posDisplay = row.positive !== null ? row.positive : `<span style="color:#9ca3af;">—</span>`;
-                const neuDisplay = row.neutral !== null ? row.neutral : `<span style="color:#9ca3af;">—</span>`;
-                const negDisplay = row.negative !== null ? row.negative : `<span style="color:#9ca3af;">—</span>`;
-                const shareDisplay = row.negative_share !== null ? `${row.negative_share.toFixed(1)}%` : `<span style="color:#9ca3af;">—</span>`;
+                const ratingBadge = `<span class="${getRatingBadgeClass(row.rating)}">${row.rating.toFixed(2)}</span>`;
+                const catDisplay = row.is_overall ? `<span class="badge-neu" style="letter-spacing:0.04em;">OVERALL</span>` : row.category;
+                const posDisplay = row.positive !== null ? row.positive : `<span style="color:var(--text-muted);">—</span>`;
+                const neuDisplay = row.neutral !== null ? row.neutral : `<span style="color:var(--text-muted);">—</span>`;
+                const negDisplay = row.negative !== null ? row.negative : `<span style="color:var(--text-muted);">—</span>`;
+                const shareDisplay = row.negative_share !== null ? `${row.negative_share.toFixed(1)}%` : `<span style="color:var(--text-muted);">—</span>`;
 
                 return `
                     <tr>
@@ -375,15 +678,11 @@ function initRatingsPage() {
             }).join("");
         }
 
-        // Update count badge
         if (tableRowCount) {
             tableRowCount.textContent = `Showing ${filtered.length} of ${window.RATINGS_DATA.length} records`;
         }
     }
 
-    // ---------------------------------------------------------
-    // Function: Update & Render Chart
-    // ---------------------------------------------------------
     function updateChart() {
         const facFilter = facilitySelect.value;
         const topFilter = topicSelect.value;
@@ -392,7 +691,6 @@ function initRatingsPage() {
         let chartItems = [];
 
         if (activeMode === "overall") {
-            // Overall mode: show facilities
             let ovRows = window.RATINGS_DATA.filter(r => r.is_overall);
             if (facFilter !== "all") {
                 ovRows = ovRows.filter(r => r.facility === facFilter);
@@ -403,7 +701,6 @@ function initRatingsPage() {
             if (chartHeaderTitle) chartHeaderTitle.textContent = "Overall Facility Ratings";
             if (chartHeaderDesc) chartHeaderDesc.textContent = "Facility-level scores on a 1.0 to 5.0 scale. The dashed line marks the campus benchmark (2.54).";
         } else {
-            // Topics mode
             let aspectRows = window.RATINGS_DATA.filter(r => !r.is_overall);
             if (facFilter !== "all") {
                 aspectRows = aspectRows.filter(r => r.facility === facFilter);
@@ -418,7 +715,6 @@ function initRatingsPage() {
                 return { label: label, rating: r.rating, mentions: r.mentions, share: r.negative_share };
             });
 
-            // Limit chart bars if too many to keep readable
             if (chartItems.length > 20) {
                 chartItems = chartItems.slice(0, 20);
             }
@@ -441,7 +737,7 @@ function initRatingsPage() {
                             type: "line",
                             label: "Campus Average",
                             data: labels.map(() => benchmark),
-                            borderColor: "#4a2c6d",
+                            borderColor: "#fb923c",
                             borderWidth: 2,
                             borderDash: [6, 4],
                             pointRadius: 0,
@@ -467,7 +763,11 @@ function initRatingsPage() {
                     plugins: {
                         legend: { display: false },
                         tooltip: {
-                            backgroundColor: "#111827",
+                            backgroundColor: "#1f232b",
+                            borderColor: "#2b303a",
+                            borderWidth: 1,
+                            titleColor: "#e8eaed",
+                            bodyColor: "#9aa3b0",
                             titleFont: { family: "'Inter', sans-serif", size: 13, weight: "600" },
                             bodyFont: { family: "'Inter', sans-serif", size: 13 },
                             padding: 12,
@@ -496,15 +796,15 @@ function initRatingsPage() {
                             ticks: {
                                 stepSize: 0.5,
                                 font: { family: "'Inter', sans-serif", size: 12 },
-                                color: "#6b7280",
+                                color: "#9aa3b0",
                                 callback: function(val) { return val.toFixed(1); }
                             },
-                            grid: { color: "#f3f4f6" }
+                            grid: { color: "#2b303a" }
                         },
                         x: {
                             ticks: {
                                 font: { family: "'Inter', sans-serif", size: 12, weight: "600" },
-                                color: "#111827",
+                                color: "#9aa3b0",
                                 maxRotation: 45,
                                 minRotation: 0
                             },
@@ -523,49 +823,50 @@ function initRatingsPage() {
         }
     }
 
-    // ---------------------------------------------------------
-    // Event Listeners: Toggle Buttons
-    // ---------------------------------------------------------
-    btnModeOverall.addEventListener("click", () => {
-        btnModeOverall.classList.add("active");
-        btnModeTopics.classList.remove("active");
-        activeMode = "overall";
-        topicSelectWrap.style.display = "none";
-        renderTable();
-        updateChart();
-    });
-
-    btnModeTopics.addEventListener("click", () => {
-        btnModeTopics.classList.add("active");
-        btnModeOverall.classList.remove("active");
-        activeMode = "topics";
-        topicSelectWrap.style.display = "inline-flex";
-        renderTable();
-        updateChart();
-    });
-
-    // Event Listeners: Select Dropdowns
-    facilitySelect.addEventListener("change", () => {
-        if (facilitySelect.value !== "all" && activeMode === "overall") {
-            // When specific facility selected in overall mode, auto switch to topics view for that facility
-            btnModeTopics.click();
-        } else {
+    if (btnModeOverall) {
+        btnModeOverall.addEventListener("click", () => {
+            btnModeOverall.classList.add("active");
+            btnModeTopics.classList.remove("active");
+            activeMode = "overall";
+            if (topicSelectWrap) topicSelectWrap.style.display = "none";
             renderTable();
             updateChart();
-        }
-    });
+        });
+    }
 
-    topicSelect.addEventListener("change", () => {
-        renderTable();
-        updateChart();
-    });
+    if (btnModeTopics) {
+        btnModeTopics.addEventListener("click", () => {
+            btnModeTopics.classList.add("active");
+            btnModeOverall.classList.remove("active");
+            activeMode = "topics";
+            if (topicSelectWrap) topicSelectWrap.style.display = "inline-flex";
+            renderTable();
+            updateChart();
+        });
+    }
 
-    // Event Listener: Live Search Filter
-    searchInput.addEventListener("input", () => {
-        renderTable();
-    });
+    if (facilitySelect) {
+        facilitySelect.addEventListener("change", () => {
+            if (facilitySelect.value !== "all" && activeMode === "overall") {
+                if (btnModeTopics) btnModeTopics.click();
+            } else {
+                renderTable();
+                updateChart();
+            }
+        });
+    }
 
-    // Event Listeners: Sortable Table Headers
+    if (topicSelect) {
+        topicSelect.addEventListener("change", () => {
+            renderTable();
+            updateChart();
+        });
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener("input", renderTable);
+    }
+
     const sortableHeaders = document.querySelectorAll(".sortable-th");
     sortableHeaders.forEach(th => {
         th.addEventListener("click", () => {
@@ -574,30 +875,18 @@ function initRatingsPage() {
                 currentSortAsc = !currentSortAsc;
             } else {
                 currentSortColumn = col;
-                currentSortAsc = (col === "display_facility" || col === "category"); // strings default asc, numbers default desc
+                currentSortAsc = (col === "display_facility" || col === "category");
             }
-
-            // Update header UI
-            sortableHeaders.forEach(h => {
-                h.classList.remove("active-sort");
-                const icon = h.querySelector(".sort-icon");
-                if (icon) icon.textContent = "⇕";
-            });
-            th.classList.add("active-sort");
-            const icon = th.querySelector(".sort-icon");
-            if (icon) icon.textContent = currentSortAsc ? "▲" : "▼";
-
             renderTable();
         });
     });
 
-    // Initial table and chart render
     renderTable();
     updateChart();
 }
 
 // =============================================================
-// 4. Recurring Issues Page: Chart & Expandable Comments List
+// 5. Recurring Issues Page: Horizontal Bar Chart & List
 // =============================================================
 let issuesChartInstance = null;
 
@@ -614,49 +903,36 @@ function initIssuesPage() {
     const chartTitle = document.getElementById("issuesChartTitle");
     const chartDesc = document.getElementById("issuesChartDesc");
 
-    // Helper: Determine severity class & color
     function getSeverityProps(share) {
         if (share >= 85.0) {
-            return { color: "#b91c1c", pillClass: "pill-severity-high", label: "High severity" };
+            return { color: "#f87171", pillClass: "badge-neg", label: "High severity" };
         } else if (share >= 75.0) {
-            return { color: "#b45309", pillClass: "pill-severity-mid", label: "Moderate severity" };
+            return { color: "#fbbf24", pillClass: "badge-neu", label: "Moderate severity" };
         }
-        return { color: "#8b5cf6", pillClass: "pill-severity-notable", label: "Notable severity" };
+        return { color: "#fb923c", pillClass: "badge-neu", label: "Notable severity" };
     }
 
-    // ---------------------------------------------------------
-    // Function: Filter & Sort Issues Data
-    // ---------------------------------------------------------
     function getProcessedIssues() {
         const facFilter = facilitySelect.value;
         const minThreshold = parseFloat(severitySlider.value);
         const sortMode = sortSelect.value;
 
-        // 1. Filter
         let filtered = window.ISSUES_DATA.filter(item => {
             if (facFilter !== "all" && item.facility !== facFilter) return false;
             if (item.negative_share < minThreshold) return false;
             return true;
         });
 
-        // 2. Sort
         filtered.sort((a, b) => {
-            if (sortMode === "neg_share") {
-                return b.negative_share - a.negative_share;
-            } else if (sortMode === "mentions") {
-                return b.mentions - a.mentions;
-            } else if (sortMode === "rating") {
-                return a.rating - b.rating; // lowest rating first
-            }
+            if (sortMode === "neg_share") return b.negative_share - a.negative_share;
+            if (sortMode === "mentions") return b.mentions - a.mentions;
+            if (sortMode === "rating") return a.rating - b.rating;
             return 0;
         });
 
         return filtered;
     }
 
-    // ---------------------------------------------------------
-    // Function: Render Expandable Issues List
-    // ---------------------------------------------------------
     function renderIssuesList(issues) {
         if (issuesRowCount) {
             issuesRowCount.textContent = `Showing ${issues.length} of ${window.ISSUES_DATA.length} recurring issues`;
@@ -664,7 +940,7 @@ function initIssuesPage() {
 
         if (issues.length === 0) {
             issuesContainer.innerHTML = `
-                <div style="background:#ffffff; border:1px solid var(--border); border-radius:var(--radius); padding:36px 20px; text-align:center; color:var(--text-muted);">
+                <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:32px 20px; text-align:center; color:var(--text-muted);">
                     No recurring issues meet the selected facility or severity threshold criteria.
                 </div>
             `;
@@ -674,61 +950,45 @@ function initIssuesPage() {
         issuesContainer.innerHTML = issues.map((issue, index) => {
             const sev = getSeverityProps(issue.negative_share);
             
-            // Format student quotes
             let quotesHtml = "";
             if (issue.comments && issue.comments.length > 0) {
                 quotesHtml = issue.comments.map(c => `
-                    <div class="comment-quote-item">
+                    <div style="padding:8px 10px; background:var(--bg-raised); border-radius:var(--radius-sm); margin-bottom:6px; font-size:0.82rem; color:var(--text-primary); border:1px solid var(--border);">
                         &ldquo;${escapeHtml(c)}&rdquo;
                     </div>
                 `).join("");
             } else {
-                quotesHtml = `<div class="no-comments-msg">No non-abusive negative comments recorded for this issue.</div>`;
+                quotesHtml = `<div style="font-size:0.8rem; color:var(--text-muted);">No non-abusive negative comments recorded for this issue.</div>`;
             }
 
             return `
-                <div class="issue-row-card" id="issueCard-${index}">
-                    <div class="issue-row-header" onclick="toggleIssueRow(${index})">
-                        <div class="issue-title-area">
-                            <span class="issue-facility-badge">${issue.display_facility}</span>
-                            <span class="issue-category-name">${issue.category}</span>
+                <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:12px 14px; margin-bottom:10px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; cursor:pointer;" onclick="toggleIssueRow(${index})">
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <span class="badge-neu">${issue.display_facility}</span>
+                            <strong style="color:var(--text-primary); font-size:0.9rem;">${issue.category}</strong>
                         </div>
-                        <div class="issue-metrics-row">
-                            <span class="issue-metric-pill ${sev.pillClass}">${issue.negative_share.toFixed(1)}% negative</span>
-                            <span style="font-size:0.82rem; color:var(--text-body); font-weight:500;">${issue.mentions} mentions (${issue.negative} negative)</span>
-                            <span class="badge-rating ${getRatingBadgeClass(issue.rating)}" style="margin-left:4px;">${issue.rating.toFixed(2)}</span>
-                            <span class="issue-expand-btn" id="expandBtnText-${index}">
-                                Show comments <span style="font-size:0.75rem;">▼</span>
-                            </span>
+                        <div style="display:flex; align-items:center; gap:8px;">
+                            <span class="${sev.pillClass}">${issue.negative_share.toFixed(1)}% negative</span>
+                            <span style="font-size:0.8rem; color:var(--text-muted);">${issue.mentions} mentions</span>
+                            <span class="${getRatingBadgeClass(issue.rating)}">${issue.rating.toFixed(2)}</span>
+                            <span style="font-size:0.75rem; color:var(--accent);" id="expandBtnText-${index}">▼</span>
                         </div>
                     </div>
-                    <div class="issue-drawer" id="issueDrawer-${index}">
-                        <div class="drawer-header">
-                            <span class="drawer-title">Verified Student Feedback (${issue.comments_count} comments)</span>
-                            <span class="drawer-note">Filtered and verified by DistilBERT model</span>
-                        </div>
-                        <div class="comments-quotes-grid">
-                            ${quotesHtml}
-                        </div>
+                    <div id="issueDrawer-${index}" style="display:none; margin-top:10px; padding-top:10px; border-top:1px solid var(--border);">
+                        ${quotesHtml}
                     </div>
                 </div>
             `;
         }).join("");
     }
 
-    // ---------------------------------------------------------
-    // Function: Update Horizontal Bar Chart
-    // ---------------------------------------------------------
     function updateIssuesChart(issues) {
         const facFilter = facilitySelect.value;
         const facName = facFilter !== "all" ? facilitySelect.options[facilitySelect.selectedIndex].text : "All Facilities";
 
-        if (chartTitle) {
-            chartTitle.textContent = `${facName}: Recurring Issues Ranked by Severity`;
-        }
-        if (chartDesc) {
-            chartDesc.textContent = `Showing ${issues.length} recurring issues with a negative share of at least ${severitySlider.value}%.`;
-        }
+        if (chartTitle) chartTitle.textContent = `${facName}: Recurring Issues Ranked by Severity`;
+        if (chartDesc) chartDesc.textContent = `Showing ${issues.length} recurring issues with a negative share of at least ${severitySlider.value}%.`;
 
         const labels = issues.map(item => `${item.display_facility}: ${item.category}`);
         const dataValues = issues.map(item => item.negative_share);
@@ -748,14 +1008,18 @@ function initIssuesPage() {
                     }]
                 },
                 options: {
-                    indexAxis: "y", // Horizontal bars for clear, easy-to-read labels
+                    indexAxis: "y",
                     responsive: true,
                     maintainAspectRatio: false,
                     animation: { duration: 250 },
                     plugins: {
                         legend: { display: false },
                         tooltip: {
-                            backgroundColor: "#111827",
+                            backgroundColor: "#1f232b",
+                            borderColor: "#2b303a",
+                            borderWidth: 1,
+                            titleColor: "#e8eaed",
+                            bodyColor: "#9aa3b0",
                             titleFont: { family: "'Inter', sans-serif", size: 13, weight: "600" },
                             bodyFont: { family: "'Inter', sans-serif", size: 13 },
                             padding: 12,
@@ -766,7 +1030,6 @@ function initIssuesPage() {
                                     return [
                                         ` Negative Share: ${item.negative_share.toFixed(1)}%`,
                                         ` Total Mentions: ${item.mentions}`,
-                                        ` Negative Comments: ${item.negative}`,
                                         ` Overall Rating: ${item.rating.toFixed(2)} / 5.0`
                                     ];
                                 }
@@ -780,15 +1043,15 @@ function initIssuesPage() {
                             ticks: {
                                 stepSize: 10,
                                 font: { family: "'Inter', sans-serif", size: 12 },
-                                color: "#6b7280",
+                                color: "#9aa3b0",
                                 callback: function(val) { return val + "%"; }
                             },
-                            grid: { color: "#f3f4f6" }
+                            grid: { color: "#2b303a" }
                         },
                         y: {
                             ticks: {
                                 font: { family: "'Inter', sans-serif", size: 12, weight: "600" },
-                                color: "#111827"
+                                color: "#9aa3b0"
                             },
                             grid: { display: false }
                         }
@@ -804,9 +1067,6 @@ function initIssuesPage() {
         }
     }
 
-    // ---------------------------------------------------------
-    // Event Handlers
-    // ---------------------------------------------------------
     function refreshView() {
         const processed = getProcessedIssues();
         renderIssuesList(processed);
@@ -821,39 +1081,25 @@ function initIssuesPage() {
         refreshView();
     });
 
-    // Initial render
     refreshView();
 }
 
-// Global toggle handler for expanding issue rows
 window.toggleIssueRow = function(index) {
-    const card = document.getElementById(`issueCard-${index}`);
+    const drawer = document.getElementById(`issueDrawer-${index}`);
     const btnText = document.getElementById(`expandBtnText-${index}`);
-    if (!card || !btnText) return;
+    if (!drawer) return;
 
-    const isExpanded = card.classList.contains("expanded");
-    if (isExpanded) {
-        card.classList.remove("expanded");
-        btnText.innerHTML = `Show comments <span style="font-size:0.75rem;">▼</span>`;
+    if (drawer.style.display === "none") {
+        drawer.style.display = "block";
+        if (btnText) btnText.textContent = "▲";
     } else {
-        card.classList.add("expanded");
-        btnText.innerHTML = `Hide comments <span style="font-size:0.75rem;">▲</span>`;
+        drawer.style.display = "none";
+        if (btnText) btnText.textContent = "▼";
     }
 };
 
-// Helper: Escape HTML to prevent injection
-function escapeHtml(text) {
-    if (!text) return "";
-    return text
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-}
-
 // =============================================================
-// 5. Summaries Page: Interactive Tabs, Presentation Card & Compare
+// 6. Summaries / Facility Briefs Page
 // =============================================================
 function initSummariesPage() {
     const singleSection = document.getElementById("singleFacilitySection");
@@ -864,228 +1110,116 @@ function initSummariesPage() {
 
     const btnModeSingle = document.getElementById("btnModeSingle");
     const btnModeCompare = document.getElementById("btnModeCompare");
-    const tabSortWrap = document.getElementById("tabSortWrap");
     const tabSortButtons = document.querySelectorAll("#tabSortGroup .btn-sort");
+    let currentTabSort = "highest";
+    let selectedFacilityId = window.FACILITY_SUMMARIES[0] ? window.FACILITY_SUMMARIES[0].id : null;
+
+    function getSortedFacilities() {
+        let copy = [...window.FACILITY_SUMMARIES];
+        if (currentTabSort === "highest") copy.sort((a, b) => b.rating - a.rating);
+        else if (currentTabSort === "lowest") copy.sort((a, b) => a.rating - b.rating);
+        else if (currentTabSort === "alpha") copy.sort((a, b) => a.name.localeCompare(b.name));
+        return copy;
+    }
 
     const compareSelectA = document.getElementById("compareSelectA");
     const compareSelectB = document.getElementById("compareSelectB");
     const cardCompareA = document.getElementById("cardCompareA");
     const cardCompareB = document.getElementById("cardCompareB");
 
-    let currentTabSort = "highest"; // "highest" | "lowest" | "alpha"
-    let selectedFacilityId = window.FACILITY_SUMMARIES[0] ? window.FACILITY_SUMMARIES[0].id : null;
-
-    // Helper: Sort facility list
-    function getSortedFacilities() {
-        let copy = [...window.FACILITY_SUMMARIES];
-        if (currentTabSort === "highest") {
-            copy.sort((a, b) => b.rating - a.rating);
-        } else if (currentTabSort === "lowest") {
-            copy.sort((a, b) => a.rating - b.rating);
-        } else if (currentTabSort === "alpha") {
-            copy.sort((a, b) => a.name.localeCompare(b.name));
-        }
-        return copy;
-    }
-
-    // ---------------------------------------------------------
-    // Function: Render Clickable Facility Tabs
-    // ---------------------------------------------------------
     function renderTabs() {
         const sorted = getSortedFacilities();
         tabsBar.innerHTML = sorted.map(fac => {
             const isActive = fac.id === selectedFacilityId;
-            const badgeClass = getRatingBadgeClass(fac.rating);
             return `
                 <button type="button" 
-                        class="facility-tab-btn ${isActive ? 'active' : ''}" 
+                        class="btn-sort ${isActive ? 'active' : ''}" 
+                        style="margin-right:6px; margin-bottom:6px;"
                         onclick="selectSummaryTab('${fac.id}')">
                     <span>${fac.name}</span>
-                    <span class="tab-rating ${badgeClass}">${fac.rating.toFixed(2)}</span>
+                    <span class="${getRatingBadgeClass(fac.rating)}" style="margin-left:4px;">${fac.rating.toFixed(2)}</span>
                 </button>
             `;
         }).join("");
     }
 
-    // ---------------------------------------------------------
-    // Function: Render Single Facility Presentation Card
-    // ---------------------------------------------------------
     function renderSingleCard() {
         const fac = window.FACILITY_SUMMARIES.find(f => f.id === selectedFacilityId);
-        if (!fac) {
-            singleCard.innerHTML = `<div style="text-align:center; padding:32px; color:var(--text-muted);">No facility summary available.</div>`;
-            return;
-        }
-
-        const badgeClass = getRatingBadgeClass(fac.rating);
-        
-        // Render complaint pills
-        let complaintsHtml = "";
-        if (fac.issues && fac.issues.length > 0) {
-            complaintsHtml = fac.issues.map(iss => `
-                <span class="complaint-pill">
-                    ${iss.category} (${iss.negative_share.toFixed(1)}% negative)
-                </span>
-            `).join("");
-        } else {
-            complaintsHtml = `<span class="complaint-pill-none">No recurring issues meeting the 70% negative complaint threshold.</span>`;
-        }
-
-        const summaryText = fac.summary && fac.summary.trim() ? fac.summary : "No summary recorded for this facility.";
+        if (!fac) return;
 
         singleCard.innerHTML = `
-            <div class="summary-card-header">
-                <h2 class="summary-facility-title">${fac.name}</h2>
-                <div class="summary-rating-badge ${badgeClass}">
-                    <span>${fac.rating.toFixed(2)}</span>
-                    <span style="font-size:0.85rem; font-weight:500;">/ 5.0</span>
+            <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:20px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                    <h2 style="font-size:1.15rem; font-weight:700; color:var(--text-primary); margin:0;">${fac.name}</h2>
+                    <span class="${getRatingBadgeClass(fac.rating)}" style="font-size:0.95rem; font-weight:700;">${fac.rating.toFixed(2)} / 5.0</span>
                 </div>
-            </div>
-
-            <div class="summary-meta-strip">
-                <div class="summary-meta-item">
-                    <span class="summary-meta-label">Verified Comments</span>
-                    <span class="summary-meta-val">${fac.comments_count}</span>
+                <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:12px;">
+                    ${fac.comments_count} verified comments &bull; ${fac.issues_count} recurring complaint areas
                 </div>
-                <div class="summary-meta-item">
-                    <span class="summary-meta-label">Recurring Problem Areas</span>
-                    <span class="summary-meta-val">${fac.issues_count}</span>
-                </div>
-                <div class="summary-meta-item">
-                    <span class="summary-meta-label">Performance Tier</span>
-                    <span class="summary-meta-val" style="color:${getRatingColor(fac.rating)};">
-                        ${fac.rating >= 2.60 ? 'Good' : (fac.rating >= 2.45 ? 'Moderate' : 'Needs attention')}
-                    </span>
-                </div>
-            </div>
-
-            <div class="complaints-section">
-                <div class="complaints-title">Primary student complaint areas:</div>
-                <div class="complaint-pills-row">
-                    ${complaintsHtml}
-                </div>
-            </div>
-
-            <div class="summary-text-box">
-                <p class="summary-prose">${escapeHtml(summaryText)}</p>
-            </div>
-
-            <div class="summary-actions-bar">
-                <button type="button" class="btn-copy-summary" onclick="copySummaryText('${fac.id}', this)">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
-                    <span>Copy summary</span>
+                <p style="font-size:0.88rem; color:var(--text-primary); line-height:1.6; margin-bottom:16px;">
+                    ${escapeHtml(fac.summary)}
+                </p>
+                <button type="button" class="btn-secondary" onclick="copySummaryText('${fac.id}', this)" style="font-size:0.78rem;">
+                    Copy summary
                 </button>
             </div>
         `;
     }
 
-    // ---------------------------------------------------------
-    // Function: Render Compare Mode Cards
-    // ---------------------------------------------------------
-    function renderCompareView() {
-        const idA = compareSelectA.value;
-        const idB = compareSelectB.value;
-
-        const facA = window.FACILITY_SUMMARIES.find(f => f.id === idA);
-        const facB = window.FACILITY_SUMMARIES.find(f => f.id === idB);
-        if (!facA || !facB) return;
-
-        const diff = Math.abs(facA.rating - facB.rating).toFixed(2);
-        let badgeA = "";
-        let badgeB = "";
-
-        if (facA.rating > facB.rating) {
-            badgeA = `<div class="compare-badge-winner">Higher rated facility (+${diff})</div>`;
-            badgeB = `<div class="compare-badge-neutral">Rating difference: -${diff}</div>`;
-        } else if (facB.rating > facA.rating) {
-            badgeB = `<div class="compare-badge-winner">Higher rated facility (+${diff})</div>`;
-            badgeA = `<div class="compare-badge-neutral">Rating difference: -${diff}</div>`;
-        } else {
-            badgeA = `<div class="compare-badge-neutral">Equal rating benchmark</div>`;
-            badgeB = `<div class="compare-badge-neutral">Equal rating benchmark</div>`;
+    function renderCompareCard(container, facilityId) {
+        if (!container) return;
+        const fac = window.FACILITY_SUMMARIES.find(f => f.id === facilityId);
+        if (!fac) {
+            container.innerHTML = `<div style="padding: 20px; color: var(--text-muted);">No data available.</div>`;
+            return;
         }
 
-        function buildCardHtml(fac, winnerBadge) {
-            const badgeClass = getRatingBadgeClass(fac.rating);
-
-            let complaintsHtml = "";
-            if (fac.issues && fac.issues.length > 0) {
-                complaintsHtml = fac.issues.map(iss => `
-                    <span class="complaint-pill" style="font-size:0.78rem; padding:3px 8px;">
-                        ${iss.category} (${iss.negative_share.toFixed(1)}%)
-                    </span>
-                `).join("");
-            } else {
-                complaintsHtml = `<span class="complaint-pill-none">No recurring issues (&ge; 70% neg).</span>`;
-            }
-
-            const summaryText = fac.summary && fac.summary.trim() ? fac.summary : "No summary recorded for this facility.";
-
-            return `
-                ${winnerBadge}
-                <div class="summary-card-header" style="margin-bottom:12px;">
-                    <h3 style="font-size:1.35rem; font-weight:700; color:var(--main-color);">${fac.name}</h3>
-                    <div class="summary-rating-badge ${badgeClass}" style="font-size:0.95rem; padding:4px 10px;">
-                        ${fac.rating.toFixed(2)}
-                    </div>
+        container.innerHTML = `
+            <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:18px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                    <h3 style="font-size:1.05rem; font-weight:700; color:var(--text-primary); margin:0;">${fac.name}</h3>
+                    <span class="${getRatingBadgeClass(fac.rating)}" style="font-weight:700;">${fac.rating.toFixed(2)} / 5.0</span>
                 </div>
-
-                <div class="summary-meta-strip" style="gap:16px; padding-bottom:12px; margin-bottom:14px;">
-                    <div class="summary-meta-item">
-                        <span class="summary-meta-label">Comments</span>
-                        <span class="summary-meta-val" style="font-size:0.95rem;">${fac.comments_count}</span>
-                    </div>
-                    <div class="summary-meta-item">
-                        <span class="summary-meta-label">Recurring Issues</span>
-                        <span class="summary-meta-val" style="font-size:0.95rem;">${fac.issues_count}</span>
-                    </div>
+                <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:10px;">
+                    ${fac.comments_count} verified comments &bull; ${fac.issues_count} recurring complaint areas
                 </div>
-
-                <div class="complaints-section" style="margin-bottom:16px;">
-                    <div class="complaints-title" style="font-size:0.82rem; margin-bottom:6px;">Main Complaints:</div>
-                    <div class="complaint-pills-row">
-                        ${complaintsHtml}
-                    </div>
-                </div>
-
-                <div class="summary-text-box" style="padding:16px; margin-bottom:16px;">
-                    <p class="summary-prose" style="font-size:0.96rem; line-height:1.65;">${escapeHtml(summaryText)}</p>
-                </div>
-
-                <div class="summary-actions-bar">
-                    <button type="button" class="btn-copy-summary" onclick="copySummaryText('${fac.id}', this)">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
-                        <span>Copy summary</span>
-                    </button>
-                </div>
-            `;
-        }
-
-        cardCompareA.innerHTML = buildCardHtml(facA, badgeA);
-        cardCompareB.innerHTML = buildCardHtml(facB, badgeB);
+                <p style="font-size:0.84rem; color:var(--text-primary); line-height:1.55; margin-bottom:14px;">
+                    ${escapeHtml(fac.summary)}
+                </p>
+                <button type="button" class="btn-secondary" onclick="copySummaryText('${fac.id}', this)" style="font-size:0.75rem; padding:4px 10px;">
+                    Copy summary
+                </button>
+            </div>
+        `;
     }
 
-    // ---------------------------------------------------------
-    // Event Listeners: Mode Switching
-    // ---------------------------------------------------------
-    btnModeSingle.addEventListener("click", () => {
-        btnModeSingle.classList.add("active");
-        btnModeCompare.classList.remove("active");
-        singleSection.style.display = "block";
-        compareSection.style.display = "none";
-        tabSortWrap.style.display = "flex";
-    });
+    function refreshCompareView() {
+        if (compareSelectA && cardCompareA) renderCompareCard(cardCompareA, compareSelectA.value);
+        if (compareSelectB && cardCompareB) renderCompareCard(cardCompareB, compareSelectB.value);
+    }
 
-    btnModeCompare.addEventListener("click", () => {
-        btnModeCompare.classList.add("active");
-        btnModeSingle.classList.remove("active");
-        singleSection.style.display = "none";
-        compareSection.style.display = "block";
-        tabSortWrap.style.display = "none";
-        renderCompareView();
-    });
+    if (btnModeSingle) {
+        btnModeSingle.addEventListener("click", () => {
+            btnModeSingle.classList.add("active");
+            btnModeCompare.classList.remove("active");
+            singleSection.style.display = "block";
+            compareSection.style.display = "none";
+        });
+    }
 
-    // Event Listeners: Tab Sorting
+    if (btnModeCompare) {
+        btnModeCompare.addEventListener("click", () => {
+            btnModeCompare.classList.add("active");
+            btnModeSingle.classList.remove("active");
+            singleSection.style.display = "none";
+            compareSection.style.display = "block";
+            refreshCompareView();
+        });
+    }
+
+    if (compareSelectA) compareSelectA.addEventListener("change", refreshCompareView);
+    if (compareSelectB) compareSelectB.addEventListener("change", refreshCompareView);
+
     tabSortButtons.forEach(btn => {
         btn.addEventListener("click", () => {
             tabSortButtons.forEach(b => b.classList.remove("active"));
@@ -1095,71 +1229,35 @@ function initSummariesPage() {
         });
     });
 
-    // Event Listeners: Compare Select Dropdowns
-    compareSelectA.addEventListener("change", renderCompareView);
-    compareSelectB.addEventListener("change", renderCompareView);
-
-    // Global helper: Select tab
     window.selectSummaryTab = function(facilityId) {
         selectedFacilityId = facilityId;
         renderTabs();
         renderSingleCard();
     };
 
-    // Initial render
     renderTabs();
     renderSingleCard();
 }
 
-// Global helper: Copy summary text to clipboard with visual feedback
 window.copySummaryText = function(facilityId, btnElement) {
     const fac = window.FACILITY_SUMMARIES ? window.FACILITY_SUMMARIES.find(f => f.id === facilityId) : null;
     if (!fac || !fac.summary) return;
 
-    const textToCopy = fac.summary.trim();
-
-    function showFeedback() {
+    navigator.clipboard.writeText(fac.summary.trim()).then(() => {
         if (!btnElement) return;
-        const originalHtml = btnElement.innerHTML;
-        btnElement.innerHTML = `<span>✓ Copied to clipboard!</span>`;
-        btnElement.style.backgroundColor = "var(--rating-good)";
-        btnElement.style.color = "#ffffff";
-        btnElement.style.borderColor = "var(--rating-good)";
-
+        const oldText = btnElement.textContent;
+        btnElement.textContent = "Copied!";
+        btnElement.style.color = "var(--sentiment-pos)";
         setTimeout(() => {
-            btnElement.innerHTML = originalHtml;
-            btnElement.style.backgroundColor = "";
+            btnElement.textContent = oldText;
             btnElement.style.color = "";
-            btnElement.style.borderColor = "";
-        }, 2000);
-    }
-
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(textToCopy).then(showFeedback).catch(() => {
-            fallbackCopy(textToCopy);
-            showFeedback();
-        });
-    } else {
-        fallbackCopy(textToCopy);
-        showFeedback();
-    }
+        }, 1800);
+    });
 };
 
-function fallbackCopy(text) {
-    const ta = document.createElement("textarea");
-    ta.value = text;
-    ta.style.position = "fixed";
-    ta.style.left = "-9999px";
-    document.body.appendChild(ta);
-    ta.select();
-    try { document.execCommand("copy"); } catch (e) {}
-    document.body.removeChild(ta);
-}
-
-
-// -------------------------------------------------------------
-// 5. Flagged Comments Page: Policy, Distribution, and Safe Table
-// -------------------------------------------------------------
+// =============================================================
+// 7. Flagged / Abusive Content Page
+// =============================================================
 function initFlaggedPage() {
     const tableEl = document.getElementById("flaggedDataTable");
     if (!tableEl || !window.FLAGGED_DATA) return;
@@ -1168,148 +1266,51 @@ function initFlaggedPage() {
     const searchInput = document.getElementById("flaggedSearchInput");
     const rowCountEl = document.getElementById("flaggedRowCount");
     const tableBody = document.getElementById("flaggedTableBody");
-    const btnResetFacility = document.getElementById("btnResetFacilityFilter");
-    const sortableHeaders = document.querySelectorAll("#flaggedDataTable .sortable-th");
-    const distCards = document.querySelectorAll(".dist-card");
-
-    let currentSortCol = "bert_score";
-    let currentSortAsc = false; // Highest toxicity first by default
     const expandedCommentIds = new Set();
 
-    // ---------------------------------------------------------
-    // Function: Render Quarantined Comments Table
-    // ---------------------------------------------------------
     function renderTable() {
         const facFilter = facilitySelect ? facilitySelect.value : "all";
         const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
-        // 1. Filter rows
         let filtered = window.FLAGGED_DATA.filter(row => {
-            // Facility filter
             if (facFilter !== "all" && row.facility !== facFilter) return false;
-
-            // Search filter
             if (searchTerm) {
                 const matchId = row.id.toLowerCase().includes(searchTerm);
                 const matchText = row.text.toLowerCase().includes(searchTerm);
                 const matchFac = row.display_facility.toLowerCase().includes(searchTerm);
                 if (!matchId && !matchText && !matchFac) return false;
             }
-
             return true;
         });
 
-        // 2. Sort rows
-        filtered.sort((a, b) => {
-            let valA = a[currentSortCol];
-            let valB = b[currentSortCol];
+        filtered.sort((a, b) => b.bert_score - a.bert_score);
 
-            if (valA === null || valA === undefined) valA = -999;
-            if (valB === null || valB === undefined) valB = -999;
-
-            if (typeof valA === "string") {
-                return currentSortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
-            }
-            return currentSortAsc ? valA - valB : valB - valA;
-        });
-
-        // 3. Render HTML
         if (filtered.length === 0) {
-            tableBody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 32px; color: var(--text-muted);">No quarantined comments match the filter or search criteria.</td></tr>';
+            tableBody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 32px; color: var(--text-muted);">No quarantined comments match criteria.</td></tr>';
         } else {
             tableBody.innerHTML = filtered.map(row => {
                 const isExpanded = expandedCommentIds.has(row.id);
                 const fullText = row.text;
-                
-                // Truncate to first line or 100 characters for safety
-                const firstLine = fullText.split("\n")[0].trim();
-                const needsTruncation = fullText.length > 100 || fullText.includes("\n");
-                
-                let textHtml = "";
-                let toggleBtn = "";
-
-                if (needsTruncation) {
-                    if (isExpanded) {
-                        textHtml = escapeHtml(fullText);
-                        toggleBtn = `<br><button type="button" class="btn-toggle-expand" onclick="window.toggleCommentExpand('${row.id}')">Collapse comment &uarr;</button>`;
-                    } else {
-                        const snippet = firstLine.length > 100 ? firstLine.substring(0, 97) + "..." : firstLine;
-                        textHtml = escapeHtml(snippet);
-                        toggleBtn = `<br><button type="button" class="btn-toggle-expand" onclick="window.toggleCommentExpand('${row.id}')">Show full comment &darr;</button>`;
-                    }
-                } else {
-                    textHtml = escapeHtml(fullText);
-                }
-
-                const scorePercent = (row.bert_score * 100).toFixed(1);
+                const snippet = fullText.length > 90 ? fullText.substring(0, 87) + "..." : fullText;
+                const textHtml = isExpanded ? escapeHtml(fullText) : escapeHtml(snippet);
+                const toggleBtn = fullText.length > 90 ? `<button type="button" class="btn-sort" style="margin-left:6px; font-size:0.72rem; padding:2px 6px;" onclick="window.toggleCommentExpand('${row.id}')">${isExpanded ? 'Collapse' : 'Show full comment'}</button>` : '';
 
                 return `
                     <tr>
-                        <td style="font-family: monospace; font-size: 0.85rem; color: var(--text-heading); font-weight: 600;">
-                            ${escapeHtml(row.id)}
-                        </td>
-                        <td>
-                            <strong>${escapeHtml(row.display_facility)}</strong>
-                        </td>
-                        <td>
-                            <span class="tox-badge" title="Toxicity confidence: ${row.bert_score.toFixed(3)}">
-                                ${row.bert_score.toFixed(3)} (${scorePercent}%)
-                            </span>
-                        </td>
-                        <td>
-                            <div class="comment-cell-wrap">
-                                <span class="comment-preview-text">${textHtml}</span>
-                                ${toggleBtn}
-                            </div>
-                        </td>
+                        <td style="font-family: monospace; font-size: 0.8rem; color: var(--text-muted);">${escapeHtml(row.id)}</td>
+                        <td><strong>${escapeHtml(row.display_facility)}</strong></td>
+                        <td><span class="badge-neg">${row.bert_score.toFixed(3)}</span></td>
+                        <td>${textHtml} ${toggleBtn}</td>
                     </tr>
                 `;
             }).join("");
         }
 
-        // 4. Update row count text
         if (rowCountEl) {
             rowCountEl.textContent = `Showing ${filtered.length} of ${window.FLAGGED_DATA.length} flagged comments`;
         }
-
-        // 5. Update header sort indicators
-        sortableHeaders.forEach(th => {
-            const col = th.getAttribute("data-col");
-            const icon = th.querySelector(".sort-icon");
-            if (icon) {
-                if (col === currentSortCol) {
-                    icon.innerHTML = currentSortAsc ? "&uarr;" : "&darr;";
-                    th.style.color = "var(--accent-color)";
-                } else {
-                    icon.innerHTML = "&updownarrow;";
-                    th.style.color = "";
-                }
-            }
-        });
     }
 
-    // ---------------------------------------------------------
-    // Function: Update Mini Facility Bar Highlight
-    // ---------------------------------------------------------
-    function updateActiveFacilityCard(facId) {
-        distCards.forEach(card => {
-            if (card.getAttribute("data-fac") === facId && facId !== "all") {
-                card.classList.add("active");
-            } else {
-                card.classList.remove("active");
-            }
-        });
-    }
-
-    // Global helper: Filter by clicking facility distribution card
-    window.filterByFacilityCard = function(facId) {
-        if (!facilitySelect) return;
-        facilitySelect.value = facId;
-        updateActiveFacilityCard(facId);
-        renderTable();
-    };
-
-    // Global helper: Toggle expand/collapse of individual comment
     window.toggleCommentExpand = function(commentId) {
         if (expandedCommentIds.has(commentId)) {
             expandedCommentIds.delete(commentId);
@@ -1319,275 +1320,8 @@ function initFlaggedPage() {
         renderTable();
     };
 
-    // Event listener: Reset facility filter
-    if (btnResetFacility) {
-        btnResetFacility.addEventListener("click", () => {
-            if (facilitySelect) facilitySelect.value = "all";
-            updateActiveFacilityCard("all");
-            renderTable();
-        });
-    }
+    if (facilitySelect) facilitySelect.addEventListener("change", renderTable);
+    if (searchInput) searchInput.addEventListener("input", renderTable);
 
-    // Event listener: Facility select dropdown change
-    if (facilitySelect) {
-        facilitySelect.addEventListener("change", () => {
-            updateActiveFacilityCard(facilitySelect.value);
-            renderTable();
-        });
-    }
-
-    // Event listener: Search input
-    if (searchInput) {
-        searchInput.addEventListener("input", renderTable);
-    }
-
-    // Event listener: Sortable column headers
-    sortableHeaders.forEach(th => {
-        th.addEventListener("click", () => {
-            const col = th.getAttribute("data-col");
-            if (currentSortCol === col) {
-                currentSortAsc = !currentSortAsc;
-            } else {
-                currentSortCol = col;
-                currentSortAsc = col === "bert_score" ? false : true;
-            }
-            renderTable();
-        });
-    });
-
-    // Initial render
     renderTable();
-}
-
-
-// -------------------------------------------------------------
-// 6. Submit Feedback Page: Real-Time NLP Evaluation
-// -------------------------------------------------------------
-window.FEEDBACK_EXAMPLES = {
-    positive: {
-        facility: 'library',
-        text: 'The library is very quiet and peaceful with plenty of clean study desks.'
-    },
-    negative: {
-        facility: 'canteen',
-        text: 'The food in the canteen is oily, stale and completely cold.'
-    },
-    mixed: {
-        facility: 'classrooms',
-        text: 'The projectors in the classrooms work well but the air conditioning is broken and noisy.'
-    },
-    neutral: {
-        facility: 'library',
-        text: 'The library hours are posted on the notice board.'
-    },
-    abusive: {
-        facility: 'canteen',
-        text: 'The canteen staff are complete idiots and stupid fools.'
-    }
-};
-
-function initSubmitPage() {
-    const form = document.getElementById("feedbackForm");
-    if (!form) return;
-
-    const submitFacility = document.getElementById("submitFacility");
-    const submitText = document.getElementById("submitText");
-    const charCounter = document.getElementById("charCounter");
-    const formErrorMessage = document.getElementById("formErrorMessage");
-    const btnSubmitAnalyse = document.getElementById("btnSubmitAnalyse");
-    const btnSubmitSpinner = document.getElementById("btnSubmitSpinner");
-    const btnSubmitText = document.getElementById("btnSubmitText");
-    const resultsSection = document.getElementById("resultsSection");
-    const metaDetailsBadge = document.getElementById("metaDetailsBadge");
-    const truncationNoticeBox = document.getElementById("truncationNoticeBox");
-    const quarantineAlertBox = document.getElementById("quarantineAlertBox");
-    const quarantineScoreBadge = document.getElementById("quarantineScoreBadge");
-    const safeAssessmentBox = document.getElementById("safeAssessmentBox");
-    const safeScoreBadge = document.getElementById("safeScoreBadge");
-    const aspectsContainer = document.getElementById("aspectsContainer");
-    const aspectsCardsGrid = document.getElementById("aspectsCardsGrid");
-    const noAspectsBox = document.getElementById("noAspectsBox");
-
-    // Helper: Update character counter
-    function updateCharCount() {
-        if (!submitText || !charCounter) return;
-        const count = submitText.value.length;
-        charCounter.textContent = `${count} / 1000 characters`;
-        if (count > 1000) {
-            charCounter.style.color = "var(--rating-mid)";
-            charCounter.style.fontWeight = "700";
-        } else {
-            charCounter.style.color = "";
-            charCounter.style.fontWeight = "";
-        }
-    }
-
-    if (submitText) {
-        submitText.addEventListener("input", updateCharCount);
-    }
-
-    // Global helper: Load demo example
-    window.loadExample = function(key) {
-        if (!window.FEEDBACK_EXAMPLES || !window.FEEDBACK_EXAMPLES[key]) return;
-        const ex = window.FEEDBACK_EXAMPLES[key];
-        if (submitFacility) submitFacility.value = ex.facility;
-        if (submitText) {
-            submitText.value = ex.text;
-            updateCharCount();
-            submitText.focus();
-        }
-        if (formErrorMessage) formErrorMessage.style.display = "none";
-    };
-
-    // Global helper: Clear form
-    window.clearFeedbackForm = function() {
-        if (submitText) {
-            submitText.value = "";
-            updateCharCount();
-        }
-        if (formErrorMessage) formErrorMessage.style.display = "none";
-        if (resultsSection) resultsSection.style.display = "none";
-    };
-
-    // Global helper: Submit analysis
-    window.handleFeedbackSubmit = async function(e) {
-        if (e) e.preventDefault();
-
-        const rawText = submitText ? submitText.value.trim() : "";
-        if (!rawText) {
-            if (formErrorMessage) {
-                formErrorMessage.textContent = "Please enter a student feedback comment before analysing.";
-                formErrorMessage.style.display = "block";
-            }
-            if (resultsSection) resultsSection.style.display = "none";
-            return;
-        }
-
-        if (formErrorMessage) formErrorMessage.style.display = "none";
-
-        // Set button loading state
-        if (btnSubmitSpinner) btnSubmitSpinner.style.display = "inline-block";
-        if (btnSubmitText) btnSubmitText.textContent = "Analysing with NLP models...";
-        if (btnSubmitAnalyse) btnSubmitAnalyse.disabled = true;
-
-        try {
-            const payload = {
-                facility: submitFacility ? submitFacility.value : "canteen",
-                text: rawText
-            };
-
-            const response = await fetch("/api/analyse", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(payload)
-            });
-
-            const data = await response.json();
-
-            if (!data.success) {
-                if (formErrorMessage) {
-                    formErrorMessage.textContent = data.error || "An error occurred during model analysis.";
-                    formErrorMessage.style.display = "block";
-                }
-                if (resultsSection) resultsSection.style.display = "none";
-                return;
-            }
-
-            // Analysis Success: Populate Results Section
-            if (resultsSection) resultsSection.style.display = "block";
-
-            // Metadata pill
-            if (metaDetailsBadge) {
-                metaDetailsBadge.textContent = `${data.facility_name} • ${data.char_count} chars`;
-            }
-
-            // Truncation Notice
-            if (truncationNoticeBox) {
-                if (data.truncated) {
-                    truncationNoticeBox.innerHTML = `<strong>Note:</strong> Your comment exceeded 1,000 characters (${data.char_count} characters entered). It was automatically truncated to the first 1,000 characters for analysis.`;
-                    truncationNoticeBox.style.display = "block";
-                } else {
-                    truncationNoticeBox.style.display = "none";
-                }
-            }
-
-            // Moderation: Abusive vs Safe
-            if (data.abusive) {
-                if (quarantineAlertBox) quarantineAlertBox.style.display = "block";
-                if (quarantineScoreBadge) {
-                    quarantineScoreBadge.textContent = `Toxicity score: ${data.toxicity_score.toFixed(3)} (${data.toxicity_pct}%)`;
-                }
-                if (safeAssessmentBox) safeAssessmentBox.style.display = "none";
-                if (aspectsContainer) aspectsContainer.style.display = "none";
-                if (noAspectsBox) noAspectsBox.style.display = "none";
-            } else {
-                if (quarantineAlertBox) quarantineAlertBox.style.display = "none";
-                if (safeAssessmentBox) safeAssessmentBox.style.display = "block";
-                if (safeScoreBadge) {
-                    safeScoreBadge.textContent = `Toxicity score: ${data.toxicity_score.toFixed(3)} (Safe)`;
-                }
-
-                // Aspect Sentiment Topics
-                if (data.aspects && data.aspects.length > 0) {
-                    if (aspectsContainer) aspectsContainer.style.display = "block";
-                    if (noAspectsBox) noAspectsBox.style.display = "none";
-
-                    if (aspectsCardsGrid) {
-                        aspectsCardsGrid.innerHTML = data.aspects.map(a => {
-                            let badgeClass = "badge-sentiment-neu";
-                            let badgeLabel = "Neutral";
-                            if (a.sentiment === "positive") {
-                                badgeClass = "badge-sentiment-pos";
-                                badgeLabel = "Positive";
-                            } else if (a.sentiment === "negative") {
-                                badgeClass = "badge-sentiment-neg";
-                                badgeLabel = "Negative";
-                            }
-
-                            const clauseHtml = a.clause ? `
-                                <div class="aspect-clause-quote">
-                                    &ldquo;${escapeHtml(a.clause)}&rdquo;
-                                </div>
-                            ` : "";
-
-                            const termHtml = a.aspect_term ? `
-                                <div class="aspect-keyword-meta">
-                                    Identified term: <strong>${escapeHtml(a.aspect_term)}</strong>
-                                </div>
-                            ` : `<div class="aspect-keyword-meta" style="color:var(--accent-color);">Inferred by DistilBERT model</div>`;
-
-                            return `
-                                <div class="aspect-card">
-                                    <div class="aspect-card-header">
-                                        <span class="aspect-topic-name">${escapeHtml(a.category)}</span>
-                                        <span class="${badgeClass}">${badgeLabel}</span>
-                                    </div>
-                                    ${clauseHtml}
-                                    ${termHtml}
-                                </div>
-                            `;
-                        }).join("");
-                    }
-                } else {
-                    if (aspectsContainer) aspectsContainer.style.display = "none";
-                    if (noAspectsBox) noAspectsBox.style.display = "block";
-                }
-            }
-
-            // Scroll down smoothly to results
-            if (resultsSection) {
-                resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
-
-        } catch (err) {
-            if (formErrorMessage) {
-                formErrorMessage.textContent = "Could not communicate with the analysis server. Please ensure the web application is running.";
-                formErrorMessage.style.display = "block";
-            }
-        } finally {
-            if (btnSubmitSpinner) btnSubmitSpinner.style.display = "none";
-            if (btnSubmitText) btnSubmitText.textContent = "Analyse comment";
-            if (btnSubmitAnalyse) btnSubmitAnalyse.disabled = false;
-        }
-    };
 }

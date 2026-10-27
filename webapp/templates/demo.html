@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% block title %}Live Demo - {{ project_name }}{% endblock %}
+
+{% block content %}
+<div class="demo-page">
+    <!-- Six-Stage Process Strip -->
+    <div class="step-strip" id="stepStrip">
+        <div class="step-item active" id="step1" data-step="1">
+            <span class="step-num">1</span>
+            <span class="step-name">Anonymous feedback</span>
+        </div>
+        <div class="step-connector" id="conn1"></div>
+        <div class="step-item" id="step2" data-step="2">
+            <span class="step-num">2</span>
+            <span class="step-name">Abusive content check</span>
+        </div>
+        <div class="step-connector" id="conn2"></div>
+        <div class="step-item" id="step3" data-step="3">
+            <span class="step-num">3</span>
+            <span class="step-name">Aspect extraction</span>
+        </div>
+        <div class="step-connector" id="conn3"></div>
+        <div class="step-item" id="step4" data-step="4">
+            <span class="step-num">4</span>
+            <span class="step-name">Sentiment</span>
+        </div>
+        <div class="step-connector" id="conn4"></div>
+        <div class="step-item" id="step5" data-step="5">
+            <span class="step-num">5</span>
+            <span class="step-name">Rating</span>
+        </div>
+        <div class="step-connector" id="conn5"></div>
+        <div class="step-item" id="step6" data-step="6">
+            <span class="step-num">6</span>
+            <span class="step-name">Summary</span>
+        </div>
+    </div>
+
+    <!-- Split Panels (Left: Input Form, Right: Live Results) -->
+    <div class="demo-grid">
+        <!-- Left Panel: Input & Controls -->
+        <section class="demo-panel demo-input-panel">
+            <div class="panel-inner">
+                <div class="panel-header-compact">
+                    <h2 class="panel-title">Test Student Feedback</h2>
+                    <span class="panel-hint">Evaluate custom text live in memory</span>
+                </div>
+
+                <!-- Five Quick Example Buttons -->
+                <div class="quick-examples-wrap">
+                    <span class="quick-label">Quick fill:</span>
+                    <div class="quick-btns">
+                        <button type="button" class="btn-quick" onclick="loadDemoExample('positive')">Positive</button>
+                        <button type="button" class="btn-quick" onclick="loadDemoExample('negative')">Negative</button>
+                        <button type="button" class="btn-quick" onclick="loadDemoExample('mixed')">Mixed</button>
+                        <button type="button" class="btn-quick" onclick="loadDemoExample('neutral')">Neutral</button>
+                        <button type="button" class="btn-quick" onclick="loadDemoExample('abusive')">Abusive</button>
+                    </div>
+                </div>
+
+                <form id="demoFeedbackForm" onsubmit="handleDemoSubmit(event)">
+                    <!-- Facility Picker (All facilities is default option 1) -->
+                    <div class="form-group">
+                        <label for="demoFacility" class="form-label">Campus Facility</label>
+                        <select id="demoFacility" class="form-select">
+                            <option value="all" selected>All facilities</option>
+                            {% for fac in facilities %}
+                            <option value="{{ fac.id }}">{{ fac.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Comment Box with Live Counter -->
+                    <div class="form-group">
+                        <div class="textarea-label-row">
+                            <label for="demoCommentText" class="form-label">Comment</label>
+                            <span class="char-counter" id="demoCharCounter">0 / 1000 characters</span>
+                        </div>
+                        <textarea id="demoCommentText" class="form-textarea" rows="4" maxlength="1000" placeholder="Type or paste student feedback here..." required></textarea>
+                    </div>
+
+                    <!-- Plain Error Alert -->
+                    <div id="demoFormError" class="demo-error-msg" style="display: none;"></div>
+
+                    <!-- Action Buttons -->
+                    <div class="form-actions-row">
+                        <button type="submit" class="btn-primary" id="btnAnalyse">
+                            <span id="btnAnalyseSpinner" class="spinner" style="display: none;"></span>
+                            <span id="btnAnalyseText">Analyse comment</span>
+                        </button>
+                        <button type="button" class="btn-secondary" id="btnClear" onclick="clearDemoForm()">
+                            Clear
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Privacy Notice -->
+                <div class="privacy-note">
+                    <svg class="privacy-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>No name, login or ID is collected, and nothing is saved.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Panel: Live Pipeline Results -->
+        <section class="demo-panel demo-results-panel">
+            <div class="panel-inner" id="resultsContainer">
+                <!-- Initial State Placeholder -->
+                <div class="empty-results-placeholder" id="emptyPlaceholder">
+                    <div class="placeholder-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </div>
+                    <h3 class="placeholder-title">Awaiting Input</h3>
+                    <p class="placeholder-text">Select a facility (or keep "All facilities"), enter a student comment, and click "Analyse comment" to run live inference.</p>
+                </div>
+
+                <!-- Active Results Content -->
+                <div class="results-active-content" id="resultsContent" style="display: none;">
+                    <!-- Abusive Content Check Result Row -->
+                    <div class="check-result-row" id="checkResultRow">
+                        <!-- Clean State Result -->
+                        <div class="check-clean-box" id="checkCleanBox" style="display: none;">
+                            <div class="check-status-badge">
+                                <span class="badge-passed">Passed</span>
+                            </div>
+                            <div class="check-info">
+                                <span class="check-label">Abusive content check:</span>
+                                <span class="check-score" id="checkCleanScore">Toxicity score: 0.001</span>
+                                <span class="check-detail">&bull; Verified safe for rating aggregation</span>
+                            </div>
+                        </div>
+
+                        <!-- Abusive State Result -->
+                        <div class="check-abusive-box" id="checkAbusiveBox" style="display: none;">
+                            <div class="abusive-badge-row">
+                                <span class="badge-flagged">Flagged as abusive</span>
+                                <span class="abusive-score" id="checkAbusiveScore">Toxicity score: 0.985</span>
+                            </div>
+                            <p class="abusive-explanation">
+                                This comment was flagged as abusive by the Toxic-BERT model and would be excluded from the ratings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Clean Comment Results (Aspects, Stars, Summary) -->
+                    <div id="cleanResultsSection" style="display: none;">
+                        <!-- Aspect & Rating Table (One row per aspect group) -->
+                        <div class="results-card">
+                            <div class="card-header-compact">
+                                <h3 class="card-title">Aspect-Level Ratings</h3>
+                                <span class="rating-legend-note" id="tableHeaderNote">Grouped by facility &amp; aspect</span>
+                            </div>
+
+                            <div class="table-scroll-container">
+                                <table class="demo-aspects-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Aspect &amp; Evidence</th>
+                                            <th>Sentiment</th>
+                                            <th>Rating</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="aspectsTableBody">
+                                        <!-- Rendered dynamically: one row per aspect -->
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Honest Disclaimer for All Facilities -->
+                            <div class="all-fac-disclaimer" id="allFacDisclaimer" style="display: none;">
+                                Facilities were assigned from words in the comment. Choose a facility for more precise results.
+                            </div>
+
+                            <!-- No Aspect Fallback -->
+                            <div id="noAspectsMessage" class="no-aspects-msg" style="display: none;">
+                                No specific facility aspect was identified in this text. The comment was evaluated as general campus feedback.
+                            </div>
+                        </div>
+
+                        <!-- Summary Card -->
+                        <div class="results-card summary-card" id="summaryCard">
+                            <div class="summary-header">
+                                <h3 class="card-title">Comment Summary</h3>
+                                <span class="summary-badge" id="summarySourceBadge">Writing summary...</span>
+                            </div>
+                            <div class="summary-body" id="summaryBody">
+                                <div class="summary-loading" id="summaryLoading">
+                                    <span class="spinner-small"></span>
+                                    <span>Writing summary...</span>
+                                </div>
+                                <p class="summary-text" id="summaryText" style="display: none;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{% endblock %}

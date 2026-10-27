@@ -1,6 +1,6 @@
 # Campus Facility Feedback Analysis System - Web Application
 
-This web application is the presentation dashboard for the final-year NLP project on campus facility feedback. It features a compact, fully offline dark-mode dashboard with a persistent left sidebar. All pages load strictly from the final dataset outputs in `data/outputs/` and allow interactive exploration without page reloads.
+This web application is the presentation dashboard for NLP project on campus facility feedback. It features a compact, fully offline dark-mode dashboard with a persistent left sidebar. All pages load strictly from the final dataset outputs in `data/outputs/` and allow interactive exploration without page reloads.
 
 ---
 

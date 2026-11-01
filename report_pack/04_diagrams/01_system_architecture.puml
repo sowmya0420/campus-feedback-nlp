@@ -1,0 +1,54 @@
+@startuml
+skinparam backgroundColor white
+skinparam handwritten false
+skinparam packageBorderColor #4a2c6d
+skinparam packageFontColor #4a2c6d
+skinparam packageFontSize 12
+skinparam packageFontStyle bold
+
+actor "Student" as student
+actor "Administrator" as admin
+
+package "User Interface Layer" {
+    component "Flask Web Application\n(webapp/app.py - Port 5000)" as flask_app
+    component "Streamlit UI\n(app/app.py)" as st_app
+}
+
+package "NLP Processing Pipeline (src/pipeline.py)" {
+    component "Preprocessing & Normalization\n(src/preprocess.py)" as prep
+    component "Toxic-BERT Abuse Detector\n(unitary/toxic-bert)" as abuse_guard
+    component "Hybrid Aspect Extractor\n(src/aspects_hybrid.py)" as aspect_ext
+    component "DistilBERT v3 ABSA Classifier\n(models/sentiment_distilbert_v3)" as sentiment_clf
+}
+
+package "Analytics & Executive Insights" {
+    component "Ratings & Issues Aggregator\n(src/aggregate.py)" as agg
+    component "Ollama Local AI Summarizer\n(llama3.1 + Verification Gate)" as summ
+}
+
+database "Data Outputs (data/outputs/)" {
+    file "predictions.csv" as pred_file
+    file "ratings.csv" as ratings_file
+    file "issues.csv" as issues_file
+    file "summaries.csv" as summaries_file
+    file "quarantined_abusive" as abuse_file
+}
+
+student --> flask_app : Submits feedback
+student --> st_app : Submits feedback
+flask_app --> prep : Raw text
+prep --> abuse_guard : Cleaned clauses
+abuse_guard --> abuse_file : Flagged (score >= 0.50)
+abuse_guard --> aspect_ext : Safe feedback
+aspect_ext --> sentiment_clf : Aspect + clause pairs
+sentiment_clf --> pred_file : Polarity predictions
+pred_file --> agg : Aspect polarities
+agg --> ratings_file : 1-5 ratings
+agg --> issues_file : Chronic issues (neg_share >= 0.7)
+ratings_file --> summ : Aggregated facts
+summ --> summaries_file : Factual facility briefs
+ratings_file --> flask_app : Dashboard data
+issues_file --> flask_app : Problem alerts
+summaries_file --> flask_app : Executive text
+flask_app --> admin : Insights & reports
+@enduml

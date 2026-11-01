@@ -1,0 +1,21 @@
+id,legacy_id,facility,batch,persona,text,aspect_term,category,sentiment,abusive,source_type,provenance,split
+N_CAN_TR_001,,canteen,3,first-year hosteller,"juice price is average da, same as outside",price,price,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_002,,canteen,3,second-year day scholar,"idli is okay, not great not bad",idli,food quality,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_003,,canteen,3,final-year student,"canteen seating is just ok, I usually find a place",seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_004,,canteen,3,girls' hostel resident,waiting time at the tea counter is normal during breaks,waiting time,waiting time,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_005,,canteen,3,outstation student,the staff at the billing counter are neither rude nor friendly,staff,staff behavior,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_006,,canteen,3,placement-focused student,"veg meals portion is average, enough for one person",portion,quantity,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_007,,canteen,3,club member,menu variety is so-so,variety,variety,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_008,,canteen,3,backlog student,"tables are cleaned sometimes, hygiene is average",hygiene,hygiene,neutral,False,synthetic,neutral_supplement,train
+N_CAN_TR_009,,canteen,3,third-year hosteller,"fried rice tastes decent, I wouldn't call it special",fried rice,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_001,,hostel_mess,3,faculty-project student,"dinner is okay most days, nothing to complain nothing to praise",dinner,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_002,,hostel_mess,3,first-year hosteller,"mess queue takes around ten minutes, usual",queue,waiting time,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_003,,hostel_mess,3,second-year day scholar,"chapati quantity is fine, not too much not too less",chapati,quantity,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_004,,hostel_mess,3,final-year student,"sambar is ok dhan, same as any mess",sambar,food quality,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_005,,hostel_mess,3,girls' hostel resident,mess fees are in line with other hostels i guess,fees,price,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_006,,hostel_mess,3,outstation student,"mess workers behave normally, just serve and go",mess workers,staff behavior,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_007,,hostel_mess,3,placement-focused student,dining hall seating is okay for the crowd we have,seating,seating,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_008,,hostel_mess,3,club member,"weekly menu has the usual variety, it is fine",variety,variety,neutral,False,synthetic,neutral_supplement,train
+N_MES_TR_009,,hostel_mess,3,backlog student,"mess hygiene is average, I have seen better and worse",hygiene,hygiene,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_001,,library,3,third-year hosteller,library opening hours are ok for me,opening hours,opening hours,neutral,False,synthetic,neutral_supplement,train
+N_LIB_TR_002,,library,3,faculty-project student,"library la seating okay dhan, ethuvum special illa",seating,seating,neutral,False,synthetic,neutral_supplement,train

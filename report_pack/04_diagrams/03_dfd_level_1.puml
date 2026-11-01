@@ -1,0 +1,32 @@
+@startuml
+skinparam backgroundColor white
+actor "Student" as student
+actor "Administrator" as admin
+
+rectangle "1.0 Text Preprocessing" as p1 #f5f0fa;line:4a2c6d
+rectangle "2.0 Abuse Screening" as p2 #f5f0fa;line:4a2c6d
+database "D1: Quarantined Abuse" as d1
+rectangle "3.0 Aspect Extraction" as p3 #f5f0fa;line:4a2c6d
+rectangle "4.0 Sentiment Classification" as p4 #f5f0fa;line:4a2c6d
+database "D2: predictions.csv" as d2
+rectangle "5.0 Metrics Aggregation" as p5 #f5f0fa;line:4a2c6d
+database "D3: ratings.csv" as d3
+database "D4: issues.csv" as d4
+rectangle "6.0 Summary Generation" as p6 #f5f0fa;line:4a2c6d
+database "D5: summaries.csv" as d5
+
+student -> p1 : Raw comment text
+p1 -> p2 : Segmented clauses
+p2 -> d1 : Flagged toxic text (score >= 0.5)
+p2 -> p3 : Verified safe feedback
+p3 -> p4 : Identified aspects & clauses
+p4 -> d2 : Polarity labels (pos/neu/neg)
+d2 -> p5 : Aspect sentiment records
+p5 -> d3 : Facility & aspect ratings
+p5 -> d4 : Recurring issues
+d3 -> p6 : Quantitative facts
+p6 -> d5 : Fact-checked summaries
+d3 -> admin : Facility grades
+d4 -> admin : Chronic problem areas
+d5 -> admin : Natural language briefs
+@enduml

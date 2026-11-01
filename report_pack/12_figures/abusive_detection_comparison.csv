@@ -1,0 +1,5 @@
+configuration,precision,recall,f1_score,false_positives
+Baseline (TF-IDF + LogReg),0.632,0.896,0.741,25
+toxic-bert Alone (Final),0.878,0.896,0.887,6
+Either Flags (Union),0.629,0.917,0.746,26
+Both Flag (Intersection),0.894,0.875,0.884,5

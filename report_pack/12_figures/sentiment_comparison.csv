@@ -1,0 +1,5 @@
+model,evaluation_split,accuracy,macro_f1
+Baseline (VADER + Lexicon),Validation (149 aspects),0.74,0.687
+DistilBERT v1 (EduRABSA),Validation (149 aspects),0.772,0.708
+DistilBERT v2 (Campus Fine-tuned),Validation (149 aspects),0.866,0.829
+DistilBERT v3 (Neutral Added - Final),Test Split (147 aspects),0.905,0.875

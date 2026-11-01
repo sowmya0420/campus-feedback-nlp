@@ -1,0 +1,92 @@
+classDiagram
+    class DS {
+        +AutoTokenizer tok
+        +list enc
+        +list y
+        +__init__(df)
+        +__len__() int
+        +__getitem__(i) dict
+    }
+
+    class Preprocess {
+        +clean_text(text) str
+        +split_clauses(text) list
+        +clause_with_term(text, term) str
+        +tokenize(clause) list
+    }
+
+    class AspectsHybrid {
+        +float ADD_CONF = 0.50
+        +extract_aspects(text, facility) list
+    }
+
+    class AspectsKeyword {
+        +dict LEXICON
+        +dict _PATTERNS
+        +extract_aspects(text, facility) list
+    }
+
+    class AspectsDistilBERT {
+        +str DIR = "models/aspect_distilbert_v1"
+        +AutoTokenizer _tok
+        +AutoModelForSequenceClassification _model
+        +topic_probs(texts, facilities) list
+    }
+
+    class SentimentEngine {
+        +str SENTIMENT_BACKEND
+        +predict_sentiment(clause, aspect_term) str
+        +predict_sentiment_bert(clause, aspect_term) str
+    }
+
+    class ToxicBERTGuard {
+        +str MODEL = "unitary/toxic-bert"
+        +float CUTOFF = 0.50
+        +is_abusive(text, thr) bool
+        +score(texts, clf) list
+    }
+
+    class Pipeline {
+        +analyse(text, facility) dict
+        +run_batch(paths, out) void
+    }
+
+    class Aggregator {
+        +float ISSUE_NEG_SHARE = 0.70
+        +int ISSUE_MIN_MENTIONS = 5
+        +rating(group) float
+        +run(pred_path) void
+    }
+
+    class Summarizer {
+        +top_aspects(ratings_df) tuple
+        +facts_text(facility, ratings_df) str
+        +looks_wrong(text, facts, all_cats) list
+        +summarize_with_ollama(facility, facts) str
+        +summary(facility, ratings_df) str
+        +run() void
+    }
+
+    class FlaskWebApp {
+        +dict FACILITY_DISPLAY_NAMES
+        +detect_clause_facility(clause) str
+        +home() Response
+        +demo() Response
+        +explorer() Response
+        +ratings() Response
+        +issues() Response
+        +summaries() Response
+        +flagged() Response
+        +api_analyse() JSON
+        +api_summarize_live() JSON
+    }
+
+    Pipeline --> ToxicBERTGuard : invokes
+    Pipeline --> AspectsHybrid : invokes
+    Pipeline --> SentimentEngine : invokes
+    AspectsHybrid --> AspectsKeyword : keyword matcher
+    AspectsHybrid --> AspectsDistilBERT : topic model
+    Aggregator --> Pipeline : aggregates predictions
+    Summarizer --> Aggregator : reads ratings.csv
+    FlaskWebApp --> Pipeline : calls analyse()
+    FlaskWebApp --> Summarizer : presents summaries

@@ -1,0 +1,13 @@
+@startuml
+skinparam backgroundColor white
+actor "Student" as student
+rectangle "0.0 Campus Facility Feedback\nAnalysis System" as system #f5f0fa;line:4a2c6d;text:4a2c6d
+actor "College Administration" as admin
+
+student -> system : Submits feedback text & facility
+system -> student : Displays instant aspect sentiment & stars
+system -> admin : Transmits facility ratings (1-5 scale)
+system -> admin : Alerts on chronic recurring issues
+system -> admin : Provides executive facility summaries
+system -> admin : Moderation reports of quarantined abuse
+@enduml

@@ -1,0 +1,11 @@
+flowchart LR
+    Student(["Student"])
+    System["0.0 Campus Facility Feedback Analysis System"]
+    Admin(["College Administration"])
+
+    Student -->|Submit raw feedback text & facility selection| System
+    System -->|Real-time sentiment badge & star rating| Student
+    System -->|Aspect-wise facility grades (1 to 5 stars)| Admin
+    System -->|Ranked recurring chronic issues list| Admin
+    System -->|Executive AI facility summaries| Admin
+    System -->|Quarantined abusive feedback alerts| Admin

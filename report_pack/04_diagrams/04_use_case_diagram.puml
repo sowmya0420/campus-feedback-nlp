@@ -1,0 +1,26 @@
+@startuml
+skinparam backgroundColor white
+left to right direction
+actor "Student" as student
+actor "Facility Administrator" as admin
+
+rectangle "Campus Feedback Analysis System" {
+    usecase "Submit Anonymous Feedback" as UC1
+    usecase "Pick Facility / Route All Facilities" as UC2
+    usecase "View Instant AI Sentiment & Star Rating" as UC3
+    usecase "Review Aspect-Wise Facility Ratings" as UC4
+    usecase "Identify Ranked Chronic Issues" as UC5
+    usecase "Read & Copy Executive Summaries" as UC6
+    usecase "Compare Two Facilities Side-by-Side" as UC7
+    usecase "Review Quarantined Abusive Records" as UC8
+}
+
+student --> UC1
+student --> UC2
+student --> UC3
+admin --> UC4
+admin --> UC5
+admin --> UC6
+admin --> UC7
+admin --> UC8
+@enduml

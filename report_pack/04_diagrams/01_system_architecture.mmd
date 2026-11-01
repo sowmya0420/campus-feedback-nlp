@@ -1,0 +1,47 @@
+flowchart TD
+    subgraph UI ["User Interaction Layer"]
+        Student(["Student / Day Scholar / Hosteller"])
+        Admin(["College Facility Administrator"])
+        WebApp["Flask Offline Web Application (Port 5000)<br>• 7 Offline Views & Real-time Inference"]
+        StreamlitUI["Streamlit Internal Dashboard (app/app.py)"]
+    end
+
+    subgraph Pipeline ["NLP Analysis Pipeline (src/pipeline.py)"]
+        Preprocess["1. Preprocessing & Normalization (src/preprocess.py)<br>• Lowercase, typo clean, Tanglish slang handling<br>• Clause segmentation at contrast words & punctuation"]
+        ToxicGuard{"2. Abuse Detection Gate<br>(unitary/toxic-bert, Cutoff >= 0.50)"}
+        Quarantine[("Quarantined Database<br>Flagged Comments Excluded")]
+        AspectExt["3. Hybrid Aspect Extraction (src/aspects_hybrid.py)<br>• Keyword Matcher (src/aspects.py)<br>• DistilBERT Topic Model (conf >= 0.50)"]
+        SentimentModel["4. Aspect-Based Sentiment Analysis (src/sentiment.py)<br>• DistilBERT v3 Sequence Classifier<br>• Context: [aspect term] + [subclause]"]
+    end
+
+    subgraph Aggregation ["Metrics & Insights Layer"]
+        AggEngine["5. Quantitative Aggregation (src/aggregate.py)<br>• 1 to 5 Star Rating Formula<br>• Recurring Issues Threshold (neg_share >= 0.70)"]
+        OllamaLLM["6. Local AI Summarizer (src/summarize.py)<br>• Local Ollama daemon running llama3.1<br>• Automated Hallucination & Fact Check Gate<br>• Template Fallback Generator"]
+    end
+
+    subgraph Storage ["Data Output Store (data/outputs/)"]
+        PredCSV[("predictions.csv<br>1056 aspect records")]
+        RatingsCSV[("ratings.csv<br>8 facilities, 42 aspects")]
+        IssuesCSV[("issues.csv<br>16 chronic issues")]
+        SummCSV[("summaries.csv<br>8 facility briefs")]
+    end
+
+    Student -->|Submits free-form text feedback| WebApp
+    Student -->|Submits feedback| StreamlitUI
+    WebApp --> Preprocess
+    StreamlitUI --> Preprocess
+    Preprocess --> ToxicGuard
+    ToxicGuard -->|Score >= 0.50 (Abusive)| Quarantine
+    ToxicGuard -->|Score < 0.50 (Safe)| AspectExt
+    AspectExt --> SentimentModel
+    SentimentModel --> PredCSV
+    PredCSV --> AggEngine
+    AggEngine --> RatingsCSV
+    AggEngine --> IssuesCSV
+    RatingsCSV --> OllamaLLM
+    OllamaLLM --> SummCSV
+    RatingsCSV --> WebApp
+    IssuesCSV --> WebApp
+    SummCSV --> WebApp
+    Quarantine --> WebApp
+    WebApp -->|Visual analytics, charts, alerts| Admin

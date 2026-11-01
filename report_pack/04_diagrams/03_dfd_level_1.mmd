@@ -1,0 +1,15 @@
+flowchart TD
+    Student(["Student"]) -->|Feedback Text| P1["1.0 Text Preprocessing<br>& Clause Splitting"]
+    P1 -->|Cleaned Clauses| P2["2.0 Abusive Content<br>Detection Gate"]
+    P2 -->|Score >= 0.50| D1[("D1 Quarantined Abuse Store")]
+    P2 -->|Score < 0.50| P3["3.0 Aspect Extraction<br>(Keywords + DistilBERT)"]
+    P3 -->|Aspect-Clause Pairs| P4["4.0 Aspect Sentiment<br>Classification (ABSA)"]
+    P4 -->|Aspect Sentiment Predictions| D2[("D2 Predictions Store<br>(predictions.csv)")]
+    D2 --> P5["5.0 Ratings & Issues<br>Aggregation"]
+    P5 -->|1-5 Star Ratings| D3[("D3 Ratings Store<br>(ratings.csv)")]
+    P5 -->|Negative Share >= 70%| D4[("D4 Issues Store<br>(issues.csv)")]
+    D3 --> P6["6.0 Summary Generation<br>(Ollama llama3.1 + Verification)"]
+    P6 -->|Factual Briefs| D5[("D5 Summaries Store<br>(summaries.csv)")]
+    D3 --> Admin(["College Administrator"])
+    D4 --> Admin
+    D5 --> Admin

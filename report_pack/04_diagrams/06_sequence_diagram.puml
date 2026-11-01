@@ -1,0 +1,33 @@
+@startuml
+skinparam backgroundColor white
+autonumber
+actor Student
+participant "Flask WebApp\n(webapp/app.py)" as webapp
+participant "Pipeline\n(src/pipeline.py)" as pipe
+participant "unitary/toxic-bert" as tox
+participant "Hybrid Aspect\nExtractor" as asp
+participant "DistilBERT v3\nABSA Model" as sent
+participant "Local Ollama\n(llama3.1)" as ollama
+
+Student -> webapp : Submits feedback text via form
+webapp -> pipe : analyse(text, facility)
+pipe -> tox : is_abusive(text, thr=0.50)
+
+alt Abusive Content Detected (score >= 0.50)
+    tox --> pipe : abusive = True
+    pipe --> webapp : {abusive: True, aspects: []}
+    webapp --> Student : Red Alert: Comment quarantined from ratings
+else Verified Safe Feedback (score < 0.50)
+    tox --> pipe : abusive = False
+    pipe -> asp : extract_aspects(text, facility)
+    asp --> pipe : [{category, term, clause}, ...]
+    loop For each aspect
+        pipe -> sent : predict_sentiment(clause, term)
+        sent --> pipe : "positive" | "neutral" | "negative"
+    end
+    pipe --> webapp : aspect rows with polarities
+    webapp -> ollama : generate live summary
+    ollama --> webapp : 2-sentence summary
+    webapp --> Student : Grouped aspect rows, star ratings & AI summary
+end
+@enduml

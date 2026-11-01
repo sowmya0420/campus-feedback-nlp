@@ -1,0 +1,21 @@
+id,facility,text,category,sentiment,abusive
+C_TRN_01_044,transport,fare is okay but the route is too long,fare,neutral,False
+C_TRN_01_044,transport,fare is okay but the route is too long,route coverage,negative,False
+C_LAB_02_032,labs,spacious robotics lab allows easy maneuvering for autonomous rovers.,space,positive,False
+C_HM_01_048,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",staff behavior,negative,True
+C_HM_01_048,hostel_mess,"the cook is a useless idiot, can't even boil rice properly",food quality,negative,True
+C_CLS_01_020,classrooms,ceiling fan makes rattling noise throughout class hours.,noise,negative,False
+C_LAB_02_021,labs,the instruments in physics lab are rusted,equipment condition,negative,False
+C_HM_01_001,hostel_mess,breakfast idli was cold and the chutney had no taste,food quality,negative,False
+C_HR_02_034,hostel_rooms,"door lock is loose, reported to hostel office but no response.",safety,negative,False
+C_HR_02_034,hostel_rooms,"door lock is loose, reported to hostel office but no response.",maintenance,negative,False
+C_HR_02_034,hostel_rooms,"door lock is loose, reported to hostel office but no response.",maintenance,negative,False
+C_HR_02_034,hostel_rooms,"door lock is loose, reported to hostel office but no response.",maintenance,negative,False
+C_LAB_01_020,labs,the lab technician helped me fix my circuit patiently,lab staff,positive,False
+C_CLS_01_041,classrooms,projector screen is stained and wrinkled.,projector/av,negative,False
+C_WIFI_01_037,wifi,"wifi keeps cutting off, rombo irritating",reliability,negative,False
+C_LIB_02_031,library,"reference section la silence semma, able to concentrate on aptitude tests without disturbance.",silence,negative,False
+C_LIB_02_031,library,"reference section la silence semma, able to concentrate on aptitude tests without disturbance.",silence,positive,False
+C_WIFI_02_037,wifi,wifi is fast in the morning but disconnects repeatedly after lunch.,speed,negative,False
+C_WIFI_02_037,wifi,wifi is fast in the morning but disconnects repeatedly after lunch.,reliability,negative,False
+C_HM_01_019,hostel_mess,tables are sticky and nobody cleans them,hygiene,negative,False

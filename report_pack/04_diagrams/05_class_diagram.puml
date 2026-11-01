@@ -1,0 +1,71 @@
+@startuml
+skinparam backgroundColor white
+skinparam classBackgroundColor #f5f0fa
+skinparam classBorderColor #4a2c6d
+skinparam classHeaderBackgroundColor #4a2c6d
+skinparam classFontColor #1f2937
+
+class "src.preprocess" as prep {
+    + clean_text(text: str): str
+    + split_clauses(text: str): list[str]
+    + clause_with_term(text: str, term: str): str
+}
+
+class "src.aspects_hybrid" as asp_hybrid {
+    + ADD_CONF: float = 0.50
+    + extract_aspects(text: str, facility: str): list[dict]
+}
+
+class "src.aspects" as asp_kw {
+    + LEXICON: dict
+    + extract_aspects(text: str, facility: str): list[dict]
+}
+
+class "src.aspects_bert" as asp_bert {
+    - _model: AutoModelForSequenceClassification
+    - _tok: AutoTokenizer
+    + topic_probs(texts: list, facilities: list): list[dict]
+}
+
+class "src.sentiment" as sent {
+    + predict_sentiment(clause: str, aspect_term: str): str
+    + score_clause(clause: str): float
+}
+
+class "src.toxicity_bert" as tox {
+    + MODEL: str = "unitary/toxic-bert"
+    + is_abusive(text: str, thr: float = 0.5): bool
+}
+
+class "src.pipeline" as pipe {
+    + analyse(text: str, facility: str): dict
+    + run_batch(paths: list, out: str): void
+}
+
+class "src.aggregate" as agg {
+    + ISSUE_NEG_SHARE: float = 0.70
+    + rating(g: DataFrame): float
+    + run(): void
+}
+
+class "src.summarize" as summ {
+    + looks_wrong(text: str, facts: str): list
+    + summarize_with_ollama(facility: str, facts: str): str
+    + run(): void
+}
+
+class "webapp.app" as webapp {
+    + detect_clause_facility(clause: str): str
+    + api_analyse(): JSON
+    + api_summarize_live(): JSON
+}
+
+pipe --> tox : screens toxicity
+pipe --> asp_hybrid : extracts aspects
+pipe --> sent : scores sentiment
+asp_hybrid --> asp_kw : uses regex
+asp_hybrid --> asp_bert : adds topics
+agg --> pipe : processes predictions.csv
+summ --> agg : reads ratings.csv
+webapp --> pipe : live inference
+@enduml

@@ -1,0 +1,26 @@
+flowchart LR
+    Student(["Student"])
+    Admin(["College Facility Administrator"])
+
+    subgraph SystemBoundary ["Campus Facility Feedback Analysis System"]
+        UC1((Submit Anonymous Feedback))
+        UC2((Select Specific Facility or All))
+        UC3((View Instant Aspect Sentiment & Star Rating))
+        UC4((View Facility Ratings & Comparison))
+        UC5((Inspect Recurring Chronic Complaints))
+        UC6((Read Factual Executive Summaries))
+        UC7((Compare Two Facilities Side-by-Side))
+        UC8((Inspect Quarantined Abusive Comments))
+        UC9((Export Feedback & Aggregated Metrics))
+    end
+
+    Student --> UC1
+    Student --> UC2
+    Student --> UC3
+
+    Admin --> UC4
+    Admin --> UC5
+    Admin --> UC6
+    Admin --> UC7
+    Admin --> UC8
+    Admin --> UC9

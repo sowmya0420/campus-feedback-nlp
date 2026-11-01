@@ -1,0 +1,21 @@
+id,legacy_id,facility,batch,persona,text,aspect_term,category,sentiment,abusive,source_type,provenance
+C_CAN_01_001,C0001,canteen,1,first-year hosteller,"samosa is crispy and cheap, best snack here",samosa,food quality,positive,False,synthetic,original_recovered
+C_CAN_01_001,C0001,canteen,1,first-year hosteller,"samosa is crispy and cheap, best snack here",cheap,price,positive,False,synthetic,original_recovered
+C_CAN_01_002,C0002,canteen,1,second-year day scholar,tea is too sweet always,tea,food quality,negative,False,synthetic,original_recovered
+C_CAN_01_003,C0003,canteen,1,final-year student,50 rupees for a plain dosa is too much,dosa,price,negative,False,synthetic,original_recovered
+C_CAN_01_004,C0004,canteen,1,girls' hostel resident,billing counter queue is endless after 1 pm,queue,waiting time,negative,False,synthetic,original_recovered
+C_CAN_01_005,C0005,canteen,1,outstation student,parotta and salna combo is the best,parotta,food quality,positive,False,synthetic,original_recovered
+C_CAN_01_006,C0006,canteen,1,first-year hosteller,no place to sit during lunch break,sit,seating,negative,False,synthetic,original_recovered
+C_CAN_01_007,C0007,canteen,1,second-year day scholar,noodles were too oily and cold,noodles,food quality,negative,False,synthetic,original_recovered
+C_CAN_01_008,C0008,canteen,1,final-year student,flies all over the food counter,flies,hygiene,negative,False,synthetic,original_recovered
+C_CAN_01_009,C0009,canteen,1,girls' hostel resident,"upi payment is working fast now, no cash hassle",upi,waiting time,positive,False,synthetic,original_recovered
+C_CAN_01_010,C0010,canteen,1,outstation student,canteen staff are always smiling and helpful,staff,staff behavior,positive,False,synthetic,original_recovered
+C_CAN_01_011,C0011,canteen,1,first-year hosteller,"overpriced juice, 60 for a small glass",juice,price,negative,False,synthetic,original_recovered
+C_CAN_01_012,C0012,canteen,1,second-year day scholar,quantity of fried rice is very less for the price,quantity,quantity,negative,False,synthetic,original_recovered
+C_CAN_01_012,C0012,canteen,1,second-year day scholar,quantity of fried rice is very less for the price,price,price,negative,False,synthetic,original_recovered
+C_CAN_01_013,C0013,canteen,1,final-year student,the veg puff was stale today,puff,food quality,negative,False,synthetic,original_recovered
+C_CAN_01_014,C0014,canteen,1,girls' hostel resident,"more variety needed, only 4 items after 4 pm",variety,variety,negative,False,synthetic,original_recovered
+C_CAN_01_015,C0015,canteen,1,outstation student,cleanliness is okay but tables stay dirty,cleanliness,hygiene,neutral,False,synthetic,original_recovered
+C_CAN_01_015,C0015,canteen,1,outstation student,cleanliness is okay but tables stay dirty,tables,hygiene,negative,False,synthetic,original_recovered
+C_CAN_01_016,C0016,canteen,1,first-year hosteller,sandwiches are fresh and tasty,sandwiches,food quality,positive,False,synthetic,original_recovered
+C_CAN_01_017,C0017,canteen,1,second-year day scholar,cashier was rude when i asked for change,cashier,staff behavior,negative,False,synthetic,original_recovered

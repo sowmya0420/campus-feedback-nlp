@@ -1,0 +1,8 @@
+stage,module,tool,function
+1,Input & Normalization,"re, preprocess.py","Clause splitting, lowercase, slang normalisation"
+2,Abuse Moderation,unitary/toxic-bert,Quarantine toxic feedback (threshold >= 0.50)
+3,Aspect Extraction,Hybrid (Keywords + DistilBERT),Extract category and subclause aspect term
+4,Sentiment Analysis,DistilBERT v3 (fine-tuned),"Predict Positive, Neutral, or Negative per aspect"
+5,Metrics Aggregation,aggregate.py,Compute 1-5 star ratings & recurring issue triggers
+6,Executive Summaries,Ollama (llama3.1),Generate factual facility briefs with validation checks
+7,Web Dashboard,Flask & Chart.js offline,"Interactive presentation, explorer & live feedback"

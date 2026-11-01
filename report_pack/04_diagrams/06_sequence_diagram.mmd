@@ -1,0 +1,30 @@
+sequenceDiagram
+    autonumber
+    actor Student
+    participant WebApp as Flask WebApp (webapp/app.py)
+    participant Pipeline as NLP Pipeline (src/pipeline.py)
+    participant ToxicBERT as toxic-bert Model
+    participant Aspects as Hybrid Aspect Finder
+    participant Sentiment as DistilBERT v3 ABSA
+    participant Ollama as Local Ollama (llama3.1)
+
+    Student->>WebApp: Enters feedback text & clicks Submit
+    WebApp->>Pipeline: POST /api/analyse (text, facility)
+    Pipeline->>ToxicBERT: Evaluate toxicity score (threshold >= 0.50)
+    alt Comment is Abusive (score >= 0.50)
+        ToxicBERT-->>Pipeline: is_abusive = True (score: 0.99)
+        Pipeline-->>WebApp: Flagged abusive status
+        WebApp-->>Student: Displays RED Quarantine Alert (Excluded from ratings, 0 stars)
+    else Comment is Safe (score < 0.50)
+        ToxicBERT-->>Pipeline: is_abusive = False (score: 0.002)
+        Pipeline->>Aspects: extract_aspects(text, facility)
+        Aspects-->>Pipeline: List of [{category, aspect_term, clause}]
+        loop For each detected aspect
+            Pipeline->>Sentiment: predict_sentiment(clause, aspect_term)
+            Sentiment-->>Pipeline: Polarity ("positive", "neutral", "negative")
+        end
+        Pipeline-->>WebApp: Aggregated aspect-sentiment records
+        WebApp->>Ollama: POST /api/summarize-live (aspects summary prompt)
+        Ollama-->>WebApp: 2-3 sentence natural language factual summary
+        WebApp-->>Student: Displays Result Table, Star Ratings, Sentiment Badges & Summary
+    end

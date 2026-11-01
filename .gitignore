@@ -3,8 +3,6 @@
 venv/
 .venv/
 
-# Trained models
-models/
 
 
 # Python cache
